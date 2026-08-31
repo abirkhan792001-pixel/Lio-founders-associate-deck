@@ -28,7 +28,7 @@
 - **Slide chrome:** cover & thank-you carry the logo top-left; content slides top-right. Mono eyebrow with lime section number top-left; mono `khan.abirhilal@gmail.com` bottom-right; mono source footnote bottom-left/right.
 - **Tone:** per [19](19-lio-brand-language-and-agents.md) — numbers before adjectives, imperatives, workforce-not-software, "Zero Bullshit" energy. Site copy quoted verbatim where it carries weight (85% claim, $10M Challenge, mission line on Thank-You).
 
-## Slide-by-slide blueprint (10 artboards)
+## Slide-by-slide blueprint (11 artboards)
 
 | # | Slide | Job | Key design/content beats |
 |---|---|---|---|
@@ -40,13 +40,16 @@
 | 06 | **Findings 03 — Share of voice** | Proof of work: LinkedIn audit | Teal gradient bars, **Customers · 0 posts** row in lime highlight, 3 glass observation panels, verdict **60** |
 | 07 | **What I would own from day 0** | Theme #2 — the one line | Giant line with lime second half + LIVE (lime) / NEXT / ONGOING columns + **the 16-agent roster chips** under "THE WORKFORCE I'D BE SELLING — 85% …" |
 | 08 | **Why hire me — what you get in return** | Theme #3 | 4 numbered value points; guarantee panel with **ZERO BULLSHIT** lime chip mirroring the $10M Challenge; verdict **90 DAYS TO PROVE IT** |
-| 09 | **Thank you** | Close | Mirrored texture, mission line **ONE FOR ALL. ALL FOR PROCUREMENT.** in lime mono, 128px Thank you, thin-stroke lime starburst, contacts |
-| 10 | **Appendix — the working files** | Receipts | Every deliverable by filename in Geist Mono with file-type chips; now also lists fonts + the brand register |
+| 09 | **The ask — what this costs and returns** | Theme #3, priced | Eyebrow **06 · THE ASK**. Left: three H1 ARR scenarios as chip+figure rows — **€0–175K** (KILL, dim chip) · **€1.35M** (REFINE, glass chip, base case) · **€2.4M** (CONFIRM, lime chip); right: glass panel with **€95–120K** base ask, equity band and the two re-rate points, then verdict **13×** (base-case ARR ÷ year-1 base). Sourced to [21-compensation-and-arr-scenarios.md](21-compensation-and-arr-scenarios.md) |
+| 10 | **Thank you** | Close | Mirrored texture, mission line **ONE FOR ALL. ALL FOR PROCUREMENT.** in lime mono, 128px Thank you, thin-stroke lime starburst, contacts |
+| 11 | **Appendix — the working files** | Receipts | Every deliverable by filename in Geist Mono with file-type chips; now also lists fonts, the brand register and the comp/ARR model |
 
 ## Open items owed by Abir before sending
 
 1. Headshot photo (slide 02, top-right placeholder)
 2. LinkedIn links are set to `linkedin.com/in/abir-khan-1143211ab` (found via public search) — confirm it's yours
 3. The shell mark is a redrawn approximation of Lio's logo — swap in the real asset if Lio shares one internally; the fonts and the rest of the system need no substitution (all files in-repo, OFL-licensed)
+
+*Slide 09's figures are **modeled, not observed** — the salary band is public market benchmarking (Glassdoor Munich/Berlin, 2026) and the ARR scenarios are built on file [17](17-gtm-hypothesis-and-test-roadmap.md)'s own decision-gate thresholds plus file [08](08-strategic-value-levers.md)'s disclosed ACV rule of thumb (~7% of displaced BPO/SSC cost). Derivation and caveats: [21-compensation-and-arr-scenarios.md](21-compensation-and-arr-scenarios.md).*
 
 *Numbers on slides 04–06 are filled from the session's research (Apollo counts, organizer-verified dates, the LinkedIn register) — each slide footnotes its source and date. Fonts, texture and brand mapping documented in [deck-design/fonts/README.md](deck-design/fonts/README.md) and [19-lio-brand-language-and-agents.md](19-lio-brand-language-and-agents.md).*

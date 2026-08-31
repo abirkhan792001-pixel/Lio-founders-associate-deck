@@ -42,6 +42,9 @@
 | [17-gtm-hypothesis-and-test-roadmap.md](17-gtm-hypothesis-and-test-roadmap.md) | **Synthesis**: the strongest GTM bet (H1 — BPO-renewal displacement) written as a falsifiable hypothesis card + a phased test roadmap riding the already-funded P1 event program, with decision gates and kill criteria — Renewal Radar tracker in [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv) |
 | [18-trigger-group-outreach-angles.md](18-trigger-group-outreach-angles.md) | Account-by-account outreach angles + first-touch drafts for the 6 H1 trigger accounts (Zurich, Generali AT, KOSTAL, Vitesco/Schaeffler, Innomotics, LEONI), with priority order, landmines, and channel plans |
 | [19-lio-brand-language-and-agents.md](19-lio-brand-language-and-agents.md) | Lio brand-language register for the deck: the 16-agent roster by layer, tone-of-voice rules, verbatim copy bank, and how each site element maps into the deck's design |
+| [19-september-action-sheet.md](19-september-action-sheet.md) | The 29 September actions by due date, the three calls that cannot slip, and the settled October founder split |
+| [20-event-strategy-and-icp-baseline.md](20-event-strategy-and-icp-baseline.md) | Recomputed ICP firmographics (bullseye €2.8–4.7B revenue / 8–30K employees), which buyer seat each room contains, and the per-tier event preparation protocol |
+| [21-compensation-and-arr-scenarios.md](21-compensation-and-arr-scenarios.md) | **The ask**: salary benchmarked against Munich/Berlin market data, plus three H1 ARR scenarios (kill / refine / confirm) built on file 17's decision-gate thresholds and file 08's ACV rule of thumb — all modeled, not forecast |
 
 ## The 60-second narrative
 

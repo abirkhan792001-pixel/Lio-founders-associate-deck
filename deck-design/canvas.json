@@ -65,20 +65,28 @@
       "title": "08 \u00b7 Why hire me"
     },
     {
-      "file": "ThankYou.dc.html",
+      "file": "TheAsk.dc.html",
       "x": 6120,
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "09 \u00b7 Thank you"
+      "title": "09 \u00b7 The ask \u2014 comp & ARR scenarios"
     },
     {
-      "file": "Appendix.dc.html",
+      "file": "ThankYou.dc.html",
       "x": 8160,
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "10 \u00b7 Appendix \u2014 working files"
+      "title": "10 \u00b7 Thank you"
+    },
+    {
+      "file": "Appendix.dc.html",
+      "x": 0,
+      "y": 2560,
+      "w": 1920,
+      "h": 1080,
+      "title": "11 \u00b7 Appendix \u2014 working files"
     }
   ],
   "annotations": [

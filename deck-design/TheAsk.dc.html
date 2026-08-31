@@ -17,17 +17,26 @@
     body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#E9EFEE; background:#0B1416; }
     a { color:#E9EFEE; } a:hover { color:#FFFFFF; }
     .mono { font-family:'Geist Mono','Roboto Mono','SFMono-Regular',Consolas,monospace; }
-    .file-name { font-family:'Geist Mono','Roboto Mono',Consolas,monospace; font-size:17px; font-weight:500; color:#FFFFFF; }
-    .file-desc { font-size:16px; line-height:1.5; color:#AFC0BF; margin-top:6px; }
+    .sec { font-family:'Geist Mono','Roboto Mono',Consolas,monospace; font-size:14px; font-weight:500; letter-spacing:0.14em; color:#9FB3B2; padding-bottom:12px; border-bottom:1px solid rgba(255,255,255,0.16); margin:0; }
+    .why-title { font-size:20px; font-weight:600; color:#FFFFFF; }
+    .why-body { font-size:16px; line-height:1.5; color:#AFC0BF; margin-top:6px; }
+    .why-body strong { color:#FFFFFF; font-weight:600; }
     .hairline { border-bottom:1px solid rgba(255,255,255,0.10); }
-    .chip { display:inline-block; font-family:'Geist Mono','Roboto Mono',Consolas,monospace; font-size:11.5px; font-weight:500; letter-spacing:0.06em; padding:5px 11px; background:rgba(22,29,30,0.72); border:1px solid rgba(255,255,255,0.15); border-radius:8px; color:#D9E0DF; }
+    .chip { display:inline-block; font-family:'Geist Mono','Roboto Mono',Consolas,monospace; font-size:12px; font-weight:500; letter-spacing:0.05em; padding:6px 13px; border-radius:8px; }
+    .chip-lime { background:#D7F452; color:#161B04; }
+    .chip-glass { background:rgba(22,29,30,0.72); border:1px solid rgba(255,255,255,0.15); color:#D9E0DF; }
+    .chip-dim { background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); color:#7E9290; }
+    .arr-fig { font-size:40px; font-weight:800; letter-spacing:-0.02em; line-height:1; color:#FFFFFF; width:215px; flex-shrink:0; padding-top:2px; }
+    .ask-row { font-size:15px; line-height:1.5; color:#AFC0BF; margin-top:12px; }
+    .ask-row strong { color:#FFFFFF; font-weight:600; }
   </style>
 </helmet>
 <div style="width:1920px; height:1080px; background:radial-gradient(1100px 700px at 88% -10%, rgba(47,91,98,0.30), rgba(11,20,22,0) 60%), radial-gradient(900px 620px at -8% 112%, rgba(47,91,98,0.16), rgba(11,20,22,0) 55%), #0B1416; position:relative; box-sizing:border-box; padding:56px 76px; overflow:hidden;">
   <div style="display:flex; justify-content:space-between; align-items:flex-start;">
     <div>
-      <h1 style="font-size:56px; font-weight:600; letter-spacing:-0.02em; margin:0; color:#FFFFFF;">Appendix — the working files</h1>
-      <div style="font-size:22px; color:#9FB3B2; font-weight:400; margin-top:14px;">Every claim in this deck has a file behind it. Nothing here is slideware.</div>
+      <div class="mono" style="font-size:13px; letter-spacing:0.12em; color:#9FB3B2; font-weight:500;"><span style="color:#D7F452;">06 · THE ASK</span></div>
+      <h1 style="font-size:54px; font-weight:600; letter-spacing:-0.02em; margin:10px 0 0 0; color:#FFFFFF;">What this costs — and what it returns</h1>
+      <div style="font-size:22px; color:#9FB3B2; font-weight:400; margin-top:14px;">A market-anchored ask, priced against the H1 thesis in three scenarios.</div>
     </div>
     <div style="display:flex; align-items:center; gap:11px;">
       <svg width="34" height="34" viewBox="0 0 48 48" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" aria-hidden="true">
@@ -39,48 +48,63 @@
     </div>
   </div>
 
-  <div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap:96px; margin-top:48px;">
+  <div style="display:grid; grid-template-columns: 1.15fr 0.85fr; gap:90px; margin-top:40px;">
     <div>
-      <div style="padding:0 0 20px 0;" class="hairline">
-        <span class="chip">SPREADSHEET</span>
-        <div class="file-name" style="margin-top:12px;">Lio_ICP_Prospect_List.xlsx · 13-icp-prospect-list.md</div>
-        <div class="file-desc">Named-buyer list across 4 ICP segments — companies, titled contacts with LinkedIn URLs, Apollo match totals, per-persona approach playbook, executive summary.</div>
+      <div class="sec">THE RETURN — H1 THESIS ARR, YEAR 1</div>
+      <div style="display:flex; gap:22px; align-items:flex-start; padding:22px 0 18px 0;" class="hairline">
+        <div class="arr-fig" style="color:#7E9290;">&euro;0&ndash;175K</div>
+        <div>
+          <span class="chip chip-dim">KILL &middot; ROTATE</span>
+          <div class="why-title" style="margin-top:10px;">The funnel fails its own gate.</div>
+          <div class="why-body">0&ndash;1 contracts. Assessment&rarr;POC under 10%, POC&rarr;contract under 20% — <strong>file 17&#39;s own kill thresholds.</strong> The motion rotates to the next-best hypothesis. Phase 0 costs ~&euro;0, which is the whole point of testing before spending.</div>
+        </div>
       </div>
-      <div style="padding:20px 0;" class="hairline">
-        <span class="chip">SPREADSHEET</span>
-        <div class="file-name" style="margin-top:12px;">16-event-status-update.md + Lio_P1_Event_Status_2026-08-31.csv</div>
-        <div class="file-desc">60 scored events across US/UK/EU-DACH, P1/P2/P3 tiers — every P1 date, venue and deadline re-verified against organizer sources; passed deadlines flagged, changes annotated.</div>
+      <div style="display:flex; gap:22px; align-items:flex-start; padding:18px 0;" class="hairline">
+        <div class="arr-fig">&euro;1.35M</div>
+        <div>
+          <span class="chip chip-glass">REFINE &middot; NARROW</span> <span class="mono" style="font-size:11px; letter-spacing:0.08em; color:#9FB3B2;">BASE CASE</span>
+          <div class="why-title" style="margin-top:10px;">Signal in FS only — DACH stays captive.</div>
+          <div class="why-body">~2 FS-anchor wins at ~&euro;500K + ~2 DACH change-event wins at ~&euro;175K. <strong>This is already today&#39;s read:</strong> Zurich&ndash;Genpact is the one confirmed third-party BPO in 35 swept accounts; DACH runs on captive-SSC change events with no renewal date.</div>
+        </div>
       </div>
-      <div style="padding:20px 0;">
-        <span class="chip">SPREADSHEET</span>
-        <div class="file-name" style="margin-top:12px;">Lio_P1_Budget_Staffing.csv</div>
-        <div class="file-desc">Quarter-by-quarter budget &amp; staffing for the 17-event P1 program: &euro;736K new + &euro;105K committed + contingency &asymp; &euro;929K, 204 staff-days, founder allocation, hiring triggers, decision deadlines.</div>
+      <div style="display:flex; gap:22px; align-items:flex-start; padding:18px 0;">
+        <div class="arr-fig" style="color:#D7F452;">&euro;2.4M</div>
+        <div>
+          <span class="chip chip-lime">CONFIRM &middot; SCALE</span>
+          <div class="why-title" style="margin-top:10px;">Both segments clear the confirm bar.</div>
+          <div class="why-body">~3 FS + ~5 DACH wins as the Renewal Radar scales 35 &rarr; ~75 accounts and conversion clears <strong>assessment&rarr;POC 30%, POC&rarr;contract 50%</strong>. Carries into the already-funded Q1/Q2-27 US wave once SOC 2 closes.</div>
+        </div>
+      </div>
+
+      <div style="margin-top:26px; border-top:1px solid rgba(255,255,255,0.10); padding-top:18px;">
+        <div class="mono" style="font-size:11px; letter-spacing:0.1em; color:#9FB3B2; font-weight:500; margin-bottom:14px;">WHAT MOVES THESE NUMBERS — <span style="color:#D7F452;">THE THREE LOAD-BEARING ASSUMPTIONS</span></div>
+        <div style="display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:26px;">
+          <div class="ask-row" style="margin-top:0; font-size:14px; line-height:1.45;"><strong>ACV.</strong> No public ACV exists. ~7% of displaced cost is Lio&#39;s own disclosed mechanic — one verified POC replaces the whole estimate.</div>
+          <div class="ask-row" style="margin-top:0; font-size:14px; line-height:1.45;"><strong>Radar scale.</strong> 35 accounts swept, 50&ndash;100 targeted. Every 10 added yields ~2 more Group-A triggers at today&#39;s 17% hit rate.</div>
+          <div class="ask-row" style="margin-top:0; font-size:14px; line-height:1.45;"><strong>Segment mix.</strong> An FS win is worth ~3&times; a DACH win. Invert which segment converts and the base case roughly halves.</div>
+        </div>
       </div>
     </div>
+
     <div>
-      <div style="padding:0 0 20px 0;" class="hairline">
-        <span class="chip">REGISTER</span>
-        <div class="file-name" style="margin-top:12px;">14-linkedin-posts.md</div>
-        <div class="file-desc">Every publicly indexed LinkedIn post about Lio found across 8 search angles — company, founders, team, events, customers, investors, German-language, third-party commentary — with author, date and theme.</div>
+      <div class="sec">THE ASK</div>
+      <div style="background:rgba(255,255,255,0.045); border:1px solid rgba(255,255,255,0.10); border-left:3px solid #D7F452; border-radius:14px; padding:30px 34px; margin-top:24px;">
+        <span class="chip chip-glass">MARKET-ANCHORED</span>
+        <div style="font-size:52px; font-weight:800; letter-spacing:-0.03em; line-height:1; color:#FFFFFF; margin-top:18px;">&euro;95&ndash;120K</div>
+        <div class="mono" style="font-size:11px; letter-spacing:0.1em; color:#D7F452; font-weight:500; margin-top:10px;">BASE, YEAR 1 &middot; ANCHOR &euro;105K</div>
+        <div class="ask-row"><strong>+ 0.05&ndash;0.15% equity</strong>, standard 4-year vest, 1-year cliff.</div>
+        <div class="ask-row"><strong>Re-rated twice:</strong> at day 90 (the guarantee, previous slide) and at the H1 decision gate, Jan&ndash;Feb 2027.</div>
+        <div style="font-size:13.5px; line-height:1.5; color:#9FB3B2; margin-top:16px; border-top:1px solid rgba(255,255,255,0.10); padding-top:14px;">Munich/Berlin founders-associate postings run &euro;51&ndash;90K (Glassdoor 2026). Scoped above that median for a CEO-and-CTO-office mandate and A&amp;M / Biome-VC seniority — and deliberately under the US Series-A chief-of-staff band. A proposed anchor, not a demand.</div>
       </div>
-      <div style="padding:20px 0;" class="hairline">
-        <span class="chip">KNOWLEDGE BASE</span>
-        <div class="file-name" style="margin-top:12px;">00&ndash;12 · Lio knowledge base</div>
-        <div class="file-desc">The sourced dossier this work builds on: company, product, pain points, competitive map, customer proof, strategic levers — every fact graded for reliability.</div>
-      </div>
-      <div style="padding:20px 0;" class="hairline">
-        <span class="chip">MODEL</span>
-        <div class="file-name" style="margin-top:12px;">21-compensation-and-arr-scenarios.md</div>
-        <div class="file-desc">The math behind the ask slide — salary benchmarked to Munich/Berlin market data, and three H1 ARR scenarios built on file 17&#39;s own decision-gate thresholds. Every figure marked modeled, not forecast.</div>
-      </div>
-      <div style="padding:20px 0;">
-        <span class="chip">THIS DECK</span>
-        <div class="file-name" style="margin-top:12px;">15-deck-design.md · 19-lio-brand-language-and-agents.md</div>
-        <div class="file-desc">The design spec for this deck — Lio-brand tokens, type (Inter + Geist Mono, saved in <span class="mono" style="font-size:14px;">deck-design/fonts/</span>), the agent/tone/copy register, and the placeholders still owed (photo).</div>
+
+      <div style="display:flex; align-items:flex-end; gap:24px; margin-top:32px;">
+        <div style="font-size:104px; font-weight:800; letter-spacing:-0.03em; line-height:0.9; color:#FFFFFF;">13&times;</div>
+        <div class="mono" style="font-size:12px; letter-spacing:0.1em; font-weight:500; color:#D7F452; padding-bottom:8px;">BASE-CASE ARR &divide; YEAR-1 BASE.<br><span style="color:#9FB3B2; letter-spacing:0.06em;">CONFIRM CASE CLEARS IT 23&times;. ONLY KILL DOESN&#39;T —<br>WHICH IS EXACTLY WHAT THE TEST IS FOR.</span></div>
       </div>
     </div>
   </div>
 
+  <div class="mono" style="position:absolute; left:76px; bottom:36px; font-size:10.5px; letter-spacing:0.05em; color:#7E9290;">MODELED, NOT FORECAST — ACV AT ~7% OF DISPLACED BPO/SSC COST (FILE 08); FUNNEL PER FILE 17&#39;S DECISION GATE. FULL MATH: 21-COMPENSATION-AND-ARR-SCENARIOS.MD &middot; SALARY: GLASSDOOR MUNICH/BERLIN 2026</div>
   <div class="mono" style="position:absolute; right:76px; bottom:36px; font-size:12px; color:#8FA5A3;">khan.abirhilal@gmail.com</div>
 </div>
 </x-dc>
