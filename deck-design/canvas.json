@@ -1,0 +1,96 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "title": "01 \u00b7 Cover"
+    },
+    {
+      "file": "WhoAmI.dc.html",
+      "x": 2040,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "title": "02 \u00b7 Who am I & why Lio"
+    },
+    {
+      "file": "Agenda.dc.html",
+      "x": 4080,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "title": "03 \u00b7 The what, why and how"
+    },
+    {
+      "file": "IcpFindings.dc.html",
+      "x": 6120,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "title": "04 \u00b7 Findings 01 \u2014 the ICP"
+    },
+    {
+      "file": "EventFindings.dc.html",
+      "x": 8160,
+      "y": 0,
+      "w": 1920,
+      "h": 1080,
+      "title": "05 \u00b7 Findings 02 \u2014 the rooms"
+    },
+    {
+      "file": "VoiceFindings.dc.html",
+      "x": 0,
+      "y": 1280,
+      "w": 1920,
+      "h": 1080,
+      "title": "06 \u00b7 Findings 03 \u2014 share of voice"
+    },
+    {
+      "file": "DayZero.dc.html",
+      "x": 2040,
+      "y": 1280,
+      "w": 1920,
+      "h": 1080,
+      "title": "07 \u00b7 What I'd own from day 0"
+    },
+    {
+      "file": "WhyMe.dc.html",
+      "x": 4080,
+      "y": 1280,
+      "w": 1920,
+      "h": 1080,
+      "title": "08 \u00b7 Why hire me"
+    },
+    {
+      "file": "ThankYou.dc.html",
+      "x": 6120,
+      "y": 1280,
+      "w": 1920,
+      "h": 1080,
+      "title": "09 \u00b7 Thank you"
+    },
+    {
+      "file": "Appendix.dc.html",
+      "x": 8160,
+      "y": 1280,
+      "w": 1920,
+      "h": 1080,
+      "title": "10 \u00b7 Appendix \u2014 working files"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-owed",
+      "x": 0,
+      "y": -430,
+      "w": 520,
+      "text": "Owed by Abir before sending:\n1. Headshot photo (slide 02, top right)\n2. Real stack-icon row from the Zeit deck (slide 02, bottom - currently a text list)\n3. LinkedIn links are set to linkedin.com/in/abir-khan-1143211ab (found via public search) - confirm it's yours\nAll numbers on slides 04-06 are filled from the session's research; each slide footnotes its source and date."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}
