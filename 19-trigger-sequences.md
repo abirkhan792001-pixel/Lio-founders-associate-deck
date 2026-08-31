@@ -10,9 +10,9 @@
 |---|---|---|---|
 | Zurich | Jaime Paiva (Global Head Procurement Excellence) | **unavailable** (Apollo enrichment already tried) | Paired two verified alternates instead: **Jan Latussek** (Head Sourcing & Procurement Switzerland) + **David Hagen** (Head of Procurement & Teamlead IT/EPS Procurement); Paiva via LinkedIn touch |
 | KOSTAL | Mara Hillermeier (Head of Procurement Excellence Europe) | **verified** ✓ | Added as lead |
-| Generali | Stefan Koller (Head of Operations & CPO, AT) | not in pool | **Thomas Hoevel** (Head of Strategic Procurement, Generali **Deutschland**, verified) added — copy written entity-neutral so it fits both; Koller pending enrichment |
-| Innomotics | Maren Richter, Nico Reiner | not in pool | Campaign built, zero leads — pending enrichment |
-| LEONI | Anis Kammoun (COO) | not in pool | Campaign built, zero leads — pending enrichment |
+| Generali | Stefan Koller (Head of Operations & CPO, AT) | **no Apollo match** (enrichment attempted 2026-08-31, 0 credits charged) | **Thomas Hoevel** (Head of Strategic Procurement, Generali **Deutschland**, verified) added — copy written entity-neutral so it fits both; Koller via LinkedIn touch |
+| Innomotics | Maren Richter, Nico Reiner | **verified** ✓ (enriched 2026-08-31) | Both added as leads — maren.richter@ / nico.reiner@innomotics.com; note: Reiner is CFO **new in seat since Jan 2026** (ex-Lenzing) — fresh-executive timing signal |
+| LEONI | Anis Kammoun (COO) | **verified** ✓ (enriched 2026-08-31) | Added as lead — anis.kammoun@leoni.com; COO + board member since Apr 2025 |
 | Vitesco | — | — | **No campaign by design** — internal path via the Schaeffler account team ([18](18-trigger-group-outreach-angles.md) §1) |
 
 ## The five campaigns
@@ -22,8 +22,8 @@
 | H1 Trigger · Zurich — P2P Benchmark (`cam_sfpPyhXJLi9QhdY28`) | EN | 3 (D0 → +5d → +7d) | Latussek, Hagen |
 | H1 Trigger · KOSTAL — Migrationswissen (`cam_uoxFxeasW26aXfa4R`) | DE | 3 (D0 → +5d → +7d) | Hillermeier |
 | H1 Trigger · Generali — Plattform & Ausführung (`cam_9NDe6rjuXYy8MSwhq`) | DE | 3 (D0 → +5d → +7d) | Hoevel |
-| H1 Trigger · Innomotics — Greenfield (`cam_DaZczdgEMZ7NysSxw`) | DE | 3 (D0 → +5d → +7d) | none yet |
-| H1 Trigger · LEONI — Kostenhebel ohne Programm (`cam_rffYG5XRwkZREeJ4P`) | DE | 2 (D0 → +10d) | none yet |
+| H1 Trigger · Innomotics — Greenfield (`cam_DaZczdgEMZ7NysSxw`) | DE | 3 (D0 → +5d → +7d) | Richter, Reiner |
+| H1 Trigger · LEONI — Kostenhebel ohne Programm (`cam_rffYG5XRwkZREeJ4P`) | DE | 2 (D0 → +10d) | Kammoun |
 
 Follow-ups have no subject → they send as replies in the same thread. Leads carry custom variables `h1_group` and `h1_trigger` so replies/meetings can be attributed to the H1 experiment groups in the [scorecard](Lio_H1_Test_Scorecard.csv).
 
@@ -65,7 +65,7 @@ Follow-ups have no subject → they send as replies in the same thread. Leads ca
 1. **Assign a proper sender mailbox.** The workspace's domain is currently a gmail.com identity — cold B2B from Gmail will tank deliverability and looks wrong for Lio; connect a branded sending domain/mailbox first (see lemlist deliverability tooling).
 2. Review + personalize copy per lead (the drafts are deliberately template-grade; a personalized first line per lead lifts replies).
 3. GDPR check per DACH practice (legitimate interest + the opt-out lines are already in the copy).
-4. Fill the lead gaps: Apollo enrichment for Richter/Reiner (Innomotics), Kammoun (LEONI), Koller (Generali AT) — 1 credit each; Paiva's email is marked unavailable from the prior run, so use a LinkedIn touch instead.
+4. ~~Fill the lead gaps~~ **Done 2026-08-31**: Richter, Reiner, Kammoun enriched (3 Apollo credits consumed; all verified) and added as leads. Two contacts remain LinkedIn-only touches: Jaime Paiva (Zurich — email unavailable) and Stefan Koller (Generali AT — no Apollo match).
 5. Launch manually in lemlist when ready — the campaigns will not send anything until then.
 
 *Copy sources: [18-trigger-group-outreach-angles.md](18-trigger-group-outreach-angles.md); proof-point figures are Lio company-reported claims per [07](07-customers-and-proof-points.md), used in Lio's own voice. Reply/meeting outcomes feed the funnel columns in [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv).*
