@@ -72,7 +72,7 @@
 |---|---|---|
 | Sep 14 | PMM | **Zip Forward NYC** (Sep 16–17) — intel only, monitor remotely, never sponsor |
 | Sep 15 | Keil | **SSOW DACH Berlin** (Nov 17–19) — submit German keynote abstract, book sponsor tier |
-| Sep 15 | Petras | **SIG Chicago** (Oct 25–28) — check membership prerequisite, pitch a buy-side working session not a booth. Split settled (Petras→Chicago, Keil+Wagner→Munich, Heinzmann→demo stage); **make Oct 25–26 working-session scheduling a booking condition** so Keil can cover both rooms |
+| Sep 15 | Petras | **SIG Chicago** (Oct 25–28) — check membership prerequisite, pitch a buy-side working session not a booth. Split settled (Petras→Chicago, Keil+Wagner→Munich, Heinzmann→demo stage); **make Oct 25–26 working-session scheduling a booking condition** so Keil can cover both rooms — draft ask in [18 §7](18-trigger-group-outreach-angles.md) |
 | Sep 15 | Petras | **SSOW Autumn Amsterdam** (Oct 20–22) — fold into the SSON bundle, then decide |
 | Sep 15 | EU AE | **Deloitte SSC Brussels** (Oct 6–7) — register 1–2 attendees, attend-only |
 | Sep 15 | DACH sales lead | **BMÖ Vienna** (Oct 14–15) — decide; pair with the SAP Connect Vienna partner angle if it lands |
