@@ -4,7 +4,7 @@
 
 ## Method & honest limits
 
-- Compiled via **11 search angles across two sessions** (company page, each founder, team, events, customers/partners/investors, German-language, third-party commentary), using search-engine indexing of `linkedin.com/posts|feed/update|pulse` URLs. LinkedIn sits behind a login wall and this environment's proxy blocks direct fetches, so this register is a **floor, not a census** — direction and proportions are the signal.
+- Compiled via **8 search angles across two sessions** (three angles re-run in a second session after a web-search budget failure) (company page, each founder, team, events, customers/partners/investors, German-language, third-party commentary), using search-engine indexing of `linkedin.com/posts|feed/update|pulse` URLs. LinkedIn sits behind a login wall and this environment's proxy blocks direct fetches, so this register is a **floor, not a census** — direction and proportions are the signal.
 - Dates marked *(decoded)* come from the timestamp embedded in LinkedIn activity IDs; engagement counts appear only where a search snippet showed them.
 - Only URLs actually observed in search results are listed — none are constructed.
 
@@ -23,9 +23,9 @@
 
 **The three findings that matter** (they drive slide 06 of the deck):
 
-1. **One voice carries 40% of the channel.** Vlad Keil authors 24 of 60 indexed posts; both founders together, 31 (52%). The company page shows only 9. A single point of failure — and the cheapest available amplifier: founder-content ops (drafts, event recaps, clips) multiplies an asset that already works.
+1. **One voice carries 40% of the channel.** Vlad Keil authors 24 of 60 indexed posts; the founder team together, 31 (52%). The company page shows only 9. A single point of failure — and the cheapest available amplifier: founder-content ops (drafts, event recaps, clips) multiplies an asset that already works.
 2. **The logo wall is silent.** Zero customer-authored posts are publicly indexed, despite award-grade stories (Schaeffler MOU, REHAU's BME + Porsche Consulting AI Impact awards, the Surventis story). Every go-live, award and dinner should ship with a co-marketing ask; today nobody owns that ask. (The posts under "Customers & partners" below are *about* customers, authored by investors/network — not by the customers themselves.)
-3. **Posts cluster around moments, not a cadence.** Activity spikes at the YC launch (Jul 2023), the BME award (Nov 2024), Schaeffler milestones and the Series A (Mar 2026), and goes quiet between them. A 25-event calendar is a built-in content engine if each room produces before/during/after posts — that loop needs an owner.
+3. **Posts cluster around moments, not a cadence.** Activity spikes at the YC launch (Jul 2023), the BME award (Nov 2024), Schaeffler milestones and the Series A (Mar 2026), and goes quiet between them. The 17-room P1 calendar (plus Lio’s own franchises) is a built-in content engine if each room produces before/during/after posts — that loop needs an owner.
 
 ## Lio company page (9)
 

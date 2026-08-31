@@ -30,7 +30,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "title": "04 \u00b7 Findings \u2014 the ICP"
+      "title": "04 \u00b7 Findings 01 \u2014 the ICP"
     },
     {
       "file": "EventFindings.dc.html",
@@ -38,7 +38,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "title": "05 \u00b7 Findings \u2014 the rooms"
+      "title": "05 \u00b7 Findings 02 \u2014 the rooms"
     },
     {
       "file": "VoiceFindings.dc.html",
@@ -46,7 +46,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "06 \u00b7 Findings \u2014 share of voice"
+      "title": "06 \u00b7 Findings 03 \u2014 share of voice"
     },
     {
       "file": "DayZero.dc.html",
@@ -85,7 +85,7 @@
     {
       "id": "note-owed",
       "x": 0,
-      "y": -260,
+      "y": -430,
       "w": 520,
       "text": "Owed by Abir before sending:\n1. Headshot photo (slide 02, top right)\n2. Real stack-icon row from the Zeit deck (slide 02, bottom - currently a text list)\n3. LinkedIn links are set to linkedin.com/in/abir-khan-1143211ab (found via public search) - confirm it's yours\nAll numbers on slides 04-06 are filled from the session's research; each slide footnotes its source and date."
     }
