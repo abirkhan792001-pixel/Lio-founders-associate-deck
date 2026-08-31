@@ -41,6 +41,7 @@
 | [16-event-status-update.md](16-event-status-update.md) | Event program status update vs files 11/12, as of 2026-08-31 — data in [Lio_P1_Event_Status_2026-08-31.csv](Lio_P1_Event_Status_2026-08-31.csv) |
 | [17-gtm-hypothesis-and-test-roadmap.md](17-gtm-hypothesis-and-test-roadmap.md) | **Synthesis**: the strongest GTM bet (H1 — BPO-renewal displacement) written as a falsifiable hypothesis card + a phased test roadmap riding the already-funded P1 event program, with decision gates and kill criteria — Renewal Radar tracker in [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv) |
 | [18-trigger-group-outreach-angles.md](18-trigger-group-outreach-angles.md) | Account-by-account outreach angles + first-touch drafts for the 6 H1 trigger accounts (Zurich, Generali AT, KOSTAL, Vitesco/Schaeffler, Innomotics, LEONI), with priority order, landmines, and channel plans |
+| [19-trigger-sequences.md](19-trigger-sequences.md) | The angles paired with enriched emails and built as 5 **draft** lemlist campaigns (IDs, full copy, pairing gaps, pre-launch checklist) — nothing launched |
 
 ## The 60-second narrative
 
