@@ -76,15 +76,15 @@ The buying committee has four seats and no single event reaches more than two. *
 | **T−30** | Configure the live agent demo for the industry actually present — an automotive supplier's tail spend is not an insurer's indirect book. Confirm the referenceable customer. Time announcements to the event |
 | **T−7** | Brief every person on site on which seat this room contains and which of the two messages applies (agent workforce, or BPO replacement). Lock meetings, dry-run the demo, confirm dinner headcount |
 | **On site** | One message, one live-agent demo staffed by an engineer, one dinner. Capture named accounts as they come |
-| **T+7** | Log every named company into the firmographics table with revenue band and ownership, so the ICP sharpens per event. Run follow-ups within the week |
-| **T+30** | Record what the event produced (named meetings, dinner attendance, pipeline) against cost, and let that decide next year's tier |
+| **T+7** | Fill the pipeline's outcome columns: `Attended`, `Actual cost (€)`, `ICP-fit companies met`, `Qualified meetings`, `Dinner guests`, `Pipeline created (€)`. Log every named company into the firmographics table with revenue band and ownership, so the ICP sharpens per event. Run follow-ups within the week |
+| **T+30** | Set the pipeline's `Verdict` — Renew / Renew at lower tier / Attend-only next time / Drop / Too early — and stamp `Outcome logged`. That verdict, read against `Actual cost`, decides next year's tier |
 
 ### P2 — strong fit (31 events, selective)
 
 - **T−60:** answer one question — does this room contain a seat no P1 event already reaches this quarter? If it duplicates covered ground, skip and put the money into the P1 dinner. Most P2 events fail this test; that is the point of the tier.
 - **T−30:** attend, don't exhibit. One or two people with a meeting schedule, no booth. A booth is earned only after an attend-only year produced named pipeline.
 - **Cluster rule:** never travel for a single P2. London September week reaches three in one trip; the Berlin November weeks two apiece. A P2 that can't attach to a cluster or a P1 is a skip.
-- **T+14:** write down whether the room held what it promised — that line promotes to P1 or drops to P3.
+- **T+14:** set `Verdict` and stamp `Outcome logged` in the pipeline — whether the room held what it promised is what promotes an event to P1 or drops it to P3.
 
 ### P3 — opportunistic (13 events, no spend)
 
@@ -101,4 +101,4 @@ The buying committee has four seats and no single event reaches more than two. *
 
 ## Known limits
 
-Insurance revenue is IFRS 17 and not directly comparable to industrial revenue. The "Förster" logo is recorded with its identity unverified and an estimated revenue dating from 2017. The 13-company Clubhouse block is industry classification only and is excluded from every figure above. The single largest gap in the P1 protocol — post-event outcome tracking — does not exist in any current file, which is why event renewals are argued from memory.
+Insurance revenue is IFRS 17 and not directly comparable to industrial revenue. The "Förster" logo is recorded with its identity unverified and an estimated revenue dating from 2017. The 13-company Clubhouse block is industry classification only and is excluded from every figure above. Post-event outcome tracking — the gap that made every renewal an argument from memory — now exists as eight columns on the pipeline (see [file 11](11-target-event-pipeline.md)), but they are empty by design: the evidence base starts accumulating with the September events, so the first renewals it can actually inform are the 2027 ones.

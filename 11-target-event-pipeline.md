@@ -26,6 +26,28 @@ Resulting load: PMM 11 rows, Keil 10, Petras 9, DACH sales lead 7, Stäbe 6, Wag
 
 **Timing vocabulary** — `ACT NOW` (event within 30 days) · `LAPSED` (a booking deadline passed but the event is still bookable) · `MISSED` (the 2026 edition has gone) · `DECIDE IN SEP` (Oct–Nov event whose booking decision is due now) · `Q4-2026` · `2027 planning` · `Monitor / intel`.
 
+## What each event produced (added 2026-08-31)
+
+Eight further columns close the loop nothing else in the workbook tracked: **Attended · Actual cost (€) · ICP-fit companies met · Qualified meetings · Dinner guests · Pipeline created (€) · Verdict · Outcome logged**. Booking was tracked; outcomes were not, which is why event renewals have been argued from memory.
+
+**Fill convention.** A blank means *not yet closed out*; a zero means *measured and nil*. The distinction is the whole point — an event that has passed with `Outcome logged` still empty is the signal that nobody closed the loop.
+
+**Two filling moments,** matching the P1 protocol in [file 14](14-event-strategy-and-icp-baseline.md):
+
+- **T+7** — Attended, Actual cost, ICP-fit companies met, Qualified meetings, Dinner guests, Pipeline created.
+- **T+30** — Verdict, and stamp Outcome logged.
+
+**Controlled vocabularies.** `Attended`: Yes / Partial / No (skipped deliberately) / Missed (unintended). `Verdict`: Renew / Renew at lower tier / Attend-only next time / Drop / Too early. For P3 intel rows the verdict is about whether remote monitoring produced anything usable, not pipeline.
+
+**Two definitions that decide whether this is worth filling in:**
+
+- **ICP-fit companies met** counts named companies inside the proven band — €2.8–4.7B revenue, ~8–30K employees, DACH industrial — or holding a GBS/BPO budget. Not headline attendance, which is what organizers sell. Log the names into the workbook's Company Firmographics tab the same week, so the ICP sharpens with each event instead of being re-derived annually.
+- **Qualified meetings** counts conversations with a named buying-committee seat, not badge scans.
+
+**Actual cost** is all-in and post-hoc: sponsorship or booth, sidecar dinner, travel. For P1 rows compare it against the estimate in the [budget plan](12-p1-budget-staffing.md); for the 44 P2/P3 rows it is the only cost record that exists anywhere.
+
+Only one row is pre-filled: GSA Festival of Sourcing, recorded as `Missed (unintended)` with zeros and a `Too early` verdict, because that outcome is already known. The other 59 are deliberately empty.
+
 ## The overall brief — why Lio should be in these rooms
 
 Lio sells **labor replacement, not software seats**, so the pipeline concentrates on four room types:
