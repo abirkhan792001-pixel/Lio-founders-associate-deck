@@ -2,6 +2,8 @@
 
 ← [Index](00-INDEX.md) · Companion: the **[live design canvas](https://claude.ai/code/artifact/f7102cdb-c805-45f6-9676-e241267d395d)** — every slide editable in place, exportable as PNG/PDF. Source artboards: [deck-design/](deck-design/). Brand-language register: **[19-lio-brand-language-and-agents.md](19-lio-brand-language-and-agents.md)**.
 
+> **Canvas state:** carries **v3, all 11 artboards**, re-seeded 2026-08-31 from `deck-design/`. It had been stranded on v1 — the v2 rebuild never reached it — so treat the canvas as a publish target, not a source: it is re-seeded *from* the working files, and any edit made in the canvas GUI must be pulled back into `deck-design/` before the next `build_slides.py` run overwrites it.
+
 **Purpose:** Abir Khan's application deck for the Founders Associate role (CEO & CTO office) at Lio. Theme set by Abir: (1) who I am & why Lio · (2) what I would own from day 0, in one line · (3) why hire me / what Lio gets in return.
 
 **Design source (v3, 2026-08-31):** **MBB-style consulting formatting in Abir's Zeit AI house style** — bone/sage cover, white content slides, black ink, Inter only. Colours and layout idioms were sampled directly from the Zeit AI deck PDF (`#DBDBCD` sage, `#EFEFED` grey panels, square chips, 2px section rules). This supersedes v2 (Lio's own dark teal brand language, lime accent, Geist Mono) and v1; both remain recoverable from git history.
