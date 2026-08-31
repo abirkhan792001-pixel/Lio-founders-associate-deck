@@ -29,16 +29,18 @@ Follow-ups have no subject → they send as replies in the same thread. Leads ca
 
 ## Full copy (as built)
 
+> **Tone pass 2026-08-31:** all first-touch copy rewritten simpler, warmer and more human on the founder's direction ("simplicity beats everything else"). These versions are live in lemlist and supersede the longer drafts in [18](18-trigger-group-outreach-angles.md).
+
 ### Zurich (EN)
 **Step 1 — subject: "Your P2P cost-per-transaction, 14 years on"**
-> Hi {{firstName}}, the outsourcing model Zurich set up in 2012 was state-of-the-art for its time: labor arbitrage, hub delivery. Our view: the economics have moved. AI agents now execute operational procurement and AP end-to-end at roughly 7% of typical BPO cost — with a full audit trail, and no distance between the work and your stakeholders. We'd suggest a benchmark, not a commitment: pick one spend tower, we model your cost-per-transaction against agentic execution, verified with your own numbers. Two weeks, on top of your existing systems. Worth 20 minutes at DPW Amsterdam in September? — PS: If this isn't your topic, a one-line reply and I won't follow up.
+> Hi {{firstName}}, I'll keep this short. The P2P outsourcing model Zurich set up back in 2012 was priced on cheap labor. AI agents have changed that math — same work, roughly 7% of the cost, every step auditable. I'm not suggesting you rip anything out. Pick one spend area, and we'll show you what it costs today vs. what agents would run it for — your own numbers, two weeks, on top of your existing systems. I'll be at DPW Amsterdam in September. Coffee and 20 minutes? — PS: Not your topic? One line back and I'll leave it there.
 
 **Step 2 (+5d, in-thread):** retail-case proof (99.8% execution accuracy in 2 weeks, ~7% of prior cost) + DPW Amsterdam ask.
 **Step 3 (+7d, in-thread):** breakup — "if a review of the outsourced procurement scope lands on your desk, that's the natural moment for a benchmark."
 
 ### KOSTAL (DE)
 **Step 1 — Betreff: "Prozesswissen sichern, bevor es nach Budapest umzieht"**
-> Hallo {{firstName}}, wenn transaktionaler Einkauf in ein neues GBS umzieht, ist das Schwierigste selten der Aufbau — sondern das Prozesswissen, das die Übergabe nicht überlebt. Wir arbeiten mit Industriegruppen genau in dieser Phase: Bestehende SOPs werden als ausführbare Agenten-Prozeduren erfasst, sodass Prozesse bereits automatisiert im neuen Center ankommen — und das Team dort überwacht, statt nachzuerfassen. Für Prozessfamilien, die noch in der Migrations-Pipeline stehen, kann die manuelle Phase damit ganz entfallen. Hätten Sie 20 Minuten beim BME-Symposium in Berlin? Alternativ laden wir Sie gern zu unserem Bots-&-Buyers-Abend in derselben Woche ein. — PS: Kein Interesse? Eine kurze Antwort genügt — dann melde ich mich nicht mehr.
+> Hallo {{firstName}}, wenn Einkaufsprozesse nach Budapest umziehen, geht unterwegs oft das verloren, was am schwersten zu ersetzen ist: das Wissen der Leute, die es heute machen. Genau da helfen wir. Ihre bestehenden Abläufe werden als Agenten-Prozeduren erfasst — die Prozesse kommen schon automatisiert im neuen Center an, und Ihr Team dort prüft nur noch, statt alles neu zu erfassen. Und was noch nicht umgezogen ist, muss gar nicht mehr manuell umziehen. Ich bin im November beim BME-Symposium in Berlin. Hätten Sie dort 20 Minuten? Sonst gern kurz per Video. — PS: Kein Interesse? Kurze Antwort genügt, dann höre ich auf.
 
 **Step 2 (+5d):** Tier-1-Fallzahl (75 % nach 6 Monaten, 99,6 % nach 12) + "während einer Migration ist der Umstellungsaufwand einmalig, danach doppelt" + Video-Alternative.
 **Step 3 (+7d):** Abschluss mit offener Tür (Prozesswissen/Qualität/Ramp-up-Kosten).
@@ -46,7 +48,7 @@ Follow-ups have no subject → they send as replies in the same thread. Leads ca
 
 ### Generali (DE, entity-neutral)
 **Step 1 — Betreff: "Plattform behalten — die Ausführung automatisieren"**
-> Hallo {{firstName}}, eine Frage statt eines Pitches: Wie viel Ihrer Einkaufsabwicklung (Anfragen, Bestellungen, Auftragsbestätigungen, Rechnungsabgleich) läuft heute noch manuell — trotz Gruppenplattform? Genau diese Lücke — Plattform vorhanden, Ausführung menschlich — schließen unsere KI-Agenten. Sie arbeiten auf den bestehenden Systemen, nicht daneben. Für eine Landesorganisation ist das ein idealer, begrenzter Pilot: in zwei Wochen produktiv, Ergebnisse an den eigenen Transaktionen messbar, bevor auf Gruppenebene irgendetwas entschieden werden muss. 20 Minuten — beim BME-Symposium in Berlin oder kurz per Video? — PS: Nicht Ihr Thema? Kurze Antwort genügt.
+> Hallo {{firstName}}, eine ehrliche Frage: Wie viel Ihrer Einkaufsabwicklung — Bestellungen, Auftragsbestätigungen, Rechnungen — machen trotz Plattform noch Menschen von Hand? Genau da setzen unsere KI-Agenten an. Sie arbeiten auf Ihren bestehenden Systemen und übernehmen die Ausführung. Ein kleiner Pilot in einer Landesorganisation zeigt in zwei Wochen, was das bei Ihnen bringt — an Ihren eigenen Zahlen, bevor irgendjemand auf Gruppenebene etwas entscheiden muss. 20 Minuten — beim BME-Symposium in Berlin oder per Video? — PS: Nicht Ihr Thema? Kurze Antwort genügt.
 
 **Step 2 (+5d):** Versicherer-Fit (100 % indirekter Spend) + >95 % Akzeptanz / 85 % weniger manuelle Arbeit.
 **Step 3 (+7d):** Abschluss, Tür offen für lokal oder Gruppenebene. **Regel:** nie gegen GOSP/Accenture positionieren — koexistieren.
@@ -68,21 +70,23 @@ The two trigger-group contacts without a usable email. Connection notes stay und
 
 **Suggested sender:** AE, or a senior face if the DPW dinner invite is in play. **Guardrail:** never name the incumbent provider on LinkedIn — "the model set up in 2012" is as specific as it gets, and only after acceptance.
 
-**Connection note — pitch-forward variant (~240 chars):**
-> Hi Jaime — I work with procurement teams rethinking the economics of outsourced P2P: AI agents now run it at ~7% of BPO cost. I'll be at DPW Amsterdam in September and would value connecting with Zurich's procurement-excellence view on this.
+**Connection note — direct variant (~185 chars):**
+> Hi Jaime — we help procurement teams run their outsourced P2P with AI agents instead — same work, about 7% of the cost. I'll be at DPW Amsterdam in September and would be glad to connect.
 
-**Connection note — soft variant (~205 chars, higher accept odds):**
-> Hi Jaime — I'm at DPW Amsterdam in September and mapping how insurance procurement leaders are rethinking P2P execution economics. Your procurement-excellence work at Zurich keeps coming up — glad to connect.
+**Connection note — soft variant (~190 chars, higher accept odds):**
+> Hi Jaime — I'll be at DPW Amsterdam in September. Procurement excellence at a global insurer is exactly the perspective I learn the most from, so I wanted to connect ahead of it.
 
 **Message after acceptance:**
-> Thanks for connecting, Jaime. The short version of why I reached out: the outsourcing model most insurers set up in the early 2010s was priced on labor arbitrage — and that math has moved. AI agents now execute operational procurement and AP end-to-end at roughly 7% of typical BPO cost, fully auditable, and closer to your stakeholders rather than further away.
+> Thanks for connecting, Jaime.
 >
-> We offer a benchmark, not a commitment: one spend tower, your cost-per-transaction modeled against agentic execution, verified with your own numbers — about two weeks, on top of your existing systems.
+> I'll keep it short: the P2P outsourcing deals most insurers signed years ago were priced on cheap labor. AI agents changed that math — same work, around 7% of the cost, and you can audit every step.
 >
-> Would 20 minutes at DPW Amsterdam make sense? Happy to work around your schedule there, or a short call if easier.
+> I'm not asking you to change anything. Pick one spend area, and we'll show you what it costs today vs. what agents would run it for — your own numbers, two weeks.
+>
+> Are you at DPW Amsterdam? Coffee and 20 minutes would be enough.
 
 **Bump (+5–7 days):**
-> One number since my note: in a retail case, agents hit 99.8% execution accuracy within two weeks of go-live on previously outsourced scope. If Amsterdam doesn't work, I can send a two-line summary of how the benchmark runs — no meeting needed.
+> Quick follow-up, Jaime — if Amsterdam is too hectic, I can just send the one-pager on how the cost check works. No meeting needed. Worst case, you've confirmed your current setup is a good deal.
 
 *(InMail variant, if not connected: subject "P2P cost-per-transaction, 14 years on" + the post-accept message as body.)*
 
@@ -90,21 +94,23 @@ The two trigger-group contacts without a usable email. Connection notes stay und
 
 **Suggested sender:** senior (Keil-level credible — C-level counterpart, single-threaded entry). **Guardrail:** nie gegen GOSP/Accenture positionieren — Koexistenz-Framing, Landes-Pilot.
 
-**Vernetzungsnotiz — Variante A (~275 Zeichen):**
-> Guten Tag Herr Koller — mich beschäftigt, wie viel Einkaufsabwicklung trotz Gruppenplattform noch manuell läuft und was KI-Agenten daran ändern. Ihre Doppelrolle Operations & CPO bei Generali macht Ihre Perspektive besonders spannend. Über eine Vernetzung würde ich mich freuen.
+**Vernetzungsnotiz — Variante A (~200 Zeichen):**
+> Guten Tag Herr Koller — Operations und Einkauf in einer Hand ist selten. Genau diese Perspektive interessiert mich beim Thema KI-Agenten in der Einkaufsabwicklung. Ich würde mich freuen, vernetzt zu sein.
 
-**Vernetzungsnotiz — Variante B, weicher (~275 Zeichen):**
-> Guten Tag Herr Koller — ich tausche mich gerade mit Operations- und Einkaufsverantwortlichen in der Versicherungsbranche zum Thema agentische Prozessausführung aus. Ihre Doppelrolle bei Generali wäre dafür die spannendste Perspektive in Wien. Über eine Vernetzung freue ich mich.
+**Vernetzungsnotiz — Variante B, weicher (~180 Zeichen):**
+> Guten Tag Herr Koller — ich beschäftige mich damit, wie Versicherer ihre Einkaufsabwicklung automatisieren. Ihre Doppelrolle bei Generali fand ich spannend — gerne vernetzt bleiben.
 
 **Nachricht nach Annahme:**
-> Danke für die Vernetzung, Herr Koller. Kurz zum Hintergrund: Die Plattformfrage ist in den meisten Gruppen gelöst — die Ausführung (Anfragen, Bestellungen, Auftragsbestätigungen, Rechnungsabgleich) läuft trotzdem weitgehend manuell. Genau diese Lücke schließen unsere KI-Agenten: Sie arbeiten auf den bestehenden Systemen, nicht daneben.
+> Danke für die Vernetzung, Herr Koller.
 >
-> Für eine Landesorganisation ist das ein idealer, begrenzter Pilot — in zwei Wochen produktiv, Ergebnisse an den eigenen Transaktionen messbar, bevor auf Gruppenebene etwas entschieden werden muss.
+> Ganz kurz: Die Plattform steht bei den meisten — aber Bestellungen, Auftragsbestätigungen und Rechnungen bearbeiten trotzdem Menschen. Unsere KI-Agenten übernehmen genau diese Arbeit, auf Ihren bestehenden Systemen.
 >
-> Hätten Sie 20 Minuten — in Wien, per Video oder beim BME-Symposium in Berlin im November?
+> Mein Vorschlag: ein kleiner Pilot in Österreich. Zwei Wochen, ein Prozess, Ihre eigenen Zahlen. Wenn es nichts bringt, wissen Sie es schnell. Wenn doch, haben Sie den Beweis, bevor die Gruppe überhaupt diskutieren muss.
+>
+> Hätten Sie 20 Minuten? Ich richte mich nach Ihrem Kalender.
 
 **Bump (+5–7 Tage):**
-> Kurzer Nachtrag, Herr Koller: Versicherer sind der schnellste Fall für agentische Abwicklung — 100 % indirekter Spend, hohes Transaktionsvolumen. Kunden berichten 85 % weniger manuelle Arbeit im operativen Einkauf. Falls ein Termin gerade nicht passt, schicke ich Ihnen gern eine halbe Seite zum möglichen Pilot-Zuschnitt.
+> Kurz nachgefasst, Herr Koller: Falls ein Gespräch gerade nicht passt, schicke ich Ihnen gern eine halbe Seite dazu, wie so ein Pilot aussähe. Zwei Minuten Lesezeit — dann wissen Sie, ob es sich lohnt.
 
 ## Before launch (owner checklist — none of this has been done)
 
