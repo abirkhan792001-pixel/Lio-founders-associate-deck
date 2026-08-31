@@ -1,6 +1,6 @@
 # 15 · Founders Associate Deck — Design Spec
 
-← [Index](00-INDEX.md) · Companion: the live design canvas (link in the session summary) — every slide editable, exportable as PNG/PDF.
+← [Index](00-INDEX.md) · Companion: the **[live design canvas](https://claude.ai/code/artifact/f7102cdb-c805-45f6-9676-e241267d395d)** — every slide editable in place, exportable as PNG/PDF. Source artboards: [deck-design/](deck-design/).
 
 **Purpose:** Abir Khan's application deck for the Founders Associate role (CEO & CTO office) at Lio. Theme set by Abir: (1) who I am & why Lio · (2) what I would own from day 0, in one line · (3) why hire me / what Lio gets in return.
 

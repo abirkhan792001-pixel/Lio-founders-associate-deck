@@ -3,6 +3,8 @@
 ← [Target Event Pipeline](11-target-event-pipeline.md) | [Index](00-INDEX.md)
 
 > **Live worksheet:** [Lio Events & ICP Analysis — tab "P1 Budget & Staffing 26-27"](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit#gid=910419034) · local CSV backup: [Lio_P1_Budget_Staffing.csv](Lio_P1_Budget_Staffing.csv). Compiled 2026-07-21. **All figures are mid-range planning estimates** (FX: 1 USD=0.92 EUR, 1 GBP=1.17 EUR; sponsorship fees pending organizer quotes — treat as envelopes, not prices). Scope: 16 P1 events + 1 committed renewal (ProcureCon West); own franchises (Bots & Buyers etc.) excluded.
+>
+> ⚠ **Status update 2026-08-31** ([details](16-event-status-update.md)): dates verified for all quarters; **new October collision** — Bots & Buyers EU Munich (Oct 27–28) vs SIG Chicago (Oct 25–28) — needs a named owner per city; **APC dinner venue must be rebooked** (Miami → New Orleans); **NAPES €35K committed spend is provisional** until its 2027 venue/date is verifiable; the two **Sep 30 early-birds** (BME €100, eLösungstage €300) are the next hard budget actions.
 
 ## The quarter-by-quarter envelope
 
