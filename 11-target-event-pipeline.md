@@ -2,7 +2,7 @@
 
 ← [Events & ICP](10-events-and-icp.md) | [Index](00-INDEX.md)
 
-> **Live worksheet:** [Lio Events & ICP Analysis — tab "Target Event Pipeline (US-UK-EU)"](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit#gid=2108350331) · local CSV backup: [Lio_Target_Event_Pipeline.csv](Lio_Target_Event_Pipeline.csv). Compiled 2026-07-20/21 from 3 research agents (DACH+EU, US, UK) · **ownership + status refreshed 2026-08-31**. The workbook's other tab is "Event History + ICP (2023-26)".
+> **Live worksheet:** [Lio Events & ICP Analysis — tab "Target Event Pipeline (US-UK-EU)"](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit#gid=2108350331) · local CSV backup: [Lio_Target_Event_Pipeline.csv](Lio_Target_Event_Pipeline.csv). Compiled 2026-07-20/21 from 3 research agents (DACH+EU, US, UK) · **ownership + status refreshed 2026-08-31**, then **reconciled against the organizer-verified dates in [16-event-status-update.md](16-event-status-update.md)**. The workbook's other tab is "Event History + ICP (2023-26)".
 
 ## What it is
 
@@ -32,7 +32,7 @@ Eight further columns close the loop nothing else in the workbook tracked: **Att
 
 **Fill convention.** A blank means *not yet closed out*; a zero means *measured and nil*. The distinction is the whole point — an event that has passed with `Outcome logged` still empty is the signal that nobody closed the loop.
 
-**Two filling moments,** matching the P1 protocol in [file 14](14-event-strategy-and-icp-baseline.md):
+**Two filling moments,** matching the P1 protocol in [file 20](20-event-strategy-and-icp-baseline.md):
 
 - **T+7** — Attended, Actual cost, ICP-fit companies met, Qualified meetings, Dinner guests, Pipeline created.
 - **T+30** — Verdict, and stamp Outcome logged.
@@ -61,13 +61,13 @@ Lio sells **labor replacement, not software seats**, so the pipeline concentrate
 
 **The July deadline block lapsed.** All four items the July compilation flagged as urgent came and went unrecorded: the DPW award application (Jul 24), SSON San Diego early-bird (Jul 24), GSA Festival of Sourcing (Jul 29), and the BME Praxisforum early-bird (Jul 31). Three are recoverable at standard rates because the events are still ahead; **GSA Festival is not — its 2026 edition ran on Jul 29 and was missed outright**, so that row now points at 2027.
 
-**One live deadline: Sep 30** — the BME-eLösungstage 2027 partner tier loses its early-booking discount (Stäbe).
+**Two live deadlines, both Sep 30** — the BME-eLösungstage 2027 partner tier (€300 off, Stäbe) *and* the 61. BME-Symposium early-bird (€100 off, Wagner). Organizer verification on 2026-08-31 found the second one, which the July plan had as a soft "book in September" item.
 
 **September is the whole quarter.** Twelve rows are inside 30 days: procure.ch (Sep 1) · KonnectHouse London (Sep 3) · P&SC LIVE London (Sep 8–9) · CIPS Awards (Sep 10) · SSON San Diego (Sep 14–17) · Zip Forward NYC, intel only (Sep 16–17) · Argyle NYC dinner (Sep 17) · NASCES (Sep 21–23) · **ProcureCon Europe Cologne (Sep 22–24)** · **ProcureCon East Boston, Lead Sponsor (Sep 28–30)** · BME Praxisforum (Sep 29–Oct 1) · **DPW Amsterdam (Sep 30–Oct 1)**.
 
 **Three collisions the July plan didn't surface:**
 
-1. **ProcureCon Europe Cologne (Sep 22–24) vs Lio's own Bots & Buyers Summit (Sep 23–24, Munich).** The first 2-day edition of the flagship own franchise runs inside the Cologne dates and needs the same people — Keil, the DACH squad, the Events lead. The budget plan scoped own franchises out, which is how the clash went unseen. Resolve split-or-drop before booking Cologne.
+1. **The own-franchise clash is in October, not September — and it is Chicago, not Cologne.** Organizer verification on 2026-08-31 ([file 16](16-event-status-update.md)) placed the Bots & Buyers EU flagship at **MotorWorld Munich on Oct 27–28**, where it collides with **SIG Chicago (Oct 25–28)**. The September own-event is **Bots & Buyers NYC on Sep 23** — free and application-only — which lands mid-gauntlet between Cologne (Sep 22–24) and Boston (Sep 28–30) and competes for the **US pod**, not the DACH squad. Cologne is therefore unblocked; October needs a named owner per city (suggested Petras→Chicago, founders→Munich).
 2. **Maschinenbau-Gipfel (Nov 10–11) vs Automobilwoche Kongress (Nov 11–12).** Both Berlin, both P2, overlapping on Nov 11 — coverable by a split team or a staggered three-day Berlin trip, but not by one person.
 3. **ISM World, National Harbor (May 16–19, 2027) vs WPC London (May 18–20, 2027)** — different continents, overlapping days, on top of the May crunch already flagged (Gartner May 3–5, eLösungstage May 11–12).
 
