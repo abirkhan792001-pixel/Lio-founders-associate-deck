@@ -60,6 +60,52 @@ Follow-ups have no subject → they send as replies in the same thread. Leads ca
 **Step 1 — Betreff: "Ein harter Kostenhebel, der kein Programm braucht"** — passt in einen Restrukturierungskalender: Output stabil, Fluktuation löst die Personalseite, ohne Capex, 15 Minuten zum Beziffern.
 **Step 2 (+10d):** kurzes Schließen der Schleife mit Ein-Satz-Wiedereinstieg.
 
+## LinkedIn touches — Paiva (Zurich) & Koller (Generali AT)
+
+The two trigger-group contacts without a usable email. Connection notes stay under LinkedIn's ~300-character cap; the substance goes in the message after acceptance. Manual sends (no LinkedIn automation configured) — log outcomes in the [scorecard](Lio_H1_Test_Scorecard.csv).
+
+### Jaime Paiva — Global Head of Procurement Excellence, Zurich Insurance (EN)
+
+**Suggested sender:** AE, or a senior face if the DPW dinner invite is in play. **Guardrail:** never name the incumbent provider on LinkedIn — "the model set up in 2012" is as specific as it gets, and only after acceptance.
+
+**Connection note — pitch-forward variant (~240 chars):**
+> Hi Jaime — I work with procurement teams rethinking the economics of outsourced P2P: AI agents now run it at ~7% of BPO cost. I'll be at DPW Amsterdam in September and would value connecting with Zurich's procurement-excellence view on this.
+
+**Connection note — soft variant (~205 chars, higher accept odds):**
+> Hi Jaime — I'm at DPW Amsterdam in September and mapping how insurance procurement leaders are rethinking P2P execution economics. Your procurement-excellence work at Zurich keeps coming up — glad to connect.
+
+**Message after acceptance:**
+> Thanks for connecting, Jaime. The short version of why I reached out: the outsourcing model most insurers set up in the early 2010s was priced on labor arbitrage — and that math has moved. AI agents now execute operational procurement and AP end-to-end at roughly 7% of typical BPO cost, fully auditable, and closer to your stakeholders rather than further away.
+>
+> We offer a benchmark, not a commitment: one spend tower, your cost-per-transaction modeled against agentic execution, verified with your own numbers — about two weeks, on top of your existing systems.
+>
+> Would 20 minutes at DPW Amsterdam make sense? Happy to work around your schedule there, or a short call if easier.
+
+**Bump (+5–7 days):**
+> One number since my note: in a retail case, agents hit 99.8% execution accuracy within two weeks of go-live on previously outsourced scope. If Amsterdam doesn't work, I can send a two-line summary of how the benchmark runs — no meeting needed.
+
+*(InMail variant, if not connected: subject "P2P cost-per-transaction, 14 years on" + the post-accept message as body.)*
+
+### Stefan Koller — Head of Operations & CPO, Generali Versicherungen AT (DE)
+
+**Suggested sender:** senior (Keil-level credible — C-level counterpart, single-threaded entry). **Guardrail:** nie gegen GOSP/Accenture positionieren — Koexistenz-Framing, Landes-Pilot.
+
+**Vernetzungsnotiz — Variante A (~275 Zeichen):**
+> Guten Tag Herr Koller — mich beschäftigt, wie viel Einkaufsabwicklung trotz Gruppenplattform noch manuell läuft und was KI-Agenten daran ändern. Ihre Doppelrolle Operations & CPO bei Generali macht Ihre Perspektive besonders spannend. Über eine Vernetzung würde ich mich freuen.
+
+**Vernetzungsnotiz — Variante B, weicher (~275 Zeichen):**
+> Guten Tag Herr Koller — ich tausche mich gerade mit Operations- und Einkaufsverantwortlichen in der Versicherungsbranche zum Thema agentische Prozessausführung aus. Ihre Doppelrolle bei Generali wäre dafür die spannendste Perspektive in Wien. Über eine Vernetzung freue ich mich.
+
+**Nachricht nach Annahme:**
+> Danke für die Vernetzung, Herr Koller. Kurz zum Hintergrund: Die Plattformfrage ist in den meisten Gruppen gelöst — die Ausführung (Anfragen, Bestellungen, Auftragsbestätigungen, Rechnungsabgleich) läuft trotzdem weitgehend manuell. Genau diese Lücke schließen unsere KI-Agenten: Sie arbeiten auf den bestehenden Systemen, nicht daneben.
+>
+> Für eine Landesorganisation ist das ein idealer, begrenzter Pilot — in zwei Wochen produktiv, Ergebnisse an den eigenen Transaktionen messbar, bevor auf Gruppenebene etwas entschieden werden muss.
+>
+> Hätten Sie 20 Minuten — in Wien, per Video oder beim BME-Symposium in Berlin im November?
+
+**Bump (+5–7 Tage):**
+> Kurzer Nachtrag, Herr Koller: Versicherer sind der schnellste Fall für agentische Abwicklung — 100 % indirekter Spend, hohes Transaktionsvolumen. Kunden berichten 85 % weniger manuelle Arbeit im operativen Einkauf. Falls ein Termin gerade nicht passt, schicke ich Ihnen gern eine halbe Seite zum möglichen Pilot-Zuschnitt.
+
 ## Before launch (owner checklist — none of this has been done)
 
 1. **Assign a proper sender mailbox.** The workspace's domain is currently a gmail.com identity — cold B2B from Gmail will tank deliverability and looks wrong for Lio; connect a branded sending domain/mailbox first (see lemlist deliverability tooling).
