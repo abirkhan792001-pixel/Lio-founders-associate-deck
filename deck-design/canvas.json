@@ -6,7 +6,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "title": "01 \u00b7 Cover"
+      "title": "01 · Cover"
     },
     {
       "file": "WhoAmI.dc.html",
@@ -14,7 +14,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "title": "02 \u00b7 Who am I & why Lio"
+      "title": "02 · Who am I & why Lio"
     },
     {
       "file": "Agenda.dc.html",
@@ -22,7 +22,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "title": "03 \u00b7 The what, why and how"
+      "title": "03 · The what, why and how"
     },
     {
       "file": "IcpFindings.dc.html",
@@ -30,7 +30,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "title": "04 \u00b7 Findings 01 \u2014 the ICP"
+      "title": "04 · Findings 01 — the ICP"
     },
     {
       "file": "EventFindings.dc.html",
@@ -38,7 +38,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "title": "05 \u00b7 Findings 02 \u2014 the rooms"
+      "title": "05 · Findings 02 — the rooms"
     },
     {
       "file": "VoiceFindings.dc.html",
@@ -46,7 +46,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "06 \u00b7 Findings 03 \u2014 share of voice"
+      "title": "06 · Findings 03 — share of voice"
     },
     {
       "file": "DayZero.dc.html",
@@ -54,7 +54,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "07 \u00b7 What I'd own from day 0"
+      "title": "07 · What I'd own from day 0"
     },
     {
       "file": "WhyMe.dc.html",
@@ -62,7 +62,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "08 \u00b7 Why hire me"
+      "title": "08 · Why hire me"
     },
     {
       "file": "TheAsk.dc.html",
@@ -70,7 +70,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "09 \u00b7 The ask \u2014 comp & ARR scenarios"
+      "title": "09 · The ask — comp & ARR scenarios"
     },
     {
       "file": "ThankYou.dc.html",
@@ -78,7 +78,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "10 \u00b7 Thank you"
+      "title": "10 · Thank you"
     },
     {
       "file": "Appendix.dc.html",
@@ -86,7 +86,7 @@
       "y": 2560,
       "w": 1920,
       "h": 1080,
-      "title": "11 \u00b7 Appendix \u2014 working files"
+      "title": "11 · Appendix — working files"
     }
   ],
   "annotations": [
@@ -95,7 +95,7 @@
       "x": 0,
       "y": -430,
       "w": 520,
-      "text": "Design: rebuilt in Lio's own brand language (dark teal texture, Inter + Geist Mono - saved in deck-design/fonts/, mono chips, lime accent, agent roster on slide 07). The shell mark is a redrawn approximation - swap for the real logo asset if Lio shares one.\n\nOwed by Abir before sending:\n1. Headshot photo (slide 02, top right)\n2. LinkedIn links are set to linkedin.com/in/abir-khan-1143211ab (found via public search) - confirm it's yours\nAll numbers on slides 04-06 are filled from the session's research; each slide footnotes its source and date."
+      "text": "Design: MBB formatting in the Zeit AI style — bone/sage (#DBDBCD), white content slides, black ink, Inter only (saved in deck-design/fonts/). Action titles, section rules, source line and page number on every slide.\n\nOwed by Abir before sending:\n1. Headshot photo (slide 02, top right)\n2. LinkedIn links are set to linkedin.com/in/abir-khan-1143211ab - confirm it's yours\n3. The shell mark is a redrawn approximation - swap for the real logo asset if Lio shares one."
     }
   ],
   "launch": {

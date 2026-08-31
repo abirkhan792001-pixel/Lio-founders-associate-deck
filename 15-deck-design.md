@@ -4,45 +4,49 @@
 
 **Purpose:** Abir Khan's application deck for the Founders Associate role (CEO & CTO office) at Lio. Theme set by Abir: (1) who I am & why Lio · (2) what I would own from day 0, in one line · (3) why hire me / what Lio gets in return.
 
-**Design source (v2, 2026-08-31):** **Lio's own brand language**, rebuilt from the lio.ai homepage (hero + industries ring screenshots supplied by Abir) — the deck now reads as if it shipped from Lio's own design system, so the founders see their world reflected back at them. (v1 mirrored Abir's Zeit AI template — bone/white/Inter; superseded, recoverable from git history.)
+**Design source (v3, 2026-08-31):** **MBB-style consulting formatting in Abir's Zeit AI house style** — bone/sage cover, white content slides, black ink, Inter only. Colours and layout idioms were sampled directly from the Zeit AI deck PDF (`#DBDBCD` sage, `#EFEFED` grey panels, square chips, 2px section rules). This supersedes v2 (Lio's own dark teal brand language, lime accent, Geist Mono) and v1; both remain recoverable from git history.
 
-## Design system (Lio brand)
+**Why v3:** the audience is a founders' office reading a strategy document, and MBB formatting — action titles that state the takeaway, one message per slide, section rules, a source line and page number on every page — carries the analytical rigour better than brand homage. The trade-off is real and worth naming: v2's dark Lio palette reflected the founders' own world back at them; v3 trades that mirror for the consulting read.
+
+## Design system (MBB / Zeit AI)
 
 | Token | Value | Used for |
 |---|---|---|
-| Base | `#0B1416` | Every slide background (content slides add faint teal radial washes) |
-| Hero texture | `deck-design/lio-hero.jpg` | Cover + Thank-You full-bleed (generated: teal streak/glass-blur look of lio.ai's hero; 1600×821 JPEG, 33KB; Thank-You mirrors it with `scaleX(-1)`) |
-| Ink | `#FFFFFF` / `#E9EFEE` | Headlines / primary text |
-| Secondary | `#9FB3B2` / `#AFC0BF` | Subtitles / body secondary |
-| Muted mono | `#7E9290` / `#8FA5A3` | Source footnotes, footer email |
-| Hairline | `rgba(255,255,255,0.10–0.18)` | Row dividers, section rules, table heads |
-| Glass panel | `rgba(255,255,255,0.045)` + 1px `rgba(255,255,255,0.10)` border, radius 14px | Summary boxes, observation panels, verdict bars, photo placeholder |
-| Chip | mono 12–13px on `rgba(22,29,30,0.72)`, 1px `rgba(255,255,255,0.15)` border, radius 8px | FINDINGS tags, ICP segments, agent roster, file-type tags |
-| **Lime accent** | `#D7F452` (chip ink `#161B04`; olive chip bg `#20260D`) | The single accent: LIVE/ZERO BULLSHIT chips, verdict left-borders (3px), section numbers, starburst, key filenames, headline emphasis |
-| White pill | `#FFFFFF` on dark, radius 999px | CTA look: "Request the 90 days", STRATEGY/THE OFFER chips, open-quarter headers |
-| Banner strip | `#14343C` | Cover top strip (site's announcement banner) |
-| Bar fill | `linear-gradient(90deg, #9FC8CC, #5E96A0)` | Share-of-voice bars |
+| Content base | `#FFFFFF` | Every content slide background |
+| Sage | `#DBDBCD` | Cover background · Thank-You ink · chips · verdict panels · summary boxes |
+| Ink | `#000000` | Headlines, section heads, big numbers, solid chips and event bars |
+| Body | `#3A3A3A` | Body copy |
+| Muted / faint | `#767676` / `#9A9A9A` | Subtitles and small caps labels / source lines and page numbers |
+| Grey panel | `#EFEFED` | Secondary observation cards, photo placeholder |
+| Rules | `#000000` 2px / `#DCDCDC` 1px | Under section heads / between rows and above the footer |
+| Chips | square, 11px/700, `.09em` caps | Sage = default · black = emphasis (STRATEGY, THE ASK, CONFIRM) · outlined = tertiary |
 
-- **Type:** **Inter** (identified as lio.ai's sans) + **Geist Mono** (identified as its monospace) — identification method, runner-ups and licenses in [deck-design/fonts/README.md](deck-design/fonts/README.md). Files are **saved in the repo** ([deck-design/fonts/](deck-design/fonts/): latin woff2 subsets + installable TTFs + `fonts.css`) and **embedded as data-URIs in every artboard**, so the canvas, offline viewing and PNG/PDF export all keep the real faces with no network. Scale: cover headline 124px/500; slide titles 52–56px/600/-0.02em; body 15.5–16.5px/400; verdict numbers 84–120px/800; all metadata (eyebrows, chips, footers, filenames, figures rows) in Geist Mono 10.5–14px.
-- **Signature elements:** mono chips for every piece of metadata (the site's industries-ring idiom) · lime 8-spoke line starburst (site's widget asterisk; olive chip on the cover edge, large thin-stroke on Thank-You) · redrawn **shell mark** (3 nested SVG arcs converging at the bottom) + "Lio" wordmark Inter 500 · glass panels with 3px lime left border for verdicts (giant Inter-800 number + mono label + thesis) · white pill CTAs · cover banner strip + "we're not building slideware." glass card (echoing the Series A video card) · **the 16-agent Lio workforce roster as a chip constellation on slide 07**.
-- **Slide chrome:** cover & thank-you carry the logo top-left; content slides top-right. Mono eyebrow with lime section number top-left; mono `khan.abirhilal@gmail.com` bottom-right; mono source footnote bottom-left/right.
-- **Tone:** per [19](19-lio-brand-language-and-agents.md) — numbers before adjectives, imperatives, workforce-not-software, "Zero Bullshit" energy. Site copy quoted verbatim where it carries weight (85% claim, $10M Challenge, mission line on Thank-You).
+- **Type: Inter only**, in five weights from one variable file. Geist Mono is no longer used (files stay in the repo, unreferenced). `Inter-Variable-latin.woff2` is embedded as a data-URI in every artboard, so canvas, offline viewing and PDF export all keep the real face with no network — and each artboard is now ~72KB instead of ~115KB. Scale: cover 104px/500 · action titles 47px/500/-0.022em · subtitles 20.5px · section heads 20px/700 · body 16.5px · big stats 84–112px/700 · caps labels 9.5–11.5px/700 at `.1em`.
+- **MBB conventions applied throughout:** every content slide carries an **action title** stating the takeaway rather than the topic (e.g. "The market is countable — but the trigger is not the one the plan assumed"), a scope-setting subtitle, section heads over 2px rules, a **source line bottom-left** and **page number bottom-right** (`n / 11`).
+- **Signature elements:** 8-spoke thin-line starburst on cover and Thank-You (from the Zeit AI cover) · redrawn **shell mark** (3 nested SVG arcs) + "Lio" wordmark, black on content slides, sage on Thank-You · sage verdict panels pairing a giant number with a one-sentence thesis · black/sage/outlined event bars encoding booked, own-franchise and later · **the 16-agent roster as outlined chips anchored above the footer on slide 07**.
+- **Uniformity is enforced by construction:** all 11 artboards are generated from one template with a single shared CSS block, so tokens, chrome and spacing cannot drift between slides. Regenerating is a build step, not a hand-edit.
+
+## How the deck is built and exported
+
+The artboards are generated, not hand-written. The generator holds the CSS system plus each slide's content, writes all 11 `.dc.html` files and `canvas.json`, then Chromium prints each artboard at exact page size (`@page { size:1920px 1080px; margin:0 }`) and the pages are merged into [deck-design/Lio_FA_Deck_draft.pdf](deck-design/Lio_FA_Deck_draft.pdf) — 11 pages, 1440×810pt (= 1920×1080 CSS px at 96 dpi), ~744KB.
+
+> **Rendering note.** Screenshotting these artboards with `--window-size=1920,1080` silently clips the bottom ~87px, because the headless viewport is only 993px tall — that is how the footer and page number can appear "missing". Verify against the printed PDF, or render with a taller window.
 
 ## Slide-by-slide blueprint (11 artboards)
 
 | # | Slide | Job | Key design/content beats |
 |---|---|---|---|
-| 01 | **Cover** — "Pipeline, rooms & proof" | Set the frame, in Lio's hero language | Banner strip: FOUNDERS ASSOCIATE APPLICATION · texture bg · 124px headline · right-side plan paragraph + **"Request the 90 days"** pill · "WE'RE NOT BUILDING SLIDEWARE." card · lime asterisk chip · ABIR KHAN mono |
-| 02 | **Who am I and what do I bring to the table?** | Theme #1 | Experience (SCAILE · A&M >$100M · Biome VC $170M) + Education (Nova SBE, FT#8 lime chip, top 10%) left; **Why Lio ×3** right with lime mono numerals; stack row + photo placeholder |
-| 03 | **The what, why and how** | Contract for the deck | 01–03 FINDINGS (glass chips) · 04 STRATEGY · 05 THE OFFER (white chips); glass summary panel headed **THREE FINDINGS · ONE MACHINE · ONE OFFER**; goals column |
-| 04 | **Findings 01 — Who buys Lio** | Proof of work: ICP | 4 segments as site-style mono chips, Apollo counts in Inter 800, verdict panel: **219** + `Lio_ICP_Prospect_List.xlsx` in lime mono. Carries the **bullseye band** (€2.8–4.7B / 8–30K staff, lime) against the searched band, and closes on an **H1 RADAR SWEEP** strip — 1 true third-party BPO in 35 accounts, the DACH trigger being the captive SSC and its change events (per [17](17-gtm-hypothesis-and-test-roadmap.md)) |
-| 05 | **Findings 02 — The rooms** | Proof of work: events | Quarter pills (open = white, later = glass), event chips (white = P1 booked, lime = own, dim = later), mono money row, status panel, verdict **17** + €929K. October collision now reads **settled** (Petras→Chicago, Keil+Wagner→Munich, Heinzmann→demo stage, conditional on SIG scheduling Oct 25–26); closing two-column strip carries the **seat-per-room map** and the recomputed-ICP read on the spend (per [20](20-event-strategy-and-icp-baseline.md)) |
-| 06 | **Findings 03 — Share of voice** | Proof of work: LinkedIn audit | Teal gradient bars, **Customers · 0 posts** row in lime highlight, 3 glass observation panels, verdict **60** |
-| 07 | **What I would own from day 0** | Theme #2 — the one line | Giant line with lime second half + LIVE (lime) / NEXT / ONGOING columns + **the 16-agent roster chips** under "THE WORKFORCE I'D BE SELLING — 85% …". The wedge-quarter column names both budget owners — third-party BPO in the US/FS rooms, captive SSC/GBS heads in DACH |
-| 08 | **Why hire me — what you get in return** | Theme #3 | 4 numbered value points; guarantee panel with **ZERO BULLSHIT** lime chip mirroring the $10M Challenge; verdict **90 DAYS TO PROVE IT** |
-| 09 | **The ask — what this costs and returns** | Theme #3, priced | Eyebrow **06 · THE ASK**. Left: three H1 ARR scenarios as chip+figure rows — **€0–175K** (KILL, dim chip) · **€1.35M** (REFINE, glass chip, base case) · **€2.4M** (CONFIRM, lime chip); right: glass panel with **€95–120K** base ask, equity band and the two re-rate points, then verdict **13×** (base-case ARR ÷ year-1 base). Sourced to [21-compensation-and-arr-scenarios.md](21-compensation-and-arr-scenarios.md) |
-| 10 | **Thank you** | Close | Mirrored texture, mission line **ONE FOR ALL. ALL FOR PROCUREMENT.** in lime mono, 128px Thank you, thin-stroke lime starburst, contacts |
-| 11 | **Appendix — the working files** | Receipts | Every deliverable by filename in Geist Mono with file-type chips — 9 entries across two columns, now including the **HYPOTHESIS** set ([17](17-gtm-hypothesis-and-test-roadmap.md)/[18](18-trigger-group-outreach-angles.md) + the H1 scorecard), the **PLAYBOOK** set ([19](19-september-action-sheet.md)/[20](20-event-strategy-and-icp-baseline.md)), the comp/ARR **MODEL** ([21](21-compensation-and-arr-scenarios.md)), fonts and the brand register |
+| 01 | **Cover** — "Pipeline, rooms & proof" | Set the frame | Sage field, 104px headline, eyebrow line (application · office · date), plan paragraph, thin-line starburst right, ABIR KHAN top-right, and a footer rule carrying the "every number ships with a working file" promise |
+| 02 | **Who am I and what do I bring to the table?** | Theme #1 | Experience (SCAILE · A&M >$100M · Biome VC $170M) + Education (Nova SBE, FT #8 sage chip, top 10%) left; **Why Lio ×3** right as numbered rows; day-to-day stack row and photo placeholder |
+| 03 | **The what, why and how** | Contract for the deck | 01–03 FINDINGS (sage chips) · 04 STRATEGY · 05 THE OFFER · 06 THE ASK (black chips); sage **Brief summary** panel of the five findings; goals column closing on a grey through-line panel |
+| 04 | **Findings 01 — Who buys Lio** | Proof of work: ICP | 4 segments as a 5-column table with Apollo counts set large, sage verdict panel: **219** + `Lio_ICP_Prospect_List.xlsx`. Carries the **bullseye band** (€2.8–4.7B / 8–30K staff) against the searched band, and closes on an **H1 RADAR SWEEP** strip — 1 true third-party BPO in 35 accounts, the DACH trigger being the captive SSC and its change events (per [17](17-gtm-hypothesis-and-test-roadmap.md)) |
+| 05 | **Findings 02 — The rooms** | Proof of work: events | Quarter headers (black = open quarters, grey = later), event bars (black = P1 booked, sage = own franchise, outlined = later), money row per quarter, grey status panel, verdict **17** + €929K. October collision now reads **settled** (Petras→Chicago, Keil+Wagner→Munich, Heinzmann→demo stage, conditional on SIG scheduling Oct 25–26); closing two-column strip carries the **seat-per-room map** and the recomputed-ICP read on the spend (per [20](20-event-strategy-and-icp-baseline.md)) |
+| 06 | **Findings 03 — Share of voice** | Proof of work: LinkedIn audit | Solid black bars scaled to post counts, **Customers · 0 posts** row on a sage band, 3 grey observation panels, sage verdict panel with **60** |
+| 07 | **What I would own from day 0** | Theme #2 — the one line | 56px statement line, then LIVE / NEXT / ONGOING columns (the live column marked by a 2px black rule and sage chip) + **the 16-agent roster as outlined chips anchored above the footer**. The wedge-quarter column names both budget owners — third-party BPO in the US/FS rooms, captive SSC/GBS heads in DACH |
+| 08 | **Why hire me — what you get in return** | Theme #3 | 4 numbered value points; sage guarantee panel with a black **ZERO BULLSHIT** chip mirroring the $10M Challenge; verdict **90 DAYS TO PROVE IT** |
+| 09 | **The ask — what this costs and returns** | Theme #3, priced | Eyebrow **06 · THE ASK**. Left: three H1 ARR scenarios as chip+figure rows — **€0–175K** (KILL, outlined chip) · **€1.35M** (REFINE, sage chip, base case) · **€2.4M** (CONFIRM, black chip); right: sage panel with **€95–120K** base ask, equity band and the two re-rate points, then verdict **13×** (base-case ARR ÷ year-1 base). Sourced to [21-compensation-and-arr-scenarios.md](21-compensation-and-arr-scenarios.md) |
+| 10 | **Thank you** | Close | Black field, sage type: mission line **ONE FOR ALL. ALL FOR PROCUREMENT.**, 118px Thank you, thin-stroke sage starburst, contacts on a footer rule |
+| 11 | **Appendix — the working files** | Receipts | Every deliverable by filename with sage file-type chips — 9 entries across two columns, including the **HYPOTHESIS** set ([17](17-gtm-hypothesis-and-test-roadmap.md)/[18](18-trigger-group-outreach-angles.md) + the H1 scorecard), the **PLAYBOOK** set ([19](19-september-action-sheet.md)/[20](20-event-strategy-and-icp-baseline.md)), the comp/ARR **MODEL** ([21](21-compensation-and-arr-scenarios.md)) and the deck spec |
 
 ## Open items owed by Abir before sending
 
