@@ -41,7 +41,7 @@
 | [16-event-status-update.md](16-event-status-update.md) | Event program status update vs files 11/12, as of 2026-08-31 — data in [Lio_P1_Event_Status_2026-08-31.csv](Lio_P1_Event_Status_2026-08-31.csv) |
 | [17-gtm-hypothesis-and-test-roadmap.md](17-gtm-hypothesis-and-test-roadmap.md) | **Synthesis**: the strongest GTM bet (H1 — BPO-renewal displacement) written as a falsifiable hypothesis card + a phased test roadmap riding the already-funded P1 event program, with decision gates and kill criteria — Renewal Radar tracker in [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv) |
 | [18-trigger-group-outreach-angles.md](18-trigger-group-outreach-angles.md) | Account-by-account outreach angles + first-touch drafts for the 6 H1 trigger accounts (Zurich, Generali AT, KOSTAL, Vitesco/Schaeffler, Innomotics, LEONI), with priority order, landmines, and channel plans |
-| [19-lio-brand-language-and-agents.md](19-lio-brand-language-and-agents.md) | Lio brand-language register for the deck: the 16-agent roster by layer, tone-of-voice rules, verbatim copy bank, and how each site element maps into the deck's design |
+| [21-lio-brand-language-and-agents.md](21-lio-brand-language-and-agents.md) | Lio brand-language register for the deck: the 16-agent roster by layer, tone-of-voice rules, verbatim copy bank, and how each site element maps into the deck's design |
 
 ## The 60-second narrative
 

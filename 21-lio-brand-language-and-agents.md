@@ -1,4 +1,4 @@
-# 19 · Lio Brand Language — Agents, Tone & Copy (for the deck's design elements)
+# 21 · Lio Brand Language — Agents, Tone & Copy (for the deck's design elements)
 
 ← [Index](00-INDEX.md) · Feeds: **[15-deck-design.md](15-deck-design.md)** and the artboards in [deck-design/](deck-design/).
 
