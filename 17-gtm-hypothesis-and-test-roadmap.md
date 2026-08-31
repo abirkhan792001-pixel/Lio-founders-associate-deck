@@ -1,6 +1,8 @@
-# 13 · GTM Hypothesis & Test Roadmap — BPO-Renewal Displacement (H1)
+# 17 · GTM Hypothesis & Test Roadmap — BPO-Renewal Displacement (H1)
 
 ← [P1 Budget & Staffing](12-p1-budget-staffing.md) | [Index](00-INDEX.md)
+
+> **Companion data:** the enriched outbound contact pool (219 named buyers with emails across 4 ICP segments) lives in [13-icp-prospect-list.md](13-icp-prospect-list.md) + [Lio_ICP_Prospect_List.xlsx](Lio_ICP_Prospect_List.xlsx). This file adds the *experiment* on top of that pool: the renewal-trigger lens, group assignment, and the funnel scorecard ([Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv)).
 
 > Synthesis file, drafted 2026-08-31. This turns the analysis in files [03](03-pain-points-and-solutions.md)–[08](08-strategic-value-levers.md) and [10](10-events-and-icp.md)–[12](12-p1-budget-staffing.md) into **one testable go-to-market bet** and a concrete plan to confirm or kill it. Everything here is inference and planning built on those sourced files — not company-reported fact. All numeric thresholds are **planning placeholders to calibrate with the sales team before the test starts** (then locked), not industry benchmarks. Companion tracking template: [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv).
 
@@ -63,6 +65,26 @@ Three exits, decided at the gate and not before:
 1. **Confirm → double down:** scale the Renewal Radar, productize the "BPO displacement playbook," carry the motion into the Q1/Q2-2027 US events, launch the US wave when SOC 2 closes.
 2. **Refine → narrow:** signal in one sub-segment only (e.g. insurers convert, industrials don't) → re-scope the ICP and re-run one quarter.
 3. **Kill → rotate:** fall back to the next-best hypotheses (intake-led land-and-expand, or conviction-circuit-first) with the same test discipline.
+
+## Phase 0.2 executed — desk-research readout (2026-08-31)
+
+All 35 Radar accounts swept for BPO/SSC evidence (4 parallel research passes over provider case studies, annual reports, careers pages, commercial registers, trade press; ~35 accounts, 100+ searches; every finding source-linked in the [scorecard](Lio_H1_Test_Scorecard.csv)). Result:
+
+| Bucket | Count | Accounts (highlights) |
+|---|---|---|
+| **A-cand** — external partner confirmed in procurement ops, timing unknown | 2 | **Zurich (Genpact P2P/AP since 2012 — grade A, the anchor target)**, Generali AT (GOSP JV, 5% Accenture) |
+| **A2-chg** — captive SSC/GBS **plus a live change event** | 4 | KOSTAL (Budapest migration amid German job cuts), Vitesco (integration into Schaeffler GBS post-merger), Innomotics (PE carve-out rebuilding its back office), LEONI (StaRUG restructuring) |
+| **captive** — stable captive SSC/GBS confirmed | 16 | Knorr-Bremse (4-hub GBS), Kärcher (own GBS entity incl. indirect procurement), Dürr (onshore AP entity), KION (Kraków ~750 FTE), TRUMPF (Warsaw incl. purchasing), Givaudan (3-hub GBS), BENTELER (Czech hubs), Allianz (Allianz Services ~7,300), HDI Service AG, Swiss Re, Bosch Rexroth (Bosch-group GBS — hard target), FORVIA HELLA, KUKA, SMS, ANDRITZ, GEA |
+| **B-ctrl** — no BPO/SSC evidence (control group) | 9 | Festo, Krones, Mubea, Jungheinrich, STIHL, KSB, Endress+Hauser, Hannover Re, R+V |
+| **excl-cust** — existing Lio customer (expansion track, out of the net-new experiment) | 3 | Brose, Munich Re, ERGO |
+| **merged** — duplicate | 1 | Talanx (= HDI Group) |
+
+**What this changes about H1 (important):** in the DACH industrial ICP, the third-party BPO renewal trigger **barely exists** — 1 true procurement BPO in 35 accounts, and it sits at a Swiss insurer. The displacement target in DACH is the **captive SSC/GBS** (nearshore hubs in Poland/Czechia/Hungary/Romania and onshore German service GmbHs), which has **no renewal date** — so the trigger becomes **change events**: carve-outs, post-merger integrations, center migrations, restructuring programs. Consequences:
+
+1. The DACH message shifts from *"your BPO renewal is a price check"* to *"your captive center's cost-per-transaction vs. agents"* — same 93% math, different door. The KB anticipated this (the Lio newsroom piece covers SSCs *and* BPO), but the test design must score A2-chg accounts as the DACH trigger group, not wait for renewals that never come.
+2. The **pure renewal-trigger motion lives in FS and the US**: Zurich–Genpact here, plus the US GBS/BPO-owner segment in [13-icp-prospect-list.md](13-icp-prospect-list.md) — which is where actual third-party contracts concentrate.
+3. GEA's contested 2015 Accenture SSC plan (blocked noise from IG Metall) is a **concrete works-council precedent** validating risk #7 in [08](08-strategic-value-levers.md) — and an argument for the "displace offshore hubs, keep German supervision jobs" framing.
+4. Nine clean controls (B-ctrl) exist, so the Group A-vs-B comparison from the test design still runs — with A = (A-cand + A2-chg) for the readout.
 
 ## Guardrails (be honest about these)
 
