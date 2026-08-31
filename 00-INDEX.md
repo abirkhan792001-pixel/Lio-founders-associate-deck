@@ -35,6 +35,7 @@
 | [10-events-and-icp.md](10-events-and-icp.md) | All 48 events (hosted + attended, 2023→scheduled), event strategy reads, reverse-engineered ICP, watering holes — full dataset in the [Google Sheet](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit) (tab "Event History + ICP") + local [xlsx backup](Lio_Events_ICP_Analysis.xlsx) |
 | [11-target-event-pipeline.md](11-target-event-pipeline.md) | Forward-looking: 60 ICP-fit events across US/UK/EU-DACH scored by ICP density into P1/P2/P3 with per-event "why Lio should be there" — live in the workbook's [second tab](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit#gid=2108350331) + [CSV backup](Lio_Target_Event_Pipeline.csv) |
 | [12-p1-budget-staffing.md](12-p1-budget-staffing.md) | Quarter-by-quarter budget & staffing for the P1 program (Q3-26→Q2-27): €736K new + €105K committed + contingency ≈ €929K envelope, 204 staff-days, hiring triggers — live in the workbook's [third tab](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit#gid=910419034) + [CSV backup](Lio_P1_Budget_Staffing.csv) |
+| [13-gtm-hypothesis-and-test-roadmap.md](13-gtm-hypothesis-and-test-roadmap.md) | **Synthesis**: the strongest GTM bet (H1 — BPO-renewal displacement) written as a falsifiable hypothesis card + a phased test roadmap riding the already-funded P1 event program, with decision gates and kill criteria — tracking template in [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv) |
 
 ## The 60-second narrative
 
