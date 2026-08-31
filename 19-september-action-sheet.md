@@ -17,7 +17,7 @@
 
 1. **Two early-birds close Sep 30, not one.** The BME-eLösungstage 2027 partner tier (€300 off — Stäbe) *and* the 61. BME-Symposium early-bird (€100 off — Wagner). The July plan had the Symposium as a soft "book in September" item; the organizer check found a hard cliff. Both are renewals where Lio is already established, so neither is a debate — they just have to be signed.
 2. **Two bundle windows close before the events they cover.** The WBR two-event bundle (Cologne + Boston) expires with **Cologne on Sep 22**; the Executive Platforms bundle (NAPES + NASCES) must be agreed before **NASCES runs Sep 21–23**. Both were written down as Q4 decisions and September overtook them. **The second now has a prerequisite:** NAPES' reported move to Denver is unverified, and the city has to be settled before ~€35K is committed. *(Keil / Petras, due Sep 8–10.)*
-3. **October needs a fourth founders-split, decided this month.** Bots & Buyers EU runs **Oct 27–28** at MotorWorld Munich against **SIG Chicago, Oct 25–28**. The SIG booking decision is due Sep 15, so the owner-per-city call cannot wait for October. Suggested: Petras→Chicago, Keil+Wagner→Munich, Heinzmann→the Munich demo stage.
+3. **The October split is settled — one condition rides on the SIG booking.** Bots & Buyers EU runs **Oct 27–28** at MotorWorld Munich against **SIG Chicago, Oct 25–28**: **Petras→Chicago** with the SE, **Keil + Wagner→Munich**, **Heinzmann→the Munich demo stage**. The overlap is only Oct 27–28 of SIG's four days, so Keil can deliver the buy-side working session *and* reach Munich — but only if SIG schedules it on **Oct 25–26**. Make that a condition of the sponsorship, not something discovered in the agenda afterwards. If SIG will not commit, Petras delivers it and Keil does not travel. *(Petras, due Sep 15.)*
 
 > **Correction (2026-08-31).** An earlier version of this sheet led with a Cologne collision — ProcureCon Europe against a Bots & Buyers Summit in Munich on Sep 23–24. Organizer verification showed that was wrong: the September own-event is **Bots & Buyers NYC on Sep 23** (free, application-only), which lands mid-gauntlet between Cologne and Boston and costs the **US pod**, not the DACH squad. The EU flagship moved to Munich on **Oct 27–28**. Cologne is unblocked; the clash moved to October.
 
@@ -72,7 +72,7 @@
 |---|---|---|
 | Sep 14 | PMM | **Zip Forward NYC** (Sep 16–17) — intel only, monitor remotely, never sponsor |
 | Sep 15 | Keil | **SSOW DACH Berlin** (Nov 17–19) — submit German keynote abstract, book sponsor tier |
-| Sep 15 | Petras | **SIG Chicago** (Oct 25–28) — check membership prerequisite, pitch a buy-side working session not a booth. **Collides with Bots & Buyers Munich (Oct 27–28)** — name the owner per city with this decision |
+| Sep 15 | Petras | **SIG Chicago** (Oct 25–28) — check membership prerequisite, pitch a buy-side working session not a booth. Split settled (Petras→Chicago, Keil+Wagner→Munich, Heinzmann→demo stage); **make Oct 25–26 working-session scheduling a booking condition** so Keil can cover both rooms |
 | Sep 15 | Petras | **SSOW Autumn Amsterdam** (Oct 20–22) — fold into the SSON bundle, then decide |
 | Sep 15 | EU AE | **Deloitte SSC Brussels** (Oct 6–7) — register 1–2 attendees, attend-only |
 | Sep 15 | DACH sales lead | **BMÖ Vienna** (Oct 14–15) — decide; pair with the SAP Connect Vienna partner angle if it lands |
@@ -88,7 +88,7 @@
 | Sep 30 | Stäbe | **BME-eLösungstage 2027** — sign the partner tier before the €300 discount lapses ← **hard deadline** |
 | Sep 30 | Wagner | **61. BME-Symposium** (Nov 18–19) — book the renewal before the **€100 early-bird lapses** ← **hard deadline**; reserve the Berlin dinner venue for Nov 18 |
 | Sep 30 | DACH sales lead | **BME IT-Sourcing** (Oct 19–20) — attend or speak; CIO/CISO gatekeeper audience |
-| Sep 30 | DACH sales lead | **IZB Wolfsburg** (Oct 27–29) — walk-the-floor only, decide whether 1–2 AEs attend |
+| Sep 30 | DACH sales lead | **IZB Wolfsburg** (Oct 27–29) — **recommend dropping 2026**: collides with the Bots & Buyers Munich flagship, which commits the DACH squad. Biennial walk-the-floor, no booth, no dinner — cheapest cut that week. Confirm the drop or name someone not needed in Munich |
 | Sep 30 | DACH sales lead | **BVL Berlin** (Oct 21–22) — decide; adjacent logistics-agent audience |
 | Sep 30 | Stäbe | **GSA Festival** — 2026 edition missed; get on the 2027 list and diarise the early-bird |
 
