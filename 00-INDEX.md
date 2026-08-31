@@ -37,11 +37,11 @@
 | [12-p1-budget-staffing.md](12-p1-budget-staffing.md) | Quarter-by-quarter budget & staffing for the P1 program (Q3-26→Q2-27): €736K new + €105K committed + contingency ≈ €929K envelope, 204 staff-days, hiring triggers — live in the workbook's [third tab](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit#gid=910419034) + [CSV backup](Lio_P1_Budget_Staffing.csv) |
 | [13-icp-prospect-list.md](13-icp-prospect-list.md) | Named-buyer outbound list: 219 Apollo-enriched contacts (193 verified emails) across 4 ICP segments, with the refill pool and approach playbook — data in [Lio_ICP_Prospect_List.xlsx](Lio_ICP_Prospect_List.xlsx) |
 | [14-linkedin-posts.md](14-linkedin-posts.md) | LinkedIn post register — everything publicly indexed about Lio |
-| [15-deck-design.md](15-deck-design.md) | Founders-associate deck design spec — rebuilt in Lio's own brand language (artboards in [deck-design/](deck-design/), fonts saved in [deck-design/fonts/](deck-design/fonts/), PDF export included) |
+| [15-deck-design.md](15-deck-design.md) | Founders-associate deck design spec — Zeit AI template system (artboards in [deck-design/](deck-design/), PDF export included) |
 | [16-event-status-update.md](16-event-status-update.md) | Event program status update vs files 11/12, as of 2026-08-31 — data in [Lio_P1_Event_Status_2026-08-31.csv](Lio_P1_Event_Status_2026-08-31.csv) |
 | [17-gtm-hypothesis-and-test-roadmap.md](17-gtm-hypothesis-and-test-roadmap.md) | **Synthesis**: the strongest GTM bet (H1 — BPO-renewal displacement) written as a falsifiable hypothesis card + a phased test roadmap riding the already-funded P1 event program, with decision gates and kill criteria — Renewal Radar tracker in [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv) |
 | [18-trigger-group-outreach-angles.md](18-trigger-group-outreach-angles.md) | Account-by-account outreach angles + first-touch drafts for the 6 H1 trigger accounts (Zurich, Generali AT, KOSTAL, Vitesco/Schaeffler, Innomotics, LEONI), with priority order, landmines, and channel plans |
-| [21-lio-brand-language-and-agents.md](21-lio-brand-language-and-agents.md) | Lio brand-language register for the deck: the 16-agent roster by layer, tone-of-voice rules, verbatim copy bank, and how each site element maps into the deck's design |
+| [21-lio-brand-language-and-agents.md](21-lio-brand-language-and-agents.md) | Lio brand-language register: the 16-agent roster by layer, tone-of-voice rules, and verbatim copy bank (reference material — the deck itself uses the Zeit template design) |
 
 ## The 60-second narrative
 

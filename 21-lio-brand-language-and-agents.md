@@ -42,12 +42,14 @@ Headline product claims that ride with the roster: **"85% of procurement operati
 - "85% of procurement operations are done by Lio Agents."
 - a16z (Seema Amble): "We're entering a phase in the enterprise where AI moves beyond workflow co-pilots to autonomous, multi-agent execution."
 
-## 4 · How this lands in the deck's design elements
+## 4 · How this could land in deck design elements (reference only)
+
+> **Status 2026-08-31:** a Lio-brand deck skin built from this mapping was tried and **rolled back the same day at Abir's request** — the deck uses the Zeit AI template design ([15-deck-design.md](15-deck-design.md)). The font files (Inter + Geist Mono) were removed from the repo with it; they are recoverable from git history (commit `f16cfc7`) or re-downloadable from Google Fonts. Sections 1–3 remain current research either way; the table below is kept only in case the brand direction is ever revisited.
 
 | Site element (screenshots) | Deck translation |
 |---|---|
-| Dark teal-black hero with blurred light streaks | Cover + Thank-You full-bleed texture (`lio-hero.jpg`, generated, in-repo); content slides on `#0B1416` with a faint teal wash |
-| Sentence-case grotesque hero type, white, ~regular weight | Inter (see [fonts/README](deck-design/fonts/README.md)) — cover 500, titles 600, verdict numbers 800 |
+| Dark teal-black hero with blurred light streaks | Cover + Thank-You full-bleed texture (`lio-hero.jpg`, generated; removed with the rollback, in git history); content slides on `#0B1416` with a faint teal wash |
+| Sentence-case grotesque hero type, white, ~regular weight | Inter (identification method was in `deck-design/fonts/README.md`, commit `f16cfc7`) — cover 500, titles 600, verdict numbers 800 |
 | Monospace chips (industries ring, video-card caption) | Geist Mono chips everywhere metadata lives: eyebrows, FINDINGS/STRATEGY tags, segment names, agent roster, filenames, footers |
 | Announcement banner strip | Cover top strip: the application banner |
 | White pill CTA ("Request a demo") | Cover pill: "Request the 90 days"; STRATEGY/THE OFFER chips |
