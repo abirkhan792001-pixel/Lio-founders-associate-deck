@@ -2,18 +2,18 @@
 
 ← [Sources](09-sources.md) | [Index](00-INDEX.md)
 
-> **Full dataset:** [Lio Events & ICP Analysis — Google Sheet](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit) (48 events with sources, live category counts, firmographics, ICP synthesis) · local backup: [Lio_Events_ICP_Analysis.xlsx](Lio_Events_ICP_Analysis.xlsx) (multi-tab). Compiled 2026-07-20.
+> **Full dataset:** [Lio Events & ICP Analysis — Google Sheet](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit) (49 events with sources, live category counts, firmographics, ICP synthesis) · local backup: [Lio_Events_ICP_Analysis.xlsx](Lio_Events_ICP_Analysis.xlsx) (multi-tab). Compiled 2026-07-20 · **Bots & Buyers rows corrected 2026-08-31** against organizer sources ([file 16](16-event-status-update.md)).
 
 ## The event footprint in numbers
 
-**48 events/appearances (2023 → scheduled):** 15 DACH · 14 US · 7 EU · 3 UK · 9 online. By year: 2023: 2 → 2024: 3 → 2025: 5 → **2026: 38**. By bucket: 11 sponsorships/exhibitions, 10 speaker slots, 8 own webinars, 4 own community flagships (Bots & Buyers), 4 own executive dinners, 4 awards, 3 own technical/GTM events, plus World 50 roundtable, YC, 2 campus events.
+**49 events/appearances (2023 → scheduled):** 15 DACH · 15 US · 7 EU · 3 UK · 9 online. By year: 2023: 2 → 2024: 3 → 2025: 5 → **2026: 39**. By bucket: 11 sponsorships/exhibitions, 10 speaker slots, 8 own webinars, 5 own community flagships (Bots & Buyers), 4 own executive dinners, 4 awards, 3 own technical/GTM events, plus World 50 roundtable, YC, 2 campus events.
 
 ## Event strategy — four reads
 
 1. **Three-act evolution.** 2023–24: credibility (YC S23, German federal Gründungspreis from Minister Habeck, first Hamburg speaker slots). 2025: DACH presence + first own event + **DPW Growth Stage Award** (jury of 80+ CPOs). 2026: a dual-track machine — a **US blitz** (9+ US events in H1 2026 vs zero before Nov 2025: ProcureCon West/Connect/East, SSOW, APC, NAPES, DPW NY, KonnectHouse NYC, Chicago LIVE) while defending DACH (BME partner, Handelsblatt, Procurement Summit booth C09).
 2. **The sidecar-dinner signature.** Every big conference gets a private Lio dinner the same week: NAPES→Miami CPO dinner, DPW NY→NYC dinner (Walmart + a16z framing), BME eLösungstage→Düsseldorf "Lio Principals", WPC London→Gaucho at The O2. Rent the audience aggregation, own the intimate C-level room.
 3. **Message discipline.** One keynote title toured the world in 2026 — *"Humans vs. AI Agents: Who Runs Procurement in 2026?"* (New Orleans, Chicago, Hamburg). At SSOW Orlando the mask comes off entirely: *"Your BPO Costs 93% Too Much. We'll Prove It in 15 Minutes with our AI Agents."* Two messages only: agent workforce + BPO replacement.
-4. **Own-franchise conversion layer.** Bots & Buyers (Oct 2025: ~150–170 leaders, launch of the multi-agent system; Jun 2026 "Clubhouse": ~200 + 23 named enterprises; Sep 23–24, 2026: first 2-day "Summit"; US edition teased) + 8 webinars in strict **DE/EN pairs** + FDE Night/hackathon for talent. The external circuit fills the funnel; the owned rooms convert it.
+4. **Own-franchise conversion layer.** Bots & Buyers (Oct 2025: ~150–170 leaders, launch of the multi-agent system; Jun 2026 "Clubhouse": ~200 + 23 named enterprises; **Oct 27–28, 2026: first 2-day "Summit" at MotorWorld München**; **US edition now confirmed — Bots & Buyers NYC, Sep 23, 2026**, free and application-only) + 8 webinars in strict **DE/EN pairs** + FDE Night/hackathon for talent. The external circuit fills the funnel; the owned rooms convert it.
 
 ## The ICP, reverse-engineered
 
