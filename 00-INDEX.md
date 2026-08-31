@@ -41,6 +41,8 @@
 | [16-event-status-update.md](16-event-status-update.md) | Event program status update vs files 11/12, as of 2026-08-31 — data in [Lio_P1_Event_Status_2026-08-31.csv](Lio_P1_Event_Status_2026-08-31.csv) |
 | [17-gtm-hypothesis-and-test-roadmap.md](17-gtm-hypothesis-and-test-roadmap.md) | **Synthesis**: the strongest GTM bet (H1 — BPO-renewal displacement) written as a falsifiable hypothesis card + a phased test roadmap riding the already-funded P1 event program, with decision gates and kill criteria — Renewal Radar tracker in [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv) |
 | [18-trigger-group-outreach-angles.md](18-trigger-group-outreach-angles.md) | Account-by-account outreach angles + first-touch drafts for the 6 H1 trigger accounts (Zurich, Generali AT, KOSTAL, Vitesco/Schaeffler, Innomotics, LEONI), with priority order, landmines, and channel plans |
+| [19-september-action-sheet.md](19-september-action-sheet.md) | **Operational.** 30 dated September 2026 actions with owners, ordered by due date: the two Sep 30 early-birds, the two bundle windows, and the lapsed July deadlines — reconciled against the organizer-verified dates in [16](16-event-status-update.md) |
+| [20-event-strategy-and-icp-baseline.md](20-event-strategy-and-icp-baseline.md) | **Strategy.** The ICP recomputed from the 17 verified customers (bullseye €2.8–4.7B revenue, 8–30K employees — tighter than the stated band), which buying-committee seat each room type contains, and a preparation protocol per priority tier |
 
 ## The 60-second narrative
 

@@ -1,6 +1,6 @@
-# 14 · Event Strategy & the Recomputed ICP Baseline
+# 20 · Event Strategy & the Recomputed ICP Baseline
 
-← [September Action Sheet](13-september-action-sheet.md) | [Index](00-INDEX.md)
+← [September Action Sheet](19-september-action-sheet.md) | [Index](00-INDEX.md)
 
 > Published page: **[The Room and the Buyer](https://claude.ai/code/artifact/8e004556-1d64-41d9-bf99-7e113cde7bde)**. Firmographics recomputed 2026-08-31 from the ICP workbook's Company Firmographics tab (block 1, the 17 verified customers). CHF converted at 1 CHF = 1.06 EUR.
 
