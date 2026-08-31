@@ -2,6 +2,8 @@
 
 ← [Outreach Angles](18-trigger-group-outreach-angles.md) | [Index](00-INDEX.md)
 
+> **STATUS: DEMONSTRATION BUILD — DO NOT LAUNCH.** This is application research for the founders-associate deck: it shows the H1 outreach motion end-to-end, ready to fire. **Lio has not authorized any outreach**, and these campaigns must never be launched without Lio's explicit sign-off, a Lio-owned sender identity, and a real Lio sender who knows they're going out. The value of this artifact is that everything up to the send button is done.
+>
 > The [file-18 angles](18-trigger-group-outreach-angles.md) paired with the enriched emails from [13-icp-prospect-list.md](13-icp-prospect-list.md) and built as **5 draft campaigns in lemlist** (workspace: Abir Khan's Team) on 2026-08-31. **Every campaign is in DRAFT state — nothing has been sent and nothing will send**; launching requires an explicit manual launch in lemlist after review. DACH campaigns are German-first per the [13](13-icp-prospect-list.md) playbook; Zurich is English (global function). No enrichment credits were spent in this build.
 
 ## Pairing status (contacts → emails)
@@ -112,12 +114,17 @@ The two trigger-group contacts without a usable email. Connection notes stay und
 **Bump (+5–7 Tage):**
 > Kurz nachgefasst, Herr Koller: Falls ein Gespräch gerade nicht passt, schicke ich Ihnen gern eine halbe Seite dazu, wie so ein Pilot aussähe. Zwei Minuten Lesezeit — dann wissen Sie, ob es sich lohnt.
 
-## Before launch (owner checklist — none of this has been done)
+## Day-0 launch runbook — what Lio does after sign-off (the "how" slide)
 
-1. **Assign a proper sender mailbox.** The workspace's domain is currently a gmail.com identity — cold B2B from Gmail will tank deliverability and looks wrong for Lio; connect a branded sending domain/mailbox first (see lemlist deliverability tooling).
-2. Review + personalize copy per lead (the drafts are deliberately template-grade; a personalized first line per lead lifts replies).
-3. GDPR check per DACH practice (legitimate interest + the opt-out lines are already in the copy).
-4. ~~Fill the lead gaps~~ **Done 2026-08-31**: Richter, Reiner, Kammoun enriched (3 Apollo credits consumed; all verified) and added as leads. Two contacts remain LinkedIn-only touches: Jaime Paiva (Zurich — email unavailable) and Stefan Koller (Generali AT — no Apollo match).
-5. Launch manually in lemlist when ready — the campaigns will not send anything until then.
+Everything above is built; this is the remaining distance between the demonstration and live pipeline. Estimated elapsed time: **~3 weeks if a warmed lio.ai mailbox exists, ~5–6 weeks if one has to be created** (warm-up dominates).
+
+1. **Decision & ownership (day 0):** GTM lead signs off on the trigger-group motion; one AE owns the DACH campaigns, one owns Zurich. The named senders read every email that will go out under their name.
+2. **Sender infrastructure (day 0–1):** connect Lio-owned mailboxes in lemlist (real AE addresses on lio.ai or a Lio-owned sending domain — never Gmail, never a lookalike domain). If the mailbox/domain is new: 2–3 weeks of warm-up before any cold send; if established: proceed.
+3. **Copy personalization (day 1–2):** the drafts are deliberately template-grade — each AE adds one personalized first line per lead (a recent post, an event, a shared connection). Verify the press-sourced facts once more (e.g. KOSTAL's job-cut figure) before sending.
+4. **Compliance check (day 1–2):** DACH sends under legitimate-interest framing; opt-out lines are already in every email; suppress any contact who has opted out elsewhere in Lio's stack.
+5. **Launch order (week 1 after warm-up):** Vitesco first (internal, via the Schaeffler account team — no email involved) → Zurich + Innomotics (strongest triggers) → KOSTAL + Generali → LEONI last (light-touch by design). LinkedIn touches for Paiva and Koller go out the same week from the chosen senders' profiles.
+6. **Measure into the experiment (continuous):** log every reply, meeting, and loss reason in the [scorecard](Lio_H1_Test_Scorecard.csv) funnel columns — this is Group A of the H1 test in [17](17-gtm-hypothesis-and-test-roadmap.md); the Q3/Q4 event program is the parallel channel for the same accounts.
+
+Lead-gap status: Richter, Reiner, Kammoun enriched 2026-08-31 (3 Apollo credits; all emails verified). Paiva (email unavailable) and Koller (no Apollo match) remain LinkedIn-only touches with drafts ready above.
 
 *Copy sources: [18-trigger-group-outreach-angles.md](18-trigger-group-outreach-angles.md); proof-point figures are Lio company-reported claims per [07](07-customers-and-proof-points.md), used in Lio's own voice. Reply/meeting outcomes feed the funnel columns in [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv).*
