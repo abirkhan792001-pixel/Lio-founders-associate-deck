@@ -2,7 +2,7 @@
 
 ← [Strategic Value Levers](08-strategic-value-levers.md) | [Index](00-INDEX.md)
 
-Compiled 2026-07-20. Grades: **A** = primary/official · **B** = reputable press/analyst · **C** = aggregator/estimate — verify before external use.
+Compiled 2026-07-20. Grades: **A** = primary/official · **B** = reputable press/analyst · **C** = aggregator/estimate, verify before external use.
 
 ## Lio official (A)
 
@@ -39,7 +39,7 @@ Compiled 2026-07-20. Grades: **A** = primary/official · **B** = reputable press
 | Munich Startup (€25.7M) | https://www.munich-startup.de/en/117802/lio-raises-25-million-euros/ |
 | Silicon Valley Post (Amble led; 500K users) | https://svpost.com/articles/lio-30m-series-a/ |
 | EQS (German, legal entity) | https://www.eqs-news.com/news/corporate/muenchner-startup-lio-technologies-sichert-sich-30-mio-series-a-…_de |
-| Tracxn / Extruct / Crunchbase / PitchBook (C — seed figures, revenue estimate) | tracxn.com/d/companies/asklio/… · extruct.ai/hub/asklio-ai-funding/ · crunchbase.com/organization/ask-lio-ai · pitchbook.com/profiles/company/534579-13 |
+| Tracxn / Extruct / Crunchbase / PitchBook (C, seed figures, revenue estimate) | tracxn.com/d/companies/asklio/… · extruct.ai/hub/asklio-ai-funding/ · crunchbase.com/organization/ask-lio-ai · pitchbook.com/profiles/company/534579-13 |
 | Startbase, citybiz, justainews, it-boltwise (B/C reprints) | see agent transcript |
 
 ## Interviews & trade press (B)
@@ -47,7 +47,7 @@ Compiled 2026-07-20. Grades: **A** = primary/official · **B** = reputable press
 - CPOstrategy interview (Nov 2025, as askLio): https://cpostrategy.media/blog/2025/11/25/asklio-redefining-procurement-with-ai/
 - YouTube feature (Nov 2025): https://www.youtube.com/watch?v=4Xe4i8tB0q4
 - Procurement Magazine feature: https://procurementmag.com/news/asklio-building-worlds-first-ai-procurement-workforce (403 on fetch; curated on Lio newsroom)
-- Procurement Magazine — Chicago workshop (700K users): https://procurementmag.com/news/lio-workshop-the-us-summit-2026
+- Procurement Magazine. Chicago workshop (700K users): https://procurementmag.com/news/lio-workshop-the-us-summit-2026
 - Handelsblatt advertorials (curated on newsroom, not fetched): see newsroom external links
 
 ## Jobs & org (B/C)
@@ -64,15 +64,15 @@ Hackett maverick-spend research (29%, 5–16%, 75%): https://veridion.com/blog-p
 
 ## Market: incumbents & competitors (A/B)
 
-SAP: news.sap.com MQ 2025/2026, next-gen Ariba (Mar 2026); Joule agents GA — https://erp.today/sap-joule-agents-ariba-fieldglass-procurement-automation-2026/ · https://sapinsider.org/blogs/sap-delivers-joule-agents-… • Coupa: Navi launches + Agent Studio (coupa.com newsroom); **Tonkean acquisition** — https://www.coupa.com/newsroom/coupa-acquires-tonkean-… · https://www.calcalistech.com/ctechnews/article/h1dha66kzl • Ivalua IVA: https://www.ivalua.com/blog/iva-powered-by-iva-studio/ · https://cporising.com/2026/04/22/inside-ivalua-now-2026-… • Jaggaer JAI: https://www.jaggaer.com/solutions/jai • Oracle MQ 2026: oracle.com newsroom • GEP Qi: https://www.gep.com/blog/strategy/gep-qi-agentic-ai-orchestration • Zycus Merlin: zycus.com • Ariba complaints: https://research.com/software/reviews/sap-ariba · Capterra · Trustpilot • Suite-absorption thesis: https://spendmatters.com/2025/04/23/an-emerging-threat-to-the-standalone-intake-and-orchestration-market/ (paywalled)
+SAP: news.sap.com MQ 2025/2026, next-gen Ariba (Mar 2026); Joule agents GA, https://erp.today/sap-joule-agents-ariba-fieldglass-procurement-automation-2026/ · https://sapinsider.org/blogs/sap-delivers-joule-agents-… • Coupa: Navi launches + Agent Studio (coupa.com newsroom); **Tonkean acquisition**, https://www.coupa.com/newsroom/coupa-acquires-tonkean-… · https://www.calcalistech.com/ctechnews/article/h1dha66kzl • Ivalua IVA: https://www.ivalua.com/blog/iva-powered-by-iva-studio/ · https://cporising.com/2026/04/22/inside-ivalua-now-2026-… • Jaggaer JAI: https://www.jaggaer.com/solutions/jai • Oracle MQ 2026: oracle.com newsroom • GEP Qi: https://www.gep.com/blog/strategy/gep-qi-agentic-ai-orchestration • Zycus Merlin: zycus.com • Ariba complaints: https://research.com/software/reviews/sap-ariba · Capterra · Trustpilot • Suite-absorption thesis: https://spendmatters.com/2025/04/23/an-emerging-threat-to-the-standalone-intake-and-orchestration-market/ (paywalled)
 
 Zip: https://www.businesswire.com/news/home/20241021142811/… ($190M @ $2.2B) · https://ziphq.com/blog/2026-gartner-magic-quadrant-source-to-pay · https://research.contrary.com/company/zip • ORO: https://fortune.com/2026/03/12/oro-labs-corporate-procurement-ai-efficiency/ · PRNewswire $100M C • Omnea: https://www.omnea.co/blog/series-b-announcement · PRNewswire • Levelpath: businesswire $55M B • Pactum: https://pactum.com/blog/news-pactum-secures-54-million-… • Globality, Fairmarkit, Keelvar: businesswire/procurementmag/keelvar.com • Mercanis: https://www.eu-startups.com/2025/06/german-ai-startup-mercanis-… • Aggregate $1.2B: https://newmarketpitch.com/blogs/news/procurement-software-top-startups-fundraising
 
 ## Market: sizing & analysts (B; flag C where noted)
 
 - TAM: https://www.grandviewresearch.com/industry-analysis/procurement-software-market-report (+Precedence, FBI, Polaris)
-- Orchestration market (C — Dataintelo): https://dataintelo.com/report/procurement-orchestration-platform-market
-- Gartner $53B agentic (via Opstream — C for exact figures): https://www.opstream.ai/blog/agentic-procurement-orchestration-53-billion-shift/
+- Orchestration market (C, Dataintelo): https://dataintelo.com/report/procurement-orchestration-platform-market
+- Gartner $53B agentic (via Opstream. C for exact figures): https://www.opstream.ai/blog/agentic-procurement-orchestration-53-billion-shift/
 - Gartner $15T B2B agents: https://www.digitalcommerce360.com/2025/11/28/gartner-ai-agents-15-trillion-in-b2b-purchases-by-2028/
 - Gartner 40% cancellations: https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027
 - McKinsey agentic procurement: https://www.mckinsey.com/capabilities/operations/our-insights/redefining-procurement-performance-in-the-era-of-agentic-ai (+companion)
@@ -82,8 +82,8 @@ Zip: https://www.businesswire.com/news/home/20241021142811/… ($190M @ $2.2B) �
 
 ## Known gaps / could not verify
 
-- No valuation, no official ARR, no pricing — never disclosed.
-- Whitepaper bodies (typeform-gated), Spend Matters analyses (paywalled), Handelsblatt advertorials (paywalled), procurementmag feature (403), web.archive.org (blocked) — not read.
+- No valuation, no official ARR, no pricing, never disclosed.
+- Whitepaper bodies (typeform-gated), Spend Matters analyses (paywalled), Handelsblatt advertorials (paywalled), procurementmag feature (403), web.archive.org (blocked), not read.
 - Legacy asklio.ai content: fully redirected; no archive access.
 - "Lio X": named in nav, described nowhere.
-- Anna Tillmann's title; Christian Uhlmann's employer — not stated on source pages.
+- Anna Tillmann's title; Christian Uhlmann's employer, not stated on source pages.
