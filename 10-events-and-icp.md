@@ -17,6 +17,8 @@
 
 ## The ICP, reverse-engineered
 
+> **Recomputed 2026-08-31:** running the numbers on the 17 verified customers gives a tighter, lower bullseye than the band below — **€2.8–4.7B revenue, ~8–30K employees** (the eight logos in the modal €1–5B band all sit inside a window under €2B wide), median €4.4B revenue and 20,000 employees, 65% family/foundation/PE-owned, 94% DACH. See [14 · Event Strategy & the Recomputed ICP Baseline](14-event-strategy-and-icp-baseline.md).
+
 **Primary — the DACH industrial backbone:** German-speaking enterprise, **€2–12B revenue, 15–50K employees** (modal band: 8 of 17 logos in €1–5B), automotive/discrete manufacturing + materials/optics/process. **Standout trait: ~two-thirds are family-, foundation-, or PE-owned** (Brose, Diehl, REHAU, Webasto, Zeiss, Schott, Mahle, TÜV SÜD, Schaeffler…) — long-horizon owners, conviction-driven COO/CFO decisions, conservative SAP estates where "overlay, don't replace" wins. Buying center: CPO (sponsor) + COO/CFO (economic buyer via the BPO/FTE line) + Head of Procurement Excellence (champion) + CIO/CISO (gatekeeper).
 
 **Secondary — indirect-heavy FS:** €20B+ insurers (Munich Re, ERGO): 100% indirect spend, fastest agentic-BPO math; TÜV SÜD/Bilfinger rhyme with it.
