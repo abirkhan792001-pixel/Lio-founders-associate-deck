@@ -40,7 +40,7 @@
 
 1. Headshot photo (slide 02, top-right placeholder)
 2. The stack-icon row from the Zeit deck (slide 02 bottom — currently a text list)
-3. LinkedIn profile URL (slides 02/09 — label is placed, link target missing)
+3. LinkedIn links are set to `linkedin.com/in/abir-khan-1143211ab` (found via public search) — confirm it's yours
 4. Optional: swap the text wordmark for Lio's real logo if used internally — kept as a neutral text mark by default
 
 *Numbers on slides 04–06 are filled from the session's research (Apollo counts, organizer-verified dates, the LinkedIn register) — each slide footnotes its source and date.*
