@@ -1,6 +1,8 @@
-# 13 · GTM Hypothesis & Test Roadmap — BPO-Renewal Displacement (H1)
+# 17 · GTM Hypothesis & Test Roadmap — BPO-Renewal Displacement (H1)
 
 ← [P1 Budget & Staffing](12-p1-budget-staffing.md) | [Index](00-INDEX.md)
+
+> **Companion data:** the enriched outbound contact pool (219 named buyers with emails across 4 ICP segments) lives in [13-icp-prospect-list.md](13-icp-prospect-list.md) + [Lio_ICP_Prospect_List.xlsx](Lio_ICP_Prospect_List.xlsx). This file adds the *experiment* on top of that pool: the renewal-trigger lens, group assignment, and the funnel scorecard ([Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv)).
 
 > Synthesis file, drafted 2026-08-31. This turns the analysis in files [03](03-pain-points-and-solutions.md)–[08](08-strategic-value-levers.md) and [10](10-events-and-icp.md)–[12](12-p1-budget-staffing.md) into **one testable go-to-market bet** and a concrete plan to confirm or kill it. Everything here is inference and planning built on those sourced files — not company-reported fact. All numeric thresholds are **planning placeholders to calibrate with the sales team before the test starts** (then locked), not industry benchmarks. Companion tracking template: [Lio_H1_Test_Scorecard.csv](Lio_H1_Test_Scorecard.csv).
 
