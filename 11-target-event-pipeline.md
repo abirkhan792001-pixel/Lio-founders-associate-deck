@@ -3,6 +3,8 @@
 ← [Events & ICP](10-events-and-icp.md) | [Index](00-INDEX.md)
 
 > **Live worksheet:** [Lio Events & ICP Analysis — tab "Target Event Pipeline (US-UK-EU)"](https://docs.google.com/spreadsheets/d/1NkGOmeDHmFOvfcFgkN7qsK9Gf6GevNT5JyG-rYTUqV4/edit#gid=2108350331) · local CSV backup: [Lio_Target_Event_Pipeline.csv](Lio_Target_Event_Pipeline.csv). Compiled 2026-07-20/21 from 3 research agents (DACH+EU, US, UK). The workbook's other tab is "Event History + ICP (2023-26)".
+>
+> ⚠ **Status update 2026-08-31:** every P1 date re-verified against organizer sources — see **[16-event-status-update.md](16-event-status-update.md)** ([CSV](Lio_P1_Event_Status_2026-08-31.csv)). Key deltas: Bots & Buyers now runs **NYC Sep 23** and **EU Munich Oct 27–28** (collides with SIG Chicago); **APC moved Miami → New Orleans** (Mar 22–24, 2027); NAPES' Denver move **unverified**; BME-Symposium + eLösungstage early-birds both **end Sep 30**. July's four "urgent" deadlines have passed.
 
 ## What it is
 
