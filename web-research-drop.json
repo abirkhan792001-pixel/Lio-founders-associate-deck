@@ -1,0 +1,524 @@
+{
+  "linkedin": {
+    "german": [
+      {
+        "url": "https://de.linkedin.com/posts/lio-ai_ki-einkauf-sap-activity-7305351702008750081-X-nw",
+        "author": "Lio (formerly askLio) — company page",
+        "author_role": "Company (lio.ai)",
+        "date": "2025-03-11",
+        "summary": "German company post tagged #ki #einkauf #sap #innovation #bme #procurement — Lio at a BME context on KI im Einkauf / SAP.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/lio-ai_asklio-ist-heute-im-handelsblatt-asklio-activity-7345791719692460034-7hWs",
+        "author": "Lio (formerly askLio) — company page",
+        "author_role": "Company (lio.ai)",
+        "date": "2025-07-01",
+        "summary": "German post: 'askLio ist heute im Handelsblatt' — company celebrating Handelsblatt coverage ('Wenn KI das Denken lernt: Europas Antwort auf den globalen Effizienzdruck').",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/lio-ai_nicht-nur-unsere-kunden-sind-begeistert-von-activity-7230151369804939264-A5LL",
+        "author": "Lio (formerly askLio) — company page",
+        "author_role": "Company (lio.ai)",
+        "date": "2024-08-16",
+        "summary": "German post: 'Nicht nur unsere Kunden sind begeistert von askLio…' — customer/award enthusiasm post.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/lio-ai_wie-kann-ki-beschaffungsprozesse-ver%C3%A4ndern-activity-7237834373113253888-_2Tq",
+        "author": "Lio (formerly askLio) — company page",
+        "author_role": "Company (lio.ai)",
+        "date": "2024-09-06",
+        "summary": "German post: 'Wie kann KI Beschaffungsprozesse verändern?' — thought-leadership on AI changing procurement processes.",
+        "engagement": null,
+        "confidence": "high"
+      }
+    ],
+    "customers_partners": [
+      {
+        "url": "https://www.linkedin.com/posts/y-combinator_launch-yc-asklio-ai-copilot-for-procurement-activity-7089997827963047936-ZE1F",
+        "author": "Y Combinator",
+        "author_role": "Investor (accelerator, S23 batch)",
+        "date": "2023-07-26",
+        "summary": "YC's official Launch post for askLio — 'AI-Copilot for procurement teams'; anchor post for the YC S23 launch.",
+        "engagement": "130 comments",
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/vladimir-keil_announcing-lios-30m-series-a-led-by-andreessen-activity-7435309493321777152-AlR-",
+        "author": "Vladimir Keil",
+        "author_role": "Co-founder & CEO, Lio",
+        "date": "2026-03-05",
+        "summary": "CEO's announcement post of the $30M Series A led by Andreessen Horowitz, published on rebrand/announcement day.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/vladimir-keil_launch-yc-asklio-ai-copilot-for-procurement-activity-7090312590760783872-jDuc",
+        "author": "Vladimir Keil",
+        "author_role": "Co-founder & CEO, Lio",
+        "date": "2023-07-27",
+        "summary": "CEO sharing the YC launch of askLio (AI copilot for procurement).",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/vladimir-keil_thanks-asklio-yc-s23-is-now-officially-activity-7132397800482365440-yVpy",
+        "author": "Vladimir Keil",
+        "author_role": "Co-founder & CEO, Lio",
+        "date": "2023-11-20",
+        "summary": "askLio officially awarded by the German government (recognition post).",
+        "engagement": "14 comments",
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/vladimir-keil_buckle-up-procurements-next-era-isn-activity-7373279419995508737-D529",
+        "author": "Vladimir Keil",
+        "author_role": "Co-founder & CEO, Lio",
+        "date": "2025-09-15",
+        "summary": "'Buckle up — procurement's next era isn't…' — CEO vision post on the agentic era of procurement.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/vladimir-keil_lioacademy-aiinprocurement-procurementleadership-activity-7327622153489506304-TxS4",
+        "author": "Vladimir Keil",
+        "author_role": "Co-founder & CEO, Lio",
+        "date": "2025-05-12",
+        "summary": "Launch of the Lio AI Academy for procurement managers (#lioacademy #aiinprocurement #procurementleadership).",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/vladimir-keil_procurement-has-one-of-the-highest-rois-activity-7054556267528220672-fbX5",
+        "author": "Vladimir Keil",
+        "author_role": "Co-founder & CEO, Lio",
+        "date": "2023-04-19",
+        "summary": "Early pre-YC post: 'Procurement has one of the highest ROIs within an organization…'.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/lukasheinzmann_launch-yc-asklio-ai-copilot-for-procurement-activity-7090056068000534528-Vc6I",
+        "author": "Lukas Heinzmann",
+        "author_role": "Co-founder & CTO, Lio",
+        "date": "2023-07-26",
+        "summary": "CTO sharing the YC S23 launch of askLio.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/maxolig_launch-yc-asklio-ai-copilot-for-procurement-activity-7090019551064522752-1ErE",
+        "author": "Maximilian Oligschläger",
+        "author_role": "Ecosystem supporter (founder network)",
+        "date": "2023-07-26",
+        "summary": "Third-party share of the YC launch of askLio.",
+        "engagement": null,
+        "confidence": "medium"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/felix-schwencke_launch-yc-asklio-ai-copilot-for-procurement-activity-7090228074247520259-3UTN",
+        "author": "Felix Schwencke",
+        "author_role": "Founder network / supporter",
+        "date": "2023-07-27",
+        "summary": "Share of the YC launch of askLio.",
+        "engagement": null,
+        "confidence": "medium"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/maggie-zhou-75484022_go-lio-formerly-asklio-activity-7435376893593296896-512l",
+        "author": "Maggie Zhou",
+        "author_role": "Supporter/investor network",
+        "date": "2026-03-05",
+        "summary": "'Go Lio (formerly askLio)!!! 🚀' — congratulations post on Series A day.",
+        "engagement": null,
+        "confidence": "medium"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jared-petras-67237028_dpw-activity-7250486651838181378-N6LI",
+        "author": "Jared Petras",
+        "author_role": "Then Sr. Director Procurement Digital Transformation at Walmart; now Head of US Growth at Lio",
+        "date": "2024-10-11",
+        "summary": "Jared Petras posting from/about DPW — pre-dates his Lio hire; useful as evidence of his DPW/procuretech presence.",
+        "engagement": null,
+        "confidence": "medium"
+      }
+    ],
+    "commentary": [
+      {
+        "url": "https://www.linkedin.com/posts/paulwcoates_procurement-still-runs-on-email-pdfs-and-activity-7435384260510973952-Arfp",
+        "author": "Paul W Coates",
+        "author_role": "Procurement/tech commentator",
+        "date": "2026-03-05",
+        "summary": "'Procurement still runs on email, PDFs and…' — commentary on Lio automating procurement workflow with AI, posted on Series A day.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/just-ai-news_lio-raises-30m-series-a-to-build-ai-procurement-activity-7435399829981294592-yQvi",
+        "author": "Just AI News",
+        "author_role": "AI news aggregator page",
+        "date": "2026-03-05",
+        "summary": "'Lio raises $30M Series A to build AI procurement agents' — news commentary post.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/investmentcenter-com_lio-raises-30m-to-automate-enterprise-procurement-activity-7436020536343842817-1bR8",
+        "author": "InvestmentCenter.com",
+        "author_role": "Investment news page",
+        "date": "2026-03-07",
+        "summary": "'Lio raises $30M to automate enterprise procurement' — funding commentary.",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/devcuration_enterpriseai-agenticai-procurement-activity-7437129638620884993-OsNX",
+        "author": "Dev Curation",
+        "author_role": "Tech curation page",
+        "date": "2026-03-10",
+        "summary": "'Lio's agentic AI revolutionizes procurement for enterprises' (#enterpriseai #agenticai #procurement).",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/founderstoday_lio-secures-30m-series-a-to-bring-agentic-activity-7436838011910332417-d3YL",
+        "author": "Founders Today",
+        "author_role": "Startup news page",
+        "date": "2026-03-09",
+        "summary": "'Lio secures $30M Series A to bring agentic AI to enterprise procurement.'",
+        "engagement": null,
+        "confidence": "high"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/drelouise_procurement-supplychain-agenticai-activity-7455964322469531648-BMYW",
+        "author": "Dre Louise (handle: drelouise)",
+        "author_role": "Procurement/supply-chain commentator",
+        "date": "2026-05-01",
+        "summary": "Post on Jared Petras discussing procurement tech and AI with Lio (#procurement #supplychain #agenticai) — third-party coverage of the US Growth hire.",
+        "engagement": null,
+        "confidence": "medium"
+      }
+    ],
+    "non_linkedin_bonus": [
+      {
+        "url": "https://x.com/a16z/status/2029559335744123112",
+        "author": "a16z (X/Twitter)",
+        "date": "2026-03-05",
+        "summary": "a16z: 'We're excited to lead Lio's Series A. We're entering an agent-first world…' — official investor thesis post.",
+        "confidence": "high"
+      },
+      {
+        "url": "https://x.com/seema_amble/status/2029565610779414740",
+        "author": "Seema Amble, Partner a16z (X/Twitter)",
+        "date": "2026-03-05",
+        "summary": "'Fortune 500 procurement still runs on email, PDFs, and weeks of back-and-forth… announcing a16z's investment in @Lio_Technology.'",
+        "confidence": "high"
+      },
+      {
+        "url": "https://x.com/etnshow/status/2031072806906052703",
+        "author": "etn. (X/Twitter)",
+        "date": "2026-03",
+        "summary": "Commentary: Lio uses the sales cycle itself (walking through buyers' pain points) as a self-learning feedback loop.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "news": {
+    "items": [
+      {
+        "headline": "Lio flagship customer story: How Lio Transformed Procurement at Surventis (formerly BASF Coatings)",
+        "date": "2026-07/08 (published after BASF Coatings' July 2026 relaunch as Surventis)",
+        "source_url": "https://procurementmag.com/news/how-lio-transformed-procurement-at-surventis",
+        "summary": "BASF Coatings was relaunched as independent company Surventis in July 2026 (Carlyle/QIA carve-out from BASF). Martin Beck (VP Global Procurement) and Lisa Madynski (Global Procurement Indirect Excellence) describe Lio streamlining procurement intake across 6,000 raw materials; partnership originated at Lio's DPW Amsterdam booth. Note for the deck: the 'BASF Coatings' logo is now 'Surventis'.",
+        "category": "customer_story / partnership"
+      },
+      {
+        "headline": "Lio workshop 'Humans vs. AI Agents: Who Runs Procurement in 2026?' at Procurement & Supply Chain LIVE (US Summit)",
+        "date": "2026 (covered by Procurement Magazine; summit cycle 2026)",
+        "source_url": "https://procurementmag.com/news/lio-workshop-the-us-summit-2026",
+        "summary": "Lio ran roundtables and a workshop at the BizClik US Summit; positioning: buyers move 'from operators to strategists, from process owners to agent supervisors'. Also linked to Americas Procurement Congress activity.",
+        "category": "event_presence / thought_leadership"
+      },
+      {
+        "headline": "How Lio's AI Agents are Freeing up Procurement Teams (CEO interview)",
+        "date": "2026-07",
+        "source_url": "https://procurementmag.com/news/lio-ai-agents-freeing-up-procurement-teams",
+        "summary": "July 2026 Procurement Magazine feature with Vladimir Keil on agents removing manual work so teams focus on higher-value work.",
+        "category": "press"
+      },
+      {
+        "headline": "REHAU wins Porsche Consulting 'AI Impact Award 2026' for AI-driven procurement automation (built on Coupa + Lio agents)",
+        "date": "2026 (award announced 2026; ebm-papst, Infineon and REHAU honoured)",
+        "source_url": "https://newsroom.porsche.com/en/2026/company/porsche-consulting-ai-impact-award-42200.html",
+        "summary": "REHAU recognized in Organisation & Administration category for procurement automation from demand identification to decision support, preserving supplier relationships. Search snippets tie the REHAU stack to Coupa plus Lio agents — a strong third-party proof point for the deck.",
+        "category": "customer_award"
+      },
+      {
+        "headline": "Munich Re procurement leadership visits Lio's 'Agent Experience World' in Munich",
+        "date": "2026 (undated LinkedIn/company content; found via search Aug 2026)",
+        "source_url": "https://www.linkedin.com/company/lio-ai/",
+        "summary": "Lio hosted ~30 Munich Re procurement people in its office 'Agent Experience World' — described as an 'Apple Store for enterprise procurement AI' — to advance Munich Re's Agentic Procurement Roadmap.",
+        "category": "customer_engagement"
+      },
+      {
+        "headline": "Schaeffler–Lio Memorandum of Understanding: co-developing agentic AI embedded in Schaeffler's indirect purchasing platform",
+        "date": "2026 (MOU publicized 2026; found via search Aug 2026)",
+        "source_url": "https://www.linkedin.com/company/lio-ai/",
+        "summary": "MOU strengthens the partnership and extends exploration to other systems and direct material purchasing; reported results: simpler/faster processes, higher-quality outcomes, better UX.",
+        "category": "partnership"
+      },
+      {
+        "headline": "Lio appoints Jared Petras (ex-Walmart Sr. Director, Procurement Digital Transformation) as Head of US Growth",
+        "date": "2026-04-13 (pre-dates the 2026-07-20 cutoff; included as the newsroom's latest hire item — no newer hires found)",
+        "source_url": "https://lio.ai/newsroom/lio-appoints-jared-petras-as-head-of-us-growth",
+        "summary": "Petras led Walmart's Lio engagement, had internally conceived an 'agentic procurement neuronetwork', and joined after meeting CEO Vladimir Keil in Oct 2025; drives North America GTM.",
+        "category": "hire (pre-cutoff context)"
+      }
+    ],
+    "new_events": [
+      {
+        "headline": "Bots & Buyers NYC — 'agentic summit for procurement' (US edition)",
+        "date": "2026-09-23",
+        "source_url": "https://lio.ai/events",
+        "summary": "Free, application-only, NYC, Sep 23 2026: live agents, trainings, CPO panels, the Lio Awards, 500+ curated procurement leaders. NET-NEW since the 2026-07-20 event list.",
+        "category": "lio_event"
+      },
+      {
+        "headline": "Bots & Buyers 2026 (European flagship) — MotorWorld Munich",
+        "date": "2026-10-27 to 2026-10-28",
+        "source_url": "https://bots-and-buyers-eu.lio.ai/",
+        "summary": "'The Most AI-Focused Procurement Event On Earth': try the multi-agent system, build agents with Lio engineers, product roadmap opened before public, newest agents revealed live, 500+ curated procurement leaders. Venue MotorWorld Munich (ex-Deutsche Bahn repair works, Munich-Freimann). Earlier 2026 'Clubhouse Edition' was held at Lio's Munich office.",
+        "category": "lio_event"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event": "SSON / SSOW Autumn (Shared Services & Outsourcing Week Autumn)",
+      "expected_date": "Sep 14-17, 2026 (San Diego)",
+      "verified_date": "Sep 14-17, 2026",
+      "venue": "Marriott Marquis San Diego Marina, San Diego, CA",
+      "status": "confirmed",
+      "upcoming_deadline": "Event is ~2 weeks away from 2026-08-31 — registration/travel is now urgent",
+      "source_url": "https://www.ssonetwork.com/events-shared-services-week-autumn",
+      "note": "30th SSOW edition; GBS cluster confirmed as expected."
+    },
+    {
+      "event": "ProcureCon Europe (Cologne)",
+      "expected_date": "Sep 2026",
+      "verified_date": "Sep 22-24, 2026",
+      "venue": "Congress-Centrum Koelnmesse, Cologne, Germany",
+      "status": "confirmed",
+      "upcoming_deadline": "~3 weeks out from 2026-08-31; late registration window",
+      "source_url": "https://www.emeoutlookmag.com/business-industry-events/procurecon-europe-2026",
+      "note": "650+ European procurement decision-makers; CPO-level."
+    },
+    {
+      "event": "ProcureCon East (Boston)",
+      "expected_date": "late Sep 2026",
+      "verified_date": "Sep 28-30, 2026",
+      "venue": "The Westin Copley Place, Boston, MA",
+      "status": "confirmed",
+      "upcoming_deadline": "~4 weeks out from 2026-08-31",
+      "source_url": "https://procureconeast.wbresearch.com/",
+      "note": "Also listed as ProcureCon Indirect East."
+    },
+    {
+      "event": "DPW Amsterdam",
+      "expected_date": "late Sep 2026",
+      "verified_date": "Sep 30 - Oct 1, 2026",
+      "venue": "RAI Amsterdam, Netherlands",
+      "status": "confirmed",
+      "upcoming_deadline": "~4 weeks out from 2026-08-31; Lio has strong DPW history (Surventis/BASF Coatings lead originated at its DPW booth)",
+      "source_url": "https://help.dpw.ai/when-is-dpw-amsterdam",
+      "note": "2026 theme announced Feb 2026 ('RECODE' family of themes across DPW events)."
+    },
+    {
+      "event": "SIG Fall Global Executive Summit (Chicago)",
+      "expected_date": "Q4 2026",
+      "verified_date": "Oct 25-28, 2026",
+      "venue": "Navy Pier, Chicago, IL",
+      "status": "confirmed",
+      "upcoming_deadline": "Registration open (Cvent site live)",
+      "source_url": "https://web.cvent.com/event/bd9daecb-5e80-41f3-acb3-28aa87882f7d/websitePage:2769dd2c-89d0-41ce-9f1b-d47022770985",
+      "note": "Overlaps Bots & Buyers Munich (Oct 27-28, 2026) — scheduling conflict to flag in the deck."
+    },
+    {
+      "event": "SSOW DACH / Shared Services & Outsourcing Woche (Berlin)",
+      "expected_date": "Nov 2026",
+      "verified_date": "Nov 17-19, 2026",
+      "venue": "Berlin, Germany (IQPC/SSON Jahresforum)",
+      "status": "confirmed",
+      "upcoming_deadline": "None found passed; standard registration open",
+      "source_url": "https://www.ssonetwork.com/events-sharedserviceswoche/agenda/day1",
+      "note": "350+ senior GBS/shared-services decision-makers (Bayer, Bosch, Deutsche Telekom, Zalando...)."
+    },
+    {
+      "event": "61. BME-Symposium Einkauf und Logistik (Berlin)",
+      "expected_date": "Nov 18-19, 2026",
+      "verified_date": "Nov 18-19, 2026",
+      "venue": "STATION Berlin, Luckenwalder Str. 4-6, 10963 Berlin",
+      "status": "confirmed",
+      "upcoming_deadline": "€100 early-bird discount ends Sep 30, 2026 — UPCOMING deadline",
+      "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/BME-symposium-einkauf-und-logistik-folder/facts/",
+      "note": "Largest German-language procurement/logistics symposium; three parallel conferences. Overlaps SSOW DACH (Nov 17-19)."
+    },
+    {
+      "event": "ProcureCon West (Las Vegas)",
+      "expected_date": "Mar 2027",
+      "verified_date": "Mar 8-10, 2027",
+      "venue": "JW Marriott Las Vegas Resort and Spa, Las Vegas, NV",
+      "status": "confirmed",
+      "upcoming_deadline": "None imminent",
+      "source_url": "https://procureconwest.wbresearch.com/",
+      "note": "One aggregator (showsbee) lists San Diego — official WBR venue page says JW Marriott Las Vegas; trust official."
+    },
+    {
+      "event": "SSOW North America (Orlando)",
+      "expected_date": "Mar 2027",
+      "verified_date": "Mar 8-11, 2027",
+      "venue": "Orlando, FL",
+      "status": "confirmed",
+      "upcoming_deadline": "None imminent",
+      "source_url": "https://www.ssonetwork.com/events-shared-services-week",
+      "note": "Directly overlaps ProcureCon West (Mar 8-10, 2027) — conflict to flag."
+    },
+    {
+      "event": "Americas Procurement Congress (Procurement Leaders)",
+      "expected_date": "Mar 2027 (previously Miami)",
+      "verified_date": "AI Forum Mar 22, Congress Mar 23-24, 2027",
+      "venue": "The Roosevelt New Orleans, A Waldorf Astoria Hotel, New Orleans, LA",
+      "status": "venue_changed",
+      "upcoming_deadline": "None imminent",
+      "source_url": "https://www.clocate.com/americas-procurement-congress/46808/",
+      "note": "Moved from Miami to New Orleans for 2027. Lio ran 'Humans vs. AI Agents' workshop at the 2026 edition."
+    },
+    {
+      "event": "Handelsblatt CPO-Summit",
+      "expected_date": "2027",
+      "verified_date": "Apr 6-7, 2027",
+      "venue": "Düsseldorf, Germany",
+      "status": "confirmed",
+      "upcoming_deadline": "None imminent",
+      "source_url": "https://live.handelsblatt.com/event/handelsblatt-cpo-summit/",
+      "note": "DACH CPO audience (DAX + Mittelstand); askLio previously featured in Handelsblatt."
+    },
+    {
+      "event": "NAPES — North American Procurement Executive Summit (Executive Platforms)",
+      "expected_date": "Q2 2027 (reportedly moved Miami→Denver)",
+      "verified_date": null,
+      "venue": "2026 edition was Apr 13-15, 2026, JW Marriott Miami Turnberry; 2027 location/dates not yet published",
+      "status": "unclear",
+      "upcoming_deadline": "n/a",
+      "source_url": "https://www.executiveplatforms.com/napes/",
+      "note": "Could not verify the reported Miami→Denver move for 2027; official site still shows 2026 info as of 2026-08-31. Re-check in Q4 2026."
+    },
+    {
+      "event": "Gartner Supply Chain Symposium/Xpo (Orlando)",
+      "expected_date": "May 2027",
+      "verified_date": "May 3-5, 2027",
+      "venue": "Orlando, FL",
+      "status": "confirmed",
+      "upcoming_deadline": "None imminent",
+      "source_url": "https://www.gartner.com/en/conferences/na/supply-chain-us",
+      "note": ""
+    },
+    {
+      "event": "18. BME-eLÖSUNGSTAGE (Düsseldorf)",
+      "expected_date": "May 11-12, 2027",
+      "verified_date": "May 11-12, 2027",
+      "venue": "Areal Böhler, Düsseldorf, Germany",
+      "status": "confirmed",
+      "upcoming_deadline": "€300 early-bird discount ends Sep 30, 2026 — UPCOMING deadline",
+      "source_url": "https://shop.bme.de/products/18-bme-elosungstage-2027",
+      "note": "Key German procuretech expo; day 1 9:30-18:00 + evening event, day 2 9:00-16:15."
+    },
+    {
+      "event": "World Procurement Congress (London)",
+      "expected_date": "May 2027",
+      "verified_date": "AI Forum May 18; Congress May 19-20; Awards May 20, 2027",
+      "venue": "InterContinental London – The O2, London, UK",
+      "status": "confirmed",
+      "upcoming_deadline": "None imminent",
+      "source_url": "https://events.procurementleaders.com/world-procurement-congress/",
+      "note": "Day-0 AI Forum + Resilience Forum; World Procurement Awards on final day."
+    },
+    {
+      "event": "DPW New York",
+      "expected_date": "Jun 2027",
+      "verified_date": "Jun 2-3, 2027 (per DPW help-center FAQ pattern; treat as provisional)",
+      "venue": "Brooklyn, NY (2026 edition: Duggal Greenhouse, Brooklyn Navy Yard)",
+      "status": "unclear",
+      "upcoming_deadline": "n/a",
+      "source_url": "https://help.dpw.ai/dpw-new-york",
+      "note": "DPW FAQ references the annual Brooklyn flagship on June 2-3; explicit 2027 confirmation not yet indexed — re-check after DPW Amsterdam 2026."
+    },
+    {
+      "event": "Procurement Summit (Hamburg)",
+      "expected_date": "2027",
+      "verified_date": "Jun 23-24, 2027",
+      "venue": "Hamburg, Germany",
+      "status": "confirmed",
+      "upcoming_deadline": "None imminent (free-ticket invitation page live)",
+      "source_url": "https://procurementsummit.eu/",
+      "note": "Leading German expo/conference for procurement innovation."
+    },
+    {
+      "event": "[NET-NEW] Bots & Buyers NYC (Lio's own US summit)",
+      "expected_date": "n/a (new since 2026-07-20 list)",
+      "verified_date": "Sep 23, 2026",
+      "venue": "New York City",
+      "status": "confirmed",
+      "upcoming_deadline": "Application-only and ~3 weeks out from 2026-08-31 — apply immediately",
+      "source_url": "https://lio.ai/events",
+      "note": "Lio's own franchise: live agents, trainings, CPO panels, Lio Awards, 500+ curated leaders. Free."
+    },
+    {
+      "event": "[NET-NEW] Bots & Buyers 2026 EU (Lio's own flagship, Munich)",
+      "expected_date": "n/a (new since 2026-07-20 list)",
+      "verified_date": "Oct 27-28, 2026",
+      "venue": "MotorWorld München (Munich-Freimann)",
+      "status": "confirmed",
+      "upcoming_deadline": "Registration open on event site",
+      "source_url": "https://bots-and-buyers-eu.lio.ai/",
+      "note": "Conflicts with SIG Fall Summit Chicago (Oct 25-28)."
+    },
+    {
+      "event": "[NET-NEW] Agentic AI in Shared Services Bootcamp (SSON)",
+      "expected_date": "n/a",
+      "verified_date": "Recurring — launched at SSOW Orlando 2026, returning at subsequent SSOW editions",
+      "venue": "Co-located with SSOW events",
+      "status": "confirmed",
+      "upcoming_deadline": "n/a",
+      "source_url": "https://www.ssonetwork.com/events-agentic-applied-ai-enterprise",
+      "note": "Directly on-thesis for agentic GBS; likely present at SSOW Autumn San Diego (Sep 14-17, 2026)."
+    },
+    {
+      "event": "[NET-NEW] Agentic AI in Procurement (KonnectHouse, San Francisco)",
+      "expected_date": "n/a",
+      "verified_date": "2026 edition announced (specific date on organizer page)",
+      "venue": "San Francisco, CA",
+      "status": "unclear",
+      "upcoming_deadline": "n/a",
+      "source_url": "https://www.konnecthouse.com/events/agentic-ai-in-procurement-san-francisco-26/",
+      "note": "Interactive format (live demos, brainstorming); small-format US West Coast option."
+    }
+  ],
+  "candidate": {
+    "name": "Abir Khan",
+    "linkedin_url": "https://www.linkedin.com/in/abir-khan-1143211ab/",
+    "headline_as_indexed": "Abir Khan - Alvarez & Marsal (per Google's cached LinkedIn title; may be outdated — search snippets separately describe 'Abir Khan works in the Growth role at scaile' and participation in SCAILE's AEO Hackathon at the HubSpot office in Berlin)",
+    "confidence": "medium",
+    "note": "This is the only Abir Khan profile the search results connect to SCAILE (scaile.tech — AI-visibility company, offices Hamburg/Munich, founders Simon Wilhelm, August Gutsche, Julius Betzler). The indexed title still says Alvarez & Marsal, so either the cache is stale or the SCAILE role is recent/side-by-side. Not treated as confirmed — verify against the live profile before using in the deck."
+  },
+  "meta": {
+    "searches_used": 58,
+    "limits_hit": "None hard: stayed well under the ~200 WebSearch budget (58 used). Direct page fetches (WebFetch/curl) unavailable per environment constraints, so all facts come from search-result snippets; LinkedIn post engagement counts mostly not visible in snippets. Some German-language LinkedIn queries returned few indexed posts (LinkedIn indexing is sparse for de.linkedin.com).",
+    "notes": "Dates on LinkedIn posts were decoded from activity IDs (id >> 22 = ms epoch), so they are exact post dates. Key deltas vs. the 2026-07-20 P1 list: (1) NET-NEW Lio-owned events — Bots & Buyers NYC Sep 23 2026 (application-only, closing soon) and Bots & Buyers EU Oct 27-28 2026 at MotorWorld Munich; (2) Americas Procurement Congress 2027 moved Miami→New Orleans; (3) NAPES 2027 (reported Denver move) NOT verifiable — official site still shows 2026; (4) two UPCOMING Sep 30 2026 early-bird deadlines: BME-Symposium (€100) and BME-eLösungstage (€300); (5) BASF Coatings is now Surventis (July 2026 relaunch under Carlyle/QIA) — update customer logos/names; (6) REHAU won the Porsche Consulting AI Impact Award 2026 for its Coupa+Lio procurement automation; (7) Schaeffler MOU and Munich Re 'Agent Experience World' visit confirmed via search snippets of Lio company posts, but the exact LinkedIn post URLs for those two were not surfaced by the index — cite lio.ai/newsroom or the company page. No post-2026-07-20 funding/valuation chatter found."
+  }
+}
