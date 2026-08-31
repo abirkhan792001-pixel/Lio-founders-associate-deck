@@ -2,7 +2,7 @@
 
 ← [Trigger-Group Outreach](18-trigger-group-outreach-angles.md) | [Index](00-INDEX.md) | [Event Strategy →](20-event-strategy-and-icp-baseline.md)
 
-> Published page: **[September Action Sheet](https://claude.ai/code/artifact/e0e2139d-2b9b-48bf-a701-97c5f9d03353)**. Generated 2026-08-31 from the refreshed [Target Event Pipeline](Lio_Target_Event_Pipeline.csv) and [P1 Budget & Staffing plan](Lio_P1_Budget_Staffing.csv), then **reconciled against the organizer-verified dates in [16-event-status-update.md](16-event-status-update.md)**. 30 actions, ordered by due date rather than priority tier.
+> Published page: **[September Action Sheet](https://claude.ai/code/artifact/e0e2139d-2b9b-48bf-a701-97c5f9d03353)**. Generated 2026-08-31 from the refreshed [Target Event Pipeline](Lio_Target_Event_Pipeline.csv) and [P1 Budget & Staffing plan](Lio_P1_Budget_Staffing.csv), then **reconciled against the organizer-verified dates in [16-event-status-update.md](16-event-status-update.md)**. 29 actions, ordered by due date rather than priority tier.
 
 ## What is at stake this month
 
@@ -40,7 +40,7 @@
 | Sep 30–Oct 1 | **DPW Amsterdam** | Award window lapsed |
 | Sep 30 | — | **eLösungstage tier + BME-Symposium early-bird expire** |
 
-## The 30 actions
+## The 29 actions
 
 ### This week — by Wed Sep 2
 
@@ -88,13 +88,14 @@
 | Sep 30 | Stäbe | **BME-eLösungstage 2027** — sign the partner tier before the €300 discount lapses ← **hard deadline** |
 | Sep 30 | Wagner | **61. BME-Symposium** (Nov 18–19) — book the renewal before the **€100 early-bird lapses** ← **hard deadline**; reserve the Berlin dinner venue for Nov 18 |
 | Sep 30 | DACH sales lead | **BME IT-Sourcing** (Oct 19–20) — attend or speak; CIO/CISO gatekeeper audience |
-| Sep 30 | DACH sales lead | **IZB Wolfsburg** (Oct 27–29) — **recommend dropping 2026**: collides with the Bots & Buyers Munich flagship, which commits the DACH squad. Biennial walk-the-floor, no booth, no dinner — cheapest cut that week. Confirm the drop or name someone not needed in Munich |
 | Sep 30 | DACH sales lead | **BVL Berlin** (Oct 21–22) — decide; adjacent logistics-agent audience |
 | Sep 30 | Stäbe | **GSA Festival** — 2026 edition missed; get on the 2027 list and diarise the early-bird |
 
+**Closed on 2026-08-31 — no longer an open action:** IZB Wolfsburg (Oct 27–29) is **dropped for 2026**. It collided with the Bots & Buyers Munich flagship, which commits the DACH squad; a biennial walk-the-floor with no booth, no dinner and no spend, so there was nothing to cancel. The auto-cluster rationale still stands — reconsider at the 2028 edition.
+
 ## September load
 
-Petras 6 · DACH sales lead 5 · Wagner 4 · Stäbe 4 · Keil 3 · PMM 3 · Schmid 2 · Nusmeier 2 · EU AE 1.
+Petras 6 · DACH sales lead 4 · Wagner 4 · Stäbe 4 · Keil 3 · PMM 3 · Schmid 2 · Nusmeier 2 · EU AE 1.
 
 Petras gains the Bots & Buyers NYC application on top of the US pod's existing five, and owns both bundle negotiations. Keil carries only three items, but Cologne and Amsterdam are the two largest unbooked sums on the sheet.
 
