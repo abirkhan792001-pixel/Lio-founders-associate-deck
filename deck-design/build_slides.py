@@ -144,6 +144,46 @@ def machine_svg():
         'orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor"/></marker></defs>'
         + "".join(parts) + '</svg></figure>')
 
+def ramp_svg():
+    """The 90-day ramp laid over the dates that do not move."""
+    D = 19.67  # px per day, 1 Sep to 30 Nov across 1790px
+    bands = [(0, 586, "Days 0-30 · run the gauntlet", SAGE),
+             (596, 1182, "Days 31-60 · the wedge quarter", "#FFFFFF"),
+             (1192, 1790, "Days 61-90 · make it boring", "#FFFFFF")]
+    above = [(413, "ProcureCon Köln"), (531, "ProcureCon Boston"),
+             (1062, "SIG Chicago"), (1514, "SSOW Berlin")]
+    below = [(256, "SSON San Diego"), (433, "B&amp;B NYC"), (570, "DPW Amsterdam"),
+             (1101, "B&amp;B Munich"), (1534, "BME Berlin")]
+    parts = []
+    for x0, x1, label, fill in bands:
+        stroke = "none" if fill != "#FFFFFF" else "currentColor"
+        parts.append(
+            f'<rect x="{x0}" y="6" width="{x1-x0}" height="30" fill="{fill}" stroke="{stroke}" stroke-width="1"/>'
+            f'<text x="{x0+14}" y="26" font-size="11.5" font-weight="700" letter-spacing="0.09em" '
+            f'fill="currentColor">{label.upper()}</text>')
+    parts.append('<line x1="0" y1="76" x2="1790" y2="76" stroke="currentColor" stroke-width="1.5"/>')
+    for x, label in above:
+        parts.append(
+            f'<line x1="{x}" y1="72" x2="{x}" y2="64" stroke="currentColor" stroke-width="1"/>'
+            f'<circle cx="{x}" cy="76" r="4" fill="#FFFFFF" stroke="currentColor" stroke-width="1.5"/>'
+            f'<text x="{x}" y="58" font-size="12" fill="currentColor" text-anchor="middle">{label}</text>')
+    for x, label in below:
+        parts.append(
+            f'<line x1="{x}" y1="80" x2="{x}" y2="90" stroke="currentColor" stroke-width="1"/>'
+            f'<circle cx="{x}" cy="76" r="4" fill="currentColor"/>'
+            f'<text x="{x}" y="106" font-size="12" fill="currentColor" text-anchor="middle">{label}</text>')
+    parts.append(
+        '<rect x="0" y="70" width="7" height="12" fill="currentColor"/>'
+        f'<text x="0" y="106" font-size="11.5" font-weight="700" letter-spacing="0.09em" '
+        f'fill="{MUTED}">DAY 0</text>')
+    return (
+        '<figure style="margin:0;">'
+        '<svg viewBox="0 0 1790 114" role="img" width="100%" height="auto" '
+        'aria-label="The 90-day ramp plotted against the booked calendar. Five events fall inside the first thirty '
+        'days, two inside the second thirty, and two inside the last thirty." '
+        'style="display:block; color:#000000; overflow:visible;">'
+        + "".join(parts) + '</svg></figure>')
+
 S = {}
 
 # ── 01 · Cover ────────────────────────────────────────────────────────────────
@@ -581,6 +621,13 @@ S["DayZero"] = page_html(f"""
     </div>
   </div>
 
+  <div style="position:absolute; left:64px; right:64px; bottom:190px;">
+    <div class="lbl" style="margin-bottom:7px;">The ramp, against the dates that do not move</div>
+    <div style="border-top:1.5px solid {INK}; padding-top:14px;">{ramp_svg()}</div>
+    <div class="s" style="margin-top:8px; font-size:13.5px;">The first thirty days are not onboarding. Five rooms land
+      inside them, and two early-bird deadlines close on 30 September.</div>
+  </div>
+
   <div class="callout" style="position:absolute; left:64px; right:64px; bottom:104px;">
     <div class="lbl">This is a proposal, not an audit</div>
     <div class="b" style="margin-top:8px; font-size:15px;">I do not know your internal pipeline, your pricing
@@ -789,6 +836,35 @@ S["Appendix"] = page_html(f"""
   {foot("All files ship in the repository accompanying this application.", 11)}
 """)
 
+# ── standalone SVG exports ────────────────────────────────────────────────────
+def _standalone(fragment: str, w: int, h: int, title: str, desc: str) -> str:
+    inner = fragment.split("</defs>")[-1] if "</defs>" in fragment else fragment
+    defs = ""
+    if "<defs>" in fragment:
+        defs = "<defs>" + fragment.split("<defs>")[1].split("</defs>")[0] + "</defs>"
+    inner = inner.replace("</svg>", "").replace("</figure>", "")
+    return (f'<?xml version="1.0" encoding="UTF-8"?>\n'
+            f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" '
+            f'color="#000000" font-family="Inter, \'Helvetica Neue\', Arial, sans-serif" role="img">\n'
+            f'  <title>{title}</title>\n  <desc>{desc}</desc>\n'
+            f'  <rect x="0" y="0" width="{w}" height="{h}" fill="#FFFFFF"/>\n'
+            f'  {defs}\n  {inner}\n</svg>\n')
+
+def write_svgs():
+    d = OUT / "diagrams"; d.mkdir(exist_ok=True)
+    m = machine_svg().split("<svg", 1)[1].split(">", 1)[1]
+    r = ramp_svg().split("<svg", 1)[1].split(">", 1)[1]
+    (d / "machine-loop.svg").write_text(_standalone(
+        m, 1790, 176, "The operating loop",
+        "Calendar to target list to room to follow-up to pipeline, with a dashed feedback edge from pipeline back "
+        "to the target list marked as the step nobody runs today."), encoding="utf-8")
+    (d / "ramp-90-days.svg").write_text(_standalone(
+        r, 1790, 114, "The 90-day ramp against the booked calendar",
+        "Five events fall inside the first thirty days, two inside the second thirty, two inside the last thirty."),
+        encoding="utf-8")
+    print("wrote 2 standalone SVGs to deck-design/diagrams/")
+
+
 # ── write ─────────────────────────────────────────────────────────────────────
 ORDER = [("Main", "01 · Cover"), ("WhoAmI", "02 · Who I am"), ("Agenda", "03 · The what, why and how"),
          ("IcpFindings", "04 · Findings 01 · the ICP"), ("EventFindings", "05 · Findings 02 · the rooms"),
@@ -811,4 +887,5 @@ canvas = {"artboards": artboards,
                                    "asset if Lio shares one."}],
           "launch": {"view": "canvas"}}
 (OUT / "canvas.json").write_text(json.dumps(canvas, indent=2, ensure_ascii=False), encoding="utf-8")
+write_svgs()
 print(f"wrote {len(ORDER)} slides + canvas.json")
