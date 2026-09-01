@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title>IcpFindings</title>
+  <rect x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#FFFFFF"/>
+  <line x1="64.0" y1="207.1" x2="1856.0" y2="207.1" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="309.5" x2="1856.0" y2="309.5" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="419.8" x2="1856.0" y2="419.8" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="64.0" y1="511.8" x2="1856.0" y2="511.8" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="64.0" y1="621.9" x2="1856.0" y2="621.9" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="64.0" y="757.5" width="1792.0" height="147.0" fill="#DBDBCD"/>
+  <rect x="64.0" y="920.5" width="1792.0" height="108.0" fill="#EFEFED"/>
+  <g transform="translate(1785.2 61.5) scale(0.5625)" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></g>
+  <text x="64.0" y="104.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="54.0" font-weight="700" fill="#000000" letter-spacing="-1.35" xml:space="preserve">The market is countable. The trigger is not the one the plan</text>
+  <text x="64.0" y="162.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="54.0" font-weight="700" fill="#000000" letter-spacing="-1.35" xml:space="preserve">assumed.</text>
+  <text x="1821.2" y="84.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="25.0" font-weight="600" fill="#2B2E30" letter-spacing="-0.38" xml:space="preserve">Lio</text>
+  <text x="1769.8" y="106.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#767676" letter-spacing="0.99" xml:space="preserve">01 · FINDINGS</text>
+  <text x="64.0" y="249.6" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="21.0" font-weight="400" fill="#767676" xml:space="preserve">219 named buyers are ready for outbound. The renewal trigger behind them holds in FS and the US, and breaks in DACH.</text>
+  <text x="64.0" y="298.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">SEGMENT</text>
+  <text x="394.0" y="298.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">BUYERS</text>
+  <text x="544.0" y="298.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">NAMED</text>
+  <text x="694.0" y="298.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">THE BUYING CENTRE</text>
+  <text x="1290.0" y="298.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">HOW TO APPROACH</text>
+  <text x="64.0" y="349.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="17.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">DACH industrial backbone</text>
+  <text x="64.0" y="372.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#767676" xml:space="preserve">Searched €1-12B ·</text>
+  <text x="183.5" y="372.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#000000" xml:space="preserve">bullseye €2.8-4.7B, 8-30K</text>
+  <text x="64.0" y="391.6" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#000000" xml:space="preserve">staff</text>
+  <text x="394.0" y="357.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26.0" font-weight="700" fill="#000000" letter-spacing="-0.52" xml:space="preserve">851</text>
+  <text x="394.0" y="377.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.0" font-weight="600" fill="#767676" letter-spacing="1.00" xml:space="preserve">IN APOLLO</text>
+  <text x="544.0" y="357.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26.0" font-weight="700" fill="#000000" letter-spacing="-0.52" xml:space="preserve">60</text>
+  <text x="544.0" y="377.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.0" font-weight="600" fill="#767676" letter-spacing="1.00" xml:space="preserve">ON THE LIST</text>
+  <text x="694.0" y="348.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="600" fill="#000000" xml:space="preserve">CPO sponsors, COO or CFO signs</text>
+  <text x="932.7" y="348.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">via the SSC and FTE line. Procurement</text>
+  <text x="694.0" y="369.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Excellence champions, CIO gatekeeps.</text>
+  <text x="1290.0" y="348.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="600" fill="#000000" xml:space="preserve">Trust-first, German, in person, timed to a change event.</text>
+  <text x="1682.6" y="348.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">The DACH trigger is the</text>
+  <text x="1290.0" y="369.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">captive SSC, not a BPO renewal: carve-outs, post-merger integration, hub</text>
+  <text x="1290.0" y="391.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">migrations.</text>
+  <text x="64.0" y="459.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="17.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">Insurance and financial services</text>
+  <text x="64.0" y="482.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#767676" xml:space="preserve">100% indirect spend · Munich Re, ERGO class</text>
+  <text x="394.0" y="467.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26.0" font-weight="700" fill="#000000" letter-spacing="-0.52" xml:space="preserve">156</text>
+  <text x="394.0" y="487.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.0" font-weight="600" fill="#767676" letter-spacing="1.00" xml:space="preserve">IN APOLLO</text>
+  <text x="544.0" y="467.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26.0" font-weight="700" fill="#000000" letter-spacing="-0.52" xml:space="preserve">40</text>
+  <text x="544.0" y="487.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.0" font-weight="600" fill="#767676" letter-spacing="1.00" xml:space="preserve">ON THE LIST</text>
+  <text x="694.0" y="458.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="600" fill="#000000" xml:space="preserve">Head of Procurement or Sourcing and Vendor Management.</text>
+  <text x="1116.8" y="458.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Compliance-heavy,</text>
+  <text x="694.0" y="480.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">auditability opens the door.</text>
+  <text x="1290.0" y="458.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="600" fill="#000000" xml:space="preserve">Where the real renewals sit.</text>
+  <text x="1488.9" y="458.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Zurich-Genpact, running since 2012, is the one</text>
+  <text x="1290.0" y="480.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">confirmed third-party procurement BPO in 35 swept accounts.</text>
+  <text x="64.0" y="551.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="17.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">US F500 GBS and BPO owners</text>
+  <text x="64.0" y="574.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#767676" xml:space="preserve">The people who sign outsourcing renewals ·</text>
+  <text x="64.0" y="593.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#767676" xml:space="preserve">SSOW and SIG audience</text>
+  <text x="394.0" y="559.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26.0" font-weight="700" fill="#000000" letter-spacing="-0.52" xml:space="preserve">895</text>
+  <text x="394.0" y="579.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.0" font-weight="600" fill="#767676" letter-spacing="1.00" xml:space="preserve">IN APOLLO</text>
+  <text x="544.0" y="559.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26.0" font-weight="700" fill="#000000" letter-spacing="-0.52" xml:space="preserve">60</text>
+  <text x="544.0" y="579.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.0" font-weight="600" fill="#767676" letter-spacing="1.00" xml:space="preserve">ON THE LIST</text>
+  <text x="694.0" y="550.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="600" fill="#000000" xml:space="preserve">VP GBS, Head of P2P, GPOs.</text>
+  <text x="897.3" y="550.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">A persona classic procurement marketing barely</text>
+  <text x="694.0" y="572.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">reaches.</text>
+  <text x="1290.0" y="550.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="600" fill="#000000" xml:space="preserve">Budget capture, and the segment where renewals actually concentrate.</text>
+  <text x="1793.8" y="550.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Every</text>
+  <text x="1290.0" y="572.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">renewal is a qualified opportunity with a price to beat by 93%.</text>
+  <text x="64.0" y="661.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="17.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">DACH utilities and mobility</text>
+  <text x="64.0" y="684.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#767676" xml:space="preserve">Regulated, process-heavy · Deutsche Bahn,</text>
+  <text x="64.0" y="704.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#767676" xml:space="preserve">SWM, Lufthansa class</text>
+  <text x="394.0" y="669.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26.0" font-weight="700" fill="#000000" letter-spacing="-0.52" xml:space="preserve">343</text>
+  <text x="394.0" y="689.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.0" font-weight="600" fill="#767676" letter-spacing="1.00" xml:space="preserve">IN APOLLO</text>
+  <text x="544.0" y="669.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26.0" font-weight="700" fill="#000000" letter-spacing="-0.52" xml:space="preserve">59</text>
+  <text x="544.0" y="689.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.0" font-weight="600" fill="#767676" letter-spacing="1.00" xml:space="preserve">ON THE LIST</text>
+  <text x="694.0" y="660.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="600" fill="#000000" xml:space="preserve">Leiter Einkauf</text>
+  <text x="794.2" y="660.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">plus digitalisation leads. Works councils in the room from day one.</text>
+  <text x="1290.0" y="660.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="600" fill="#000000" xml:space="preserve">Follow the Deutsche Bahn breadcrumb.</text>
+  <text x="1569.4" y="660.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Regulated buyers move on references</text>
+  <text x="1290.0" y="682.1" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">and auditability.</text>
+  <text x="94.0" y="834.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="62.0" font-weight="700" fill="#000000" letter-spacing="-1.86" xml:space="preserve">219</text>
+  <text x="94.0" y="863.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">NAMED BUYERS</text>
+  <text x="94.0" y="877.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">122 COMPANIES</text>
+  <text x="240.8" y="825.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">The outbound cold-start problem is solved before day 0.</text>
+  <text x="680.8" y="825.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">Every contact carries title, company, location and LinkedIn URL. 193 carry verified work emails, including prospect CPOs at Allianz, Deutsche Bahn,</text>
+  <text x="240.8" y="849.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">E.ON, ServiceNow, Citi, Beiersdorf and Miele. Apollo identifies</text>
+  <text x="713.3" y="849.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">2,245 titled buyers</text>
+  <text x="863.8" y="849.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">on the same filters, so the refill pool is documented and reusable.</text>
+  <text x="90.0" y="951.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">H1 RADAR SWEEP</text>
+  <text x="90.0" y="979.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">35 accounts swept for BPO and SSC evidence:</text>
+  <text x="426.0" y="979.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="600" fill="#000000" xml:space="preserve">one true third-party procurement BPO</text>
+  <text x="705.5" y="979.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">(Zurich-Genpact) plus one Accenture JV, 4 captive centres with a live change event, 16 stable captives, 9 clean controls.</text>
+  <text x="1564.3" y="979.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="600" fill="#000000" xml:space="preserve">The DACH displacement target is</text>
+  <text x="90.0" y="1002.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="600" fill="#000000" xml:space="preserve">the captive SSC, which has no renewal date,</text>
+  <text x="414.8" y="1002.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">so the trigger there is a change event and the renewal-timed motion belongs to FS and the US.</text>
+  <text x="64.0" y="1044.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9A9A9A" xml:space="preserve">Sourced via Apollo, 31 August 2026. Search totals are Apollo database counts, not TAM. Radar sweep and evidence grades per Lio_H1_Test_Scorecard.csv and 17-gtm-hypothesis-and-test-roadmap.md.</text>
+  <text x="1667.9" y="1026.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#9A9A9A" letter-spacing="0.88" xml:space="preserve">KHAN.ABIRHILAL@GMAIL.COM</text>
+  <text x="1824.4" y="1044.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#9A9A9A" letter-spacing="0.88" xml:space="preserve">4 / 11</text>
+</svg>

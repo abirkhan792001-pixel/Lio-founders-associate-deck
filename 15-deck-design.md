@@ -44,6 +44,14 @@ The artboards are generated, not hand-written. The generator holds the CSS syste
 
 > **Rendering note.** Screenshotting these artboards with `--window-size=1920,1080` silently clips the bottom ~87px, because the headless viewport is only 993px tall. That is how the footer and page number can appear "missing". Verify against the printed PDF, or render with a taller window.
 
+### Two SVG sets
+
+`deck-design/export_pdf.py` also writes **outlined** SVGs to `deck-design/slides-svg/`. Every glyph is a filled path, so the file is pixel-identical everywhere and needs no font installed, at the cost of 200 to 770KB per slide and text that cannot be retyped. Use these for print or for anyone who does not have Inter.
+
+`deck-design/export_svg.py` writes **editable** SVGs to `deck-design/slides-svg-editable/`. These are 2 to 20KB, and each rendered line is one live `<text>` element carrying its real font size, weight, colour and letter-spacing, so Figma, Illustrator and Inkscape all open them as type. Use these when the slide has to be edited.
+
+The editable exporter reads the rendered DOM rather than the printed PDF, because Chromium embeds the variable Inter as dozens of Type3 fonts and every run comes back as `font-family="Type3 (255 0 R)"`, which resolves nowhere. It measures each word by wrapping it in a span, and it chops words after hyphens and slashes first. A span that straddles a line break reports the union of its two line boxes, which would drag the whole line's `x` back to the paragraph edge and print the run on top of the bold run before it.
+
 ## Slide-by-slide blueprint (11 artboards)
 
 | # | Slide | Job | Key design/content beats |

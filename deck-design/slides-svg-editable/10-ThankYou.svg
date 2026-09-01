@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title>ThankYou</title>
+  <rect x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#000000"/>
+  <g transform="translate(64.0 56.5) scale(0.7083)" fill="none" stroke="#DBDBCD" stroke-width="3.3" stroke-linecap="round"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></g>
+  <g transform="translate(1350.0 210.0) scale(8.3333)" fill="none" stroke="#DBDBCD" stroke-width="0.45" stroke-linecap="round"><path d="M 30 24 L 44 24 M 28.24 28.24 L 38.14 38.14 M 24 30 L 24 44 M 19.76 28.24 L 9.86 38.14 M 18 24 L 4 24 M 19.76 19.76 L 9.86 9.86 M 24 18 L 24 4 M 28.24 19.76 L 38.14 9.86"></path></g>
+  <text x="109.0" y="84.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="29.0" font-weight="600" fill="#DBDBCD" letter-spacing="-0.43" xml:space="preserve">Lio</text>
+  <text x="1760.9" y="78.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#9A9B8E" letter-spacing="3.00" xml:space="preserve">ABIR KHAN</text>
+  <text x="64.0" y="689.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#9A9B8E" letter-spacing="2.50" xml:space="preserve">ONE FOR ALL. ALL FOR PROCUREMENT.</text>
+  <text x="64.0" y="816.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="112.0" font-weight="500" fill="#DBDBCD" letter-spacing="-3.36" xml:space="preserve">Thank you</text>
+  <text x="64.0" y="884.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="24.0" font-weight="400" fill="#B9BAAC" xml:space="preserve">Ready to start before day 0. The machine is already running.</text>
+  <text x="64.0" y="1025.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.0" font-weight="500" fill="#9A9B8E" letter-spacing="2.16" xml:space="preserve">FOUNDERS ASSOCIATE APPLICATION</text>
+  <text x="1798.7" y="1005.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="600" fill="#DBDBCD" xml:space="preserve">LinkedIn</text>
+  <text x="1704.7" y="1025.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9A9B8E" xml:space="preserve">khan.abirhilal@gmail.com</text>
+</svg>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title>WhoAmI</title>
+  <rect x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#FFFFFF"/>
+  <rect x="1706.0" y="44.0" width="150.0" height="150.0" fill="#EFEFED"/>
+  <line x1="64.0" y1="148.8" x2="1856.0" y2="148.8" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="262.2" x2="934.0" y2="262.2" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="352.2" x2="934.0" y2="352.2" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="64.0" y1="436.2" x2="934.0" y2="436.2" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="64.0" y1="520.2" x2="934.0" y2="520.2" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="64.0" y1="653.2" x2="934.0" y2="653.2" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="743.2" x2="934.0" y2="743.2" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="1020.0" y1="262.2" x2="1856.0" y2="262.2" stroke="#000000" stroke-width="1"/>
+  <line x1="1020.0" y1="409.2" x2="1856.0" y2="409.2" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="1020.0" y1="526.2" x2="1856.0" y2="526.2" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="64.0" y="932.0" width="109.8" height="29.0" fill="#EFEFED"/>
+  <rect x="180.8" y="932.0" width="65.8" height="29.0" fill="#EFEFED"/>
+  <rect x="253.6" y="932.0" width="53.2" height="29.0" fill="#EFEFED"/>
+  <rect x="318.3" y="932.0" width="81.8" height="29.0" fill="#EFEFED"/>
+  <rect x="407.1" y="932.0" width="64.4" height="29.0" fill="#EFEFED"/>
+  <rect x="478.4" y="932.0" width="82.0" height="29.0" fill="#EFEFED"/>
+  <rect x="571.9" y="932.0" width="67.6" height="29.0" fill="#EFEFED"/>
+  <rect x="646.5" y="932.0" width="69.4" height="29.0" fill="#EFEFED"/>
+  <g transform="translate(64.0 1012.0) scale(0.6250)" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></g>
+  <text x="1757.8" y="123.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#767676" letter-spacing="1.15" xml:space="preserve">PHOTO</text>
+  <text x="64.0" y="104.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="54.0" font-weight="700" fill="#000000" letter-spacing="-1.35" xml:space="preserve">Who I am, and what I bring.</text>
+  <text x="64.0" y="191.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="21.0" font-weight="400" fill="#767676" xml:space="preserve">Consulting, venture capital, and now founding. All of it in the last three years.</text>
+  <text x="64.0" y="250.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#000000" letter-spacing="1.25" xml:space="preserve">EXPERIENCE</text>
+  <text x="64.0" y="302.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">SQRlane</text>
+  <text x="159.8" y="302.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Founder, since Aug 2026</text>
+  <text x="64.0" y="330.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">AI agents for freight forwarding. Displacing spreadsheets and hours rather than a competing tool.</text>
+  <text x="64.0" y="386.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">SCAILE Technologies</text>
+  <text x="281.8" y="386.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Strategy, AI and go-to-market, 2026</text>
+  <text x="64.0" y="414.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">B2B go-to-market engines built from scratch, from ICP research to outbound to AI search visibility.</text>
+  <text x="64.0" y="470.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">Alvarez &amp; Marsal</text>
+  <text x="239.0" y="470.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Restructuring, 2024</text>
+  <text x="64.0" y="498.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">Advised Fortune 500 CEOs on restructuring financial liabilities worth over $100M.</text>
+  <text x="64.0" y="554.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">Biome VC</text>
+  <text x="171.2" y="554.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Venture capital, 2023</text>
+  <text x="64.0" y="582.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">Built the investment thesis that shaped how a $170M fund picks companies.</text>
+  <text x="64.0" y="641.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#000000" letter-spacing="1.25" xml:space="preserve">EDUCATION</text>
+  <text x="64.0" y="693.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">Nova School of Business and Economics, Lisbon</text>
+  <text x="540.2" y="693.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">MSc Finance</text>
+  <text x="64.0" y="721.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">Top 10% of class. Ranked #8 worldwide by the Financial Times.</text>
+  <text x="64.0" y="777.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">National case competitions</text>
+  <text x="338.6" y="777.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">15,000+ participants</text>
+  <text x="64.0" y="805.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">Won top prize. The same instinct that produced the three findings in this deck.</text>
+  <text x="1020.0" y="250.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#000000" letter-spacing="1.25" xml:space="preserve">WHY LIO</text>
+  <text x="1020.0" y="306.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#BDBDBD" xml:space="preserve">1</text>
+  <text x="1076.0" y="306.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">Shortest path to founding my own.</text>
+  <text x="1076.0" y="335.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">I am building SQRlane, AI agents for freight forwarding. Same bet as Lio one category over: a labour</text>
+  <text x="1076.0" y="359.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">problem nobody has priced. I would rather learn how that scales inside your founders' office than</text>
+  <text x="1076.0" y="383.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">guess from mine.</text>
+  <text x="1020.0" y="447.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#BDBDBD" xml:space="preserve">2</text>
+  <text x="1076.0" y="447.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">Lio sells against a $180B line, not a $10B one.</text>
+  <text x="1076.0" y="476.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">Everyone else builds procurement software. Lio replaces the execution labour at roughly 7% of the</text>
+  <text x="1076.0" y="500.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">cost. It is the sharpest enterprise wedge I have seen since I started working in GTM.</text>
+  <text x="1020.0" y="564.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#BDBDBD" xml:space="preserve">3</text>
+  <text x="1076.0" y="564.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">I have already done the work.</text>
+  <text x="1076.0" y="593.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">219 named buyers of 2,245 identified, a 17-event programme re-verified against organiser sources, a</text>
+  <text x="1076.0" y="617.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">60-post share-of-voice audit, and a falsifiable GTM hypothesis with kill criteria. All before day 0.</text>
+  <text x="64.0" y="915.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">DAY-TO-DAY STACK</text>
+  <text x="76.0" y="952.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#3C3C3C" xml:space="preserve">Claude Code</text>
+  <text x="192.8" y="952.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#3C3C3C" xml:space="preserve">Apollo</text>
+  <text x="265.6" y="952.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#3C3C3C" xml:space="preserve">Clay</text>
+  <text x="330.3" y="952.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#3C3C3C" xml:space="preserve">HubSpot</text>
+  <text x="419.1" y="952.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#3C3C3C" xml:space="preserve">Figma</text>
+  <text x="490.4" y="952.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#3C3C3C" xml:space="preserve">Webflow</text>
+  <text x="583.9" y="952.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#3C3C3C" xml:space="preserve">Notion</text>
+  <text x="658.5" y="952.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#3C3C3C" xml:space="preserve">Sheets</text>
+  <text x="103.0" y="1035.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="24.0" font-weight="600" fill="#2B2E30" letter-spacing="-0.36" xml:space="preserve">Lio</text>
+  <text x="152.4" y="1031.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">Applying for Founders Associate</text>
+  <text x="1664.1" y="1013.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="700" fill="#000000" xml:space="preserve">khan.abirhilal@gmail.com</text>
+  <text x="1588.6" y="1036.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">Free from September · on-site in Munich</text>
+</svg>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title>TheAsk</title>
+  <rect x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#FFFFFF"/>
+  <line x1="64.0" y1="207.1" x2="1856.0" y2="207.1" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="318.5" x2="1022.7" y2="318.5" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="507.0" x2="1022.7" y2="507.0" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="280.0" y="351.0" width="106.8" height="24.0" fill="#EFEFED"/>
+  <line x1="64.0" y1="667.0" x2="1022.7" y2="667.0" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="280.0" y="533.5" width="131.3" height="24.0" fill="#DBDBCD"/>
+  <rect x="280.0" y="693.5" width="130.3" height="24.0" fill="#000000"/>
+  <rect x="64.0" y="871.0" width="958.7" height="150.0" fill="#EFEFED"/>
+  <line x1="1102.7" y1="318.5" x2="1856.0" y2="318.5" stroke="#000000" stroke-width="1"/>
+  <rect x="1102.7" y="343.0" width="753.3" height="350.8" fill="#DBDBCD"/>
+  <rect x="1132.7" y="369.0" width="148.3" height="24.0" fill="#000000"/>
+  <line x1="1132.7" y1="592.5" x2="1826.0" y2="592.5" stroke="#C6C6BC" stroke-width="1"/>
+  <g transform="translate(1785.2 61.5) scale(0.5625)" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></g>
+  <text x="64.0" y="104.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="54.0" font-weight="700" fill="#000000" letter-spacing="-1.35" xml:space="preserve">The base case returns the year-one salary thirteen times</text>
+  <text x="64.0" y="162.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="54.0" font-weight="700" fill="#000000" letter-spacing="-1.35" xml:space="preserve">over.</text>
+  <text x="1821.2" y="84.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="25.0" font-weight="600" fill="#2B2E30" letter-spacing="-0.38" xml:space="preserve">Lio</text>
+  <text x="1773.5" y="106.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#767676" letter-spacing="0.99" xml:space="preserve">06 · THE ASK</text>
+  <text x="64.0" y="249.6" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="21.0" font-weight="400" fill="#767676" xml:space="preserve">A market-anchored ask, priced against the H1 thesis in three scenarios.</text>
+  <text x="64.0" y="307.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#000000" letter-spacing="1.25" xml:space="preserve">THE RETURN, H1 THESIS ARR IN YEAR ONE</text>
+  <text x="64.0" y="380.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="34.0" font-weight="700" fill="#000000" letter-spacing="-0.85" xml:space="preserve">€0-175K</text>
+  <text x="290.0" y="367.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">KILL · ROTATE</text>
+  <text x="280.0" y="403.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="18.0" font-weight="700" fill="#000000" letter-spacing="-0.18" xml:space="preserve">The funnel fails its own gate.</text>
+  <text x="280.0" y="429.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">0 to 1 contracts. Assessment to POC under 10%, POC to contract under 20%, which are</text>
+  <text x="904.4" y="429.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="600" fill="#000000" xml:space="preserve">file 17's own kill</text>
+  <text x="280.0" y="451.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="600" fill="#000000" xml:space="preserve">thresholds.</text>
+  <text x="366.1" y="451.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">The motion rotates to the next-best hypothesis. Phase 0 costs about €0, which is the whole</text>
+  <text x="280.0" y="474.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">point of testing before spending.</text>
+  <text x="64.0" y="562.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="34.0" font-weight="700" fill="#000000" letter-spacing="-0.85" xml:space="preserve">€1.35M</text>
+  <text x="290.0" y="549.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#000000" letter-spacing="0.88" xml:space="preserve">REFINE · NARROW</text>
+  <text x="415.8" y="549.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="1.05" xml:space="preserve">BASE CASE</text>
+  <text x="280.0" y="585.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="18.0" font-weight="700" fill="#000000" letter-spacing="-0.18" xml:space="preserve">Signal in FS only. DACH stays captive.</text>
+  <text x="280.0" y="611.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">About 2 FS-anchor wins at €500K plus 2 DACH change-event wins at €175K.</text>
+  <text x="828.5" y="611.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="600" fill="#000000" xml:space="preserve">This is already today's</text>
+  <text x="280.0" y="634.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="600" fill="#000000" xml:space="preserve">read.</text>
+  <text x="321.6" y="634.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">Zurich-Genpact is the one confirmed third-party BPO in 35 swept accounts.</text>
+  <text x="64.0" y="722.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="34.0" font-weight="700" fill="#000000" letter-spacing="-0.85" xml:space="preserve">€2.4M</text>
+  <text x="290.0" y="709.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#FFFFFF" letter-spacing="0.88" xml:space="preserve">CONFIRM · SCALE</text>
+  <text x="280.0" y="745.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="18.0" font-weight="700" fill="#000000" letter-spacing="-0.18" xml:space="preserve">Both segments clear the confirm bar.</text>
+  <text x="280.0" y="771.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">About 3 FS and 5 DACH wins as the Renewal Radar scales from 35 to roughly 75 accounts and</text>
+  <text x="280.0" y="794.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">conversion clears</text>
+  <text x="409.7" y="794.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="600" fill="#000000" xml:space="preserve">assessment to POC at 30%, POC to contract at 50%.</text>
+  <text x="794.9" y="794.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">Carries into the funded Q1 and</text>
+  <text x="280.0" y="816.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.0" font-weight="400" fill="#767676" xml:space="preserve">Q2-27 US wave once SOC 2 closes.</text>
+  <text x="90.0" y="902.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">WHAT MOVES THESE NUMBERS</text>
+  <text x="90.0" y="933.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="600" fill="#000000" xml:space="preserve">ACV.</text>
+  <text x="127.2" y="933.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">No public ACV exists. 7% of</text>
+  <text x="90.0" y="954.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">displaced cost is Lio's own disclosed</text>
+  <text x="90.0" y="975.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">mechanic. One verified POC replaces the</text>
+  <text x="90.0" y="996.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">whole estimate.</text>
+  <text x="400.9" y="933.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="600" fill="#000000" xml:space="preserve">Radar scale.</text>
+  <text x="488.3" y="933.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">35 accounts swept, 50 to 100</text>
+  <text x="400.9" y="954.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">targeted. Every 10 added yields about 2</text>
+  <text x="400.9" y="975.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">more Group-A triggers at today's 17% hit</text>
+  <text x="400.9" y="996.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">rate.</text>
+  <text x="711.8" y="933.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="600" fill="#000000" xml:space="preserve">Segment mix.</text>
+  <text x="808.5" y="933.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">An FS win is worth about 3</text>
+  <text x="711.8" y="954.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">times a DACH win. Invert which segment</text>
+  <text x="711.8" y="975.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">converts and the base case roughly</text>
+  <text x="711.8" y="996.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.0" font-weight="400" fill="#767676" xml:space="preserve">halves.</text>
+  <text x="1102.7" y="307.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#000000" letter-spacing="1.25" xml:space="preserve">THE ASK</text>
+  <text x="1142.7" y="385.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#FFFFFF" letter-spacing="0.88" xml:space="preserve">MARKET-ANCHORED</text>
+  <text x="1132.7" y="449.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="46.0" font-weight="700" fill="#000000" letter-spacing="-1.38" xml:space="preserve">€95-120K</text>
+  <text x="1132.7" y="477.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">BASE, YEAR 1 · ANCHOR €105K</text>
+  <text x="1132.7" y="513.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">Plus 0.05 to 0.15% equity,</text>
+  <text x="1336.5" y="513.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">standard 4-year vest with a 1-year cliff.</text>
+  <text x="1132.7" y="546.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">Re-rated twice:</text>
+  <text x="1256.2" y="546.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">at day 90, against the guarantee on the previous slide, and at the H1</text>
+  <text x="1132.7" y="570.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">decision gate in Jan or Feb 2027.</text>
+  <text x="1132.7" y="622.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#5E5F55" xml:space="preserve">Munich and Berlin founders-associate postings run €51-90K per Glassdoor 2026. Scoped above that median</text>
+  <text x="1132.7" y="642.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#5E5F55" xml:space="preserve">for a CEO-and-CTO-office mandate and A&amp;M and Biome-VC seniority, and deliberately under the US Series-</text>
+  <text x="1132.7" y="662.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#5E5F55" xml:space="preserve">A chief-of-staff band. A proposed anchor, not a demand.</text>
+  <text x="1102.7" y="804.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="88.0" font-weight="700" fill="#000000" letter-spacing="-3.08" xml:space="preserve">13x</text>
+  <text x="1263.3" y="774.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">BASE-CASE ARR OVER YEAR-1 BASE.</text>
+  <text x="1263.3" y="788.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#767676" letter-spacing="1.15" xml:space="preserve">CONFIRM CASE CLEARS IT 23 TIMES. ONLY KILL DOES NOT,</text>
+  <text x="1263.3" y="802.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#767676" letter-spacing="1.15" xml:space="preserve">WHICH IS EXACTLY WHAT THE TEST IS FOR.</text>
+  <text x="64.0" y="1044.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9A9A9A" xml:space="preserve">Modeled, not forecast. ACV at about 7% of displaced BPO or SSC cost per file 08, funnel per file 17's decision gate. Full math in 21-compensation-and-arr-scenarios.md. Salary per Glassdoor Munich and Berlin, 2026.</text>
+  <text x="1667.9" y="1026.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#9A9A9A" letter-spacing="0.88" xml:space="preserve">KHAN.ABIRHILAL@GMAIL.COM</text>
+  <text x="1824.7" y="1044.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#9A9A9A" letter-spacing="0.88" xml:space="preserve">9 / 11</text>
+</svg>

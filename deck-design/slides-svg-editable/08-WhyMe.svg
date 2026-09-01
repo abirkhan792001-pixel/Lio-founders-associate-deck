@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title>WhyMe</title>
+  <rect x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#FFFFFF"/>
+  <line x1="64.0" y1="148.8" x2="1856.0" y2="148.8" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="262.2" x2="1005.6" y2="262.2" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="385.2" x2="1005.6" y2="385.2" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="64.0" y1="502.2" x2="1005.6" y2="502.2" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="64.0" y1="619.2" x2="1005.6" y2="619.2" stroke="#E2E2E2" stroke-width="1"/>
+  <line x1="1085.6" y1="262.2" x2="1856.0" y2="262.2" stroke="#000000" stroke-width="1"/>
+  <rect x="1085.6" y="286.7" width="770.4" height="248.8" fill="#DBDBCD"/>
+  <rect x="1115.6" y="312.7" width="117.4" height="24.0" fill="#000000"/>
+  <g transform="translate(1785.2 61.5) scale(0.5625)" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></g>
+  <text x="64.0" y="104.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="54.0" font-weight="700" fill="#000000" letter-spacing="-1.35" xml:space="preserve">Why me. Four things, with proof.</text>
+  <text x="1821.2" y="84.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="25.0" font-weight="600" fill="#2B2E30" letter-spacing="-0.38" xml:space="preserve">Lio</text>
+  <text x="1759.0" y="106.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#767676" letter-spacing="0.99" xml:space="preserve">05 · THE OFFER</text>
+  <text x="64.0" y="191.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="21.0" font-weight="400" fill="#767676" xml:space="preserve">Not potential. Output you can inspect before day 0.</text>
+  <text x="64.0" y="250.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#000000" letter-spacing="1.25" xml:space="preserve">WHAT YOU GET</text>
+  <text x="64.0" y="306.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#BDBDBD" xml:space="preserve">1</text>
+  <text x="120.0" y="306.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">An operator who ships unmanaged.</text>
+  <text x="120.0" y="335.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">This deck, the named-buyer list, the re-verified event programme, the LinkedIn audit and the H1 hypothesis test were</text>
+  <text x="120.0" y="359.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">built before day 0, from public information.</text>
+  <text x="454.4" y="359.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">That is the working speed you hire, not a promise of it.</text>
+  <text x="64.0" y="423.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#BDBDBD" xml:space="preserve">2</text>
+  <text x="120.0" y="423.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">The outbound cold-start problem, already solved.</text>
+  <text x="120.0" y="452.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">219 named, titled, LinkedIn-linked buyers across four ICP segments, 193 of them with verified work emails, and an</text>
+  <text x="120.0" y="476.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">approach playbook for each.</text>
+  <text x="341.7" y="476.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">The AEs and SDRs start warm.</text>
+  <text x="64.0" y="540.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#BDBDBD" xml:space="preserve">3</text>
+  <text x="120.0" y="540.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">A programme of about €1M run with owner-level care.</text>
+  <text x="120.0" y="569.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">17 P1 events, 204 staff-days, 10 sidecar dinners. The highest-ROI line in the GTM budget currently has</text>
+  <text x="895.1" y="569.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">no single</text>
+  <text x="120.0" y="593.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">owner below the founders.</text>
+  <text x="331.5" y="593.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">I am that owner.</text>
+  <text x="64.0" y="657.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#BDBDBD" xml:space="preserve">4</text>
+  <text x="120.0" y="657.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" letter-spacing="-0.20" xml:space="preserve">A profile that spans the room.</text>
+  <text x="120.0" y="686.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#767676" xml:space="preserve">Consulting rigour at A&amp;M, investor pattern-matching at Biome VC, hands-on GTM engineering at SCAILE.</text>
+  <text x="916.9" y="686.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">CFO-grade</text>
+  <text x="120.0" y="710.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">analysis down to SDR-grade execution.</text>
+  <text x="1085.6" y="250.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#000000" letter-spacing="1.25" xml:space="preserve">THE GUARANTEE</text>
+  <text x="1125.6" y="328.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#FFFFFF" letter-spacing="0.88" xml:space="preserve">ZERO BULLSHIT</text>
+  <text x="1115.6" y="370.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">Lio promises customers</text>
+  <text x="1300.4" y="370.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="600" fill="#000000" xml:space="preserve">$10M in identified value, or donates $100K.</text>
+  <text x="1638.6" y="370.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">Same energy, scaled to</text>
+  <text x="1115.6" y="394.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#2E2E28" xml:space="preserve">me:</text>
+  <text x="1115.6" y="435.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" xml:space="preserve">If after 90 days you would not enthusiastically re-hire me, I hand over</text>
+  <text x="1115.6" y="464.1" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20.0" font-weight="700" fill="#000000" xml:space="preserve">the machine (documented, running, transferable) and we shake hands.</text>
+  <text x="1115.6" y="503.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.0" font-weight="400" fill="#43443C" xml:space="preserve">No ramp-up excuses. No knowledge hostage-taking.</text>
+  <text x="1085.6" y="657.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="96.0" font-weight="700" fill="#000000" letter-spacing="-3.36" xml:space="preserve">90</text>
+  <text x="1230.0" y="638.9" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#000000" letter-spacing="1.15" xml:space="preserve">DAYS TO PROVE IT.</text>
+  <text x="1230.0" y="652.9" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#767676" letter-spacing="1.15" xml:space="preserve">THE MACHINE STAYS EITHER WAY.</text>
+  <text x="64.0" y="1044.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9A9A9A" xml:space="preserve">The $10M-or-$100K challenge is Lio's own public offer, at lio.ai/10-million.</text>
+  <text x="1667.9" y="1026.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#9A9A9A" letter-spacing="0.88" xml:space="preserve">KHAN.ABIRHILAL@GMAIL.COM</text>
+  <text x="1824.7" y="1044.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#9A9A9A" letter-spacing="0.88" xml:space="preserve">8 / 11</text>
+</svg>

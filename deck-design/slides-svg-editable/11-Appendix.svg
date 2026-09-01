@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <title>Appendix</title>
+  <rect x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#FFFFFF"/>
+  <line x1="64.0" y1="148.8" x2="1856.0" y2="148.8" stroke="#000000" stroke-width="1"/>
+  <line x1="64.0" y1="384.7" x2="917.0" y2="384.7" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="64.0" y="258.7" width="110.2" height="24.0" fill="#EFEFED"/>
+  <line x1="64.0" y1="533.2" x2="917.0" y2="533.2" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="64.0" y="407.2" width="110.2" height="24.0" fill="#EFEFED"/>
+  <line x1="64.0" y1="681.7" x2="917.0" y2="681.7" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="64.0" y="555.7" width="110.2" height="24.0" fill="#EFEFED"/>
+  <rect x="64.0" y="704.2" width="100.0" height="24.0" fill="#EFEFED"/>
+  <line x1="1003.0" y1="384.7" x2="1856.0" y2="384.7" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="1003.0" y="258.7" width="80.7" height="24.0" fill="#EFEFED"/>
+  <line x1="1003.0" y1="533.2" x2="1856.0" y2="533.2" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="1003.0" y="407.2" width="135.8" height="24.0" fill="#EFEFED"/>
+  <line x1="1003.0" y1="681.7" x2="1856.0" y2="681.7" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="1003.0" y="555.7" width="87.9" height="24.0" fill="#EFEFED"/>
+  <line x1="1003.0" y1="830.2" x2="1856.0" y2="830.2" stroke="#E2E2E2" stroke-width="1"/>
+  <rect x="1003.0" y="704.2" width="64.0" height="24.0" fill="#EFEFED"/>
+  <rect x="1003.0" y="852.7" width="87.1" height="24.0" fill="#EFEFED"/>
+  <g transform="translate(1785.2 61.5) scale(0.5625)" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></g>
+  <text x="64.0" y="104.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="54.0" font-weight="700" fill="#000000" letter-spacing="-1.35" xml:space="preserve">Appendix: the working files.</text>
+  <text x="1821.2" y="84.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="25.0" font-weight="600" fill="#2B2E30" letter-spacing="-0.38" xml:space="preserve">Lio</text>
+  <text x="1795.3" y="106.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#767676" letter-spacing="0.99" xml:space="preserve">RECEIPTS</text>
+  <text x="64.0" y="191.3" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="21.0" font-weight="400" fill="#767676" xml:space="preserve">Every claim in this deck has a file behind it. Nothing here is slideware.</text>
+  <text x="74.0" y="274.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">SPREADSHEET</text>
+  <text x="64.0" y="309.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">Lio_ICP_Prospect_List.xlsx · 13-icp-prospect-list.md</text>
+  <text x="64.0" y="334.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Named-buyer list across 4 ICP segments. Companies, titled contacts with LinkedIn URLs, Apollo match totals, per-persona</text>
+  <text x="64.0" y="356.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">approach playbook, executive summary.</text>
+  <text x="74.0" y="423.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">SPREADSHEET</text>
+  <text x="64.0" y="458.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">16-event-status-update.md + Lio_P1_Event_Status_2026-08-31.csv</text>
+  <text x="64.0" y="483.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">60 scored events across US, UK and EU-DACH in P1, P2 and P3 tiers. Every P1 date, venue and deadline re-verified against</text>
+  <text x="64.0" y="505.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">organiser sources.</text>
+  <text x="74.0" y="571.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">SPREADSHEET</text>
+  <text x="64.0" y="606.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">Lio_P1_Budget_Staffing.csv</text>
+  <text x="64.0" y="631.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Quarter-by-quarter budget and staffing for the 17-event P1 programme. €736K new plus €105K committed plus contingency,</text>
+  <text x="64.0" y="653.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">204 staff-days, hiring triggers.</text>
+  <text x="74.0" y="720.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">HYPOTHESIS</text>
+  <text x="64.0" y="755.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">17-gtm-hypothesis-and-test-roadmap.md · 18-trigger-group-outreach-angles.md ·</text>
+  <text x="64.0" y="775.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">Lio_H1_Test_Scorecard.csv</text>
+  <text x="64.0" y="800.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">The strongest GTM bet as a falsifiable card with kill criteria and decision gates, the 35-account Renewal Radar with an</text>
+  <text x="64.0" y="822.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">evidence grade per row, and first-touch drafts for the six trigger accounts.</text>
+  <text x="1013.0" y="274.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">REGISTER</text>
+  <text x="1003.0" y="309.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">14-linkedin-posts.md</text>
+  <text x="1003.0" y="334.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">Every publicly indexed LinkedIn post about Lio found across 8 search angles: company, founders, team, events, customers,</text>
+  <text x="1003.0" y="356.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">investors, German-language and third-party commentary.</text>
+  <text x="1013.0" y="423.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">KNOWLEDGE BASE</text>
+  <text x="1003.0" y="458.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">00 to 12 · Lio knowledge base</text>
+  <text x="1003.0" y="483.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">The sourced dossier this work builds on: company, product, pain points, competitive map, customer proof and strategic</text>
+  <text x="1003.0" y="505.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">levers, every fact graded for reliability.</text>
+  <text x="1013.0" y="571.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">PLAYBOOK</text>
+  <text x="1003.0" y="606.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">19-september-action-sheet.md · 20-event-strategy-and-icp-baseline.md</text>
+  <text x="1003.0" y="631.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">29 September actions ordered by due date with the three calls that cannot slip, plus recomputed ICP firmographics, the</text>
+  <text x="1003.0" y="653.5" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">seat-per-room map and the preparation protocol by tier.</text>
+  <text x="1013.0" y="720.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">MODEL</text>
+  <text x="1003.0" y="755.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">21-compensation-and-arr-scenarios.md</text>
+  <text x="1003.0" y="780.2" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">The math behind the ask. Salary benchmarked to Munich and Berlin market data, and three H1 ARR scenarios built on file</text>
+  <text x="1003.0" y="802.0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">17's own decision-gate thresholds.</text>
+  <text x="1013.0" y="868.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="700" fill="#4A4A4A" letter-spacing="0.88" xml:space="preserve">THIS DECK</text>
+  <text x="1003.0" y="903.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#000000" letter-spacing="-0.17" xml:space="preserve">15-deck-design.md · deck-design/build_slides.py</text>
+  <text x="1003.0" y="928.7" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#767676" xml:space="preserve">The design spec and the generator that writes all 11 artboards from one shared system.</text>
+  <text x="64.0" y="1044.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9A9A9A" xml:space="preserve">All files ship in the repository accompanying this application.</text>
+  <text x="1667.9" y="1026.8" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#9A9A9A" letter-spacing="0.88" xml:space="preserve">KHAN.ABIRHILAL@GMAIL.COM</text>
+  <text x="1821.6" y="1044.4" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.0" font-weight="500" fill="#9A9A9A" letter-spacing="0.88" xml:space="preserve">11 / 11</text>
+</svg>
