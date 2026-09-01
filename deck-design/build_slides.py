@@ -189,9 +189,9 @@ S["WhoAmI"] = page_html(f"""
       <div class="col">Why Lio</div>
       <div style="margin-top:6px;">
         {why("1", "Shortest path to founding my own.",
-             "I am building SQRlane, AI agents for freight forwarding. The category has no product problem there. It "
-             "has a labour problem nobody has priced, which is Lio's bet one category over. I would rather learn how "
-             "that scales inside your founders' office than guess at it from mine.")}
+             "I am building SQRlane, AI agents for freight forwarding. Same bet as Lio one category over: a labour "
+             "problem nobody has priced. I would rather learn how that scales inside your founders' office than "
+             "guess from mine.")}
         {why("2", "Lio sells against a $180B line, not a $10B one.",
              "Everyone else builds procurement software. Lio replaces the execution labour at roughly 7% of the cost. "
              "It is the sharpest enterprise wedge I have seen since I started working in GTM.")}
