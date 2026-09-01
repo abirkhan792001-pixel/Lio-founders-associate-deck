@@ -103,6 +103,47 @@ def page_html(body, bg=None):
             f'  <script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n  <style>{CSS}  </style>\n'
             f'</helmet>\n<div class="slide"{style}>\n{body}\n</div>\n</x-dc>\n</body>\n</html>\n')
 
+# ── the machine, drawn ────────────────────────────────────────────────────────
+def machine_svg():
+    """The operating loop the deck argues for, including the feedback edge."""
+    boxes = [
+        (0,    "Calendar",    "17 P1 events, dated"),
+        (370,  "Target list", "219 named buyers"),
+        (740,  "The room",    "brief, live demo, dinner"),
+        (1110, "Follow-up",   "inside the same week"),
+        (1480, "Pipeline",    "logged, named, costed"),
+    ]
+    edges = [(335, "who to seat"), (705, "meetings booked"),
+             (1075, "conversations"), (1445, "named accounts")]
+    parts = []
+    for x, title, sub in boxes:
+        parts.append(
+            f'<rect x="{x}" y="28" width="300" height="78" fill="#FFFFFF" stroke="currentColor" stroke-width="1.5"/>'
+            f'<text x="{x+20}" y="60" font-size="17" font-weight="700" fill="currentColor">{title}</text>'
+            f'<text x="{x+20}" y="84" font-size="13" fill="{MUTED}">{sub}</text>')
+    for cx, label in edges:
+        parts.append(
+            f'<line x1="{cx-27}" y1="67" x2="{cx+19}" y2="67" stroke="currentColor" stroke-width="1.5" '
+            f'marker-end="url(#ar)"/>'
+            f'<text x="{cx-4}" y="18" font-size="10.5" font-weight="700" letter-spacing="0.09em" '
+            f'fill="{MUTED}" text-anchor="middle">{label.upper()}</text>')
+    # return edge: outcomes rewrite who gets targeted next
+    parts.append(
+        '<path d="M 1630 106 L 1630 158 L 520 158 L 520 116" fill="none" stroke="currentColor" '
+        'stroke-width="1.5" stroke-dasharray="7 5" marker-end="url(#ar)"/>'
+        f'<rect x="890" y="144" width="372" height="28" fill="#FFFFFF"/>'
+        f'<text x="1076" y="163" font-size="12.5" font-weight="600" fill="currentColor" '
+        f'text-anchor="middle">Outcomes rewrite who gets targeted next</text>')
+    return (
+        '<figure style="margin:0;">'
+        '<svg viewBox="0 0 1790 176" role="img" width="100%" height="auto" '
+        'aria-label="The operating loop: the calendar sets who to seat, the target list produces booked meetings, '
+        'the room produces conversations, follow-up produces named accounts, and the pipeline feeds back to rewrite '
+        'who gets targeted next." style="display:block; color:#000000; overflow:visible;">'
+        '<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" '
+        'orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor"/></marker></defs>'
+        + "".join(parts) + '</svg></figure>')
+
 S = {}
 
 # ── 01 · Cover ────────────────────────────────────────────────────────────────
@@ -273,6 +314,12 @@ S["Agenda"] = page_html(f"""
           for its own customers.</div>
       </div>
     </div>
+  </div>
+  <div style="position:absolute; left:64px; right:64px; bottom:74px;">
+    <div class="lbl" style="margin-bottom:7px;">The machine those findings feed</div>
+    <div style="border-top:1.5px solid {INK}; padding-top:16px;">{machine_svg()}</div>
+    <div class="s" style="margin-top:10px; font-size:13.5px;">Every step exists today. The dashed edge does not,
+      which is why each renewal is argued from memory rather than from what the last room produced.</div>
   </div>
   {foot("Structure follows the three themes set for this application: who I am and why Lio, what I would own from "
         "day 0, and why hire me.", 3)}
