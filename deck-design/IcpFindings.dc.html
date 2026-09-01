@@ -13,78 +13,86 @@
     * { box-sizing:border-box; }
     @page { size:1920px 1080px; margin:0; }
     html, body { width:1920px; height:1080px; }
-    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3A3A3A; background:#FFFFFF;
+    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3C3C3C; background:#FFFFFF;
       -webkit-font-smoothing:antialiased; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     a { color:inherit; }
-    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:46px 56px 0; }
-    .hd { display:flex; justify-content:space-between; align-items:flex-start; gap:48px; }
-    .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:0.13em; text-transform:uppercase; color:#767676; }
-    .eyebrow em { font-style:normal; color:#000000; }
-    h1 { font-size:47px; font-weight:500; letter-spacing:-0.022em; line-height:1.13; margin:11px 0 0; color:#000000;
-      max-width:1480px; }
-    .sub { font-size:20.5px; font-weight:400; line-height:1.38; color:#767676; margin-top:13px; max-width:1420px; }
-    .brand { display:flex; align-items:center; gap:10px; flex-shrink:0; }
-    .brand span { font-size:25px; font-weight:500; letter-spacing:-0.01em; color:#000000; }
-    .sec { font-size:20px; font-weight:700; color:#000000; padding-bottom:9px; border-bottom:2px solid #000000; }
-    .lbl { font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#767676; }
-    .hair { border-bottom:1px solid #DCDCDC; }
-    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.09em; text-transform:uppercase;
-      padding:6px 12px; background:#DBDBCD; color:#000000; white-space:nowrap; }
-    .chip-dark { background:#000000; color:#FFFFFF; }
-    .chip-line { background:transparent; border:1px solid #C6C6BC; color:#5A5A5A; font-weight:600; }
-    .panel { background:#DBDBCD; padding:24px 30px; }
-    .panel-grey { background:#EFEFED; padding:22px 26px; }
-    .b { font-size:16.5px; line-height:1.58; color:#3A3A3A; }
+    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:56px 64px 0; }
+
+    h1 { font-size:54px; font-weight:700; letter-spacing:-0.025em; line-height:1.08; margin:0; color:#000000;
+      max-width:1500px; }
+    .titlerule { border-top:1.5px solid #000000; margin-top:34px; }
+    .sub { font-size:21px; font-weight:400; line-height:1.4; color:#767676; margin-top:20px; max-width:1500px; }
+
+    .lock { text-align:right; flex-shrink:0; padding-top:4px; }
+    .lockmark { display:flex; align-items:center; gap:9px; justify-content:flex-end; }
+    .lockname { font-size:25px; font-weight:600; letter-spacing:-0.015em; color:#2B2E30; }
+    .locksub { font-size:11px; font-weight:500; letter-spacing:0.09em; text-transform:uppercase; color:#767676;
+      margin-top:5px; }
+
+    .col { font-size:12.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000;
+      padding-bottom:8px; border-bottom:1.5px solid #000000; }
+    .lbl { font-size:11.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000; }
+    .lblm { font-size:11.5px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#767676; }
+
+    .hair { border-bottom:1px solid #E2E2E2; }
+    .name { font-size:20px; font-weight:700; color:#000000; letter-spacing:-0.01em; }
+    .meta { font-size:14.5px; font-weight:400; color:#767676; }
+    .b { font-size:16px; line-height:1.5; color:#767676; }
     .b b, .b strong { color:#000000; font-weight:600; }
-    .s { font-size:14.5px; line-height:1.5; color:#767676; }
-    .rowh { font-size:19.5px; font-weight:600; color:#000000; }
-    .num { font-size:22px; font-weight:700; color:#000000; flex-shrink:0; }
-    .stat { font-size:84px; font-weight:700; letter-spacing:-0.035em; line-height:0.9; color:#000000; }
-    .statcap { font-size:10.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#767676;
-      line-height:1.45; }
-    .foot { position:absolute; left:56px; right:56px; bottom:24px; display:flex; justify-content:space-between;
-      align-items:flex-end; gap:48px; border-top:1px solid #DCDCDC; padding-top:12px; }
-    .src { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      line-height:1.55; max-width:1330px; }
-    .pg { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      text-align:right; white-space:nowrap; line-height:1.55; }
+    .bd { font-size:16px; line-height:1.5; color:#3C3C3C; }
+    .bd b, .bd strong { color:#000000; font-weight:600; }
+    .s { font-size:14px; line-height:1.45; color:#767676; }
+
+    .numg { font-size:20px; font-weight:700; color:#BDBDBD; width:34px; flex-shrink:0; }
+    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+      padding:5px 10px; background:#DBDBCD; color:#000000; white-space:nowrap; }
+    .chip-grey { background:#EFEFED; color:#4A4A4A; }
+    .chip-dark { background:#000000; color:#FFFFFF; }
+    .tag { display:inline-block; font-size:14px; font-weight:400; padding:6px 12px; background:#EFEFED;
+      color:#3C3C3C; margin:0 7px 7px 0; }
+
+    .callout { background:#EFEFED; padding:20px 26px; }
+    .stat { font-size:52px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:#000000; }
+
+    .foot { position:absolute; left:64px; right:64px; bottom:30px; display:flex; justify-content:space-between;
+      align-items:flex-end; gap:48px; }
+    .src { font-size:11.5px; font-weight:400; color:#9A9A9A; line-height:1.5; max-width:1300px; }
+    .pg { font-size:11px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#9A9A9A;
+      text-align:right; white-space:nowrap; line-height:1.6; }
   </style>
 </helmet>
 <div class="slide">
 
-  <div class="hd"><div><div class="eyebrow"><em>01</em> · Findings · sourced from Apollo against Lio&#39;s reverse-engineered ICP</div><h1>The market is countable. The trigger is not the one the plan assumed</h1><div class="sub">219 named buyers are ready for outbound. The renewal trigger behind them holds in FS and the US, and breaks in DACH.</div></div><div class="brand"><svg width="30" height="30" viewBox="0 0 48 48" fill="none" stroke="#000000" stroke-width="3.4" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span>Lio</span></div></div>
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:48px;"><h1>The market is countable. The trigger is not the one the plan assumed.</h1><div class="lock"><div class="lockmark"><svg width="27" height="27" viewBox="0 0 48 48" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span class="lockname">Lio</span></div><div class="locksub">01 · Findings</div></div></div><div class="titlerule"></div><div class="sub">219 named buyers are ready for outbound. The renewal trigger behind them holds in FS and the US, and breaks in DACH.</div>
 
-  <div style="display:grid; grid-template-columns: 330px 132px 132px 1fr 1fr; gap:26px; margin-top:26px; padding-bottom:9px; border-bottom:2px solid #000000;">
-    <div class="lbl">Segment</div><div class="lbl">Buyers in Apollo</div><div class="lbl">On the list</div>
+  <div style="display:grid; grid-template-columns: 300px 120px 120px 1fr 1fr; gap:30px; margin-top:30px; padding-bottom:8px; border-bottom:1.5px solid #000000;">
+    <div class="lbl">Segment</div><div class="lbl">Buyers</div><div class="lbl">Named</div>
     <div class="lbl">The buying centre</div><div class="lbl">How to approach</div>
   </div>
-  <div class="hair" style="display:grid; grid-template-columns: 330px 132px 132px 1fr 1fr; gap:26px; padding:26px 0;"><div><div style="font-size:16.5px; font-weight:600; color:#000000;">DACH industrial backbone</div><div class="s" style="margin-top:6px; font-size:13.6px;">Searched &euro;1-12B · <b style='color:#000;'>bullseye &euro;2.8-4.7B, 8-30K staff</b> · ~&#8532; family/foundation-owned</div></div><div><div style="font-size:27px; font-weight:700; color:#000000; letter-spacing:-0.02em;">851</div><div class="statcap" style="font-size:9.5px; margin-top:3px;">Titled matches</div></div><div><div style="font-size:27px; font-weight:700; color:#000000; letter-spacing:-0.02em;">60</div><div class="statcap" style="font-size:9.5px; margin-top:3px;">Named · LinkedIn</div></div><div class="b" style="font-size:14.8px;"><b>CPO sponsors, COO/CFO signs</b> via the SSC/FTE line; Procurement Excellence champions; CIO gatekeeps.</div><div class="b" style="font-size:14.8px;"><b>Trust-first, German, in person, and timed to a change event.</b> The DACH trigger is the captive SSC/GBS, not a BPO renewal: carve-outs, post-merger integration, hub migrations.</div></div>
-  <div class="hair" style="display:grid; grid-template-columns: 330px 132px 132px 1fr 1fr; gap:26px; padding:26px 0;"><div><div style="font-size:16.5px; font-weight:600; color:#000000;">Insurance &amp; financial services</div><div class="s" style="margin-top:6px; font-size:13.6px;">100% indirect spend · Munich Re, ERGO class</div></div><div><div style="font-size:27px; font-weight:700; color:#000000; letter-spacing:-0.02em;">156</div><div class="statcap" style="font-size:9.5px; margin-top:3px;">Titled matches</div></div><div><div style="font-size:27px; font-weight:700; color:#000000; letter-spacing:-0.02em;">40</div><div class="statcap" style="font-size:9.5px; margin-top:3px;">Named · LinkedIn</div></div><div class="b" style="font-size:14.8px;"><b>Head of Procurement / Sourcing &amp; Vendor Mgmt</b>; compliance-heavy, auditability opens the door.</div><div class="b" style="font-size:14.8px;"><b>Where the real renewals sit.</b> Zurich-Genpact (since 2012) is the one confirmed third-party procurement BPO in 35 swept accounts. Lead with the 93%-cheaper wedge.</div></div>
-  <div class="hair" style="display:grid; grid-template-columns: 330px 132px 132px 1fr 1fr; gap:26px; padding:26px 0;"><div><div style="font-size:16.5px; font-weight:600; color:#000000;">US F500 GBS &amp; BPO owners</div><div class="s" style="margin-top:6px; font-size:13.6px;">The people who sign outsourcing renewals · SSOW/SIG audience</div></div><div><div style="font-size:27px; font-weight:700; color:#000000; letter-spacing:-0.02em;">895</div><div class="statcap" style="font-size:9.5px; margin-top:3px;">Titled matches</div></div><div><div style="font-size:27px; font-weight:700; color:#000000; letter-spacing:-0.02em;">60</div><div class="statcap" style="font-size:9.5px; margin-top:3px;">Named · LinkedIn</div></div><div class="b" style="font-size:14.8px;"><b>VP GBS / Shared Services, Head of P2P, GPOs.</b> A persona classic procurement marketing barely reaches.</div><div class="b" style="font-size:14.8px;"><b>Budget capture, and the segment where renewals actually concentrate.</b> Every renewal is a qualified opp with a price to beat by 93%; Petras + Walmart engagement as credibility.</div></div>
-  <div style="display:grid; grid-template-columns: 330px 132px 132px 1fr 1fr; gap:26px; padding:26px 0;"><div><div style="font-size:16.5px; font-weight:600; color:#000000;">DACH utilities &amp; mobility</div><div class="s" style="margin-top:6px; font-size:13.6px;">Regulated, process-heavy · DB (&ldquo;Loom&rdquo;), SWM, Lufthansa class</div></div><div><div style="font-size:27px; font-weight:700; color:#000000; letter-spacing:-0.02em;">343</div><div class="statcap" style="font-size:9.5px; margin-top:3px;">Titled matches</div></div><div><div style="font-size:27px; font-weight:700; color:#000000; letter-spacing:-0.02em;">59</div><div class="statcap" style="font-size:9.5px; margin-top:3px;">Named · LinkedIn</div></div><div class="b" style="font-size:14.8px;"><b>Leiter Einkauf / Beschaffung</b> + digitalisation leads; works councils in the room from day one.</div><div class="b" style="font-size:14.8px;"><b>Follow the Deutsche Bahn breadcrumb.</b> Regulated buyers move on references and auditability; German-language webinars &rarr; Bots &amp; Buyers &rarr; pilot.</div></div>
+  <div class="hair" style="display:grid; grid-template-columns: 300px 120px 120px 1fr 1fr; gap:30px; padding:22px 0;"><div><div class="name" style="font-size:17.5px;">DACH industrial backbone</div><div class="s" style="margin-top:5px; font-size:13.5px;">Searched &euro;1-12B · <b style='color:#000; font-weight:600;'>bullseye &euro;2.8-4.7B, 8-30K staff</b></div></div><div><div style="font-size:26px; font-weight:700; color:#000000; letter-spacing:-0.02em;">851</div><div class="lblm" style="font-size:10px; margin-top:4px;">In Apollo</div></div><div><div style="font-size:26px; font-weight:700; color:#000000; letter-spacing:-0.02em;">60</div><div class="lblm" style="font-size:10px; margin-top:4px;">On the list</div></div><div class="b" style="font-size:14.5px;"><b>CPO sponsors, COO or CFO signs</b> via the SSC and FTE line. Procurement Excellence champions, CIO gatekeeps.</div><div class="b" style="font-size:14.5px;"><b>Trust-first, German, in person, timed to a change event.</b> The DACH trigger is the captive SSC, not a BPO renewal: carve-outs, post-merger integration, hub migrations.</div></div>
+  <div class="hair" style="display:grid; grid-template-columns: 300px 120px 120px 1fr 1fr; gap:30px; padding:22px 0;"><div><div class="name" style="font-size:17.5px;">Insurance and financial services</div><div class="s" style="margin-top:5px; font-size:13.5px;">100% indirect spend · Munich Re, ERGO class</div></div><div><div style="font-size:26px; font-weight:700; color:#000000; letter-spacing:-0.02em;">156</div><div class="lblm" style="font-size:10px; margin-top:4px;">In Apollo</div></div><div><div style="font-size:26px; font-weight:700; color:#000000; letter-spacing:-0.02em;">40</div><div class="lblm" style="font-size:10px; margin-top:4px;">On the list</div></div><div class="b" style="font-size:14.5px;"><b>Head of Procurement or Sourcing and Vendor Management.</b> Compliance-heavy, auditability opens the door.</div><div class="b" style="font-size:14.5px;"><b>Where the real renewals sit.</b> Zurich-Genpact, running since 2012, is the one confirmed third-party procurement BPO in 35 swept accounts.</div></div>
+  <div class="hair" style="display:grid; grid-template-columns: 300px 120px 120px 1fr 1fr; gap:30px; padding:22px 0;"><div><div class="name" style="font-size:17.5px;">US F500 GBS and BPO owners</div><div class="s" style="margin-top:5px; font-size:13.5px;">The people who sign outsourcing renewals · SSOW and SIG audience</div></div><div><div style="font-size:26px; font-weight:700; color:#000000; letter-spacing:-0.02em;">895</div><div class="lblm" style="font-size:10px; margin-top:4px;">In Apollo</div></div><div><div style="font-size:26px; font-weight:700; color:#000000; letter-spacing:-0.02em;">60</div><div class="lblm" style="font-size:10px; margin-top:4px;">On the list</div></div><div class="b" style="font-size:14.5px;"><b>VP GBS, Head of P2P, GPOs.</b> A persona classic procurement marketing barely reaches.</div><div class="b" style="font-size:14.5px;"><b>Budget capture, and the segment where renewals actually concentrate.</b> Every renewal is a qualified opportunity with a price to beat by 93%.</div></div>
+  <div style="display:grid; grid-template-columns: 300px 120px 120px 1fr 1fr; gap:30px; padding:22px 0;"><div><div class="name" style="font-size:17.5px;">DACH utilities and mobility</div><div class="s" style="margin-top:5px; font-size:13.5px;">Regulated, process-heavy · Deutsche Bahn, SWM, Lufthansa class</div></div><div><div style="font-size:26px; font-weight:700; color:#000000; letter-spacing:-0.02em;">343</div><div class="lblm" style="font-size:10px; margin-top:4px;">In Apollo</div></div><div><div style="font-size:26px; font-weight:700; color:#000000; letter-spacing:-0.02em;">59</div><div class="lblm" style="font-size:10px; margin-top:4px;">On the list</div></div><div class="b" style="font-size:14.5px;"><b>Leiter Einkauf</b> plus digitalisation leads. Works councils in the room from day one.</div><div class="b" style="font-size:14.5px;"><b>Follow the Deutsche Bahn breadcrumb.</b> Regulated buyers move on references and auditability.</div></div>
 
-  <div style="display:flex; align-items:center; gap:40px; margin-top:20px; background:#DBDBCD; padding:22px 30px;">
+  <div style="display:flex; align-items:center; gap:40px; margin-top:26px; background:#DBDBCD; padding:24px 30px;">
     <div style="flex-shrink:0;">
-      <div class="stat" style="font-size:76px;">219</div>
-      <div class="statcap" style="margin-top:7px;">Named buyers on the list<br>122 companies</div>
+      <div style="font-size:62px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:#000000;">219</div>
+      <div class="lbl" style="margin-top:9px;">Named buyers<br>122 companies</div>
     </div>
-    <div class="b" style="font-size:15.5px; color:#2E2E28;">
-      <b>The outbound cold-start problem is solved before day 0.</b> Every contact carries title, company, location and
-      LinkedIn URL; 193 carry verified work emails, including prospect CPOs at Allianz, Deutsche Bahn, E.ON,
-      ServiceNow, Citi, Beiersdorf and Miele. Apollo identifies <b>2,245 titled buyers</b> on the same filters
-      (851 DACH industrial · 156 insurance/FS · 895 US GBS · 343 utilities/mobility). The refill pool is documented
-      and reusable. Full list, companies tab and approach playbook: <b>Lio_ICP_Prospect_List.xlsx</b>
-    </div>
+    <div class="bd" style="color:#2E2E28;"><b>The outbound cold-start problem is solved before day 0.</b> Every contact
+      carries title, company, location and LinkedIn URL. 193 carry verified work emails, including prospect CPOs at
+      Allianz, Deutsche Bahn, E.ON, ServiceNow, Citi, Beiersdorf and Miele. Apollo identifies <b>2,245 titled buyers</b>
+      on the same filters, so the refill pool is documented and reusable.</div>
   </div>
 
-  <div style="display:flex; align-items:flex-start; gap:24px; margin-top:16px;">
-    <div class="lbl" style="flex-shrink:0; padding-top:2px; color:#000000;">H1 radar sweep &rarr;</div>
-    <div class="b" style="font-size:14.5px;">35 accounts swept for BPO/SSC evidence: <b>one true third-party
-      procurement BPO</b> (Zurich-Genpact) plus one Accenture JV, 4 captive centres with a live change event,
-      16 stable captives, 9 clean controls. <b>The DACH displacement target is the captive SSC, which has no renewal
-      date</b>, so the trigger there is a change event, and the renewal-timed motion belongs to FS and the US.</div>
+  <div class="callout" style="margin-top:16px;">
+    <div class="lbl">H1 radar sweep</div>
+    <div class="b" style="margin-top:9px; font-size:15px;">35 accounts swept for BPO and SSC evidence: <b>one true
+      third-party procurement BPO</b> (Zurich-Genpact) plus one Accenture JV, 4 captive centres with a live change
+      event, 16 stable captives, 9 clean controls. <b>The DACH displacement target is the captive SSC, which has no
+      renewal date,</b> so the trigger there is a change event and the renewal-timed motion belongs to FS and the US.</div>
   </div>
-  <div class="foot"><div class="src">Sourced via Apollo · 31 August 2026 · search totals are Apollo database counts, not TAM · radar sweep and evidence grades per Lio_H1_Test_Scorecard.csv and 17-gtm-hypothesis-and-test-roadmap.md</div><div class="pg">khan.abirhilal@gmail.com<br>4 / 11</div></div>
+  <div class="foot"><div class="src">Sourced via Apollo, 31 August 2026. Search totals are Apollo database counts, not TAM. Radar sweep and evidence grades per Lio_H1_Test_Scorecard.csv and 17-gtm-hypothesis-and-test-roadmap.md.</div><div class="pg">khan.abirhilal@gmail.com<br>4 / 11</div></div>
 
 </div>
 </x-dc>

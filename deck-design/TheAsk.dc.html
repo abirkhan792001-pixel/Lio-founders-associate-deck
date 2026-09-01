@@ -13,93 +13,106 @@
     * { box-sizing:border-box; }
     @page { size:1920px 1080px; margin:0; }
     html, body { width:1920px; height:1080px; }
-    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3A3A3A; background:#FFFFFF;
+    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3C3C3C; background:#FFFFFF;
       -webkit-font-smoothing:antialiased; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     a { color:inherit; }
-    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:46px 56px 0; }
-    .hd { display:flex; justify-content:space-between; align-items:flex-start; gap:48px; }
-    .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:0.13em; text-transform:uppercase; color:#767676; }
-    .eyebrow em { font-style:normal; color:#000000; }
-    h1 { font-size:47px; font-weight:500; letter-spacing:-0.022em; line-height:1.13; margin:11px 0 0; color:#000000;
-      max-width:1480px; }
-    .sub { font-size:20.5px; font-weight:400; line-height:1.38; color:#767676; margin-top:13px; max-width:1420px; }
-    .brand { display:flex; align-items:center; gap:10px; flex-shrink:0; }
-    .brand span { font-size:25px; font-weight:500; letter-spacing:-0.01em; color:#000000; }
-    .sec { font-size:20px; font-weight:700; color:#000000; padding-bottom:9px; border-bottom:2px solid #000000; }
-    .lbl { font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#767676; }
-    .hair { border-bottom:1px solid #DCDCDC; }
-    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.09em; text-transform:uppercase;
-      padding:6px 12px; background:#DBDBCD; color:#000000; white-space:nowrap; }
-    .chip-dark { background:#000000; color:#FFFFFF; }
-    .chip-line { background:transparent; border:1px solid #C6C6BC; color:#5A5A5A; font-weight:600; }
-    .panel { background:#DBDBCD; padding:24px 30px; }
-    .panel-grey { background:#EFEFED; padding:22px 26px; }
-    .b { font-size:16.5px; line-height:1.58; color:#3A3A3A; }
+    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:56px 64px 0; }
+
+    h1 { font-size:54px; font-weight:700; letter-spacing:-0.025em; line-height:1.08; margin:0; color:#000000;
+      max-width:1500px; }
+    .titlerule { border-top:1.5px solid #000000; margin-top:34px; }
+    .sub { font-size:21px; font-weight:400; line-height:1.4; color:#767676; margin-top:20px; max-width:1500px; }
+
+    .lock { text-align:right; flex-shrink:0; padding-top:4px; }
+    .lockmark { display:flex; align-items:center; gap:9px; justify-content:flex-end; }
+    .lockname { font-size:25px; font-weight:600; letter-spacing:-0.015em; color:#2B2E30; }
+    .locksub { font-size:11px; font-weight:500; letter-spacing:0.09em; text-transform:uppercase; color:#767676;
+      margin-top:5px; }
+
+    .col { font-size:12.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000;
+      padding-bottom:8px; border-bottom:1.5px solid #000000; }
+    .lbl { font-size:11.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000; }
+    .lblm { font-size:11.5px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#767676; }
+
+    .hair { border-bottom:1px solid #E2E2E2; }
+    .name { font-size:20px; font-weight:700; color:#000000; letter-spacing:-0.01em; }
+    .meta { font-size:14.5px; font-weight:400; color:#767676; }
+    .b { font-size:16px; line-height:1.5; color:#767676; }
     .b b, .b strong { color:#000000; font-weight:600; }
-    .s { font-size:14.5px; line-height:1.5; color:#767676; }
-    .rowh { font-size:19.5px; font-weight:600; color:#000000; }
-    .num { font-size:22px; font-weight:700; color:#000000; flex-shrink:0; }
-    .stat { font-size:84px; font-weight:700; letter-spacing:-0.035em; line-height:0.9; color:#000000; }
-    .statcap { font-size:10.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#767676;
-      line-height:1.45; }
-    .foot { position:absolute; left:56px; right:56px; bottom:24px; display:flex; justify-content:space-between;
-      align-items:flex-end; gap:48px; border-top:1px solid #DCDCDC; padding-top:12px; }
-    .src { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      line-height:1.55; max-width:1330px; }
-    .pg { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      text-align:right; white-space:nowrap; line-height:1.55; }
+    .bd { font-size:16px; line-height:1.5; color:#3C3C3C; }
+    .bd b, .bd strong { color:#000000; font-weight:600; }
+    .s { font-size:14px; line-height:1.45; color:#767676; }
+
+    .numg { font-size:20px; font-weight:700; color:#BDBDBD; width:34px; flex-shrink:0; }
+    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+      padding:5px 10px; background:#DBDBCD; color:#000000; white-space:nowrap; }
+    .chip-grey { background:#EFEFED; color:#4A4A4A; }
+    .chip-dark { background:#000000; color:#FFFFFF; }
+    .tag { display:inline-block; font-size:14px; font-weight:400; padding:6px 12px; background:#EFEFED;
+      color:#3C3C3C; margin:0 7px 7px 0; }
+
+    .callout { background:#EFEFED; padding:20px 26px; }
+    .stat { font-size:52px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:#000000; }
+
+    .foot { position:absolute; left:64px; right:64px; bottom:30px; display:flex; justify-content:space-between;
+      align-items:flex-end; gap:48px; }
+    .src { font-size:11.5px; font-weight:400; color:#9A9A9A; line-height:1.5; max-width:1300px; }
+    .pg { font-size:11px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#9A9A9A;
+      text-align:right; white-space:nowrap; line-height:1.6; }
   </style>
 </helmet>
 <div class="slide">
 
-  <div class="hd"><div><div class="eyebrow"><em>06</em> · The ask</div><h1>The base case returns the year-one salary thirteen times over</h1><div class="sub">A market-anchored ask, priced against the H1 thesis in three scenarios.</div></div><div class="brand"><svg width="30" height="30" viewBox="0 0 48 48" fill="none" stroke="#000000" stroke-width="3.4" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span>Lio</span></div></div>
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:48px;"><h1>The base case returns the year-one salary thirteen times over.</h1><div class="lock"><div class="lockmark"><svg width="27" height="27" viewBox="0 0 48 48" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span class="lockname">Lio</span></div><div class="locksub">06 · The ask</div></div></div><div class="titlerule"></div><div class="sub">A market-anchored ask, priced against the H1 thesis in three scenarios.</div>
 
-  <div style="display:grid; grid-template-columns:1.15fr 0.85fr; gap:80px; margin-top:46px;">
+  <div style="display:grid; grid-template-columns:1.12fr 0.88fr; gap:80px; margin-top:38px;">
     <div>
-      <div class="sec">The return · H1 thesis ARR, year 1</div>
-      <div class="hair" style="display:flex; gap:24px; align-items:flex-start; padding:31px 0;"><div style="width:208px; flex-shrink:0; font-size:38px; font-weight:700; letter-spacing:-0.025em; color:#000000; line-height:1;">&euro;0-175K</div><div><span class="chip chip-line">Kill · rotate</span><div class="rowh" style="margin-top:11px;">The funnel fails its own gate.</div><div class="b" style="margin-top:6px;">0-1 contracts. Assessment&rarr;POC under 10%, POC&rarr;contract under 20%, which are <b>file 17&#39;s own kill thresholds.</b> The motion rotates to the next-best hypothesis. Phase 0 costs ~&euro;0, which is the whole point of testing before spending.</div></div></div>
-      <div class="hair" style="display:flex; gap:24px; align-items:flex-start; padding:31px 0;"><div style="width:208px; flex-shrink:0; font-size:38px; font-weight:700; letter-spacing:-0.025em; color:#000000; line-height:1;">&euro;1.35M</div><div><span class="chip">Refine · narrow</span> <span class="lbl" style="font-size:10.5px;">Base case</span><div class="rowh" style="margin-top:11px;">Signal in FS only. DACH stays captive.</div><div class="b" style="margin-top:6px;">~2 FS-anchor wins at ~&euro;500K + ~2 DACH change-event wins at ~&euro;175K. <b>This is already today&#39;s read:</b> Zurich-Genpact is the one confirmed third-party BPO in 35 swept accounts. DACH runs on captive-SSC change events with no renewal date.</div></div></div>
-      <div style="display:flex; gap:24px; align-items:flex-start; padding:31px 0;"><div style="width:208px; flex-shrink:0; font-size:38px; font-weight:700; letter-spacing:-0.025em; color:#000000; line-height:1;">&euro;2.4M</div><div><span class="chip chip-dark">Confirm · scale</span><div class="rowh" style="margin-top:11px;">Both segments clear the confirm bar.</div><div class="b" style="margin-top:6px;">~3 FS + ~5 DACH wins as the Renewal Radar scales 35 &rarr; ~75 accounts and conversion clears <b>assessment&rarr;POC 30%, POC&rarr;contract 50%</b>. Carries into the already-funded Q1/Q2-27 US wave once SOC 2 closes.</div></div></div>
+      <div class="col">The return, H1 thesis ARR in year one</div>
+      <div style="margin-top:6px;">
+        <div class="hair" style="display:flex; gap:26px; align-items:flex-start; padding:26px 0;"><div style="width:190px; flex-shrink:0; font-size:34px; font-weight:700; letter-spacing:-0.025em; color:#000000; line-height:1;">&euro;0-175K</div><div><span class="chip chip-grey">Kill · rotate</span><div class="name" style="margin-top:11px; font-size:18px;">The funnel fails its own gate.</div><div class="b" style="margin-top:6px; font-size:15px;">0 to 1 contracts. Assessment to POC under 10%, POC to contract under 20%, which are <b>file 17's own kill thresholds.</b> The motion rotates to the next-best hypothesis. Phase 0 costs about &euro;0, which is the whole point of testing before spending.</div></div></div>
+        <div class="hair" style="display:flex; gap:26px; align-items:flex-start; padding:26px 0;"><div style="width:190px; flex-shrink:0; font-size:34px; font-weight:700; letter-spacing:-0.025em; color:#000000; line-height:1;">&euro;1.35M</div><div><span class="chip">Refine · narrow</span> <span class="lblm" style="font-size:10.5px;">Base case</span><div class="name" style="margin-top:11px; font-size:18px;">Signal in FS only. DACH stays captive.</div><div class="b" style="margin-top:6px; font-size:15px;">About 2 FS-anchor wins at &euro;500K plus 2 DACH change-event wins at &euro;175K. <b>This is already today's read.</b> Zurich-Genpact is the one confirmed third-party BPO in 35 swept accounts.</div></div></div>
+        <div style="display:flex; gap:26px; align-items:flex-start; padding:26px 0;"><div style="width:190px; flex-shrink:0; font-size:34px; font-weight:700; letter-spacing:-0.025em; color:#000000; line-height:1;">&euro;2.4M</div><div><span class="chip chip-dark">Confirm · scale</span><div class="name" style="margin-top:11px; font-size:18px;">Both segments clear the confirm bar.</div><div class="b" style="margin-top:6px; font-size:15px;">About 3 FS and 5 DACH wins as the Renewal Radar scales from 35 to roughly 75 accounts and conversion clears <b>assessment to POC at 30%, POC to contract at 50%.</b> Carries into the funded Q1 and Q2-27 US wave once SOC 2 closes.</div></div></div>
+      </div>
 
-      <div style="margin-top:20px; border-top:1px solid #DCDCDC; padding-top:16px;">
-        <div class="lbl" style="color:#000000; margin-bottom:12px;">What moves these numbers · the three load-bearing assumptions</div>
-        <div style="display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:26px;">
-          <div class="b" style="font-size:14px;"><b>ACV.</b> No public ACV exists. ~7% of displaced cost is Lio&#39;s
-            own disclosed mechanic. One verified POC replaces the whole estimate.</div>
-          <div class="b" style="font-size:14px;"><b>Radar scale.</b> 35 accounts swept, 50-100 targeted. Every 10 added
-            yields ~2 more Group-A triggers at today&#39;s 17% hit rate.</div>
-          <div class="b" style="font-size:14px;"><b>Segment mix.</b> An FS win is worth ~3× a DACH win. Invert which
-            segment converts and the base case roughly halves.</div>
+      <div class="callout" style="margin-top:22px;">
+        <div class="lbl">What moves these numbers</div>
+        <div style="display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:26px; margin-top:12px;">
+          <div class="b" style="font-size:14px;"><b>ACV.</b> No public ACV exists. 7% of displaced cost is Lio's own
+            disclosed mechanic. One verified POC replaces the whole estimate.</div>
+          <div class="b" style="font-size:14px;"><b>Radar scale.</b> 35 accounts swept, 50 to 100 targeted. Every 10
+            added yields about 2 more Group-A triggers at today's 17% hit rate.</div>
+          <div class="b" style="font-size:14px;"><b>Segment mix.</b> An FS win is worth about 3 times a DACH win.
+            Invert which segment converts and the base case roughly halves.</div>
         </div>
       </div>
     </div>
 
     <div>
-      <div class="sec">The ask</div>
-      <div class="panel" style="margin-top:34px;">
+      <div class="col">The ask</div>
+      <div style="background:#DBDBCD; padding:26px 30px; margin-top:24px;">
         <span class="chip chip-dark">Market-anchored</span>
-        <div style="font-size:50px; font-weight:700; letter-spacing:-0.03em; color:#000000; margin-top:16px;
+        <div style="font-size:46px; font-weight:700; letter-spacing:-0.03em; color:#000000; margin-top:16px;
           line-height:1;">&euro;95-120K</div>
-        <div class="lbl" style="color:#000000; margin-top:10px;">Base, year 1 · anchor &euro;105K</div>
-        <div class="b" style="margin-top:14px; color:#2E2E28;"><b>+ 0.05-0.15% equity</b>, standard 4-year vest,
-          1-year cliff.</div>
-        <div class="b" style="margin-top:9px; color:#2E2E28;"><b>Re-rated twice:</b> at day 90 (the guarantee,
-          previous slide) and at the H1 decision gate, Jan-Feb 2027.</div>
-        <div style="font-size:13.5px; line-height:1.5; color:#5E5F55; margin-top:15px; border-top:1px solid #C6C6BC;
-          padding-top:13px;">Munich/Berlin founders-associate postings run &euro;51-90K (Glassdoor 2026). Scoped above
-          that median for a CEO-and-CTO-office mandate and A&amp;M / Biome-VC seniority, and deliberately under the US
-          Series-A chief-of-staff band. A proposed anchor, not a demand.</div>
+        <div class="lbl" style="margin-top:11px;">Base, year 1 · anchor &euro;105K</div>
+        <div class="b" style="margin-top:15px; color:#2E2E28;"><b>Plus 0.05 to 0.15% equity,</b> standard 4-year vest
+          with a 1-year cliff.</div>
+        <div class="b" style="margin-top:9px; color:#2E2E28;"><b>Re-rated twice:</b> at day 90, against the guarantee
+          on the previous slide, and at the H1 decision gate in Jan or Feb 2027.</div>
+        <div style="font-size:13.5px; line-height:1.5; color:#5E5F55; margin-top:16px; border-top:1px solid #C6C6BC;
+          padding-top:14px;">Munich and Berlin founders-associate postings run &euro;51-90K per Glassdoor 2026. Scoped
+          above that median for a CEO-and-CTO-office mandate and A&amp;M and Biome-VC seniority, and deliberately under
+          the US Series-A chief-of-staff band. A proposed anchor, not a demand.</div>
       </div>
 
-      <div style="display:flex; align-items:flex-end; gap:24px; margin-top:52px;">
-        <div class="stat" style="font-size:104px;">13×</div>
-        <div class="statcap" style="padding-bottom:8px; color:#000000;">Base-case ARR &divide; year-1 base.<br>
-          <span style="color:#767676;">Confirm case clears it 23×. Only kill doesn&#39;t,<br>which is exactly what the
-          test is for.</span></div>
+      <div style="display:flex; align-items:flex-end; gap:24px; margin-top:40px;">
+        <div style="font-size:88px; font-weight:700; letter-spacing:-0.035em; line-height:0.9; color:#000000;">13x</div>
+        <div class="lbl" style="padding-bottom:8px;">Base-case ARR over year-1 base.<br>
+          <span style="color:#767676; font-weight:600;">Confirm case clears it 23 times. Only kill does not,<br>
+          which is exactly what the test is for.</span></div>
       </div>
     </div>
   </div>
-  <div class="foot"><div class="src">Modeled, not forecast. ACV at ~7% of displaced BPO/SSC cost (file 08) · funnel per file 17&#39;s decision gate. Full math: 21-compensation-and-arr-scenarios.md · salary: Glassdoor Munich/Berlin 2026</div><div class="pg">khan.abirhilal@gmail.com<br>9 / 11</div></div>
+  <div class="foot"><div class="src">Modeled, not forecast. ACV at about 7% of displaced BPO or SSC cost per file 08, funnel per file 17's decision gate. Full math in 21-compensation-and-arr-scenarios.md. Salary per Glassdoor Munich and Berlin, 2026.</div><div class="pg">khan.abirhilal@gmail.com<br>9 / 11</div></div>
 
 </div>
 </x-dc>

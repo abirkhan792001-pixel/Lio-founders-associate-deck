@@ -14,7 +14,7 @@
       "y": 0,
       "w": 1920,
       "h": 1080,
-      "title": "02 · Who am I & why Lio"
+      "title": "02 · Who I am"
     },
     {
       "file": "Agenda.dc.html",
@@ -54,7 +54,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "07 · What I'd own from day 0"
+      "title": "07 · What I would own"
     },
     {
       "file": "WhyMe.dc.html",
@@ -62,7 +62,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "08 · Why hire me"
+      "title": "08 · Why me"
     },
     {
       "file": "TheAsk.dc.html",
@@ -70,7 +70,7 @@
       "y": 1280,
       "w": 1920,
       "h": 1080,
-      "title": "09 · The ask · comp & ARR scenarios"
+      "title": "09 · The ask"
     },
     {
       "file": "ThankYou.dc.html",
@@ -86,7 +86,7 @@
       "y": 2560,
       "w": 1920,
       "h": 1080,
-      "title": "11 · Appendix · working files"
+      "title": "11 · Appendix"
     }
   ],
   "annotations": [
@@ -95,7 +95,7 @@
       "x": 0,
       "y": -430,
       "w": 520,
-      "text": "Design: MBB formatting in the Zeit AI style. Bone/sage (#DBDBCD), white content slides, black ink, Inter only (saved in deck-design/fonts/). Action titles, section rules, source line and page number on every slide.\n\nOwed by Abir before sending:\n1. Headshot photo (slide 02, top right)\n2. LinkedIn links are set to linkedin.com/in/abir-khan-1143211ab - confirm it's yours\n3. The shell mark is a redrawn approximation - swap for the real logo asset if Lio shares one."
+      "text": "Design follows the Prior Labs founder-associate deck: sage cover, white content slides, bold headline over a full-width rule, subtitle under it, Lio lockup top right, small-caps column labels, grey numerals, left-bar priority rows.\n\nOwed by Abir before sending:\n1. Headshot photo (slide 02, top right)\n2. Confirm the LinkedIn URL\n3. The shell mark is redrawn from the Lio logo. Swap in the real asset if Lio shares one."
     }
   ],
   "launch": {

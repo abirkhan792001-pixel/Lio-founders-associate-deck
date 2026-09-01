@@ -13,117 +13,102 @@
     * { box-sizing:border-box; }
     @page { size:1920px 1080px; margin:0; }
     html, body { width:1920px; height:1080px; }
-    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3A3A3A; background:#FFFFFF;
+    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3C3C3C; background:#FFFFFF;
       -webkit-font-smoothing:antialiased; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     a { color:inherit; }
-    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:46px 56px 0; }
-    .hd { display:flex; justify-content:space-between; align-items:flex-start; gap:48px; }
-    .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:0.13em; text-transform:uppercase; color:#767676; }
-    .eyebrow em { font-style:normal; color:#000000; }
-    h1 { font-size:47px; font-weight:500; letter-spacing:-0.022em; line-height:1.13; margin:11px 0 0; color:#000000;
-      max-width:1480px; }
-    .sub { font-size:20.5px; font-weight:400; line-height:1.38; color:#767676; margin-top:13px; max-width:1420px; }
-    .brand { display:flex; align-items:center; gap:10px; flex-shrink:0; }
-    .brand span { font-size:25px; font-weight:500; letter-spacing:-0.01em; color:#000000; }
-    .sec { font-size:20px; font-weight:700; color:#000000; padding-bottom:9px; border-bottom:2px solid #000000; }
-    .lbl { font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#767676; }
-    .hair { border-bottom:1px solid #DCDCDC; }
-    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.09em; text-transform:uppercase;
-      padding:6px 12px; background:#DBDBCD; color:#000000; white-space:nowrap; }
-    .chip-dark { background:#000000; color:#FFFFFF; }
-    .chip-line { background:transparent; border:1px solid #C6C6BC; color:#5A5A5A; font-weight:600; }
-    .panel { background:#DBDBCD; padding:24px 30px; }
-    .panel-grey { background:#EFEFED; padding:22px 26px; }
-    .b { font-size:16.5px; line-height:1.58; color:#3A3A3A; }
+    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:56px 64px 0; }
+
+    h1 { font-size:54px; font-weight:700; letter-spacing:-0.025em; line-height:1.08; margin:0; color:#000000;
+      max-width:1500px; }
+    .titlerule { border-top:1.5px solid #000000; margin-top:34px; }
+    .sub { font-size:21px; font-weight:400; line-height:1.4; color:#767676; margin-top:20px; max-width:1500px; }
+
+    .lock { text-align:right; flex-shrink:0; padding-top:4px; }
+    .lockmark { display:flex; align-items:center; gap:9px; justify-content:flex-end; }
+    .lockname { font-size:25px; font-weight:600; letter-spacing:-0.015em; color:#2B2E30; }
+    .locksub { font-size:11px; font-weight:500; letter-spacing:0.09em; text-transform:uppercase; color:#767676;
+      margin-top:5px; }
+
+    .col { font-size:12.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000;
+      padding-bottom:8px; border-bottom:1.5px solid #000000; }
+    .lbl { font-size:11.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000; }
+    .lblm { font-size:11.5px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#767676; }
+
+    .hair { border-bottom:1px solid #E2E2E2; }
+    .name { font-size:20px; font-weight:700; color:#000000; letter-spacing:-0.01em; }
+    .meta { font-size:14.5px; font-weight:400; color:#767676; }
+    .b { font-size:16px; line-height:1.5; color:#767676; }
     .b b, .b strong { color:#000000; font-weight:600; }
-    .s { font-size:14.5px; line-height:1.5; color:#767676; }
-    .rowh { font-size:19.5px; font-weight:600; color:#000000; }
-    .num { font-size:22px; font-weight:700; color:#000000; flex-shrink:0; }
-    .stat { font-size:84px; font-weight:700; letter-spacing:-0.035em; line-height:0.9; color:#000000; }
-    .statcap { font-size:10.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#767676;
-      line-height:1.45; }
-    .foot { position:absolute; left:56px; right:56px; bottom:24px; display:flex; justify-content:space-between;
-      align-items:flex-end; gap:48px; border-top:1px solid #DCDCDC; padding-top:12px; }
-    .src { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      line-height:1.55; max-width:1330px; }
-    .pg { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      text-align:right; white-space:nowrap; line-height:1.55; }
+    .bd { font-size:16px; line-height:1.5; color:#3C3C3C; }
+    .bd b, .bd strong { color:#000000; font-weight:600; }
+    .s { font-size:14px; line-height:1.45; color:#767676; }
+
+    .numg { font-size:20px; font-weight:700; color:#BDBDBD; width:34px; flex-shrink:0; }
+    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+      padding:5px 10px; background:#DBDBCD; color:#000000; white-space:nowrap; }
+    .chip-grey { background:#EFEFED; color:#4A4A4A; }
+    .chip-dark { background:#000000; color:#FFFFFF; }
+    .tag { display:inline-block; font-size:14px; font-weight:400; padding:6px 12px; background:#EFEFED;
+      color:#3C3C3C; margin:0 7px 7px 0; }
+
+    .callout { background:#EFEFED; padding:20px 26px; }
+    .stat { font-size:52px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:#000000; }
+
+    .foot { position:absolute; left:64px; right:64px; bottom:30px; display:flex; justify-content:space-between;
+      align-items:flex-end; gap:48px; }
+    .src { font-size:11.5px; font-weight:400; color:#9A9A9A; line-height:1.5; max-width:1300px; }
+    .pg { font-size:11px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#9A9A9A;
+      text-align:right; white-space:nowrap; line-height:1.6; }
   </style>
 </helmet>
 <div class="slide">
 
-  <div class="hd"><div><h1>Who am I and what do I bring to the table?</h1><div class="sub">Experience spans consulting to VC. Now driving Strategy, AI and GTM at SCAILE.</div></div><div style="display:flex; align-items:flex-start; gap:34px; flex-shrink:0;"><div style="width:158px; height:158px; background:#EFEFED; border:1px solid #DCDCDC; display:flex; align-items:center; justify-content:center;"><span class="lbl">Photo</span></div><div class="brand"><svg width="30" height="30" viewBox="0 0 48 48" fill="none" stroke="#000000" stroke-width="3.4" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span>Lio</span></div></div></div>
+  <div style="position:absolute; right:64px; top:44px;"><div style="width:150px; height:150px; background:#EFEFED; display:flex; align-items:center; justify-content:center; flex-shrink:0;"><span class="lblm">Photo</span></div></div>
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:48px;"><h1>Who I am, and what I bring.</h1><div style="width:150px; flex-shrink:0;"></div></div><div class="titlerule"></div><div class="sub">Consulting, venture capital, and now building go-to-market. All of it in the last three years.</div>
 
-  <div style="display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:88px; margin-top:46px;">
+  <div style="display:grid; grid-template-columns:1.02fr 0.98fr; gap:86px; margin-top:40px;">
     <div>
-      <div class="sec">Experience</div>
-      <div class="hair" style="padding:23px 0 20px;">
-        <div class="rowh">SCAILE Technologies</div>
-        <div class="b" style="margin-top:5px;">Driving Strategy, AI and GTM. I build B2B go-to-market engines from scratch,
-          from ICP research through outbound to AI search visibility.</div>
-      </div>
-      <div class="hair" style="padding:20px 0;">
-        <div class="rowh">Alvarez &amp; Marsal</div>
-        <div class="b" style="margin-top:5px;">Advised Fortune 500 CEOs on restructuring financial liabilities
-          worth &gt;$100M.</div>
-      </div>
-      <div style="padding:20px 0;">
-        <div class="rowh">Biome VC</div>
-        <div class="b" style="margin-top:5px;">Built an investment thesis that shaped the investment philosophy of a
-          $170M VC fund.</div>
+      <div class="col">Experience</div>
+      <div style="margin-top:6px;">
+        <div class="hair" style="padding:15px 0;"><div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;"><span class="name">SCAILE Technologies</span><span class="meta">Strategy, AI and go-to-market, 2026</span></div><div class="b" style="margin-top:5px;">B2B go-to-market engines built from scratch, from ICP research to outbound to AI search visibility.</div></div>
+        <div class="hair" style="padding:15px 0;"><div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;"><span class="name">Alvarez &amp; Marsal</span><span class="meta">Restructuring, 2024</span></div><div class="b" style="margin-top:5px;">Advised Fortune 500 CEOs on restructuring financial liabilities worth over $100M.</div></div>
+        <div style="padding:15px 0;"><div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;"><span class="name">Biome VC</span><span class="meta">Venture capital, 2023</span></div><div class="b" style="margin-top:5px;">Built the investment thesis that shaped how a $170M fund picks companies.</div></div>
       </div>
 
-      <div class="sec" style="margin-top:20px;">Education</div>
-      <div class="hair" style="padding:23px 0 18px;">
-        <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
-          <div class="rowh">Nova School of Business and Economics, Lisbon</div>
-          <span class="chip">FT #8 worldwide</span>
-        </div>
-        <div class="b" style="margin-top:5px;">MSc Finance. <b>Top 10% of class.</b></div>
-      </div>
-      <div style="padding:19px 0;">
-        <div class="b">Won top prize in National Case Study Competitions (among 15,000+ participants).</div>
+      <div class="col" style="margin-top:26px;">Education</div>
+      <div style="margin-top:6px;">
+        <div class="hair" style="padding:15px 0;"><div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;"><span class="name">Nova School of Business and Economics, Lisbon</span><span class="meta">MSc Finance</span></div><div class="b" style="margin-top:5px;">Top 10% of class. Ranked #8 worldwide by the Financial Times.</div></div>
+        <div style="padding:15px 0;"><div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;"><span class="name">National case competitions</span><span class="meta">15,000+ participants</span></div><div class="b" style="margin-top:5px;">Won top prize. The same instinct that produced the three findings in this deck.</div></div>
       </div>
     </div>
 
     <div>
-      <div class="sec">Why Lio</div>
-      <div class="hair" style="display:flex; gap:20px; padding:26px 0 23px;">
-        <div class="num">1</div>
-        <div>
-          <div class="rowh">Shortest path to founding my own.</div>
-          <div class="b" style="margin-top:6px;">I want to found my own startup, and nothing gets me closer than the
-            founders&#39; office of a company at its inflection point. Fresh off a $30M a16z Series A, rebranding into
-            a category, opening the US. This is the phase where I learn to lay the bricks.</div>
-        </div>
-      </div>
-      <div class="hair" style="display:flex; gap:20px; padding:23px 0;">
-        <div class="num">2</div>
-        <div>
-          <div class="rowh">Lio sells against a $180B line, not a $10B one.</div>
-          <div class="b" style="margin-top:6px;">Everyone else builds procurement software. Lio replaces the execution
-            labour, the same BPO scope at ~7% of cost. It is the sharpest enterprise wedge I have seen since I started
-            working in GTM, and the market has barely heard it yet.</div>
-        </div>
-      </div>
-      <div style="display:flex; gap:20px; padding:23px 0;">
-        <div class="num">3</div>
-        <div>
-          <div class="rowh">I like building things.</div>
-          <div class="b" style="margin-top:6px;">As a VC analyst I spent 100+ hours with founders and operators,
-            learning what breaks. At SCAILE I build the playbook from scratch. For this application I already built
-            Lio&#39;s: 219 named buyers of 2,245 identified, a re-verified 17-event programme, and a 60-post
-            share-of-voice audit. All of it ships as working files.</div>
-        </div>
+      <div class="col">Why Lio</div>
+      <div style="margin-top:6px;">
+        <div class="hair" style="display:flex; gap:22px; padding:19px 0;"><div class="numg">1</div><div><div class="name">Shortest path to founding my own.</div><div class="b" style="margin-top:6px;">Nothing gets me closer than the founders' office of a company at its inflection point. Fresh off a $30M a16z Series A, rebranding into a category, opening the US. This is the phase where I learn to lay bricks.</div></div></div>
+        <div class="hair" style="display:flex; gap:22px; padding:19px 0;"><div class="numg">2</div><div><div class="name">Lio sells against a $180B line, not a $10B one.</div><div class="b" style="margin-top:6px;">Everyone else builds procurement software. Lio replaces the execution labour at roughly 7% of the cost. It is the sharpest enterprise wedge I have seen since I started working in GTM.</div></div></div>
+        <div style="display:flex; gap:22px; padding:19px 0;"><div class="numg">3</div><div><div class="name">I have already done the work.</div><div class="b" style="margin-top:6px;">219 named buyers of 2,245 identified, a 17-event programme re-verified against organiser sources, a 60-post share-of-voice audit, and a falsifiable GTM hypothesis with kill criteria. All before day 0.</div></div></div>
       </div>
     </div>
   </div>
 
-  <div style="position:absolute; left:56px; bottom:86px; display:flex; align-items:center; gap:20px;">
-    <span class="lbl">Day-to-day stack</span>
-    <span style="font-size:14px; color:#3A3A3A;">Claude Code · Apollo · Clay · Figma · Webflow · Notion · HubSpot · Sheets</span>
+  <div style="position:absolute; left:64px; right:64px; bottom:112px;">
+    <div class="lbl">Day-to-day stack</div>
+    <div style="margin-top:14px;">
+      <span class="tag">Claude Code</span><span class="tag">Apollo</span><span class="tag">Clay</span>
+      <span class="tag">HubSpot</span><span class="tag">Figma</span><span class="tag">Webflow</span>
+      <span class="tag">Notion</span><span class="tag">Sheets</span></div>
   </div>
-  <div class="foot"><div class="src">Company facts per Lio&#39;s Series A release (2026-03-05) and the Lio/a16z $180B-vs-$10B thesis · own figures as in the Zeit AI deck</div><div class="pg">khan.abirhilal@gmail.com<br>2 / 11</div></div>
+
+  <div style="position:absolute; left:64px; bottom:38px; display:flex; align-items:center; gap:16px;">
+    <div style="display:flex; align-items:center; gap:9px;"><svg width="30" height="30" viewBox="0 0 48 48" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg>
+      <span style="font-size:24px; font-weight:600; letter-spacing:-0.015em; color:#2B2E30;">Lio</span></div>
+    <span class="s">Applying for Founders Associate</span>
+  </div>
+  <div style="position:absolute; right:64px; bottom:38px; text-align:right;">
+    <div style="font-size:15px; font-weight:700; color:#000000;">khan.abirhilal@gmail.com</div>
+    <div class="s" style="margin-top:4px;">Free from September · on-site in Munich</div>
+  </div>
 
 </div>
 </x-dc>

@@ -6,27 +6,37 @@
 
 **Purpose:** Abir Khan's application deck for the Founders Associate role (CEO & CTO office) at Lio. Theme set by Abir: (1) who I am & why Lio · (2) what I would own from day 0, in one line · (3) why hire me / what Lio gets in return.
 
-**Design source (v3, 2026-08-31):** **MBB-style consulting formatting in Abir's Zeit AI house style**. Bone/sage cover, white content slides, black ink, Inter only. Colours and layout idioms were sampled directly from the Zeit AI deck PDF (`#DBDBCD` sage, `#EFEFED` grey panels, square chips, 2px section rules). This supersedes v2 (Lio's own dark teal brand language, lime accent, Geist Mono) and v1; both remain recoverable from git history.
+**Design source (v4, 2026-09-01):** the **Prior Labs founder-associate deck** Abir supplied as a PDF reference. Colours were sampled off its pages (`#DBDBCD` sage, `#EFEFED` grey, `#000000` ink, white content ground), and the layout idioms were lifted from the artwork rather than described from memory. The Prior Labs wordmark is replaced throughout by the Lio lockup. This supersedes v3 (MBB formatting in the Zeit AI house style), v2 (Lio's dark teal brand language) and v1; all remain in git history.
 
-**Why v3:** the audience is a founders' office reading a strategy document, and MBB formatting (action titles that state the takeaway, one message per slide, section rules, a source line and page number on every page) carries the analytical rigour better than brand homage. The trade-off is real and worth naming: v2's dark Lio palette reflected the founders' own world back at them; v3 trades that mirror for the consulting read.
+The palette is unchanged from v3. What changed is the typographic and structural treatment, which is where the reference actually differs:
 
-## Design system (MBB / Zeit AI)
+| Element | v3 | v4, per the reference |
+|---|---|---|
+| Headlines | 47px, weight 500 | **54px, weight 700**, tighter tracking |
+| Title block | rule under the section head | **full-width rule under the title, subtitle below it** |
+| Brand | small mark top-right | **Lio lockup top-right over a small-caps section line** |
+| Column heads | 20px/700 | **12.5px/700 small caps over a 1.5px rule** |
+| List numerals | small, black | **large and grey (`#BDBDBD`)** |
+| Priority rows | plain | **4px left bar**, black for deep, sage for cover, plus a chip |
+| Callouts | sage panels | **full-width grey panels** with a small-caps label |
+| Cover | headline and subtitle | **eyebrow, starburst, headline low-left, three-stat row over a rule** |
+
+## Design system (v4)
 
 | Token | Value | Used for |
 |---|---|---|
 | Content base | `#FFFFFF` | Every content slide background |
-| Sage | `#DBDBCD` | Cover background · Thank-You ink · chips · verdict panels · summary boxes |
-| Ink | `#000000` | Headlines, section heads, big numbers, solid chips and event bars |
-| Body | `#3A3A3A` | Body copy |
-| Muted / faint | `#767676` / `#9A9A9A` | Subtitles and small caps labels / source lines and page numbers |
-| Grey panel | `#EFEFED` | Secondary observation cards, photo placeholder |
-| Rules | `#000000` 2px / `#DCDCDC` 1px | Under section heads / between rows and above the footer |
-| Chips | square, 11px/700, `.09em` caps | Sage = default · black = emphasis (STRATEGY, THE ASK, CONFIRM) · outlined = tertiary |
+| Sage | `#DBDBCD` | Cover ground · Thank-You ink · chips · verdict panels · left bars |
+| Ink | `#000000` | Headlines, rules, big numbers, solid chips and event bars |
+| Body / muted / faint | `#3C3C3C` / `#767676` / `#9A9A9A` | Body copy / subtitles and secondary / source lines |
+| Grey | `#EFEFED` | Callout panels, tags, dim event bars, photo placeholder |
+| Logo ink | `#2B2E30` | The Lio lockup, matching the supplied logo file |
+| Hairline | `#E2E2E2` | Between rows |
 
-- **Type: Inter only**, in five weights from one variable file. Geist Mono is no longer used (files stay in the repo, unreferenced). `Inter-Variable-latin.woff2` is embedded as a data-URI in every artboard, so canvas, offline viewing and PDF export all keep the real face with no network, and each artboard is now ~72KB instead of ~115KB. Scale: cover 104px/500 · action titles 47px/500/-0.022em · subtitles 20.5px · section heads 20px/700 · body 16.5px · big stats 84-112px/700 · caps labels 9.5-11.5px/700 at `.1em`.
-- **MBB conventions applied throughout:** every content slide carries an **action title** stating the takeaway rather than the topic (e.g. "The market is countable. The trigger is not the one the plan assumed"), a scope-setting subtitle, section heads over 2px rules, a **source line bottom-left** and **page number bottom-right** (`n / 11`).
-- **Signature elements:** 8-spoke thin-line starburst on cover and Thank-You (from the Zeit AI cover) · redrawn **shell mark** (3 nested SVG arcs) + "Lio" wordmark, black on content slides, sage on Thank-You · sage verdict panels pairing a giant number with a one-sentence thesis · black/sage/outlined event bars encoding booked, own-franchise and later · **the 16-agent roster as outlined chips anchored above the footer on slide 07**.
-- **Uniformity is enforced by construction:** all 11 artboards are generated from one template with a single shared CSS block, so tokens, chrome and spacing cannot drift between slides. Regenerating is a build step, not a hand-edit.
+- **Type: Inter only**, one variable file embedded per artboard, so canvas, offline viewing and PDF export keep the real face with no network. Scale: cover 74px/700 · titles 54px/700 · subtitles 21px · column heads 12.5px/700 caps · body 16px · stats 34-96px/700 · caps labels 11-12.5px/700 at `.1em`.
+- **The logo.** The Prior Labs mark is gone. In its place is the Lio lockup: the redrawn shell mark (3 nested SVG arcs) plus the "Lio" wordmark in `#2B2E30`, matching the logo file Abir supplied. It sits top-right on content slides, bottom-left on slide 02, and in sage on the closing slide. The mark is still an approximation, so swap in the real asset if Lio shares one.
+- **Uniformity is enforced by construction:** all 11 artboards come from one generator with a single shared CSS block, so tokens and spacing cannot drift between slides.
+- **Copy discipline carried over from v3:** no em dashes, no en dashes, plain hyphens, and the prose checked against the humanize writing guides.
 
 ## How the deck is built and exported
 

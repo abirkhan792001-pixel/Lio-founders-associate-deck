@@ -13,94 +13,91 @@
     * { box-sizing:border-box; }
     @page { size:1920px 1080px; margin:0; }
     html, body { width:1920px; height:1080px; }
-    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3A3A3A; background:#FFFFFF;
+    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3C3C3C; background:#FFFFFF;
       -webkit-font-smoothing:antialiased; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     a { color:inherit; }
-    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:46px 56px 0; }
-    .hd { display:flex; justify-content:space-between; align-items:flex-start; gap:48px; }
-    .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:0.13em; text-transform:uppercase; color:#767676; }
-    .eyebrow em { font-style:normal; color:#000000; }
-    h1 { font-size:47px; font-weight:500; letter-spacing:-0.022em; line-height:1.13; margin:11px 0 0; color:#000000;
-      max-width:1480px; }
-    .sub { font-size:20.5px; font-weight:400; line-height:1.38; color:#767676; margin-top:13px; max-width:1420px; }
-    .brand { display:flex; align-items:center; gap:10px; flex-shrink:0; }
-    .brand span { font-size:25px; font-weight:500; letter-spacing:-0.01em; color:#000000; }
-    .sec { font-size:20px; font-weight:700; color:#000000; padding-bottom:9px; border-bottom:2px solid #000000; }
-    .lbl { font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#767676; }
-    .hair { border-bottom:1px solid #DCDCDC; }
-    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.09em; text-transform:uppercase;
-      padding:6px 12px; background:#DBDBCD; color:#000000; white-space:nowrap; }
-    .chip-dark { background:#000000; color:#FFFFFF; }
-    .chip-line { background:transparent; border:1px solid #C6C6BC; color:#5A5A5A; font-weight:600; }
-    .panel { background:#DBDBCD; padding:24px 30px; }
-    .panel-grey { background:#EFEFED; padding:22px 26px; }
-    .b { font-size:16.5px; line-height:1.58; color:#3A3A3A; }
+    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:56px 64px 0; }
+
+    h1 { font-size:54px; font-weight:700; letter-spacing:-0.025em; line-height:1.08; margin:0; color:#000000;
+      max-width:1500px; }
+    .titlerule { border-top:1.5px solid #000000; margin-top:34px; }
+    .sub { font-size:21px; font-weight:400; line-height:1.4; color:#767676; margin-top:20px; max-width:1500px; }
+
+    .lock { text-align:right; flex-shrink:0; padding-top:4px; }
+    .lockmark { display:flex; align-items:center; gap:9px; justify-content:flex-end; }
+    .lockname { font-size:25px; font-weight:600; letter-spacing:-0.015em; color:#2B2E30; }
+    .locksub { font-size:11px; font-weight:500; letter-spacing:0.09em; text-transform:uppercase; color:#767676;
+      margin-top:5px; }
+
+    .col { font-size:12.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000;
+      padding-bottom:8px; border-bottom:1.5px solid #000000; }
+    .lbl { font-size:11.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000; }
+    .lblm { font-size:11.5px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#767676; }
+
+    .hair { border-bottom:1px solid #E2E2E2; }
+    .name { font-size:20px; font-weight:700; color:#000000; letter-spacing:-0.01em; }
+    .meta { font-size:14.5px; font-weight:400; color:#767676; }
+    .b { font-size:16px; line-height:1.5; color:#767676; }
     .b b, .b strong { color:#000000; font-weight:600; }
-    .s { font-size:14.5px; line-height:1.5; color:#767676; }
-    .rowh { font-size:19.5px; font-weight:600; color:#000000; }
-    .num { font-size:22px; font-weight:700; color:#000000; flex-shrink:0; }
-    .stat { font-size:84px; font-weight:700; letter-spacing:-0.035em; line-height:0.9; color:#000000; }
-    .statcap { font-size:10.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#767676;
-      line-height:1.45; }
-    .foot { position:absolute; left:56px; right:56px; bottom:24px; display:flex; justify-content:space-between;
-      align-items:flex-end; gap:48px; border-top:1px solid #DCDCDC; padding-top:12px; }
-    .src { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      line-height:1.55; max-width:1330px; }
-    .pg { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      text-align:right; white-space:nowrap; line-height:1.55; }
+    .bd { font-size:16px; line-height:1.5; color:#3C3C3C; }
+    .bd b, .bd strong { color:#000000; font-weight:600; }
+    .s { font-size:14px; line-height:1.45; color:#767676; }
+
+    .numg { font-size:20px; font-weight:700; color:#BDBDBD; width:34px; flex-shrink:0; }
+    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+      padding:5px 10px; background:#DBDBCD; color:#000000; white-space:nowrap; }
+    .chip-grey { background:#EFEFED; color:#4A4A4A; }
+    .chip-dark { background:#000000; color:#FFFFFF; }
+    .tag { display:inline-block; font-size:14px; font-weight:400; padding:6px 12px; background:#EFEFED;
+      color:#3C3C3C; margin:0 7px 7px 0; }
+
+    .callout { background:#EFEFED; padding:20px 26px; }
+    .stat { font-size:52px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:#000000; }
+
+    .foot { position:absolute; left:64px; right:64px; bottom:30px; display:flex; justify-content:space-between;
+      align-items:flex-end; gap:48px; }
+    .src { font-size:11.5px; font-weight:400; color:#9A9A9A; line-height:1.5; max-width:1300px; }
+    .pg { font-size:11px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#9A9A9A;
+      text-align:right; white-space:nowrap; line-height:1.6; }
   </style>
 </helmet>
 <div class="slide">
 
-  <div class="hd"><div><div class="eyebrow"><em>03</em> · Findings · every publicly indexed LinkedIn post about Lio · 8 search angles · 31 August 2026</div><h1>One voice carries the category, and the 150-logo customer wall is silent</h1><div class="sub">60 indexed posts. Keil authors 40% of them, and customers author none.</div></div><div class="brand"><svg width="30" height="30" viewBox="0 0 48 48" fill="none" stroke="#000000" stroke-width="3.4" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span>Lio</span></div></div>
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:48px;"><h1>One voice carries the category, and the customer wall is silent.</h1><div class="lock"><div class="lockmark"><svg width="27" height="27" viewBox="0 0 48 48" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span class="lockname">Lio</span></div><div class="locksub">03 · Findings</div></div></div><div class="titlerule"></div><div class="sub">60 indexed posts. Keil authors 40% of them, and customers author none.</div>
 
-  <div style="display:grid; grid-template-columns:1.08fr 0.92fr; gap:72px; margin-top:30px;">
+  <div style="display:grid; grid-template-columns:1.05fr 0.95fr; gap:76px; margin-top:36px;">
     <div>
-      <div class="sec" style="font-size:17px;">Posts found, by who is talking</div>
-      <div style="display:flex; align-items:center; gap:18px; padding:15px 0; border-bottom:1px solid #DCDCDC;"><div style="width:268px; flex-shrink:0;"><div style="font-size:15.5px; font-weight:500; color:#000000;">Vladimir Keil (CEO)</div><div class="s" style="font-size:12.5px; margin-top:2px;">the channel, effectively</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:17px; width:430px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">24</div></div></div>
-      <div style="display:flex; align-items:center; gap:18px; padding:15px 0; border-bottom:1px solid #DCDCDC;"><div style="width:268px; flex-shrink:0;"><div style="font-size:15.5px; font-weight:500; color:#000000;">Lio company page</div><div class="s" style="font-size:12.5px; margin-top:2px;">incl. the askLio era</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:17px; width:161px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">9</div></div></div>
-      <div style="display:flex; align-items:center; gap:18px; padding:15px 0; border-bottom:1px solid #DCDCDC;"><div style="width:268px; flex-shrink:0;"><div style="font-size:15.5px; font-weight:500; color:#000000;">Third-party commentary</div><div class="s" style="font-size:12.5px; margin-top:2px;">analysts, influencers, reactions</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:17px; width:161px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">9</div></div></div>
-      <div style="display:flex; align-items:center; gap:18px; padding:15px 0; border-bottom:1px solid #DCDCDC;"><div style="width:268px; flex-shrink:0;"><div style="font-size:15.5px; font-weight:500; color:#000000;">Heinzmann &amp; Wagner (CTO/COO)</div><div class="s" style="font-size:12.5px; margin-top:2px;">&nbsp;</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:17px; width:125px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">7</div></div></div>
-      <div style="display:flex; align-items:center; gap:18px; padding:15px 0; border-bottom:1px solid #DCDCDC;"><div style="width:268px; flex-shrink:0;"><div style="font-size:15.5px; font-weight:500; color:#000000;">Lio team (&ldquo;Lions&rdquo;)</div><div class="s" style="font-size:12.5px; margin-top:2px;">Petras, new-hire posts, FDE Night</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:17px; width:125px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">7</div></div></div>
-      <div style="display:flex; align-items:center; gap:18px; padding:15px 0; border-bottom:1px solid #DCDCDC;"><div style="width:268px; flex-shrink:0;"><div style="font-size:15.5px; font-weight:500; color:#000000;">Investors &amp; network</div><div class="s" style="font-size:12.5px; margin-top:2px;">YC, a16z orbit</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:17px; width:71px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">4</div></div></div>
-      <div style="margin-top:8px;"><div style="display:flex; align-items:center; gap:18px; background:#DBDBCD; padding:15px 12px;"><div style="width:268px; flex-shrink:0;"><div style="font-size:15.5px; font-weight:700; color:#000000;">Customers</div><div class="s" style="font-size:12.5px; margin-top:2px;">despite a 150+ enterprise logo wall</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:17px; width:4px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">0 posts found</div></div></div></div>
-      <div class="s" style="font-size:12.5px; margin-top:12px;">Found via search-engine indexing of linkedin.com, so this is
-        a floor rather than a census. The login wall hides an unknown share of posts. Direction is what matters.</div>
+      <div class="col">Posts found, by who is talking</div>
+      <div style="margin-top:6px;">
+        <div style="display:flex; align-items:center; gap:18px; padding:14px 0; border-bottom:1px solid #E2E2E2;"><div style="width:250px; flex-shrink:0;"><div style="font-size:16px; font-weight:600; color:#000000;">Vladimir Keil (CEO)</div><div class="s" style="font-size:12.5px; margin-top:2px;">the channel, effectively</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:16px; width:400px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">24</div></div></div>
+        <div style="display:flex; align-items:center; gap:18px; padding:14px 0; border-bottom:1px solid #E2E2E2;"><div style="width:250px; flex-shrink:0;"><div style="font-size:16px; font-weight:600; color:#000000;">Lio company page</div><div class="s" style="font-size:12.5px; margin-top:2px;">including the askLio era</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:16px; width:150px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">9</div></div></div>
+        <div style="display:flex; align-items:center; gap:18px; padding:14px 0; border-bottom:1px solid #E2E2E2;"><div style="width:250px; flex-shrink:0;"><div style="font-size:16px; font-weight:600; color:#000000;">Third-party commentary</div><div class="s" style="font-size:12.5px; margin-top:2px;">analysts, influencers, reactions</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:16px; width:150px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">9</div></div></div>
+        <div style="display:flex; align-items:center; gap:18px; padding:14px 0; border-bottom:1px solid #E2E2E2;"><div style="width:250px; flex-shrink:0;"><div style="font-size:16px; font-weight:600; color:#000000;">Heinzmann and Wagner</div><div class="s" style="font-size:12.5px; margin-top:2px;">CTO and COO</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:16px; width:117px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">7</div></div></div>
+        <div style="display:flex; align-items:center; gap:18px; padding:14px 0; border-bottom:1px solid #E2E2E2;"><div style="width:250px; flex-shrink:0;"><div style="font-size:16px; font-weight:600; color:#000000;">Lio team</div><div class="s" style="font-size:12.5px; margin-top:2px;">Petras, new-hire posts, FDE Night</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:16px; width:117px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">7</div></div></div>
+        <div style="display:flex; align-items:center; gap:18px; padding:14px 0; border-bottom:1px solid #E2E2E2;"><div style="width:250px; flex-shrink:0;"><div style="font-size:16px; font-weight:600; color:#000000;">Investors and network</div><div class="s" style="font-size:12.5px; margin-top:2px;">YC and a16z orbit</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:16px; width:67px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">4</div></div></div>
+        <div style="margin-top:10px;"><div style="display:flex; align-items:center; gap:18px; background:#DBDBCD; padding:14px 12px;"><div style="width:250px; flex-shrink:0;"><div style="font-size:16px; font-weight:700; color:#000000;">Customers</div><div class="s" style="font-size:12.5px; margin-top:2px;">despite a 150+ enterprise logo wall</div></div><div style="display:flex; align-items:center; gap:14px; flex-grow:1;"><div style="height:16px; width:4px; background:#000000;"></div><div style="font-size:15px; font-weight:700; color:#000000;">0 posts found</div></div></div></div>
+      </div>
+      <div class="s" style="font-size:12.5px; margin-top:14px;">Found via search-engine indexing of linkedin.com, so
+        this is a floor rather than a census. The login wall hides an unknown share of posts.</div>
     </div>
 
     <div style="display:flex; flex-direction:column; gap:14px;">
-      <div class="panel-grey">
-        <div class="rowh" style="font-size:16.5px;">One voice carries 40% of the channel</div>
-        <div class="b" style="font-size:14px; margin-top:7px;">Keil authors 24 of 60 indexed posts; the founder team
-          together, 31. That is a single point of failure, and also the cheapest amplifier available. Founder-content ops
-          (drafts, recaps, clips) multiplies an asset that already works.</div>
-      </div>
-      <div class="panel-grey">
-        <div class="rowh" style="font-size:16.5px;">The logo wall is silent</div>
-        <div class="b" style="font-size:14px; margin-top:7px;">Zero customer-authored posts, despite award-grade
-          stories at Schaeffler (MOU), REHAU (BME + Porsche Consulting AI Impact Award 2026) and Surventis. Every
-          go-live, award and dinner should ship with a co-marketing ask. Nobody owns that ask today.</div>
-      </div>
-      <div class="panel-grey">
-        <div class="rowh" style="font-size:16.5px;">Moments, not a cadence</div>
-        <div class="b" style="font-size:14px; margin-top:7px;">Activity spikes at the YC launch, the BME award,
-          Schaeffler milestones and the Series A, then goes quiet. The 17-room P1 calendar, plus Lio&#39;s own
-          franchises, is a built-in content engine if every room produces before/during/after posts. That loop needs
-          an owner.</div>
-      </div>
+      <div class="callout"><div class="name" style="font-size:17px;">One voice carries 40% of the channel</div><div class="b" style="font-size:14.5px; margin-top:7px;">Keil authors 24 of 60 indexed posts, and the founder team together 31. That is a single point of failure, and also the cheapest amplifier available. Founder-content ops multiplies an asset that already works.</div></div>
+      <div class="callout"><div class="name" style="font-size:17px;">The logo wall is silent</div><div class="b" style="font-size:14.5px; margin-top:7px;">Zero customer-authored posts, despite award-grade stories at Schaeffler, REHAU and Surventis. Every go-live, award and dinner should ship with a co-marketing ask. Nobody owns that ask today.</div></div>
+      <div class="callout"><div class="name" style="font-size:17px;">Moments, not a cadence</div><div class="b" style="font-size:14.5px; margin-top:7px;">Activity spikes at the YC launch, the BME award and the Series A, then goes quiet. The 17-room calendar is a built-in content engine if every room produces posts before, during and after. That loop needs an owner.</div></div>
     </div>
   </div>
 
-  <div style="display:flex; align-items:center; gap:34px; margin-top:26px; background:#DBDBCD; padding:22px 30px;">
+  <div style="display:flex; align-items:center; gap:34px; margin-top:28px; background:#DBDBCD; padding:24px 30px;">
     <div style="flex-shrink:0;">
-      <div class="stat" style="font-size:68px;">60</div>
-      <div class="statcap" style="margin-top:6px;">Distinct posts<br>in the register</div>
+      <div style="font-size:56px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:#000000;">60</div>
+      <div class="lbl" style="margin-top:8px;">Distinct posts<br>in the register</div>
     </div>
-    <div class="b" style="color:#2E2E28;"><b>Share of voice is founder-heavy and customer-silent. That is an ops gap, not a budget gap,
-      and the events &rarr; content &rarr; advocacy loop I would run closes it.</b> Full register with URLs,
-      authors, dates and themes: <b>14-linkedin-posts.md</b></div>
+    <div class="bd" style="color:#2E2E28;"><b>Share of voice is founder-heavy and customer-silent. That is an ops gap,
+      not a budget gap, and the events to content to advocacy loop I would run closes it.</b> Full register with URLs,
+      authors, dates and themes ships as 14-linkedin-posts.md.</div>
   </div>
-  <div class="foot"><div class="src">Compiled via 8-angle search sweep · dates decoded from LinkedIn activity IDs · logo count, awards and customer facts per Lio site/newsroom and press (Aug 2026)</div><div class="pg">khan.abirhilal@gmail.com<br>6 / 11</div></div>
+  <div class="foot"><div class="src">Compiled via an 8-angle search sweep. Dates decoded from LinkedIn activity IDs. Logo count, awards and customer facts per the Lio site, newsroom and press, August 2026.</div><div class="pg">khan.abirhilal@gmail.com<br>6 / 11</div></div>
 
 </div>
 </x-dc>

@@ -13,63 +13,74 @@
     * { box-sizing:border-box; }
     @page { size:1920px 1080px; margin:0; }
     html, body { width:1920px; height:1080px; }
-    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3A3A3A; background:#FFFFFF;
+    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3C3C3C; background:#FFFFFF;
       -webkit-font-smoothing:antialiased; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     a { color:inherit; }
-    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:46px 56px 0; }
-    .hd { display:flex; justify-content:space-between; align-items:flex-start; gap:48px; }
-    .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:0.13em; text-transform:uppercase; color:#767676; }
-    .eyebrow em { font-style:normal; color:#000000; }
-    h1 { font-size:47px; font-weight:500; letter-spacing:-0.022em; line-height:1.13; margin:11px 0 0; color:#000000;
-      max-width:1480px; }
-    .sub { font-size:20.5px; font-weight:400; line-height:1.38; color:#767676; margin-top:13px; max-width:1420px; }
-    .brand { display:flex; align-items:center; gap:10px; flex-shrink:0; }
-    .brand span { font-size:25px; font-weight:500; letter-spacing:-0.01em; color:#000000; }
-    .sec { font-size:20px; font-weight:700; color:#000000; padding-bottom:9px; border-bottom:2px solid #000000; }
-    .lbl { font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#767676; }
-    .hair { border-bottom:1px solid #DCDCDC; }
-    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.09em; text-transform:uppercase;
-      padding:6px 12px; background:#DBDBCD; color:#000000; white-space:nowrap; }
-    .chip-dark { background:#000000; color:#FFFFFF; }
-    .chip-line { background:transparent; border:1px solid #C6C6BC; color:#5A5A5A; font-weight:600; }
-    .panel { background:#DBDBCD; padding:24px 30px; }
-    .panel-grey { background:#EFEFED; padding:22px 26px; }
-    .b { font-size:16.5px; line-height:1.58; color:#3A3A3A; }
+    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:56px 64px 0; }
+
+    h1 { font-size:54px; font-weight:700; letter-spacing:-0.025em; line-height:1.08; margin:0; color:#000000;
+      max-width:1500px; }
+    .titlerule { border-top:1.5px solid #000000; margin-top:34px; }
+    .sub { font-size:21px; font-weight:400; line-height:1.4; color:#767676; margin-top:20px; max-width:1500px; }
+
+    .lock { text-align:right; flex-shrink:0; padding-top:4px; }
+    .lockmark { display:flex; align-items:center; gap:9px; justify-content:flex-end; }
+    .lockname { font-size:25px; font-weight:600; letter-spacing:-0.015em; color:#2B2E30; }
+    .locksub { font-size:11px; font-weight:500; letter-spacing:0.09em; text-transform:uppercase; color:#767676;
+      margin-top:5px; }
+
+    .col { font-size:12.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000;
+      padding-bottom:8px; border-bottom:1.5px solid #000000; }
+    .lbl { font-size:11.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000; }
+    .lblm { font-size:11.5px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#767676; }
+
+    .hair { border-bottom:1px solid #E2E2E2; }
+    .name { font-size:20px; font-weight:700; color:#000000; letter-spacing:-0.01em; }
+    .meta { font-size:14.5px; font-weight:400; color:#767676; }
+    .b { font-size:16px; line-height:1.5; color:#767676; }
     .b b, .b strong { color:#000000; font-weight:600; }
-    .s { font-size:14.5px; line-height:1.5; color:#767676; }
-    .rowh { font-size:19.5px; font-weight:600; color:#000000; }
-    .num { font-size:22px; font-weight:700; color:#000000; flex-shrink:0; }
-    .stat { font-size:84px; font-weight:700; letter-spacing:-0.035em; line-height:0.9; color:#000000; }
-    .statcap { font-size:10.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#767676;
-      line-height:1.45; }
-    .foot { position:absolute; left:56px; right:56px; bottom:24px; display:flex; justify-content:space-between;
-      align-items:flex-end; gap:48px; border-top:1px solid #DCDCDC; padding-top:12px; }
-    .src { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      line-height:1.55; max-width:1330px; }
-    .pg { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      text-align:right; white-space:nowrap; line-height:1.55; }
+    .bd { font-size:16px; line-height:1.5; color:#3C3C3C; }
+    .bd b, .bd strong { color:#000000; font-weight:600; }
+    .s { font-size:14px; line-height:1.45; color:#767676; }
+
+    .numg { font-size:20px; font-weight:700; color:#BDBDBD; width:34px; flex-shrink:0; }
+    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+      padding:5px 10px; background:#DBDBCD; color:#000000; white-space:nowrap; }
+    .chip-grey { background:#EFEFED; color:#4A4A4A; }
+    .chip-dark { background:#000000; color:#FFFFFF; }
+    .tag { display:inline-block; font-size:14px; font-weight:400; padding:6px 12px; background:#EFEFED;
+      color:#3C3C3C; margin:0 7px 7px 0; }
+
+    .callout { background:#EFEFED; padding:20px 26px; }
+    .stat { font-size:52px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:#000000; }
+
+    .foot { position:absolute; left:64px; right:64px; bottom:30px; display:flex; justify-content:space-between;
+      align-items:flex-end; gap:48px; }
+    .src { font-size:11.5px; font-weight:400; color:#9A9A9A; line-height:1.5; max-width:1300px; }
+    .pg { font-size:11px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#9A9A9A;
+      text-align:right; white-space:nowrap; line-height:1.6; }
   </style>
 </helmet>
 <div class="slide">
 
-  <div class="hd"><div><h1>Appendix: the working files</h1><div class="sub">Every claim in this deck has a file behind it. Nothing here is slideware.</div></div><div class="brand"><svg width="30" height="30" viewBox="0 0 48 48" fill="none" stroke="#000000" stroke-width="3.4" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span>Lio</span></div></div>
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:48px;"><h1>Appendix: the working files.</h1><div class="lock"><div class="lockmark"><svg width="27" height="27" viewBox="0 0 48 48" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span class="lockname">Lio</span></div><div class="locksub">Receipts</div></div></div><div class="titlerule"></div><div class="sub">Every claim in this deck has a file behind it. Nothing here is slideware.</div>
 
-  <div style="display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:88px; margin-top:44px;">
+  <div style="display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:86px; margin-top:38px;">
     <div>
-      <div class="hair" style="padding:29px 0;"><span class="chip">Spreadsheet</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">Lio_ICP_Prospect_List.xlsx · 13-icp-prospect-list.md</div><div class="b" style="font-size:14px; margin-top:5px;">Named-buyer list across 4 ICP segments. Companies, titled contacts with LinkedIn URLs, Apollo match totals, per-persona approach playbook, executive summary.</div></div>
-      <div class="hair" style="padding:29px 0;"><span class="chip">Spreadsheet</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">16-event-status-update.md + Lio_P1_Event_Status_2026-08-31.csv</div><div class="b" style="font-size:14px; margin-top:5px;">60 scored events across US/UK/EU-DACH in P1/P2/P3 tiers. Every P1 date, venue and deadline re-verified against organiser sources; passed deadlines flagged, changes annotated.</div></div>
-      <div class="hair" style="padding:29px 0;"><span class="chip">Spreadsheet</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">Lio_P1_Budget_Staffing.csv</div><div class="b" style="font-size:14px; margin-top:5px;">Quarter-by-quarter budget and staffing for the 17-event P1 programme: &euro;736K new + &euro;105K committed + contingency &asymp; &euro;929K, 204 staff-days, founder allocation, hiring triggers.</div></div>
-      <div style="padding:29px 0;"><span class="chip">Hypothesis</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">17-gtm-hypothesis-and-test-roadmap.md · 18-trigger-group-outreach-angles.md · Lio_H1_Test_Scorecard.csv</div><div class="b" style="font-size:14px; margin-top:5px;">The strongest GTM bet as a falsifiable card with kill criteria and decision gates, the 35-account Renewal Radar with an evidence grade per row, and first-touch drafts for the six trigger accounts.</div></div>
+      <div class="hair" style="padding:22px 0;"><span class="chip chip-grey">Spreadsheet</span><div class="name" style="font-size:16.5px; margin-top:11px;">Lio_ICP_Prospect_List.xlsx · 13-icp-prospect-list.md</div><div class="b" style="font-size:14.5px; margin-top:5px;">Named-buyer list across 4 ICP segments. Companies, titled contacts with LinkedIn URLs, Apollo match totals, per-persona approach playbook, executive summary.</div></div>
+      <div class="hair" style="padding:22px 0;"><span class="chip chip-grey">Spreadsheet</span><div class="name" style="font-size:16.5px; margin-top:11px;">16-event-status-update.md + Lio_P1_Event_Status_2026-08-31.csv</div><div class="b" style="font-size:14.5px; margin-top:5px;">60 scored events across US, UK and EU-DACH in P1, P2 and P3 tiers. Every P1 date, venue and deadline re-verified against organiser sources.</div></div>
+      <div class="hair" style="padding:22px 0;"><span class="chip chip-grey">Spreadsheet</span><div class="name" style="font-size:16.5px; margin-top:11px;">Lio_P1_Budget_Staffing.csv</div><div class="b" style="font-size:14.5px; margin-top:5px;">Quarter-by-quarter budget and staffing for the 17-event P1 programme. &euro;736K new plus &euro;105K committed plus contingency, 204 staff-days, hiring triggers.</div></div>
+      <div style="padding:22px 0;"><span class="chip chip-grey">Hypothesis</span><div class="name" style="font-size:16.5px; margin-top:11px;">17-gtm-hypothesis-and-test-roadmap.md · 18-trigger-group-outreach-angles.md · Lio_H1_Test_Scorecard.csv</div><div class="b" style="font-size:14.5px; margin-top:5px;">The strongest GTM bet as a falsifiable card with kill criteria and decision gates, the 35-account Renewal Radar with an evidence grade per row, and first-touch drafts for the six trigger accounts.</div></div>
     </div>
     <div>
-      <div class="hair" style="padding:29px 0;"><span class="chip">Register</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">14-linkedin-posts.md</div><div class="b" style="font-size:14px; margin-top:5px;">Every publicly indexed LinkedIn post about Lio found across 8 search angles: company, founders, team, events, customers, investors, German-language, third-party commentary.</div></div>
-      <div class="hair" style="padding:29px 0;"><span class="chip">Knowledge base</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">00-12 · Lio knowledge base</div><div class="b" style="font-size:14px; margin-top:5px;">The sourced dossier this work builds on: company, product, pain points, competitive map, customer proof, strategic levers. Every fact graded for reliability.</div></div>
-      <div class="hair" style="padding:29px 0;"><span class="chip">Playbook</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">19-september-action-sheet.md · 20-event-strategy-and-icp-baseline.md</div><div class="b" style="font-size:14px; margin-top:5px;">29 September actions ordered by due date with the three calls that cannot slip, plus recomputed ICP firmographics, the seat-per-room map and the preparation protocol by tier.</div></div>
-      <div class="hair" style="padding:29px 0;"><span class="chip">Model</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">21-compensation-and-arr-scenarios.md</div><div class="b" style="font-size:14px; margin-top:5px;">The math behind the ask. Salary benchmarked to Munich/Berlin market data, and three H1 ARR scenarios built on file 17&#39;s own decision-gate thresholds. Every figure marked modeled, not forecast.</div></div>
-      <div style="padding:29px 0;"><span class="chip">This deck</span><div style="font-size:16px; font-weight:600; color:#000000; margin-top:11px;">15-deck-design.md · 19-lio-brand-language-and-agents.md</div><div class="b" style="font-size:14px; margin-top:5px;">The design spec: MBB formatting, Inter (saved in deck-design/fonts/), the brand/tone register, and the placeholders still owed (photo).</div></div>
+      <div class="hair" style="padding:22px 0;"><span class="chip chip-grey">Register</span><div class="name" style="font-size:16.5px; margin-top:11px;">14-linkedin-posts.md</div><div class="b" style="font-size:14.5px; margin-top:5px;">Every publicly indexed LinkedIn post about Lio found across 8 search angles: company, founders, team, events, customers, investors, German-language and third-party commentary.</div></div>
+      <div class="hair" style="padding:22px 0;"><span class="chip chip-grey">Knowledge base</span><div class="name" style="font-size:16.5px; margin-top:11px;">00 to 12 · Lio knowledge base</div><div class="b" style="font-size:14.5px; margin-top:5px;">The sourced dossier this work builds on: company, product, pain points, competitive map, customer proof and strategic levers, every fact graded for reliability.</div></div>
+      <div class="hair" style="padding:22px 0;"><span class="chip chip-grey">Playbook</span><div class="name" style="font-size:16.5px; margin-top:11px;">19-september-action-sheet.md · 20-event-strategy-and-icp-baseline.md</div><div class="b" style="font-size:14.5px; margin-top:5px;">29 September actions ordered by due date with the three calls that cannot slip, plus recomputed ICP firmographics, the seat-per-room map and the preparation protocol by tier.</div></div>
+      <div class="hair" style="padding:22px 0;"><span class="chip chip-grey">Model</span><div class="name" style="font-size:16.5px; margin-top:11px;">21-compensation-and-arr-scenarios.md</div><div class="b" style="font-size:14.5px; margin-top:5px;">The math behind the ask. Salary benchmarked to Munich and Berlin market data, and three H1 ARR scenarios built on file 17's own decision-gate thresholds.</div></div>
+      <div style="padding:22px 0;"><span class="chip chip-grey">This deck</span><div class="name" style="font-size:16.5px; margin-top:11px;">15-deck-design.md · deck-design/build_slides.py</div><div class="b" style="font-size:14.5px; margin-top:5px;">The design spec and the generator that writes all 11 artboards from one shared system.</div></div>
     </div>
   </div>
-  <div class="foot"><div class="src">All files in the repository accompanying this application</div><div class="pg">khan.abirhilal@gmail.com<br>11 / 11</div></div>
+  <div class="foot"><div class="src">All files ship in the repository accompanying this application.</div><div class="pg">khan.abirhilal@gmail.com<br>11 / 11</div></div>
 
 </div>
 </x-dc>

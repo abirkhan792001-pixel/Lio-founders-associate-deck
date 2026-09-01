@@ -13,82 +13,83 @@
     * { box-sizing:border-box; }
     @page { size:1920px 1080px; margin:0; }
     html, body { width:1920px; height:1080px; }
-    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3A3A3A; background:#FFFFFF;
+    body { margin:0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; color:#3C3C3C; background:#FFFFFF;
       -webkit-font-smoothing:antialiased; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     a { color:inherit; }
-    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:46px 56px 0; }
-    .hd { display:flex; justify-content:space-between; align-items:flex-start; gap:48px; }
-    .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:0.13em; text-transform:uppercase; color:#767676; }
-    .eyebrow em { font-style:normal; color:#000000; }
-    h1 { font-size:47px; font-weight:500; letter-spacing:-0.022em; line-height:1.13; margin:11px 0 0; color:#000000;
-      max-width:1480px; }
-    .sub { font-size:20.5px; font-weight:400; line-height:1.38; color:#767676; margin-top:13px; max-width:1420px; }
-    .brand { display:flex; align-items:center; gap:10px; flex-shrink:0; }
-    .brand span { font-size:25px; font-weight:500; letter-spacing:-0.01em; color:#000000; }
-    .sec { font-size:20px; font-weight:700; color:#000000; padding-bottom:9px; border-bottom:2px solid #000000; }
-    .lbl { font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#767676; }
-    .hair { border-bottom:1px solid #DCDCDC; }
-    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.09em; text-transform:uppercase;
-      padding:6px 12px; background:#DBDBCD; color:#000000; white-space:nowrap; }
-    .chip-dark { background:#000000; color:#FFFFFF; }
-    .chip-line { background:transparent; border:1px solid #C6C6BC; color:#5A5A5A; font-weight:600; }
-    .panel { background:#DBDBCD; padding:24px 30px; }
-    .panel-grey { background:#EFEFED; padding:22px 26px; }
-    .b { font-size:16.5px; line-height:1.58; color:#3A3A3A; }
+    .slide { width:1920px; height:1080px; position:relative; overflow:hidden; background:#FFFFFF; padding:56px 64px 0; }
+
+    h1 { font-size:54px; font-weight:700; letter-spacing:-0.025em; line-height:1.08; margin:0; color:#000000;
+      max-width:1500px; }
+    .titlerule { border-top:1.5px solid #000000; margin-top:34px; }
+    .sub { font-size:21px; font-weight:400; line-height:1.4; color:#767676; margin-top:20px; max-width:1500px; }
+
+    .lock { text-align:right; flex-shrink:0; padding-top:4px; }
+    .lockmark { display:flex; align-items:center; gap:9px; justify-content:flex-end; }
+    .lockname { font-size:25px; font-weight:600; letter-spacing:-0.015em; color:#2B2E30; }
+    .locksub { font-size:11px; font-weight:500; letter-spacing:0.09em; text-transform:uppercase; color:#767676;
+      margin-top:5px; }
+
+    .col { font-size:12.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000;
+      padding-bottom:8px; border-bottom:1.5px solid #000000; }
+    .lbl { font-size:11.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#000000; }
+    .lblm { font-size:11.5px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#767676; }
+
+    .hair { border-bottom:1px solid #E2E2E2; }
+    .name { font-size:20px; font-weight:700; color:#000000; letter-spacing:-0.01em; }
+    .meta { font-size:14.5px; font-weight:400; color:#767676; }
+    .b { font-size:16px; line-height:1.5; color:#767676; }
     .b b, .b strong { color:#000000; font-weight:600; }
-    .s { font-size:14.5px; line-height:1.5; color:#767676; }
-    .rowh { font-size:19.5px; font-weight:600; color:#000000; }
-    .num { font-size:22px; font-weight:700; color:#000000; flex-shrink:0; }
-    .stat { font-size:84px; font-weight:700; letter-spacing:-0.035em; line-height:0.9; color:#000000; }
-    .statcap { font-size:10.5px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#767676;
-      line-height:1.45; }
-    .foot { position:absolute; left:56px; right:56px; bottom:24px; display:flex; justify-content:space-between;
-      align-items:flex-end; gap:48px; border-top:1px solid #DCDCDC; padding-top:12px; }
-    .src { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      line-height:1.55; max-width:1330px; }
-    .pg { font-size:9.5px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#9A9A9A;
-      text-align:right; white-space:nowrap; line-height:1.55; }
+    .bd { font-size:16px; line-height:1.5; color:#3C3C3C; }
+    .bd b, .bd strong { color:#000000; font-weight:600; }
+    .s { font-size:14px; line-height:1.45; color:#767676; }
+
+    .numg { font-size:20px; font-weight:700; color:#BDBDBD; width:34px; flex-shrink:0; }
+    .chip { display:inline-block; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+      padding:5px 10px; background:#DBDBCD; color:#000000; white-space:nowrap; }
+    .chip-grey { background:#EFEFED; color:#4A4A4A; }
+    .chip-dark { background:#000000; color:#FFFFFF; }
+    .tag { display:inline-block; font-size:14px; font-weight:400; padding:6px 12px; background:#EFEFED;
+      color:#3C3C3C; margin:0 7px 7px 0; }
+
+    .callout { background:#EFEFED; padding:20px 26px; }
+    .stat { font-size:52px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:#000000; }
+
+    .foot { position:absolute; left:64px; right:64px; bottom:30px; display:flex; justify-content:space-between;
+      align-items:flex-end; gap:48px; }
+    .src { font-size:11.5px; font-weight:400; color:#9A9A9A; line-height:1.5; max-width:1300px; }
+    .pg { font-size:11px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#9A9A9A;
+      text-align:right; white-space:nowrap; line-height:1.6; }
   </style>
 </helmet>
 <div class="slide">
 
-  <div class="hd"><div><div class="eyebrow"><em>04</em> · Strategy · what I would own from day 0</div><h1></h1></div><div class="brand"><svg width="30" height="30" viewBox="0 0 48 48" fill="none" stroke="#000000" stroke-width="3.4" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span>Lio</span></div></div>
-  <div style="margin-top:6px; font-size:56px; font-weight:500; letter-spacing:-0.025em; line-height:1.14;
-       max-width:1620px; color:#000000;">
-    I own the machine between the founders and the pipeline: the list, the rooms, and the follow-through.</div>
-  <div class="sub" style="margin-top:20px;">One line, because that is the job: everything repeatable that stands
-    between a named buyer and a booked founder conversation. In practice, the first 90 days:</div>
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:48px;"><h1>What I would own, and how I would ramp.</h1><div class="lock"><div class="lockmark"><svg width="27" height="27" viewBox="0 0 48 48" fill="none" stroke="#2B2E30" stroke-width="3.3" stroke-linecap="round" aria-hidden="true"><path d="M 24.00 44.00 A 20 20 0 1 1 42.13 15.55"></path><path d="M 24.00 43.50 A 13.5 13.5 0 1 1 34.34 21.32"></path><path d="M 24.00 43.20 A 8 8 0 1 1 28.59 28.65"></path></svg><span class="lockname">Lio</span></div><div class="locksub">04 · Strategy</div></div></div><div class="titlerule"></div><div class="sub">The machine between the founders and the pipeline: the list, the rooms, and the follow-through.</div>
 
-  <div style="display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:52px; margin-top:66px;">
-    <div style="border-top:2px solid #000000; padding-top:26px;">
-      <span class="chip">Live · day 0-30</span>
-      <div class="rowh" style="margin-top:14px;">The gauntlet</div>
-      <div class="b" style="margin-top:9px;">Four P1 events plus Bots &amp; Buyers NYC in 18 days across two
-        continents, starting in two weeks. I run the ops: <b>target lists per room, founder briefs, the sidecar
-        dinners, next-day follow-ups.</b> The 219-name buyer list goes into sequences before the first flight.</div>
+  <div style="display:grid; grid-template-columns:1.02fr 0.98fr; gap:86px; margin-top:40px;">
+    <div>
+      <div class="col" style="margin-bottom:26px;">Where I go deep</div>
+      <div style="border-left:4px solid #000000; padding:2px 0 2px 22px; margin-bottom:26px;"><div style="display:flex; align-items:center; gap:14px;"><span class="name">Event operations</span><span class="chip">Deep</span></div><div class="b" style="margin-top:7px;">Target lists per room, founder briefs, the sidecar dinners, and the next-day follow-ups. 17 rooms and 10 dinners currently have no owner below the founders.</div></div>
+      <div style="border-left:4px solid #000000; padding:2px 0 2px 22px; margin-bottom:26px;"><div style="display:flex; align-items:center; gap:14px;"><span class="name">Outbound engine</span><span class="chip">Deep</span></div><div class="b" style="margin-top:7px;">The 219-name list stays alive in Apollo, sequences run with the AEs, and every cohort gets a report on what converted and what did not.</div></div>
+      <div style="border-left:4px solid #DBDBCD; padding:2px 0 2px 22px; margin-bottom:26px;"><div style="display:flex; align-items:center; gap:14px;"><span class="name">The H1 test</span><span class="chip chip-grey">Cover</span></div><div class="b" style="margin-top:7px;">Renewal Radar maintained, change events tracked, loss reasons logged. The hypothesis reaches its decision gate with real data behind it.</div></div>
+      <div style="border-left:4px solid #DBDBCD; padding:2px 0 2px 22px; margin-bottom:26px;"><div style="display:flex; align-items:center; gap:14px;"><span class="name">Founder leverage</span><span class="chip chip-grey">Cover</span></div><div class="b" style="margin-top:7px;">Prep, notes, pipeline hygiene, and the analysis layer of the $10M Challenge. Hours back for Keil and Wagner, every week.</div></div>
     </div>
-    <div style="border-top:1px solid #DCDCDC; padding-top:26px;">
-      <span class="chip chip-line">Next · day 30-60</span>
-      <div class="rowh" style="margin-top:14px;">The wedge quarter</div>
-      <div class="b" style="margin-top:9px;">Berlin double-week + SIG Chicago, the rooms where the budget owners sit:
-        <b>third-party BPO in the US/FS rooms, captive SSC and GBS heads in the DACH ones.</b> I own room prep and the
-        follow-up motion, pipe every conversation into the CRM, and ship the first outbound-cohort report.</div>
-    </div>
-    <div style="border-top:1px solid #DCDCDC; padding-top:26px;">
-      <span class="chip chip-line">Ongoing · day 60-90</span>
-      <div class="rowh" style="margin-top:14px;">The machine, boring on purpose</div>
-      <div class="b" style="margin-top:9px;">Calendar &rarr; list &rarr; room &rarr; follow-up &rarr; pipeline,
-        <b>measured weekly and running without heroics.</b> Founders get hours back; the Q1-27 US quarter starts
-        planned, staffed and booked early instead of rushed.</div>
+
+    <div>
+      <div class="col">The ramp</div>
+      <div style="margin-top:6px;">
+        <div class="hair" style="padding:16px 0;"><div class="lbl">Days 0-30</div><div class="name" style="margin-top:8px;">Run the gauntlet.</div><div class="b" style="margin-top:6px;">Four P1 events plus Bots &amp; Buyers NYC in 18 days across two continents, starting in two weeks. The buyer list goes into sequences before the first flight.</div></div>
+        <div class="hair" style="padding:16px 0;"><div class="lbl">Days 31-60</div><div class="name" style="margin-top:8px;">Work the wedge quarter.</div><div class="b" style="margin-top:6px;">Berlin double-week and SIG Chicago, the rooms where the budget owners sit: third-party BPO in the US and FS rooms, captive SSC and GBS heads in the DACH ones. First outbound-cohort report ships.</div></div>
+        <div style="padding:16px 0;"><div class="lbl">Days 61-90</div><div class="name" style="margin-top:8px;">Make it boring.</div><div class="b" style="margin-top:6px;">Calendar to list to room to follow-up to pipeline, measured weekly and running without heroics. The Q1-27 US quarter starts planned, staffed and booked early instead of rushed.</div></div>
+      </div>
     </div>
   </div>
 
-  <div style="position:absolute; left:56px; right:56px; bottom:104px; border-top:1px solid #DCDCDC; padding-top:26px;">
-    <div class="lbl" style="color:#000000; margin-bottom:12px;">The workforce I&#39;d be selling ·
-      &ldquo;85% of procurement operations are done by Lio Agents&rdquo;</div>
-    <div style="max-width:1780px;"><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Freetext Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Search Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Guided Buying Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Approvals Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">RFQ Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">PR Review Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Supplier Onboarding Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Order Confirmation Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Goods Receipt Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Invoice Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Sourcing Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Negotiation Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Contract Negotiation Agent</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Lio Assistant</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Procurement Intelligence</span><span style="display:inline-block; font-size:12.5px; color:#3A3A3A; border:1px solid #DCDCDC; padding:9px 13px; margin:0 8px 9px 0; font-size:13.5px;">Agent Supervisor</span></div>
+  <div class="callout" style="position:absolute; left:64px; right:64px; bottom:104px;">
+    <div class="lbl">This is a proposal, not an audit</div>
+    <div class="b" style="margin-top:8px; font-size:15px;">I do not know your internal pipeline, your pricing
+      mechanics, or what the AEs are already running. Every priority here can be reordered in week one.</div>
   </div>
-  <div class="foot"><div class="src">Agent roster per lio.ai/product via 02-product-and-features.md · 85% claim is Lio&#39;s own, company-reported</div><div class="pg">khan.abirhilal@gmail.com<br>7 / 11</div></div>
+  <div class="foot"><div class="src">Agent roster and the 85% claim per lio.ai/product, company-reported. Event figures per the P1 budget plan.</div><div class="pg">khan.abirhilal@gmail.com<br>7 / 11</div></div>
 
 </div>
 </x-dc>
