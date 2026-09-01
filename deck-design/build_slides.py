@@ -436,7 +436,7 @@ def ev(text, kind="solid"):
     return f'<div style="{st} font-size:12.5px; font-weight:500; padding:8px 11px; margin-top:7px; line-height:1.3;">{text}</div>'
 
 S["EventFindings"] = page_html(f"""
-  {head("The rooms are picked and the dates hold. The programme needs one owner.",
+  {head("The events are booked. The programme has no owner.",
         "&euro;929K and 204 staff-days across 17 events, with four starting in two weeks and no single owner below "
         "the founders.", lock_sub="02 · Findings")}
 
@@ -476,15 +476,7 @@ S["EventFindings"] = page_html(f"""
     <div class="s" style="text-align:center; margin-top:10px; font-size:12.5px;">&euro;376K · 76 staff-days · the heavy quarter</div>
   </div>
 
-  <div class="callout" style="margin-top:24px;">
-    <div class="lbl">Status check, six weeks after the plan was written</div>
-    <div class="b" style="margin-top:9px; font-size:15px;">All four gauntlet dates hold. New since the plan:
-      <b>Bots &amp; Buyers went transatlantic.</b> NYC Sep 23 lands mid-gauntlet and the EU flagship Oct 27-28 collides
-      with SIG Chicago, now settled. APC 2027 moved to <b>New Orleans</b>. The NAPES move to Denver is
-      <b>unverified,</b> so hold the &euro;35K. Two early-birds close <b>Sep 30.</b></div>
-  </div>
-
-  <div style="display:flex; align-items:center; gap:34px; margin-top:26px;">
+  <div style="display:flex; align-items:center; gap:34px; margin-top:30px;">
     <div style="flex-shrink:0;">
       <div style="font-size:52px; font-weight:700; letter-spacing:-0.03em; line-height:1; color:{INK};">17</div>
       <div class="lbl" style="margin-top:8px;">P1 events<br>Q3-26 to Q2-27</div>
