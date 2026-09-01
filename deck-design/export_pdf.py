@@ -28,6 +28,13 @@ doc.save(target, garbage=4, deflate=True)
 print(f"{target}  pages={doc.page_count}  size={target.stat().st_size/1024:.0f}KB  "
       f"page0={doc[0].rect.width:.0f}x{doc[0].rect.height:.0f}")
 
+# one vector SVG per slide, text outlined so it needs no font installed
+svgdir = DECK / "slides-svg"; svgdir.mkdir(exist_ok=True)
+for i, f in enumerate(order):
+    name = f.replace(".dc.html", "")
+    (svgdir / f"{i+1:02d}-{name}.svg").write_text(doc[i].get_svg_image(text_as_path=True), encoding="utf-8")
+print(f"wrote {len(order)} slide SVGs -> {svgdir}")
+
 # rasterise the real PDF pages for visual verification
 outdir = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else pathlib.Path(".")
 for i in range(doc.page_count):
