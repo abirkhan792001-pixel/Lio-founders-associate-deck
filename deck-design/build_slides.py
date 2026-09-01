@@ -159,13 +159,15 @@ def why(n, title, body, last=False):
 S["WhoAmI"] = page_html(f"""
   <div style="position:absolute; right:64px; top:44px;">{photo}</div>
   {head("Who I am, and what I bring.",
-        "Consulting, venture capital, and now building go-to-market. All of it in the last three years.",
+        "Consulting, venture capital, and now founding. All of it in the last three years.",
         right='<div style="width:150px; flex-shrink:0;"></div>')}
 
   <div style="display:grid; grid-template-columns:1.02fr 0.98fr; gap:86px; margin-top:40px;">
     <div>
       <div class="col">Experience</div>
       <div style="margin-top:6px;">
+        {entry("SQRlane", "Founder, since Aug 2026",
+               "AI agents for freight forwarding. Displacing spreadsheets and hours rather than a competing tool.")}
         {entry("SCAILE Technologies", "Strategy, AI and go-to-market, 2026",
                "B2B go-to-market engines built from scratch, from ICP research to outbound to AI search visibility.")}
         {entry("Alvarez &amp; Marsal", "Restructuring, 2024",
@@ -187,8 +189,9 @@ S["WhoAmI"] = page_html(f"""
       <div class="col">Why Lio</div>
       <div style="margin-top:6px;">
         {why("1", "Shortest path to founding my own.",
-             "Nothing gets me closer than the founders' office of a company at its inflection point. Fresh off a $30M "
-             "a16z Series A, rebranding into a category, opening the US. This is the phase where I learn to lay bricks.")}
+             "I am building SQRlane, AI agents for freight forwarding. The category has no product problem there. It "
+             "has a labour problem nobody has priced, which is Lio's bet one category over. I would rather learn how "
+             "that scales inside your founders' office than guess at it from mine.")}
         {why("2", "Lio sells against a $180B line, not a $10B one.",
              "Everyone else builds procurement software. Lio replaces the execution labour at roughly 7% of the cost. "
              "It is the sharpest enterprise wedge I have seen since I started working in GTM.")}
