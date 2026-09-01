@@ -19,10 +19,10 @@
 ### A. Global Tier-1 industrial manufacturer: "Agentic BPO" replacement
 | Milestone | Result |
 |---|---|
-| Phase 1 (6 months) | **75% of previously outsourced procurement ops automated**; ~10 FTEs of workload freed; €0.6–0.9M annualized savings; 6-month ROI |
-| Phase 2 (12 months) | **99.6% automation** of the scope; **~120 FTEs transitioned**; **€7–9M structural annual savings** |
+| Phase 1 (6 months) | **75% of previously outsourced procurement ops automated**; ~10 FTEs of workload freed; €0.6-0.9M annualized savings; 6-month ROI |
+| Phase 2 (12 months) | **99.6% automation** of the scope; **~120 FTEs transitioned**; **€7-9M structural annual savings** |
 
-Sanity check (consultant): 120 FTEs × €60–75K loaded BPO cost ≈ €7.2–9M, internally consistent with the stated savings range.
+Sanity check (consultant): 120 FTEs × €60-75K loaded BPO cost ≈ €7.2-9M, internally consistent with the stated savings range.
 
 ### B. Fortune-scale retail leader
 - **99.8% execution accuracy within 2 weeks** of go-live
@@ -34,7 +34,7 @@ Sanity check (consultant): 120 FTEs × €60–75K loaded BPO cost ≈ €7.2–
 | Metric | Claim |
 |---|---|
 | Adoption | **>95%** ("of compliant procurement processes") |
-| Manual work | **–85%** for buyers/ops |
+| Manual work | **-85%** for buyers/ops |
 | Incremental savings | **+10%** (automated negotiations + spend optimization) |
 | Customer retention | **100%** |
 
@@ -64,7 +64,7 @@ Other headline numbers: integration **< 2 weeks**; contract review **120 → 2 m
 | Grade | What | Examples |
 |---|---|---|
 | **A, independently verifiable** | Funding, investors, YC batch, awards with juries, named-person quotes, subdomain evidence | $30M/a16z; DPW award; Schick quote |
-| **B, company-reported, plausible, internally consistent** | Case-study economics (FTE math checks out), <2-week integration, metric quartet | €7–9M savings; 85% |
+| **B, company-reported, plausible, internally consistent** | Case-study economics (FTE math checks out), <2-week integration, metric quartet | €7-9M savings; 85% |
 | **C, company-reported, escalating or unverifiable** | User counts (500K→1M in ~4 months), 100% retention, "150+ enterprises" vs a16z's "100+ clients" | treat as marketing until POC-verified |
 | **D, commonly misreported** | Walmart as customer | always caveat |
 

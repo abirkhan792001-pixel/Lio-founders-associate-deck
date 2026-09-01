@@ -70,7 +70,7 @@ The strategic differentiator and the rebrand's meaning:
 ## Integrations & technical posture
 
 - **Named systems:** SAP, SAP Ariba, Coupa, Oracle, Microsoft Dynamics, Workday, Ivalua; **Microsoft Teams and Outlook** as front-ends. "Seamlessly integrate with your existing P2P/ERP systems" via standard APIs/middleware.
-- **Integration claim:** live in **< 2 weeks** including approvals, implementation, training, hypercare (vs 8–30 months for suite rollouts, see [05](05-lio-vs-legacy.md)).
+- **Integration claim:** live in **< 2 weeks** including approvals, implementation, training, hypercare (vs 8-30 months for suite rollouts, see [05](05-lio-vs-legacy.md)).
 - **Architecture stance:** operates *inside* existing platforms; ERP remains system of record; bidirectional sync; preserves existing approval/compliance logic; no rip-and-replace, modular adoption.
 - **Delivery model:** cloud SaaS on **Microsoft Azure Europe**; Microsoft Official Partner; agents run 24/7. Delivery is FDE/implementation-engineer-led (see [01](01-company-overview.md)).
 

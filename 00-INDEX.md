@@ -16,7 +16,7 @@
 | **Core thesis** | Enterprises spend **$180B/yr on procurement talent vs ~$10B on software**; Lio monetizes the labor/BPO budget, not the software budget |
 | **Signature metrics** (company-reported) | >95% adoption · 85% less manual work · 10% incremental savings · 100% retention · 1M+ users / 150+ enterprises · <2-week integration |
 | **Flagship customers** | Munich Re, Schaeffler, Brose, Novozymes, REHAU, ERGO, Zeiss, TÜV SÜD (+ logo wall; Walmart = engagement/endorser, **not** confirmed customer) |
-| **HQ / team** | Munich (~80–92 employees, "Lions"); expanding to New York (Head of US Sales, SDRs, ex-Walmart Jared Petras as Head of US Growth) |
+| **HQ / team** | Munich (~80-92 employees, "Lions"); expanding to New York (Head of US Sales, SDRs, ex-Walmart Jared Petras as Head of US Growth) |
 | **Key differentiator** | *"We are not another procurement software. We are the agents operating the ones you already trust."* |
 
 ## Reading guide
@@ -43,13 +43,13 @@
 | [18-trigger-group-outreach-angles.md](18-trigger-group-outreach-angles.md) | Account-by-account outreach angles + first-touch drafts for the 6 H1 trigger accounts (Zurich, Generali AT, KOSTAL, Vitesco/Schaeffler, Innomotics, LEONI), with priority order, landmines, and channel plans |
 | [19-lio-brand-language-and-agents.md](19-lio-brand-language-and-agents.md) | Lio brand-language register for the deck: the 16-agent roster by layer, tone-of-voice rules, verbatim copy bank, and how each site element maps into the deck's design |
 | [19-september-action-sheet.md](19-september-action-sheet.md) | The 29 September actions by due date, the three calls that cannot slip, and the settled October founder split |
-| [20-event-strategy-and-icp-baseline.md](20-event-strategy-and-icp-baseline.md) | Recomputed ICP firmographics (bullseye €2.8–4.7B revenue / 8–30K employees), which buyer seat each room contains, and the per-tier event preparation protocol |
+| [20-event-strategy-and-icp-baseline.md](20-event-strategy-and-icp-baseline.md) | Recomputed ICP firmographics (bullseye €2.8-4.7B revenue / 8-30K employees), which buyer seat each room contains, and the per-tier event preparation protocol |
 | [21-compensation-and-arr-scenarios.md](21-compensation-and-arr-scenarios.md) | **The ask**: salary benchmarked against Munich/Berlin market data, plus three H1 ARR scenarios (kill / refine / confirm) built on file 17's decision-gate thresholds and file 08's ACV rule of thumb, all modeled, not forecast |
 
 ## The 60-second narrative
 
-Procurement's problem was never the system of record, it's that **humans still execute the work between the systems**. 80–90% of demand arrives as unstructured free text; requesters hate the tools (sub-40% adoption of clunky suites), so ~29% of indirect spend goes off-contract and cycle times run weeks. Enterprises answered with more software ($10B/yr) and outsourcing (BPO at up to 20x software cost), neither fixed execution.
+Procurement's problem was never the system of record, it's that **humans still execute the work between the systems**. 80-90% of demand arrives as unstructured free text; requesters hate the tools (sub-40% adoption of clunky suites), so ~29% of indirect spend goes off-contract and cycle times run weeks. Enterprises answered with more software ($10B/yr) and outsourcing (BPO at up to 20x software cost), neither fixed execution.
 
-Lio's answer: a **multi-agent AI workforce** that takes a natural-language request and, in parallel, structures it, sources vendors, collects quotes, negotiates, routes approvals, creates the PO in the existing ERP, onboards the supplier, chases order confirmations, and 3-way-matches the invoice, governed by **Agent Operating Procedures (AOPs)** (the company's SOPs rebuilt as agent workflows) with humans supervising by exception. It deploys in under two weeks *on top of* SAP/Ariba/Coupa/Oracle rather than replacing them, and it prices its story in labor economics: 85% less manual work, ~120 FTEs transitioned at one manufacturer (€7–9M/yr), BPO replaced at ~7% of cost.
+Lio's answer: a **multi-agent AI workforce** that takes a natural-language request and, in parallel, structures it, sources vendors, collects quotes, negotiates, routes approvals, creates the PO in the existing ERP, onboards the supplier, chases order confirmations, and 3-way-matches the invoice, governed by **Agent Operating Procedures (AOPs)** (the company's SOPs rebuilt as agent workflows) with humans supervising by exception. It deploys in under two weeks *on top of* SAP/Ariba/Coupa/Oracle rather than replacing them, and it prices its story in labor economics: 85% less manual work, ~120 FTEs transitioned at one manufacturer (€7-9M/yr), BPO replaced at ~7% of cost.
 
 a16z led the $30M Series A on exactly this thesis: AI moving "beyond workflow co-pilots to autonomous, multi-agent execution", and Lio's ambition is to be "the AI infrastructure for 100% of enterprise spend."

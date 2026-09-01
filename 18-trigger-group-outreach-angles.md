@@ -57,7 +57,7 @@
 
 **Contacts:** Maren Richter. Head of Functional Excellence in Procurement; Nico Reiner. CFO (PE owners = CFO-friendly economics).
 
-**Angle, "skip the SSC generation entirely":** every other company its size spent 2005–2020 building captive centers in Poland or signing BPO deals. Innomotics gets to skip that generation: agent-first procurement operations from day one, no center build-out, no BPO contract, live in 2 weeks, pure opex, scales with the business. For a PE holding, that's structural cost avoidance, not a savings program.
+**Angle, "skip the SSC generation entirely":** every other company its size spent 2005-2020 building captive centers in Poland or signing BPO deals. Innomotics gets to skip that generation: agent-first procurement operations from day one, no center build-out, no BPO contract, live in 2 weeks, pure opex, scales with the business. For a PE holding, that's structural cost avoidance, not a savings program.
 
 **First touch (EN; DE subject variant: "Backoffice neu aufbauen, ohne Shared Service Center"; subject EN: "Building the back office once, and skipping a generation"):**
 > Hi Maren, companies rebuilding their back office after a carve-out usually face a three-way choice: hire, build a shared-service center, or outsource. There's a fourth option now: AI agents that execute procurement operations end-to-end (intake → PO → order confirmation → invoice match) inside whatever ERP estate you land on, live in under two weeks, no center, no contract lock-in.
@@ -125,16 +125,16 @@
 
 **Why this sits in a file about buyers:** the buy-side working session Lio is pitching at SIG Chicago **is** the H1 test in a room, "BPO at 7% of cost", delivered to the people who own the outsourcing renewals ([17 · Phase 1](17-gtm-hypothesis-and-test-roadmap.md)). The ask below is what secures it, so the copy lives with the other H1 drafts.
 
-**The condition:** SIG runs **Oct 25–28**; Lio's own Bots & Buyers flagship runs **Oct 27–28** at MotorWorld München. The overlap is only the last two days, so Keil can deliver the session *and* make Munich, **but only if the session is scheduled Oct 25–26**. That has to be agreed in the sponsorship conversation, not discovered in the agenda afterwards.
+**The condition:** SIG runs **Oct 25-28**; Lio's own Bots & Buyers flagship runs **Oct 27-28** at MotorWorld München. The overlap is only the last two days, so Keil can deliver the session *and* make Munich, **but only if the session is scheduled Oct 25-26**. That has to be agreed in the sponsorship conversation, not discovered in the agenda afterwards.
 
-**Ask, in order:** (1) a buy-side working session, not a booth; (2) scheduled on **Oct 25–26**; (3) confirmation of whether SIG membership is a prerequisite for hosting one.
+**Ask, in order:** (1) a buy-side working session, not a booth; (2) scheduled on **Oct 25-26**; (3) confirmation of whether SIG membership is a prerequisite for hosting one.
 
-**Draft (EN, sender: Petras; subject: "Buy-side working session for the Fall Summit. Oct 25–26?"):**
+**Draft (EN, sender: Petras; subject: "Buy-side working session for the Fall Summit. Oct 25-26?"):**
 > Hi [name], we'd like to bring a working session to the Fall Summit rather than take a booth. The topic is the one your members actually own: what an outsourced procurement scope costs today versus agentic execution, which we're seeing land at roughly 7% of typical BPO cost. Format would be a 45-minute buy-side working session, no pitch deck, a live agent running a real request, and the cost model open for the room to argue with.
-> One scheduling constraint, and I'd rather flag it now than after we sign: our own summit runs Oct 27–28 in Munich, so our CEO can deliver this on **Oct 25 or 26** but not the back half of the week. If those days work, he presents. If the slot has to fall later, I'll deliver it myself and we'll plan accordingly.
+> One scheduling constraint, and I'd rather flag it now than after we sign: our own summit runs Oct 27-28 in Munich, so our CEO can deliver this on **Oct 25 or 26** but not the back half of the week. If those days work, he presents. If the slot has to fall later, I'll deliver it myself and we'll plan accordingly.
 > Two questions to get us moving: is a working session available at the sponsorship tier we're discussing, and is SIG membership a prerequisite for hosting one?, [name]
 
-**Fallback if SIG won't commit to Oct 25–26:** Petras delivers the session; Keil doesn't travel. The event still earns its place, it's the bullseye GBS/BPO-owner room ([20](20-event-strategy-and-icp-baseline.md)), but the founder-delivery upside goes.
+**Fallback if SIG won't commit to Oct 25-26:** Petras delivers the session; Keil doesn't travel. The event still earns its place, it's the bullseye GBS/BPO-owner room ([20](20-event-strategy-and-icp-baseline.md)), but the founder-delivery upside goes.
 
 **Landmine:** don't let the scheduling ask read as reluctance. Lead with the session offer, put the constraint second, and give SIG a version that works either way.
 

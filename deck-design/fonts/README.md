@@ -8,7 +8,7 @@ so PNG/PDF exports keep the real faces) and available to any other tool via [`fo
 
 | File | What it is |
 |---|---|
-| `Inter-Variable-latin.woff2` | Inter variable-weight subset (latin), one file covers weights 100–900; the deck uses 400/500/600/800 |
+| `Inter-Variable-latin.woff2` | Inter variable-weight subset (latin), one file covers weights 100-900; the deck uses 400/500/600/800 |
 | `Inter-{400,500,600,700,800}.ttf` | Static TrueType instances. Install these locally if you open the deck in Keynote/PowerPoint/Figma |
 | `GeistMono-{400,500}-latin.woff2` | Geist Mono latin subsets (regular + medium) |
 | `GeistMono-{400,500}.ttf` | Static TrueType instances of the same |

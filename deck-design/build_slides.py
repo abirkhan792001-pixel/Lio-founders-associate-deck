@@ -294,14 +294,14 @@ S["IcpFindings"] = page(f"""
     <div class="lbl">The buying centre</div><div class="lbl">How to approach</div>
   </div>
   {icp_row("DACH industrial backbone",
-           "Searched &euro;1&ndash;12B · <b style='color:#000;'>bullseye &euro;2.8&ndash;4.7B, 8&ndash;30K staff</b> "
+           "Searched &euro;1-12B · <b style='color:#000;'>bullseye &euro;2.8-4.7B, 8-30K staff</b> "
            "· ~&#8532; family/foundation-owned", "851", "60",
            "<b>CPO sponsors, COO/CFO signs</b> via the SSC/FTE line; Procurement Excellence champions; CIO gatekeeps.",
            "<b>Trust-first, German, in person, and timed to a change event.</b> The DACH trigger is the captive SSC/GBS, "
            "not a BPO renewal: carve-outs, post-merger integration, hub migrations.")}
   {icp_row("Insurance &amp; financial services", "100% indirect spend · Munich Re, ERGO class", "156", "40",
            "<b>Head of Procurement / Sourcing &amp; Vendor Mgmt</b>; compliance-heavy, auditability opens the door.",
-           "<b>Where the real renewals sit.</b> Zurich&ndash;Genpact (since 2012) is the one confirmed third-party "
+           "<b>Where the real renewals sit.</b> Zurich-Genpact (since 2012) is the one confirmed third-party "
            "procurement BPO in 35 swept accounts. Lead with the 93%-cheaper wedge.")}
   {icp_row("US F500 GBS &amp; BPO owners", "The people who sign outsourcing renewals · SSOW/SIG audience", "895", "60",
            "<b>VP GBS / Shared Services, Head of P2P, GPOs.</b> A persona classic procurement marketing barely reaches.",
@@ -330,7 +330,7 @@ S["IcpFindings"] = page(f"""
   <div style="display:flex; align-items:flex-start; gap:24px; margin-top:16px;">
     <div class="lbl" style="flex-shrink:0; padding-top:2px; color:{INK};">H1 radar sweep &rarr;</div>
     <div class="b" style="font-size:14.5px;">35 accounts swept for BPO/SSC evidence: <b>one true third-party
-      procurement BPO</b> (Zurich&ndash;Genpact) plus one Accenture JV, 4 captive centres with a live change event,
+      procurement BPO</b> (Zurich-Genpact) plus one Accenture JV, 4 captive centres with a live change event,
       16 stable captives, 9 clean controls. <b>The DACH displacement target is the captive SSC, which has no renewal
       date</b>, so the trigger there is a change event, and the renewal-timed motion belongs to FS and the US.</div>
   </div>
@@ -371,28 +371,28 @@ S["EventFindings"] = page(f"""
         2 continents. Split: Keil+Heinzmann&rarr;Amsterdam, Wagner+Petras&rarr;Boston.</div>
     </div>
     <div>
-      {ev("SSON San Diego · Sep 14–17")}{ev("+ Bots &amp; Buyers NYC · Sep 23 (own)", "own")}
-      {ev("ProcureCon EU Köln · Sep 22–24")}{ev("ProcureCon East Boston · Sep 28–30 · lead")}
-      {ev("DPW Amsterdam · Sep 30–Oct 1")}
+      {ev("SSON San Diego · Sep 14-17")}{ev("+ Bots &amp; Buyers NYC · Sep 23 (own)", "own")}
+      {ev("ProcureCon EU Köln · Sep 22-24")}{ev("ProcureCon East Boston · Sep 28-30 · lead")}
+      {ev("DPW Amsterdam · Sep 30-Oct 1")}
     </div>
     <div>
-      {ev("SIG Fall Chicago · Oct 25–28 · Petras", "own")}{ev("SSOW DACH Berlin · Nov 17–19", "own")}
-      {ev("BME-Symposium Berlin · Nov 18–19", "own")}
+      {ev("SIG Fall Chicago · Oct 25-28 · Petras", "own")}{ev("SSOW DACH Berlin · Nov 17-19", "own")}
+      {ev("BME-Symposium Berlin · Nov 18-19", "own")}
       <div class="s" style="font-size:12.5px; margin-top:9px;">Berlin double-week holds. B&amp;B EU Munich
-        (Oct 27–28, own) collides with SIG Chicago. <b style="color:{INK};">Split settled: Petras&rarr;Chicago,
+        (Oct 27-28, own) collides with SIG Chicago. <b style="color:{INK};">Split settled: Petras&rarr;Chicago,
         Keil+Wagner&rarr;Munich, Heinzmann&rarr;demo stage</b>, conditional on SIG scheduling the buy-side session
-        Oct 25–26.</div>
+        Oct 25-26.</div>
     </div>
     <div>
-      {ev("ProcureCon West Vegas · Mar 8–10 · committed", "dim")}{ev("SSOW Orlando · Mar 8–11 · BPO keynote", "dim")}
-      {ev("APC · Mar 22–24 · now New Orleans", "dim")}
+      {ev("ProcureCon West Vegas · Mar 8-10 · committed", "dim")}{ev("SSOW Orlando · Mar 8-11 · BPO keynote", "dim")}
+      {ev("APC · Mar 22-24 · now New Orleans", "dim")}
       <div class="s" style="font-size:12.5px; margin-top:9px;">Same-week collision resolved: Keil&rarr;Orlando,
         Petras&rarr;Vegas.</div>
     </div>
     <div>
-      {ev("Handelsblatt Apr 6–7 · Gartner SC May 3–5 · NAPES tbd", "dim")}
-      {ev("eLösungstage May 11–12 · WPC London May 18–20", "dim")}
-      {ev("DPW NY Jun 2–3 · Proc. Summit HH Jun 23–24", "dim")}
+      {ev("Handelsblatt Apr 6-7 · Gartner SC May 3-5 · NAPES tbd", "dim")}
+      {ev("eLösungstage May 11-12 · WPC London May 18-20", "dim")}
+      {ev("DPW NY Jun 2-3 · Proc. Summit HH Jun 23-24", "dim")}
       <div class="s" style="font-size:12.5px; margin-top:9px;">7 events. Breaks the current team without the Jan-27
         field-marketing hire.</div>
     </div>
@@ -407,7 +407,7 @@ S["EventFindings"] = page(f"""
   <div class="panel-grey" style="margin-top:20px;">
     <div class="b"><b>Status check, six weeks after the plan was written:</b> all four gauntlet dates hold. New since
       the plan: <b>Bots &amp; Buyers went transatlantic.</b> NYC Sep 23 (application-only, mid-gauntlet) and the EU
-      flagship Oct 27–28, <b>colliding with SIG Chicago (Oct 25–28)</b>. The split is now settled, with Oct 25–26
+      flagship Oct 27-28, <b>colliding with SIG Chicago (Oct 25-28)</b>. The split is now settled, with Oct 25-26
       scheduling made a condition of the SIG booking. APC 2027 moved <b>Miami &rarr; New Orleans</b>. NAPES&#39;
       reported Denver move is <b>unverified</b>, so hold the &euro;35K. Two early-birds close <b>Sep 30</b>: BME-Symposium (&euro;100)
       and eLösungstage (&euro;300).</div>
@@ -436,8 +436,8 @@ S["EventFindings"] = page(f"""
     </div>
     <div>
       <div class="lbl" style="color:{INK};">What the recomputed ICP says about this spend</div>
-      <div class="b" style="font-size:14px; margin-top:8px;">The 17 verified customers cluster at <b>&euro;2.8–4.7B
-        revenue, 8–30K staff</b>. That is exactly the German practitioner fairs&#39; demographic, and the cheapest fit per
+      <div class="b" style="font-size:14px; margin-top:8px;">The 17 verified customers cluster at <b>&euro;2.8-4.7B
+        revenue, 8-30K staff</b>. That is exactly the German practitioner fairs&#39; demographic, and the cheapest fit per
         euro on the calendar. The US circuit aims a tier higher against <b>zero verified US customers.</b></div>
     </div>
   </div>
@@ -533,21 +533,21 @@ S["DayZero"] = page(f"""
 
   <div style="display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:52px; margin-top:66px;">
     <div style="border-top:2px solid {INK}; padding-top:26px;">
-      <span class="chip">Live · day 0–30</span>
+      <span class="chip">Live · day 0-30</span>
       <div class="rowh" style="margin-top:14px;">The gauntlet</div>
       <div class="b" style="margin-top:9px;">Four P1 events plus Bots &amp; Buyers NYC in 18 days across two
         continents, starting in two weeks. I run the ops: <b>target lists per room, founder briefs, the sidecar
         dinners, next-day follow-ups.</b> The 219-name buyer list goes into sequences before the first flight.</div>
     </div>
     <div style="border-top:1px solid {HAIR}; padding-top:26px;">
-      <span class="chip chip-line">Next · day 30–60</span>
+      <span class="chip chip-line">Next · day 30-60</span>
       <div class="rowh" style="margin-top:14px;">The wedge quarter</div>
       <div class="b" style="margin-top:9px;">Berlin double-week + SIG Chicago, the rooms where the budget owners sit:
         <b>third-party BPO in the US/FS rooms, captive SSC and GBS heads in the DACH ones.</b> I own room prep and the
         follow-up motion, pipe every conversation into the CRM, and ship the first outbound-cohort report.</div>
     </div>
     <div style="border-top:1px solid {HAIR}; padding-top:26px;">
-      <span class="chip chip-line">Ongoing · day 60–90</span>
+      <span class="chip chip-line">Ongoing · day 60-90</span>
       <div class="rowh" style="margin-top:14px;">The machine, boring on purpose</div>
       <div class="b" style="margin-top:9px;">Calendar &rarr; list &rarr; room &rarr; follow-up &rarr; pipeline,
         <b>measured weekly and running without heroics.</b> Founders get hours back; the Q1-27 US quarter starts
@@ -634,13 +634,13 @@ S["TheAsk"] = page(f"""
   <div style="display:grid; grid-template-columns:1.15fr 0.85fr; gap:80px; margin-top:46px;">
     <div>
       <div class="sec">The return · H1 thesis ARR, year 1</div>
-      {scen("&euro;0–175K", "Kill · rotate", "chip chip-line", "The funnel fails its own gate.",
-            "0–1 contracts. Assessment&rarr;POC under 10%, POC&rarr;contract under 20%, which are <b>file 17&#39;s own kill "
+      {scen("&euro;0-175K", "Kill · rotate", "chip chip-line", "The funnel fails its own gate.",
+            "0-1 contracts. Assessment&rarr;POC under 10%, POC&rarr;contract under 20%, which are <b>file 17&#39;s own kill "
             "thresholds.</b> The motion rotates to the next-best hypothesis. Phase 0 costs ~&euro;0, which is the "
             "whole point of testing before spending.")}
       {scen("&euro;1.35M", "Refine · narrow", "chip", "Signal in FS only. DACH stays captive.",
             "~2 FS-anchor wins at ~&euro;500K + ~2 DACH change-event wins at ~&euro;175K. <b>This is already today&#39;s "
-            "read:</b> Zurich&ndash;Genpact is the one confirmed third-party BPO in 35 swept accounts. DACH runs on "
+            "read:</b> Zurich-Genpact is the one confirmed third-party BPO in 35 swept accounts. DACH runs on "
             "captive-SSC change events with no renewal date.", tag="Base case")}
       {scen("&euro;2.4M", "Confirm · scale", "chip chip-dark", "Both segments clear the confirm bar.",
             "~3 FS + ~5 DACH wins as the Renewal Radar scales 35 &rarr; ~75 accounts and conversion clears "
@@ -652,7 +652,7 @@ S["TheAsk"] = page(f"""
         <div style="display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:26px;">
           <div class="b" style="font-size:14px;"><b>ACV.</b> No public ACV exists. ~7% of displaced cost is Lio&#39;s
             own disclosed mechanic. One verified POC replaces the whole estimate.</div>
-          <div class="b" style="font-size:14px;"><b>Radar scale.</b> 35 accounts swept, 50–100 targeted. Every 10 added
+          <div class="b" style="font-size:14px;"><b>Radar scale.</b> 35 accounts swept, 50-100 targeted. Every 10 added
             yields ~2 more Group-A triggers at today&#39;s 17% hit rate.</div>
           <div class="b" style="font-size:14px;"><b>Segment mix.</b> An FS win is worth ~3× a DACH win. Invert which
             segment converts and the base case roughly halves.</div>
@@ -665,14 +665,14 @@ S["TheAsk"] = page(f"""
       <div class="panel" style="margin-top:34px;">
         <span class="chip chip-dark">Market-anchored</span>
         <div style="font-size:50px; font-weight:700; letter-spacing:-0.03em; color:{INK}; margin-top:16px;
-          line-height:1;">&euro;95–120K</div>
+          line-height:1;">&euro;95-120K</div>
         <div class="lbl" style="color:{INK}; margin-top:10px;">Base, year 1 · anchor &euro;105K</div>
-        <div class="b" style="margin-top:14px; color:#2E2E28;"><b>+ 0.05–0.15% equity</b>, standard 4-year vest,
+        <div class="b" style="margin-top:14px; color:#2E2E28;"><b>+ 0.05-0.15% equity</b>, standard 4-year vest,
           1-year cliff.</div>
         <div class="b" style="margin-top:9px; color:#2E2E28;"><b>Re-rated twice:</b> at day 90 (the guarantee,
-          previous slide) and at the H1 decision gate, Jan–Feb 2027.</div>
+          previous slide) and at the H1 decision gate, Jan-Feb 2027.</div>
         <div style="font-size:13.5px; line-height:1.5; color:#5E5F55; margin-top:15px; border-top:1px solid #C6C6BC;
-          padding-top:13px;">Munich/Berlin founders-associate postings run &euro;51–90K (Glassdoor 2026). Scoped above
+          padding-top:13px;">Munich/Berlin founders-associate postings run &euro;51-90K (Glassdoor 2026). Scoped above
           that median for a CEO-and-CTO-office mandate and A&amp;M / Biome-VC seniority, and deliberately under the US
           Series-A chief-of-staff band. A proposed anchor, not a demand.</div>
       </div>
@@ -751,7 +751,7 @@ S["Appendix"] = page(f"""
       {filerow("Register", "14-linkedin-posts.md",
                "Every publicly indexed LinkedIn post about Lio found across 8 search angles: company, founders, team, "
                "events, customers, investors, German-language, third-party commentary.")}
-      {filerow("Knowledge base", "00–12 · Lio knowledge base",
+      {filerow("Knowledge base", "00-12 · Lio knowledge base",
                "The sourced dossier this work builds on: company, product, pain points, competitive map, customer "
                "proof, strategic levers. Every fact graded for reliability.")}
       {filerow("Playbook", "19-september-action-sheet.md · 20-event-strategy-and-icp-baseline.md",

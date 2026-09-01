@@ -6,7 +6,7 @@
 
 | Market | Size / forecast | Source quality |
 |---|---|---|
-| Procurement **software** | ~$10.1B (2025) → ~$21.3B (2033), ~10% CAGR | Grand View; corroborated $8.9–9.5B by Precedence/FBI/Polaris |
+| Procurement **software** | ~$10.1B (2025) → ~$21.3B (2033), ~10% CAGR | Grand View; corroborated $8.9-9.5B by Precedence/FBI/Polaris |
 | Procurement **orchestration platforms** | $4.1B (2024) → $12.9B (2033), 13.7% CAGR | Dataintelo, second-tier, directional only |
 | **Agentic AI in supply chain/procurement** | <$2B (2025) → **$53B (2030), 93.5% CAGR**; advanced autonomous agents $492M → $15.9B; non-AI SCM software *declining* -9.3%/yr; 70% of SCM vendors with agentic capabilities by end-2027 (vs 1% in 2024) | Gartner figures **via Opstream's summary**, not Gartner directly |
 | **Labor being targeted** | $180B/yr procurement talent; BPO up to 20× software cost | Lio/a16z pitch framing |
@@ -20,7 +20,7 @@
 |---|---|---|---|
 | **SAP Ariba** | S2P suite + network; Gartner MQ Leader '25 & '26 | "Click tax" UI, steep learning curve, complex implementations, supplier network fees | Next-gen Ariba on BTP with **Joule agents**: Bid Analysis GA Q1'26, **Intake Agent GA Jun 2026** (chat/email/Teams, routes across SAP *and non-SAP*); Joule Agent Runtime **free through Dec 31, 2026** |
 | **Coupa** | BSM suite; MQ Leader, highest execution | Supplier portal friction, cluttered legacy admin; $250K+ enterprise cost | Most aggressive: **Navi** multi-agent portfolio + Agent Studio/Orchestrator; 4 agentic acquisitions, Cirtuo, Scoutbee, Rossum, and **Tonkean (May 2026, est. hundreds of $M)** to own intake/orchestration outright |
-| **Ivalua** | Configurable S2P; MQ Leader ×3 | 8–12-month rollouts; global programs 18–30 months; partner-heavy | **IVA + IVA Studio**, "the agentic operating system for procurement" (platform v10) |
+| **Ivalua** | Configurable S2P; MQ Leader ×3 | 8-12-month rollouts; global programs 18-30 months; partner-heavy | **IVA + IVA Studio**, "the agentic operating system for procurement" (platform v10) |
 | **Jaggaer** | S2P, direct-materials strength | Behind Coupa on ease of use | **JAI** multi-agent orchestrator, policy-grounded, source-cited, multi-model (Gemini + Claude), marketed on "eliminating hallucination risk" |
 | **Oracle** | Fusion Cloud Procurement; MQ Leader | ERP gravity, procurement UX secondary | AI agents embedded in Fusion roadmap |
 | **GEP** | S2P + services; MQ Leader; tops Spend Matters SolutionMap incl. Intake & Orchestration | Services-led | **GEP Quantum (Qi)**, network of autonomous agents across S2P |
@@ -48,7 +48,7 @@ Aggregate: the orchestration/agentic-procurement field has raised **$1.2B+**. Li
 
 ## Analyst consensus & risk map
 
-**Bullish:** McKinsey, agentic AI will transform **≥75% of procurement activities**; AI-guided negotiations delivered 10–15% savings; 25–40% productivity potential. Hackett, early adopters ~10% productivity, leaders 25%+; intake triage/supplier-risk/PO processing are proven use cases; 64% of procurement leaders say AI will transform their jobs. Gartner Hype Cycle 2025, intake at Peak of Inflated Expectations; orchestration "transformational."
+**Bullish:** McKinsey, agentic AI will transform **≥75% of procurement activities**; AI-guided negotiations delivered 10-15% savings; 25-40% productivity potential. Hackett, early adopters ~10% productivity, leaders 25%+; intake triage/supplier-risk/PO processing are proven use cases; 64% of procurement leaders say AI will transform their jobs. Gartner Hype Cycle 2025, intake at Peak of Inflated Expectations; orchestration "transformational."
 
 **Bearish / risks:**
 - Gartner: **>40% of agentic AI projects will be canceled by end-2027** (poor planning, unclear governance, undefined human-oversight boundaries).
@@ -58,7 +58,7 @@ Aggregate: the orchestration/agentic-procurement field has raised **$1.2B+**. Li
 
 ## Where Lio wins / loses (synthesis)
 
-**Wins:** (1) the adoption gap *is* the market, intake UX is the quantified root cause of maverick spend; (2) time-to-value asymmetry, 2 weeks vs 12–30 months; (3) labor economics incumbents can't price against without self-cannibalizing; (4) incumbent agents are single-suite bolt-ons; (5) the BPO wedge has no incumbent defender.
+**Wins:** (1) the adoption gap *is* the market, intake UX is the quantified root cause of maverick spend; (2) time-to-value asymmetry, 2 weeks vs 12-30 months; (3) labor economics incumbents can't price against without self-cannibalizing; (4) incumbent agents are single-suite bolt-ons; (5) the BPO wedge has no incumbent defender.
 
 **Loses:** (1) suite bundling at price-zero ("good-enough" free agents inside the invoice the CFO already pays); (2) Zip's category ownership + capital in the US; (3) governance/trust drag in regulated Global 2000 (Munich Re-class buyers demand auditability before autonomous negotiation); (4) point-solution squeeze per agent (Pactum et al.) while suites squeeze from above; (5) every headline metric is company-reported, outcome proof (Forrester's 2026 buyer demand) is the battleground.
 

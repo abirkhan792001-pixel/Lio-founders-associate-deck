@@ -28,21 +28,21 @@ Origin: the trio "worked at big enterprises like SAP and consulted on procuremen
 | **Series A** | announced **2026-03-05**; evidence it was **signed late 2025** (Heliad's 2025 year-end review already reported it; a pre-announcement job ad touted it as "one of Europe's largest rounds in the past five years, pending announcement") | **$30M (€25.7M)** | **Led by Andreessen Horowitz, deal led by partner Seema Amble** (announcement co-signed by James da Costa, Eric Zhou, Brian Roberts); participation: SV Angel, Harry Stebbings (20VC), Y Combinator, plus procurement-executive angels |
 
 - **Total funding: $33M.** (~$2.5M of pre-A capital is not itemized publicly, plausibly Heliad + angels; flagged as inference.)
-- **No public valuation. No official ARR** (Extruct's "$5–7M revenue" is an explicit third-party estimate; Heliad describes "scaling ARR… strong margins, highly repeatable growth" without numbers).
+- **No public valuation. No official ARR** (Extruct's "$5-7M revenue" is an explicit third-party estimate; Heliad describes "scaling ARR… strong margins, highly repeatable growth" without numbers).
 - Use of funds: **US expansion + expanding agent capabilities**.
 - a16z rationale (Seema Amble): "We're entering a phase in the enterprise where AI moves beyond workflow co-pilots to autonomous, multi-agent execution. Lio is applying that shift to procurement." a16z on X: "We're entering an agent-first world, where entire workflows get handed off to AI."
 
 ## Timeline
 
-- **2023**: Founded in Munich; **Y Combinator S23**. YC launch (Jul 2023): "askLio – AI-Copilot for procurement teams", free-text intake copilot inside MS Teams/P2P systems; "the procurement process used to take weeks – our AI turns it into hours."
-- **2023–2025**: Enterprise traction in DACH+ (Munich Re, Brose, Novozymes, REHAU, Schaeffler). Awards: **DPW "Growth Stage" Award** (DPW Amsterdam 2025; jury of 80+ CPOs, vs 150+ competitors), **BME Procurement Excellence Award with REHAU**, VivaTech Top-100 Rising European Startups (company-reported list). Featured in Handelsblatt, Fortune, ProcureTech.
+- **2023**: Founded in Munich; **Y Combinator S23**. YC launch (Jul 2023): "askLio - AI-Copilot for procurement teams", free-text intake copilot inside MS Teams/P2P systems; "the procurement process used to take weeks - our AI turns it into hours."
+- **2023-2025**: Enterprise traction in DACH+ (Munich Re, Brose, Novozymes, REHAU, Schaeffler). Awards: **DPW "Growth Stage" Award** (DPW Amsterdam 2025; jury of 80+ CPOs, vs 150+ competitors), **BME Procurement Excellence Award with REHAU**, VivaTech Top-100 Rising European Startups (company-reported list). Featured in Handelsblatt, Fortune, ProcureTech.
 - **Nov 2025**: Still branded askLio (CPOstrategy interview + YouTube feature).
 - **Late 2025**: Series A signed (inference, see above). First US enterprise wins referenced in job ads.
 - **2026-03-05**: **$30M Series A announced + public rebrand askLio → Lio** (copilot → autonomous multi-agent workforce). No standalone rebrand release; positioning shift is the stated logic across coverage.
 - **2026-03-06**: CEO manifesto published ("Why we built Lio").
 - **2026-04-10**: **Jared Petras** (ex-Senior Director of Digital Transformation for Procurement, **Walmart**) appointed **Head of US Growth** (effective Apr 13). He discovered Lio while leading Walmart's engagement with it; first talked to Keil Oct 2025. Quote: "I would not have made this move for any other company."
-- **Apr–Jun 2026**: US GTM push: workshop "Humans vs. AI Agents: Who Runs Procurement in 2026?" (Procurement & Supply Chain LIVE US, Chicago); CPO dinners in Miami and New York (DPW edition, with Walmart and a16z names attached); ~25-event 2026 calendar across US/DACH/UK incl. own series "Bots & Buyers" and "The Lio Principals."
-- **Jul 2026 (now)**: ~80–92 employees; ~15–23 open roles; NYC sales build-out underway.
+- **Apr-Jun 2026**: US GTM push: workshop "Humans vs. AI Agents: Who Runs Procurement in 2026?" (Procurement & Supply Chain LIVE US, Chicago); CPO dinners in Miami and New York (DPW edition, with Walmart and a16z names attached); ~25-event 2026 calendar across US/DACH/UK incl. own series "Bots & Buyers" and "The Lio Principals."
+- **Jul 2026 (now)**: ~80-92 employees; ~15-23 open roles; NYC sales build-out underway.
 
 ## Org, culture, hiring signals
 

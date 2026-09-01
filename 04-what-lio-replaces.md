@@ -24,7 +24,7 @@ Their own words: *"We are not another procurement software. We are the agents op
 ## Why "replace labor, not software" is strategically smart (consultant read)
 
 1. **18× bigger budget.** The labor+BPO line dwarfs the software line. Value-based pricing against FTE/BPO savings supports deal sizes seat-based SaaS can't reach.
-2. **No rip-and-replace sale.** Suite replacements are 12–30-month CIO-sponsored megaprojects with procurement-of-procurement irony. An overlay that goes live in <2 weeks avoids the RFP gauntlet it would otherwise be subjected to.
+2. **No rip-and-replace sale.** Suite replacements are 12-30-month CIO-sponsored megaprojects with procurement-of-procurement irony. An overlay that goes live in <2 weeks avoids the RFP gauntlet it would otherwise be subjected to.
 3. **Avoids head-on war with SAP/Coupa, for now.** Positioning as "agents operating your suite" keeps the incumbents as nominal partners while quietly capturing the user relationship and the workflow data. (The incumbents understand this, hence Joule Intake Agent and Coupa buying Tonkean; see [06](06-market-and-competition.md).)
 4. **BPO contracts are the perfect beachhead.** They're already quantified (a price per transaction/FTE exists), already outsourced (no internal job-loss fight), renewed on cycles (natural entry points), and universally disliked (slow, opaque). Displacing them at 7% of cost with better auditability is a nearly unarguable CFO case.
 5. **The rebrand encodes the strategy.** "askLio" = a copilot you ask (software helping humans). "Lio" = a colleague/workforce (labor). The name change *is* the category change.
