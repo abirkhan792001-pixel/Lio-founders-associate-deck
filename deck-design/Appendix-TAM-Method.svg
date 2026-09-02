@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- ============================================================
+       APPENDIX A · TAM METHOD  ·  1920x1080  ·  Lio FA Deck
+       All text is live <text>. Edit directly in Figma / Illustrator.
+       Palette: ink #0B1416 · muted #7E9290 · rule #C7D2D1
+                panel #EDF2F1 · accent #D7F452
+       ============================================================ -->
+
+  <style>
+    .mono   { font-family: 'Geist Mono', 'Roboto Mono', Consolas, monospace; }
+    .lbl    { font-size: 11px; letter-spacing: 1.1px; fill: #0B1416; font-weight: 600; }
+    .lblm   { font-size: 11px; letter-spacing: 1.1px; fill: #7E9290; font-weight: 500; }
+    .h1     { font-size: 52px; font-weight: 700; fill: #0B1416; letter-spacing: -1px; }
+    .sub    { font-size: 16.5px; fill: #7E9290; }
+    .body   { font-size: 13.5px; fill: #0B1416; }
+    .bodym  { font-size: 13.5px; fill: #7E9290; }
+    .small  { font-size: 12px; fill: #7E9290; }
+    .num    { font-size: 13.5px; fill: #0B1416; }
+    .numb   { font-size: 13.5px; fill: #0B1416; font-weight: 700; }
+    .stat   { font-size: 30px; font-weight: 700; fill: #0B1416; }
+    .rowlab { font-size: 14px; font-weight: 700; fill: #0B1416; }
+    .foot   { font-size: 11.5px; fill: #7E9290; }
+  </style>
+
+  <rect id="bg" width="1920" height="1080" fill="#FFFFFF"/>
+
+  <!-- ==================== HEADER ==================== -->
+  <g id="header">
+    <text class="mono lbl" x="64" y="66">APPENDIX A · TAM METHOD</text>
+    <text class="mono lblm" x="1856" y="66" text-anchor="end">SOURCE: Lio_ICP_Prospect_List.xlsx · COMPANIES TAB · 122 ACCOUNTS · APOLLO 31 AUG 2026</text>
+    <line x1="64" y1="86" x2="1856" y2="86" stroke="#0B1416" stroke-width="1.5"/>
+    <text class="h1" x="64" y="150">How the €76M was calculated</text>
+    <text class="sub" x="64" y="184">Every number on the ICP slide, with the arithmetic shown and the assumptions named.</text>
+  </g>
+
+  <!-- ==================== LEFT: INPUTS ==================== -->
+  <g id="inputs">
+    <text class="mono lbl" x="64" y="248">01 · INPUTS</text>
+    <line x1="64" y1="262" x2="584" y2="262" stroke="#C7D2D1" stroke-width="1"/>
+
+    <text class="body"  x="64"  y="292">Accounts on the list</text>
+    <text class="numb"  x="584" y="292" text-anchor="end" >122</text>
+
+    <text class="body"  x="64"  y="322">Named buyers against them</text>
+    <text class="numb"  x="584" y="322" text-anchor="end">219</text>
+
+    <text class="body"  x="64"  y="352">Combined company revenue</text>
+    <text class="numb"  x="584" y="352" text-anchor="end">€4,706B</text>
+
+    <text class="body"  x="64"  y="382">Companies with revenue on file</text>
+    <text class="numb"  x="584" y="382" text-anchor="end">119 of 122</text>
+
+    <text class="body"  x="64"  y="412">Segments</text>
+    <text class="numb"  x="584" y="412" text-anchor="end">4</text>
+
+    <line x1="64" y1="436" x2="584" y2="436" stroke="#C7D2D1" stroke-width="1"/>
+    <text class="small" x="64" y="460">Revenue as reported by Apollo. Three accounts carry no</text>
+    <text class="small" x="64" y="478">revenue figure (AUVA, Netze BW, Condor) and contribute €0.</text>
+  </g>
+
+  <!-- ==================== LEFT: THE ACV LADDER ==================== -->
+  <g id="ladder">
+    <text class="mono lbl" x="64" y="540">02 · THE ACV LADDER</text>
+    <line x1="64" y1="554" x2="584" y2="554" stroke="#C7D2D1" stroke-width="1"/>
+
+    <text class="mono lblm" x="64"  y="582">COMPANY REVENUE</text>
+    <text class="mono lblm" x="584" y="582" text-anchor="end">ASSUMED ACV</text>
+
+    <text class="body" x="64"  y="612">under €5B</text>
+    <text class="num"  x="584" y="612" text-anchor="end">€250,000</text>
+
+    <text class="body" x="64"  y="642">€5B – €20B</text>
+    <text class="num"  x="584" y="642" text-anchor="end">€500,000</text>
+
+    <text class="body" x="64"  y="672">€20B – €50B</text>
+    <text class="num"  x="584" y="672" text-anchor="end">€900,000</text>
+
+    <text class="body" x="64"  y="702">€50B – €150B</text>
+    <text class="num"  x="584" y="702" text-anchor="end">€1,400,000</text>
+
+    <text class="body" x="64"  y="732">€150B and above</text>
+    <text class="num"  x="584" y="732" text-anchor="end">€2,000,000</text>
+
+    <line x1="64" y1="756" x2="584" y2="756" stroke="#C7D2D1" stroke-width="1"/>
+    <text class="small" x="64" y="780">Anchored to Lio's own model in 08-strategic-value-levers.md:</text>
+    <text class="small" x="64" y="798">a 120-FTE case yields €7–9M of savings; Lio captures 10–20%</text>
+    <text class="small" x="64" y="816">of it, which is the €0.7–1.8M "7-figure ACV" the file infers.</text>
+    <text class="small" x="64" y="834">The ladder flattens at the top because enterprise ACV does.</text>
+  </g>
+
+  <!-- ==================== LEFT: ADJUSTMENTS ==================== -->
+  <g id="adjustments">
+    <text class="mono lbl" x="64" y="896">03 · ADJUSTMENTS</text>
+    <line x1="64" y1="910" x2="584" y2="910" stroke="#C7D2D1" stroke-width="1"/>
+    <text class="small" x="64" y="936">— Insurance &amp; FS haircut 50%. Apollo reports premium and</text>
+    <text class="small" x="64" y="954">   interest income as "revenue", which overstates operating scale.</text>
+    <text class="small" x="64" y="976">— ~6 accounts are duplicate entities (Credit Suisse→UBS,</text>
+    <text class="small" x="64" y="994">   Erste Bank→Erste Group, LinkedIn→Microsoft, DB Cargo→DB,</text>
+    <text class="small" x="64" y="1012">   SBB Cargo→SBB, Wien Energie→Wiener Stadtwerke). Unique: ~116.</text>
+  </g>
+
+  <!-- ==================== RIGHT: SEGMENT WORKING ==================== -->
+  <g id="working">
+    <text class="mono lbl" x="640" y="248">04 · SEGMENT WORKING — ACCOUNTS PER REVENUE BAND, PRICED AT THE LADDER</text>
+    <line x1="640" y1="262" x2="1856" y2="262" stroke="#C7D2D1" stroke-width="1"/>
+
+    <!-- column headers -->
+    <g id="working-head">
+      <text class="mono lblm" x="640"  y="292">SEGMENT</text>
+      <text class="mono lblm" x="960"  y="292" text-anchor="end">n</text>
+      <text class="mono lblm" x="1035" y="292" text-anchor="end">&lt;5B</text>
+      <text class="mono lblm" x="1110" y="292" text-anchor="end">5–20</text>
+      <text class="mono lblm" x="1185" y="292" text-anchor="end">20–50</text>
+      <text class="mono lblm" x="1265" y="292" text-anchor="end">50–150</text>
+      <text class="mono lblm" x="1335" y="292" text-anchor="end">150+</text>
+      <text class="mono lblm" x="1395" y="292" text-anchor="end">n/a</text>
+      <text class="mono lblm" x="1530" y="292" text-anchor="end">GROSS ACV</text>
+      <text class="mono lblm" x="1645" y="292" text-anchor="end">TAM</text>
+      <text class="mono lblm" x="1725" y="292" text-anchor="end">SHARE</text>
+      <text class="mono lblm" x="1856" y="292" text-anchor="end">PROVEN CUSTOMERS</text>
+      <line x1="640" y1="306" x2="1856" y2="306" stroke="#C7D2D1" stroke-width="1"/>
+    </g>
+
+    <!-- row 1 : US GBS -->
+    <g id="row-usgbs">
+      <text class="rowlab" x="640"  y="344">US GBS &amp; BPO Owners</text>
+      <text class="num" x="960"  y="344" text-anchor="end">30</text>
+      <text class="num" x="1035" y="344" text-anchor="end">0</text>
+      <text class="num" x="1110" y="344" text-anchor="end">2</text>
+      <text class="num" x="1185" y="344" text-anchor="end">10</text>
+      <text class="num" x="1265" y="344" text-anchor="end">11</text>
+      <text class="num" x="1335" y="344" text-anchor="end">7</text>
+      <text class="num" x="1395" y="344" text-anchor="end">0</text>
+      <text class="num"  x="1530" y="344" text-anchor="end">€39.40M</text>
+      <text class="numb" x="1645" y="344" text-anchor="end">€39.40M</text>
+      <text class="numb" x="1725" y="344" text-anchor="end">51.9%</text>
+      <text class="numb" x="1856" y="344" text-anchor="end">0</text>
+      <line x1="640" y1="366" x2="1856" y2="366" stroke="#E9EFEE" stroke-width="1"/>
+    </g>
+
+    <!-- row 2 : Utilities -->
+    <g id="row-utilities">
+      <text class="rowlab" x="640"  y="404">Utilities &amp; Mobility</text>
+      <text class="num" x="960"  y="404" text-anchor="end">30</text>
+      <text class="num" x="1035" y="404" text-anchor="end">9</text>
+      <text class="num" x="1110" y="404" text-anchor="end">13</text>
+      <text class="num" x="1185" y="404" text-anchor="end">4</text>
+      <text class="num" x="1265" y="404" text-anchor="end">2</text>
+      <text class="num" x="1335" y="404" text-anchor="end">0</text>
+      <text class="num" x="1395" y="404" text-anchor="end">2</text>
+      <text class="num"  x="1530" y="404" text-anchor="end">€15.15M</text>
+      <text class="numb" x="1645" y="404" text-anchor="end">€15.15M</text>
+      <text class="numb" x="1725" y="404" text-anchor="end">20.0%</text>
+      <text class="numb" x="1856" y="404" text-anchor="end">0</text>
+      <line x1="640" y1="426" x2="1856" y2="426" stroke="#E9EFEE" stroke-width="1"/>
+    </g>
+
+    <!-- row 3 : DACH Industrial -->
+    <g id="row-dach">
+      <text class="rowlab" x="640"  y="464">DACH Industrial</text>
+      <text class="num" x="960"  y="464" text-anchor="end">32</text>
+      <text class="num" x="1035" y="464" text-anchor="end">21</text>
+      <text class="num" x="1110" y="464" text-anchor="end">11</text>
+      <text class="num" x="1185" y="464" text-anchor="end">0</text>
+      <text class="num" x="1265" y="464" text-anchor="end">0</text>
+      <text class="num" x="1335" y="464" text-anchor="end">0</text>
+      <text class="num" x="1395" y="464" text-anchor="end">0</text>
+      <text class="num"  x="1530" y="464" text-anchor="end">€10.75M</text>
+      <text class="numb" x="1645" y="464" text-anchor="end">€10.75M</text>
+      <text class="numb" x="1725" y="464" text-anchor="end">14.2%</text>
+      <text class="numb" x="1856" y="464" text-anchor="end">14</text>
+      <line x1="640" y1="486" x2="1856" y2="486" stroke="#E9EFEE" stroke-width="1"/>
+    </g>
+
+    <!-- row 4 : Insurance -->
+    <g id="row-insurance">
+      <text class="rowlab" x="640"  y="524">Insurance &amp; FS <tspan class="mono" font-size="11" fill="#7E9290">†</tspan></text>
+      <text class="num" x="960"  y="524" text-anchor="end">30</text>
+      <text class="num" x="1035" y="524" text-anchor="end">7</text>
+      <text class="num" x="1110" y="524" text-anchor="end">11</text>
+      <text class="num" x="1185" y="524" text-anchor="end">4</text>
+      <text class="num" x="1265" y="524" text-anchor="end">6</text>
+      <text class="num" x="1335" y="524" text-anchor="end">1</text>
+      <text class="num" x="1395" y="524" text-anchor="end">1</text>
+      <text class="num"  x="1530" y="524" text-anchor="end">€21.25M</text>
+      <text class="numb" x="1645" y="524" text-anchor="end">€10.62M</text>
+      <text class="numb" x="1725" y="524" text-anchor="end">14.0%</text>
+      <text class="numb" x="1856" y="524" text-anchor="end">2</text>
+      <line x1="640" y1="546" x2="1856" y2="546" stroke="#0B1416" stroke-width="1.5"/>
+    </g>
+
+    <!-- total -->
+    <g id="row-total">
+      <text class="rowlab" x="640"  y="584">TOTAL</text>
+      <text class="numb" x="960"  y="584" text-anchor="end">122</text>
+      <text class="numb" x="1035" y="584" text-anchor="end">37</text>
+      <text class="numb" x="1110" y="584" text-anchor="end">37</text>
+      <text class="numb" x="1185" y="584" text-anchor="end">18</text>
+      <text class="numb" x="1265" y="584" text-anchor="end">19</text>
+      <text class="numb" x="1335" y="584" text-anchor="end">8</text>
+      <text class="numb" x="1395" y="584" text-anchor="end">3</text>
+      <text class="numb" x="1530" y="584" text-anchor="end">€86.55M</text>
+      <text class="numb" x="1645" y="584" text-anchor="end">€75.92M</text>
+      <text class="numb" x="1725" y="584" text-anchor="end">100%</text>
+      <text class="numb" x="1856" y="584" text-anchor="end">16</text>
+    </g>
+
+    <text class="small mono" x="640" y="614">† 50% HAIRCUT APPLIED: GROSS €21.25M → TAM €10.62M</text>
+  </g>
+
+  <!-- ==================== RIGHT: THE FINDING ==================== -->
+  <g id="finding">
+    <rect x="640" y="648" width="1216" height="118" fill="#EDF2F1"/>
+    <rect x="640" y="648" width="5" height="118" fill="#D7F452"/>
+    <text class="mono lbl" x="672" y="682">THE FINDING</text>
+    <text class="stat" x="672" y="726">US GBS holds half the money and no proven customer.</text>
+    <text class="bodym" x="672" y="752">DACH Industrial holds 14% of it and every proven customer Lio has. €54.6M of the €75.9M sits in two segments with zero closed deals between them.</text>
+  </g>
+
+  <!-- ==================== RIGHT: MODEL COMPARISON ==================== -->
+  <g id="model-check">
+    <text class="mono lbl" x="640" y="820">05 · WHY NOT A FLAT % OF REVENUE</text>
+    <line x1="640" y1="834" x2="1240" y2="834" stroke="#C7D2D1" stroke-width="1"/>
+
+    <text class="mono lblm" x="640"  y="862">SEGMENT</text>
+    <text class="mono lblm" x="1090" y="862" text-anchor="end">FLAT %</text>
+    <text class="mono lblm" x="1240" y="862" text-anchor="end">LADDER (USED)</text>
+
+    <text class="body" x="640"  y="890">US GBS &amp; BPO Owners</text>
+    <text class="num"  x="1090" y="890" text-anchor="end">77.0%</text>
+    <text class="numb" x="1240" y="890" text-anchor="end">51.9%</text>
+
+    <text class="body" x="640"  y="918">Utilities &amp; Mobility</text>
+    <text class="num"  x="1090" y="918" text-anchor="end">10.2%</text>
+    <text class="numb" x="1240" y="918" text-anchor="end">20.0%</text>
+
+    <text class="body" x="640"  y="946">DACH Industrial</text>
+    <text class="num"  x="1090" y="946" text-anchor="end">3.4%</text>
+    <text class="numb" x="1240" y="946" text-anchor="end">14.2%</text>
+
+    <text class="body" x="640"  y="974">Insurance &amp; FS</text>
+    <text class="num"  x="1090" y="974" text-anchor="end">9.4%</text>
+    <text class="numb" x="1240" y="974" text-anchor="end">14.0%</text>
+
+    <line x1="640" y1="994" x2="1240" y2="994" stroke="#C7D2D1" stroke-width="1"/>
+    <text class="small" x="640" y="1016">A flat % of revenue just reproduces the revenue split and assumes</text>
+    <text class="small" x="640" y="1034">Apple pays 100× what TRUMPF pays. The ladder is the defensible one.</text>
+  </g>
+
+  <!-- ==================== RIGHT: OVERLAP CHECK ==================== -->
+  <g id="overlap">
+    <text class="mono lbl" x="1300" y="820">06 · OVERLAP WITH LIO'S EXISTING BOOK</text>
+    <line x1="1300" y1="834" x2="1856" y2="834" stroke="#C7D2D1" stroke-width="1"/>
+
+    <text class="body" x="1300" y="862">SCHOTT</text>
+    <text class="bodym" x="1856" y="862" text-anchor="end">Customer — expansion, not new</text>
+
+    <text class="body" x="1300" y="890">Deutsche Bahn</text>
+    <text class="bodym" x="1856" y="890" text-anchor="end">"Loom" pilot / event attendee</text>
+
+    <text class="body" x="1300" y="918">Lufthansa Group</text>
+    <text class="bodym" x="1856" y="918" text-anchor="end">Event attendee</text>
+
+    <text class="body" x="1300" y="946">Webasto, Flix, SWM</text>
+    <text class="bodym" x="1856" y="946" text-anchor="end">Clubhouse attendees</text>
+
+    <line x1="1300" y1="966" x2="1856" y2="966" stroke="#C7D2D1" stroke-width="1"/>
+    <text class="small" x="1300" y="988">6 of 122 accounts (5%) already have a relationship; only</text>
+    <text class="small" x="1300" y="1006">SCHOTT is a confirmed customer. The list is ~95% net-new.</text>
+    <text class="small" x="1300" y="1024">Deduct SCHOTT (€250K) for a pure-acquisition TAM: €75.67M.</text>
+  </g>
+
+  <!-- ==================== FOOTER ==================== -->
+  <g id="footer">
+    <line x1="64" y1="1048" x2="1856" y2="1048" stroke="#C7D2D1" stroke-width="1"/>
+    <text class="mono foot" x="64" y="1068">MODELLED, NOT QUOTED · NO PUBLIC LIO ACV EXISTS · APOLLO SEARCH TOTALS ARE DATABASE COUNTS, NOT TAM · EXCLUDES THE BPO-DISPLACEMENT LEVER, SO TREAT AS A FLOOR</text>
+    <text class="mono foot" x="1856" y="1068" text-anchor="end">FOUNDERS ASSOCIATE APPLICATION</text>
+  </g>
+
+</svg>
