@@ -1,158 +1,162 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="Inter, sans-serif">
 
   <!-- ============================================================
        SLIDE 05 · FINDINGS 02 — EVENT PIPELINE  ·  1920x1080
-       Light system, matched to slide 04 (IcpFindings, light rev).
-       Palette: ink #0B1416 · muted #7E9290 · rule #C7D2D1
-                panel #EDF2F1 · sage band #D6DBC5 · accent #D7F452
-       All text live <text>. Bars are <rect>. Edit directly.
+       Inter only. Monochrome (black / grey on white). No fills,
+       no accent colour. Alignment matched to slide 04:
+       left margin 76, title above the rule, subtitle below it.
+       All text is live <text>. Bars are <rect>. Fully editable.
        ============================================================ -->
   <style>
-    .mono   { font-family: 'Geist Mono', 'Roboto Mono', Consolas, monospace; }
-    .tag    { font-size: 13px; letter-spacing: 1.4px; fill: #7E9290; font-weight: 500; }
-    .h1     { font-size: 52px; font-weight: 700; fill: #0B1416; letter-spacing: -1px; }
-    .sub    { font-size: 16.5px; fill: #7E9290; }
-    .kpibig { font-size: 44px; font-weight: 800; fill: #0B1416; letter-spacing: -1.5px; }
-    .kpilbl { font-size: 11px; letter-spacing: 1.1px; fill: #7E9290; font-weight: 600; }
-    .kpisub { font-size: 12.5px; fill: #0B1416; }
-    .seclbl { font-size: 11px; letter-spacing: 1.4px; fill: #0B1416; font-weight: 700; }
-    .barlbl { font-size: 15px; font-weight: 700; fill: #0B1416; }
-    .barsub { font-size: 12px; fill: #7E9290; }
-    .barval { font-size: 15px; font-weight: 700; fill: #0B1416; }
-    .body   { font-size: 13.5px; fill: #0B1416; }
-    .bodym  { font-size: 13.5px; fill: #7E9290; }
-    .stat   { font-size: 26px; font-weight: 700; fill: #0B1416; letter-spacing: -0.5px; }
-    .small  { font-size: 12px; fill: #7E9290; }
-    .foot   { font-size: 11.5px; fill: #7E9290; }
+    text        { fill: #111111; }
+    .tag        { font-size: 13px; letter-spacing: 1.6px; fill: #767676; font-weight: 600; }
+    .h1         { font-size: 52px; font-weight: 700; letter-spacing: -1px; }
+    .sub        { font-size: 16.5px; fill: #767676; }
+    .kpibig     { font-size: 46px; font-weight: 800; letter-spacing: -1.5px; }
+    .kpilbl     { font-size: 11px; letter-spacing: 1.2px; fill: #767676; font-weight: 600; }
+    .kpisub     { font-size: 12.5px; fill: #111111; }
+    .seclbl     { font-size: 11px; letter-spacing: 1.4px; font-weight: 700; }
+    .barlbl     { font-size: 15px; font-weight: 700; }
+    .barsub     { font-size: 12px; fill: #767676; }
+    .barval     { font-size: 15px; font-weight: 700; }
+    .barpct     { font-size: 11px; fill: #767676; }
+    .body       { font-size: 13.5px; }
+    .stat       { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+    .small      { font-size: 12px; fill: #767676; }
+    .foot       { font-size: 11.5px; fill: #767676; letter-spacing: 0.3px; }
   </style>
 
   <rect id="bg" width="1920" height="1080" fill="#FFFFFF"/>
 
-  <!-- ==================== HEADER ==================== -->
+  <!-- ==================== HEADER (matched to slide 04) ==================== -->
   <g id="header">
-    <text class="mono tag" x="76" y="60">02 · FINDINGS — WHERE THEY GATHER</text>
-    <!-- Lio logo top-right -->
-    <g transform="translate(1786,40)">
-      <g fill="none" stroke="#0B1416" stroke-width="3.4" stroke-linecap="round">
+    <!-- title block, top-left, two lines -->
+    <text class="h1" x="76" y="116">Where they gather.</text>
+    <text class="h1" x="76" y="176">The €929K bet to be in the room.</text>
+
+    <!-- Lio logo + tag, top-right -->
+    <g id="brand" transform="translate(1774,44)">
+      <g fill="none" stroke="#111111" stroke-width="3.4" stroke-linecap="round">
         <path d="M 17 37 A 17 17 0 1 1 32.4 12.2"/>
         <path d="M 17 36.6 A 11.5 11.5 0 1 1 25.8 18.1"/>
         <path d="M 17 36.3 A 6.8 6.8 0 1 1 20.9 24.3"/>
       </g>
-      <text x="46" y="30" font-size="24" font-weight="500" fill="#0B1416" letter-spacing="-0.5">Lio</text>
+      <text x="46" y="30" font-size="24" font-weight="500" letter-spacing="-0.5">Lio</text>
     </g>
+    <text class="tag" x="1844" y="104" text-anchor="end">02 · FINDINGS</text>
 
-    <text class="h1" x="76" y="128">Where they gather.</text>
-    <text class="h1" x="76" y="188">The €929K bet to be in the room.</text>
-    <line x1="76" y1="214" x2="1844" y2="214" stroke="#0B1416" stroke-width="1.5"/>
+    <!-- full-width rule under the title, subtitle below (slide 04 pattern) -->
+    <line x1="76" y1="212" x2="1844" y2="212" stroke="#111111" stroke-width="1.5"/>
     <text class="sub" x="76" y="248">One P1 calendar: 17 events, four quarters. Where the spend goes shows which buyer Lio is really chasing.</text>
   </g>
 
-  <!-- ==================== KPI TILES ==================== -->
+  <!-- ==================== KPI ROW (no boxes, hairline separators) ==================== -->
   <g id="kpis">
-    <!-- tile 1 -->
-    <rect x="76"   y="278" width="425" height="118" fill="#EDF2F1"/>
-    <text class="kpibig" x="104" y="342">17</text>
-    <text class="mono kpilbl" x="104" y="366">P1 EVENTS · Q3-26 → Q2-27</text>
-    <text class="kpisub" x="104" y="386">16 must-own + 1 committed renewal</text>
+    <line x1="76" y1="286" x2="1844" y2="286" stroke="#DADADA" stroke-width="1"/>
 
-    <!-- tile 2 -->
-    <rect x="524"  y="278" width="425" height="118" fill="#EDF2F1"/>
-    <text class="kpibig" x="552" y="342">€929K</text>
-    <text class="mono kpilbl" x="552" y="366">PROGRAM ENVELOPE</text>
-    <text class="kpisub" x="552" y="386">€736K new + €105K committed + €88K buffer</text>
+    <!-- KPI 1 -->
+    <text class="kpibig" x="76"  y="348">17</text>
+    <text class="kpilbl" x="76"  y="374">P1 EVENTS · Q3-26 → Q2-27</text>
+    <text class="kpisub" x="76"  y="394">16 must-own + 1 committed renewal</text>
 
-    <!-- tile 3 -->
-    <rect x="972"  y="278" width="425" height="118" fill="#EDF2F1"/>
-    <text class="kpibig" x="1000" y="342">204</text>
-    <text class="mono kpilbl" x="1000" y="366">ON-SITE STAFF-DAYS</text>
-    <text class="kpisub" x="1000" y="386">+30% prep ≈ 1.2 full-time people for a year</text>
+    <!-- KPI 2 -->
+    <line x1="500" y1="308" x2="500" y2="398" stroke="#DADADA" stroke-width="1"/>
+    <text class="kpibig" x="530" y="348">€929K</text>
+    <text class="kpilbl" x="530" y="374">PROGRAM ENVELOPE</text>
+    <text class="kpisub" x="530" y="394">€736K new + €105K committed + €88K buffer</text>
 
-    <!-- tile 4 -->
-    <rect x="1420" y="278" width="424" height="118" fill="#EDF2F1"/>
-    <text class="kpibig" x="1448" y="342">€120K</text>
-    <text class="mono kpilbl" x="1448" y="366">IN 10 SIDECAR DINNERS</text>
-    <text class="kpisub" x="1448" y="386">The highest-ROI line — protect it last</text>
+    <!-- KPI 3 -->
+    <line x1="954" y1="308" x2="954" y2="398" stroke="#DADADA" stroke-width="1"/>
+    <text class="kpibig" x="984" y="348">204</text>
+    <text class="kpilbl" x="984" y="374">ON-SITE STAFF-DAYS</text>
+    <text class="kpisub" x="984" y="394">+30% prep ≈ 1.2 full-time people for a year</text>
+
+    <!-- KPI 4 -->
+    <line x1="1408" y1="308" x2="1408" y2="398" stroke="#DADADA" stroke-width="1"/>
+    <text class="kpibig" x="1438" y="348">€127K</text>
+    <text class="kpilbl" x="1438" y="374">IN 11 SIDECAR DINNERS</text>
+    <text class="kpisub" x="1438" y="394">Highest-ROI line — priced at the premium end</text>
+
+    <line x1="76" y1="418" x2="1844" y2="418" stroke="#DADADA" stroke-width="1"/>
   </g>
 
   <!-- ==================== LEFT CHART: SPEND BY MARKET ==================== -->
   <g id="chart-market">
-    <text class="mono seclbl" x="76" y="452">NEW SPEND BY MARKET — WHERE THE €736K GOES</text>
-    <line x1="76" y1="466" x2="912" y2="466" stroke="#C7D2D1" stroke-width="1"/>
+    <text class="seclbl" x="76" y="464">NEW SPEND BY MARKET — WHERE THE €736K GOES</text>
+    <line x1="76" y1="478" x2="912" y2="478" stroke="#DADADA" stroke-width="1"/>
 
-    <!-- US -->
-    <text class="barlbl" x="76"  y="512">United States</text>
-    <text class="barsub" x="76"  y="530">9 events</text>
-    <rect x="280" y="494" width="558" height="26" fill="#0B1416"/>
-    <text class="barval" x="850" y="513">€419K</text>
-    <text class="mono barsub" x="850" y="531" font-size="11">57%</text>
+    <!-- US (emphasis: black) -->
+    <text class="barlbl" x="76"  y="524">United States</text>
+    <text class="barsub" x="76"  y="542">9 events</text>
+    <rect x="280" y="506" width="558" height="26" fill="#111111"/>
+    <text class="barval" x="850" y="525">€419K</text>
+    <text class="barpct" x="850" y="543">57%</text>
 
-    <!-- DACH -->
-    <text class="barlbl" x="76"  y="576">DACH</text>
-    <text class="barsub" x="76"  y="594">6 events</text>
-    <rect x="280" y="558" width="269" height="26" fill="#7E9290"/>
-    <text class="barval" x="561" y="577">€202K</text>
-    <text class="mono barsub" x="561" y="595" font-size="11">27%</text>
+    <!-- DACH (grey) -->
+    <text class="barlbl" x="76"  y="588">DACH</text>
+    <text class="barsub" x="76"  y="606">6 events</text>
+    <rect x="280" y="570" width="269" height="26" fill="#B0B0B0"/>
+    <text class="barval" x="561" y="589">€202K</text>
+    <text class="barpct" x="561" y="607">27%</text>
 
-    <!-- Global / EU -->
-    <text class="barlbl" x="76"  y="640">Global / EU</text>
-    <text class="barsub" x="76"  y="658">2 events · Amsterdam, London</text>
-    <rect x="280" y="622" width="153" height="26" fill="#9FB3B2"/>
-    <text class="barval" x="445" y="641">€115K</text>
-    <text class="mono barsub" x="445" y="659" font-size="11">16%</text>
+    <!-- Global / EU (grey) -->
+    <text class="barlbl" x="76"  y="652">Global / EU</text>
+    <text class="barsub" x="76"  y="670">2 events · Amsterdam, London</text>
+    <rect x="280" y="634" width="153" height="26" fill="#B0B0B0"/>
+    <text class="barval" x="445" y="653">€115K</text>
+    <text class="barpct" x="445" y="671">16%</text>
 
-    <line x1="76" y1="686" x2="912" y2="686" stroke="#E9EFEE" stroke-width="1"/>
-    <text class="small" x="76" y="710">Market = city of the event. Committed spend (€105K) is US-only:</text>
-    <text class="small" x="76" y="728">ProcureCon East Boston and ProcureCon West Las Vegas.</text>
+    <line x1="76" y1="698" x2="912" y2="698" stroke="#DADADA" stroke-width="1"/>
+    <text class="small" x="76" y="722">Market = city of the event. The €105K committed spend is US-only:</text>
+    <text class="small" x="76" y="740">ProcureCon East Boston and ProcureCon West Las Vegas.</text>
   </g>
 
   <!-- ==================== RIGHT CHART: SPEND BY QUARTER ==================== -->
   <g id="chart-quarter">
-    <text class="mono seclbl" x="1008" y="452">NEW SPEND BY QUARTER — THE Q2 CRUNCH</text>
-    <line x1="1008" y1="466" x2="1844" y2="466" stroke="#C7D2D1" stroke-width="1"/>
+    <text class="seclbl" x="1008" y="464">NEW SPEND BY QUARTER — THE Q2 CRUNCH</text>
+    <line x1="1008" y1="478" x2="1844" y2="478" stroke="#DADADA" stroke-width="1"/>
 
     <!-- Q3 -->
-    <text class="barlbl" x="1008" y="512">Q3-26</text>
-    <text class="barsub" x="1008" y="530">65 days</text>
-    <rect x="1150" y="494" width="246" height="26" fill="#7E9290"/>
-    <text class="barval" x="1408" y="513">€165K</text>
+    <text class="barlbl" x="1008" y="524">Q3-26</text>
+    <text class="barsub" x="1008" y="542">65 days</text>
+    <rect x="1150" y="506" width="246" height="26" fill="#B0B0B0"/>
+    <text class="barval" x="1408" y="525">€165K</text>
 
     <!-- Q4 -->
-    <text class="barlbl" x="1008" y="576">Q4-26</text>
-    <text class="barsub" x="1008" y="594">32 days</text>
-    <rect x="1150" y="558" width="130" height="26" fill="#7E9290"/>
-    <text class="barval" x="1292" y="577">€87K</text>
+    <text class="barlbl" x="1008" y="588">Q4-26</text>
+    <text class="barsub" x="1008" y="606">32 days</text>
+    <rect x="1150" y="570" width="130" height="26" fill="#B0B0B0"/>
+    <text class="barval" x="1292" y="589">€87K</text>
 
     <!-- Q1 -->
-    <text class="barlbl" x="1008" y="640">Q1-27</text>
-    <text class="barsub" x="1008" y="658">31 days</text>
-    <rect x="1150" y="622" width="161" height="26" fill="#7E9290"/>
-    <text class="barval" x="1323" y="641">€108K</text>
+    <text class="barlbl" x="1008" y="652">Q1-27</text>
+    <text class="barsub" x="1008" y="670">31 days</text>
+    <rect x="1150" y="634" width="161" height="26" fill="#B0B0B0"/>
+    <text class="barval" x="1323" y="653">€108K</text>
 
-    <!-- Q2 -->
-    <text class="barlbl" x="1008" y="704">Q2-27</text>
-    <text class="barsub" x="1008" y="722">76 days · 7 events</text>
-    <rect x="1150" y="686" width="560" height="26" fill="#0B1416"/>
-    <text class="barval" x="1722" y="705">€376K</text>
-
-    <line x1="1008" y1="742" x2="1844" y2="742" stroke="#E9EFEE" stroke-width="1"/>
+    <!-- Q2 (emphasis: black) -->
+    <text class="barlbl" x="1008" y="716">Q2-27</text>
+    <text class="barsub" x="1008" y="734">76 days · 7 events</text>
+    <rect x="1150" y="698" width="560" height="26" fill="#111111"/>
+    <text class="barval" x="1722" y="717">€376K</text>
   </g>
 
-  <!-- ==================== THE FINDING (sage band) ==================== -->
+  <!-- ==================== THE FINDING (black tick, no fill) ==================== -->
   <g id="finding">
-    <rect x="76" y="772" width="1768" height="150" fill="#D6DBC5"/>
-    <rect x="76" y="772" width="6" height="150" fill="#0B1416"/>
+    <line x1="76" y1="784" x2="1844" y2="784" stroke="#111111" stroke-width="1.5"/>
+    <rect x="76" y="812" width="6" height="104" fill="#111111"/>
 
-    <text class="mono seclbl" x="112" y="812">THE FINDING</text>
-    <text class="stat" x="112" y="852">57% of the event spend chases the U.S. — the segment with no proven customer.</text>
-    <text class="body" x="112" y="884">The calendar mirrors the TAM: the U.S. holds 52% of the addressable ARR and gets the most spend. It is also the one</text>
-    <text class="body" x="112" y="906">market where no Lio customer is publicly verifiable. €929K is the price of turning that bet into booked meetings.</text>
+    <text class="seclbl" x="112" y="832">THE FINDING</text>
+    <text class="stat" x="112" y="872">57% of the event spend chases the U.S. — the segment with no proven customer.</text>
+    <text class="body" x="112" y="900">The calendar mirrors the TAM: the U.S. holds 52% of the addressable ARR and the most spend, yet it is the one</text>
+    <text class="body" x="112" y="920">market where no Lio customer is publicly verifiable. €929K is the price of turning that bet into booked meetings.</text>
   </g>
 
   <!-- ==================== FOOTER ==================== -->
   <g id="footer">
-    <line x1="76" y1="1016" x2="1844" y2="1016" stroke="#C7D2D1" stroke-width="1"/>
-    <text class="mono foot" x="76" y="1040">SOURCE: Lio_P1_Budget_Staffing.csv · 12-p1-budget-staffing.md · COMPILED 21 JUL 2026, REFRESHED 31 AUG 2026 · FIGURES ARE MID-RANGE PLANNING ENVELOPES, NOT ORGANIZER QUOTES · RANGE: €700K LEAN → €1.2M AGGRESSIVE</text>
-    <text class="mono foot" x="1844" y="1040" text-anchor="end">5 / 11</text>
+    <line x1="76" y1="1016" x2="1844" y2="1016" stroke="#DADADA" stroke-width="1"/>
+    <text class="foot" x="76" y="1040">SOURCE: Lio_P1_Budget_Staffing.csv · 12-p1-budget-staffing.md · COMPILED 21 JUL 2026, REFRESHED 31 AUG 2026 · FIGURES ARE MID-RANGE PLANNING ENVELOPES, NOT ORGANISER QUOTES · RANGE €700K LEAN → €1.2M</text>
+    <text class="foot" x="1844" y="1040" text-anchor="end">5 / 11</text>
   </g>
 
 </svg>
