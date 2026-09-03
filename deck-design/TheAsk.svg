@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="Inter, sans-serif">
+
+  <!-- ============================================================
+       SLIDE 09 · THE ASK  ·  1920x1080
+       Inter only. Deck colour style: black/grey text on white,
+       sage ask-box (#D6DBC5), black + grey chips, grey panel.
+       Salary anchored at EUR 70-80K -> base case = 18x, confirm 32x.
+       Alignment matched to slide 04: 76px margin, title above the
+       rule, subtitle below. All text live <text>. Fully editable.
+       ============================================================ -->
+  <style>
+    text       { fill: #111111; }
+    .tag       { font-size: 13px; letter-spacing: 1.6px; fill: #6E6E6E; font-weight: 600; }
+    .h1        { font-size: 52px; font-weight: 700; letter-spacing: -1px; }
+    .sub       { font-size: 16.5px; fill: #6E6E6E; }
+    .seclbl    { font-size: 11px; letter-spacing: 1.4px; font-weight: 700; }
+    .arr       { font-size: 40px; font-weight: 800; letter-spacing: -1px; }
+    .scenh     { font-size: 17px; font-weight: 700; }
+    .body      { font-size: 13.5px; fill: #3A3A3A; }
+    .bodyb     { font-size: 13.5px; font-weight: 700; fill: #111111; }
+    .chip      { font-size: 10.5px; letter-spacing: 1.1px; font-weight: 700; }
+    .panh      { font-size: 11px; letter-spacing: 1.3px; font-weight: 700; }
+    .panb      { font-size: 12.5px; fill: #3A3A3A; }
+    .askbig    { font-size: 60px; font-weight: 800; letter-spacing: -2px; }
+    .askmeta   { font-size: 12px; letter-spacing: 1.1px; font-weight: 600; fill: #4A4A4A; }
+    .askline   { font-size: 14px; fill: #1A1A1A; }
+    .askrat    { font-size: 12.5px; fill: #4A4A4A; }
+    .mult      { font-size: 86px; font-weight: 800; letter-spacing: -3px; }
+    .multtxt   { font-size: 13px; fill: #4A4A4A; font-weight: 600; letter-spacing: 0.4px; }
+    .foot      { font-size: 11.5px; fill: #6E6E6E; letter-spacing: 0.3px; }
+  </style>
+
+  <rect id="bg" width="1920" height="1080" fill="#FFFFFF"/>
+
+  <!-- ==================== HEADER ==================== -->
+  <g id="header">
+    <text class="h1" x="76" y="96">The base case returns the year-one salary</text>
+    <text class="h1" x="76" y="156">eighteen times over.</text>
+
+    <g id="brand" transform="translate(1774,44)">
+      <g fill="none" stroke="#111111" stroke-width="3.4" stroke-linecap="round">
+        <path d="M 17 37 A 17 17 0 1 1 32.4 12.2"/>
+        <path d="M 17 36.6 A 11.5 11.5 0 1 1 25.8 18.1"/>
+        <path d="M 17 36.3 A 6.8 6.8 0 1 1 20.9 24.3"/>
+      </g>
+      <text x="46" y="30" font-size="24" font-weight="500" letter-spacing="-0.5">Lio</text>
+    </g>
+    <text class="tag" x="1844" y="104" text-anchor="end">09 · THE ASK</text>
+
+    <line x1="76" y1="196" x2="1844" y2="196" stroke="#111111" stroke-width="1.5"/>
+    <text class="sub" x="76" y="232">A market-anchored ask, priced against the H1 thesis in three scenarios.</text>
+  </g>
+
+  <!-- ==================== LEFT: THE RETURN ==================== -->
+  <g id="return">
+    <text class="seclbl" x="76" y="296">THE RETURN — H1 THESIS ARR IN YEAR ONE</text>
+    <line x1="76" y1="310" x2="1090" y2="310" stroke="#DADADA" stroke-width="1"/>
+
+    <!-- Scenario 1 — KILL -->
+    <text class="arr" x="76" y="378">€0–175K</text>
+    <rect x="300" y="350" width="128" height="24" rx="4" fill="#E4E4E0"/>
+    <text class="chip" x="364" y="366" text-anchor="middle" fill="#111111">KILL · ROTATE</text>
+    <text class="scenh" x="300" y="402">The funnel fails its own gate.</text>
+    <text class="body" x="300" y="426">0 to 1 contracts. Assessment-to-POC under 10%, POC-to-contract under 20% — <tspan class="bodyb">file 17's</tspan></text>
+    <text class="body" x="300" y="446"><tspan class="bodyb">own kill thresholds.</tspan> The motion rotates to the next hypothesis. Phase 0 costs about €0.</text>
+    <line x1="76" y1="474" x2="1090" y2="474" stroke="#EDEDED" stroke-width="1"/>
+
+    <!-- Scenario 2 — REFINE / BASE -->
+    <text class="arr" x="76" y="544">€1.35M</text>
+    <rect x="300" y="516" width="140" height="24" rx="4" fill="#E4E4E0"/>
+    <text class="chip" x="370" y="532" text-anchor="middle" fill="#111111">REFINE · NARROW</text>
+    <rect x="452" y="516" width="92" height="24" rx="4" fill="#D6DBC5"/>
+    <text class="chip" x="498" y="532" text-anchor="middle" fill="#111111">BASE CASE</text>
+    <text class="scenh" x="300" y="568">Signal in FS only. DACH stays captive.</text>
+    <text class="body" x="300" y="592">About 2 FS wins at €500K plus 2 DACH change-event wins at €175K. <tspan class="bodyb">This is</tspan></text>
+    <text class="body" x="300" y="612"><tspan class="bodyb">already today's read:</tspan> Zurich–Genpact is the one confirmed third-party BPO in 35 swept accounts.</text>
+    <line x1="76" y1="640" x2="1090" y2="640" stroke="#EDEDED" stroke-width="1"/>
+
+    <!-- Scenario 3 — CONFIRM -->
+    <text class="arr" x="76" y="710">€2.4M</text>
+    <rect x="300" y="682" width="140" height="24" rx="4" fill="#111111"/>
+    <text class="chip" x="370" y="698" text-anchor="middle" fill="#FFFFFF">CONFIRM · SCALE</text>
+    <text class="scenh" x="300" y="734">Both segments clear the confirm bar.</text>
+    <text class="body" x="300" y="758">About 3 FS and 5 DACH wins as the Renewal Radar scales from 35 to ~75 accounts and</text>
+    <text class="body" x="300" y="778">conversion clears <tspan class="bodyb">assessment-to-POC 30%, POC-to-contract 50%.</tspan> Carries into the funded</text>
+    <text class="body" x="300" y="798">Q1–Q2-27 US wave once SOC 2 closes.</text>
+  </g>
+
+  <!-- ==================== LEFT: WHAT MOVES THESE NUMBERS ==================== -->
+  <g id="drivers">
+    <rect x="76" y="836" width="1014" height="164" fill="#EDEFEA"/>
+    <text class="panh" x="104" y="874">WHAT MOVES THESE NUMBERS</text>
+
+    <text class="bodyb" x="104" y="910" font-size="12.5">ACV.</text>
+    <text class="panb" x="140" y="910">No public ACV exists.</text>
+    <text class="panb" x="104" y="930">7% of displaced cost is Lio's own</text>
+    <text class="panb" x="104" y="950">disclosed mechanic. One verified</text>
+    <text class="panb" x="104" y="970">POC replaces the whole estimate.</text>
+
+    <text class="bodyb" x="440" y="910" font-size="12.5">Radar scale.</text>
+    <text class="panb" x="527" y="910">35 swept,</text>
+    <text class="panb" x="440" y="930">50 to 100 targeted. Every 10 added</text>
+    <text class="panb" x="440" y="950">yields about 2 more Group-A triggers</text>
+    <text class="panb" x="440" y="970">at today's 17% hit rate.</text>
+
+    <text class="bodyb" x="776" y="910" font-size="12.5">Segment mix.</text>
+    <text class="panb" x="866" y="910">An FS win is</text>
+    <text class="panb" x="776" y="930">worth about 3× a DACH win. Invert</text>
+    <text class="panb" x="776" y="950">which segment converts and the</text>
+    <text class="panb" x="776" y="970">base case roughly halves.</text>
+  </g>
+
+  <!-- ==================== RIGHT: THE ASK ==================== -->
+  <g id="ask">
+    <text class="seclbl" x="1180" y="296">THE ASK</text>
+    <line x1="1180" y1="310" x2="1844" y2="310" stroke="#DADADA" stroke-width="1"/>
+
+    <!-- sage ask box -->
+    <rect x="1180" y="342" width="664" height="378" fill="#D6DBC5"/>
+    <rect x="1212" y="374" width="168" height="26" rx="4" fill="#111111"/>
+    <text class="chip" x="1296" y="391" text-anchor="middle" fill="#FFFFFF">MARKET-ANCHORED</text>
+
+    <text class="askbig" x="1212" y="470">€70–80K</text>
+    <text class="askmeta" x="1212" y="500">BASE, YEAR 1 · ANCHOR €75K</text>
+
+    <text class="askline" x="1212" y="542"><tspan font-weight="700">Plus 0.05 to 0.15% equity,</tspan> standard 4-year vest with a 1-year cliff.</text>
+
+    <text class="askline" x="1212" y="580"><tspan font-weight="700">Re-rated twice:</tspan> at day 90 against the guarantee on the</text>
+    <text class="askline" x="1212" y="600">previous slide, and at the H1 decision gate in Jan or Feb 2027.</text>
+
+    <line x1="1212" y1="632" x2="1812" y2="632" stroke="#B9BFA9" stroke-width="1"/>
+
+    <text class="askrat" x="1212" y="662">Munich and Berlin founders-associate postings run €51–90K per</text>
+    <text class="askrat" x="1212" y="682">Glassdoor 2026. €70–80K sits in the upper half of that band —</text>
+    <text class="askrat" x="1212" y="702">scoped for a CEO-and-CTO-office mandate at A&amp;M and Biome-VC</text>
+    <text class="askrat" x="1212" y="722">seniority. A proposed anchor, not a demand.</text>
+
+    <!-- the multiple -->
+    <text class="mult" x="1180" y="838">18×</text>
+    <text class="multtxt" x="1372" y="806">BASE-CASE ARR OVER YEAR-1 BASE.</text>
+    <text class="multtxt" x="1372" y="826">Confirm case clears it 32 times. Only kill</text>
+    <text class="multtxt" x="1372" y="846">does not — which is exactly what the test</text>
+    <text class="multtxt" x="1372" y="866">is for.</text>
+  </g>
+
+  <!-- ==================== FOOTER ==================== -->
+  <g id="footer">
+    <line x1="76" y1="1016" x2="1844" y2="1016" stroke="#DADADA" stroke-width="1"/>
+    <text class="foot" x="76" y="1040">MODELLED, NOT FORECAST · ACV ≈ 7% OF DISPLACED BPO/SSC COST (FILE 08) · FUNNEL GATES PER FILE 17 · SALARY PER GLASSDOOR MUNICH &amp; BERLIN, 2026</text>
+    <text class="foot" x="1844" y="1040" text-anchor="end">9 / 11</text>
+  </g>
+
+</svg>
