@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="Inter, sans-serif">
+
+  <!-- ============================================================
+       APPENDIX B · COMPETITIVE MAP  ·  1920x1080
+       Inter only. Deck colour system: black/grey on white,
+       sage #D6DBC5 accent, grey panels.
+       Bubble AREA is proportional to total funding raised.
+       Source: 06-market-and-competition.md + 01-company-overview.md
+       All text live <text>. Bubbles are <circle>. Fully editable.
+       ============================================================ -->
+  <style>
+    text        { fill: #111111; }
+    .tag        { font-size: 13px; letter-spacing: 1.6px; fill: #6E6E6E; font-weight: 600; }
+    .h1         { font-size: 52px; font-weight: 700; letter-spacing: -1px; }
+    .sub        { font-size: 16.5px; fill: #6E6E6E; }
+    .seclbl     { font-size: 11px; letter-spacing: 1.4px; font-weight: 700; }
+    .axis       { font-size: 11px; letter-spacing: 1.2px; font-weight: 700; fill: #6E6E6E; }
+    .axissub    { font-size: 11px; fill: #9A9A9A; }
+    .quad       { font-size: 15px; letter-spacing: 3px; font-weight: 700; fill: #C2C9AE; }
+    .bname      { font-size: 14px; font-weight: 700; }
+    .bmeta      { font-size: 11px; fill: #6E6E6E; }
+    .note       { font-size: 11px; font-weight: 700; fill: #111111; }
+    .flbl       { font-size: 13.5px; font-weight: 600; }
+    .fval       { font-size: 12.5px; fill: #6E6E6E; }
+    .fvalb      { font-size: 12.5px; font-weight: 700; fill: #111111; }
+    .findh      { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+    .findb      { font-size: 13.5px; fill: #3A3A3A; }
+    .foot       { font-size: 11.5px; fill: #6E6E6E; letter-spacing: 0.3px; }
+  </style>
+
+  <rect id="bg" width="1920" height="1080" fill="#FFFFFF"/>
+
+  <!-- ==================== HEADER ==================== -->
+  <g id="header">
+    <text class="h1" x="76" y="96">The field is crowded.</text>
+    <text class="h1" x="76" y="156">The corner Lio occupies is not.</text>
+
+    <g id="brand" transform="translate(1774,44)">
+      <g fill="none" stroke="#111111" stroke-width="3.4" stroke-linecap="round">
+        <path d="M 17 37 A 17 17 0 1 1 32.4 12.2"/>
+        <path d="M 17 36.6 A 11.5 11.5 0 1 1 25.8 18.1"/>
+        <path d="M 17 36.3 A 6.8 6.8 0 1 1 20.9 24.3"/>
+      </g>
+      <text x="46" y="30" font-size="24" font-weight="500" letter-spacing="-0.5">Lio</text>
+    </g>
+    <text class="tag" x="1844" y="104" text-anchor="end">APPENDIX B · COMPETITIVE MAP</text>
+
+    <line x1="76" y1="196" x2="1844" y2="196" stroke="#111111" stroke-width="1.5"/>
+    <text class="sub" x="76" y="232">Ten funded rivals, $1.2B raised between them. Only one sits at autonomous execution × DACH enterprise.</text>
+  </g>
+
+  <!-- ==================== LEFT: POSITIONING MAP ==================== -->
+  <g id="map">
+    <text class="seclbl" x="76" y="288">POSITIONING — WHAT THE PRODUCT DOES × WHERE IT SELLS</text>
+    <line x1="76" y1="302" x2="1020" y2="302" stroke="#DADADA" stroke-width="1"/>
+
+    <!-- plot frame -->
+    <rect x="200" y="348" width="820" height="440" fill="#FFFFFF" stroke="#DADADA" stroke-width="1"/>
+    <!-- quadrant dividers -->
+    <line x1="610" y1="348" x2="610" y2="788" stroke="#E8E8E8" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="200" y1="568" x2="1020" y2="568" stroke="#E8E8E8" stroke-width="1" stroke-dasharray="4 4"/>
+
+    <!-- uncontested quadrant tint + label -->
+    <rect x="610" y="348" width="410" height="220" fill="#D6DBC5" opacity="0.22"/>
+    <text class="quad" x="638" y="378">UNCONTESTED</text>
+
+    <!-- Y axis labels -->
+    <text class="axis" x="76" y="368">DOES THE WORK</text>
+    <text class="axissub" x="76" y="384">autonomous execution</text>
+    <text class="axis" x="76" y="762">ROUTES THE WORK</text>
+    <text class="axissub" x="76" y="778">workflow orchestration</text>
+
+    <!-- X axis labels -->
+    <text class="axis" x="200" y="814">US-CENTRIC</text>
+    <text class="axis" x="1020" y="814" text-anchor="end">DACH / EUROPE</text>
+
+    <!-- ===== bubbles (area ∝ total funding) ===== -->
+    <!-- Levelpath $100M -->
+    <circle cx="300" cy="410" r="24" fill="#E4E4E0" stroke="#B0B0B0" stroke-width="1"/>
+    <text class="bname" x="334" y="408">Levelpath</text>
+    <text class="bmeta" x="334" y="424">$100M+ · suite replacement</text>
+
+    <!-- Pactum $100M -->
+    <circle cx="560" cy="420" r="24" fill="#E4E4E0" stroke="#B0B0B0" stroke-width="1"/>
+    <text class="bname" x="594" y="418">Pactum</text>
+    <text class="bmeta" x="594" y="434">$100M+ · negotiation only</text>
+
+    <!-- Globality $356M -->
+    <circle cx="440" cy="512" r="45" fill="#E4E4E0" stroke="#B0B0B0" stroke-width="1"/>
+    <text class="bname" x="256" y="556" text-anchor="end">Globality</text>
+    <text class="bmeta" x="256" y="572" text-anchor="end">$356M · sourcing only</text>
+
+    <!-- ORO Labs $160M — closest analogue -->
+    <circle cx="330" cy="640" r="30" fill="#E4E4E0" stroke="#111111" stroke-width="1.6"/>
+    <text class="bname" x="370" y="634">ORO Labs</text>
+    <text class="bmeta" x="370" y="650">$160M · orchestrates on ERP</text>
+    <text class="note"  x="370" y="668">← closest thesis analogue</text>
+
+    <!-- Zip $360M -->
+    <circle cx="300" cy="730" r="45" fill="#E4E4E0" stroke="#B0B0B0" stroke-width="1"/>
+    <text class="bname" x="356" y="726">Zip</text>
+    <text class="bmeta" x="356" y="742">$360M · $2.2B val · category gorilla</text>
+
+    <!-- Omnea $75M -->
+    <circle cx="770" cy="700" r="21" fill="#E4E4E0" stroke="#B0B0B0" stroke-width="1"/>
+    <text class="bname" x="800" y="698">Omnea</text>
+    <text class="bmeta" x="800" y="714">$75M+ · CFO intake, London</text>
+
+    <!-- Mercanis $19M -->
+    <circle cx="790" cy="600" r="11" fill="#E4E4E0" stroke="#B0B0B0" stroke-width="1"/>
+    <text class="bname" x="812" y="598">Mercanis</text>
+    <text class="bmeta" x="812" y="614">€17.3M · DACH sourcing/SRM</text>
+
+    <!-- Lio $33M — highlighted -->
+    <circle cx="852" cy="452" r="14" fill="#111111"/>
+    <text class="bname" x="878" y="450">Lio</text>
+    <text class="bmeta" x="878" y="466">$33M · agent-first execution</text>
+
+    <text class="bmeta" x="200" y="838">Bubble area ∝ total funding raised. Fairmarkit ($78M), Keelvar ($43M) and Tonkean (~$84M, acquired by Coupa May 2026) sit in the point-solution band and are omitted for legibility.</text>
+  </g>
+
+  <!-- ==================== RIGHT: FUNDING LADDER ==================== -->
+  <g id="ladder">
+    <text class="seclbl" x="1100" y="288">TOTAL RAISED — LIO IS 9th OF 10</text>
+    <line x1="1100" y1="302" x2="1844" y2="302" stroke="#DADADA" stroke-width="1"/>
+
+    <text class="flbl" x="1100" y="356">Zip</text>
+    <rect x="1290" y="343" width="460" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1762" y="356">$360M+</text>
+
+    <text class="flbl" x="1100" y="398">Globality</text>
+    <rect x="1290" y="385" width="455" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1757" y="398">$356M</text>
+
+    <text class="flbl" x="1100" y="440">ORO Labs</text>
+    <rect x="1290" y="427" width="204" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1506" y="440">$160M</text>
+
+    <text class="flbl" x="1100" y="482">Levelpath</text>
+    <rect x="1290" y="469" width="128" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1430" y="482">$100M+</text>
+
+    <text class="flbl" x="1100" y="524">Pactum</text>
+    <rect x="1290" y="511" width="128" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1430" y="524">$100M+</text>
+
+    <text class="flbl" x="1100" y="566">Fairmarkit</text>
+    <rect x="1290" y="553" width="100" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1402" y="566">$78M</text>
+
+    <text class="flbl" x="1100" y="608">Omnea</text>
+    <rect x="1290" y="595" width="96" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1398" y="608">$75M+</text>
+
+    <text class="flbl" x="1100" y="650">Keelvar</text>
+    <rect x="1290" y="637" width="55" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1357" y="650">$43M</text>
+
+    <text class="flbl" x="1100" y="692" font-weight="800">Lio</text>
+    <rect x="1290" y="679" width="42" height="18" fill="#111111"/>
+    <text class="fvalb" x="1344" y="692">$33M</text>
+
+    <text class="flbl" x="1100" y="734">Mercanis</text>
+    <rect x="1290" y="721" width="24" height="18" fill="#B0B0B0"/>
+    <text class="fval" x="1326" y="734">€17.3M</text>
+
+    <line x1="1100" y1="766" x2="1844" y2="766" stroke="#DADADA" stroke-width="1"/>
+    <text class="bmeta" x="1100" y="790">ARR is not disclosed by any competitor. Only growth rates are public:</text>
+    <text class="bmeta" x="1100" y="808">ORO 300%, Omnea 5×, Pactum 489%. Lio ≈ €5–10M ARR is an estimate.</text>
+    <text class="bmeta" x="1100" y="834">Focus: Zip US tech · ORO US pharma/CPG · Omnea UK fintech · Lio DACH industrial.</text>
+  </g>
+
+  <!-- ==================== FINDING BAND ==================== -->
+  <g id="finding">
+    <rect x="76" y="878" width="1768" height="122" fill="#D6DBC5"/>
+    <rect x="76" y="878" width="6" height="122" fill="#111111"/>
+    <text class="seclbl" x="112" y="912">THE GAP LIO SERVES</text>
+    <text class="findh" x="112" y="950">Autonomous execution × DACH enterprise × BPO displacement.</text>
+    <text class="findb" x="112" y="978">Every rival routes work or sells one function; the best-funded are US-centric. The BPO wedge has no incumbent defender — nobody else prices against the $180B labour line. Lio cannot win on capital, so the edge has to be depth, geography and that wedge.</text>
+  </g>
+
+  <!-- ==================== FOOTER ==================== -->
+  <g id="footer">
+    <line x1="76" y1="1030" x2="1844" y2="1030" stroke="#DADADA" stroke-width="1"/>
+    <text class="foot" x="76" y="1054">SOURCE: 06-MARKET-AND-COMPETITION.MD · 01-COMPANY-OVERVIEW.MD · PUBLIC FUNDING DATA AS OF JUL 2026 · FUNDING TOTALS ARE REPORTED FIGURES; ARR IS UNDISCLOSED ACROSS THE SET</text>
+    <text class="foot" x="1844" y="1054" text-anchor="end">APPENDIX B</text>
+  </g>
+
+</svg>
